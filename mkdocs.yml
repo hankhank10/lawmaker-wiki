@@ -1,0 +1,73 @@
+site_name: Lawmaker Game Manual
+site_description: Official user manual and guide for Lawmaker, a multiplayer political simulation game
+site_url: https://manual.lawmakergame.com
+repo_url: https://github.com/hankhank10/lawmaker
+repo_name: hankhank10/lawmaker
+
+theme:
+  name: material
+  palette:
+    # Light mode
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Game Concept: game-concept.md
+  - Gameplay:
+    - Party Management: gameplay/parties.md
+    - Legislation & Voting: gameplay/legislation.md
+    - Elections & Voters: gameplay/elections.md
+    - Characters & Activists: gameplay/characters.md
+    - Government & Cabinet: gameplay/cabinet.md
+    - Political Power: gameplay/resources.md
+    - Communication: gameplay/communication.md
+  - Countries: countries.md
+  - Laws & Policies: laws-and-policies.md
+  - Strategy Guide: strategy-guide.md
+  - FAQ: faq.md
+  - Roadmap: roadmap.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/hankhank10/lawmaker
