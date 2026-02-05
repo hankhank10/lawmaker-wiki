@@ -1,8 +1,8 @@
 site_name: Lawmaker Game Manual
 site_description: Official user manual and guide for Lawmaker, a multiplayer political simulation game
 site_url: https://manual.lawmakergame.com
-repo_url: https://github.com/hankhank10/lawmaker
-repo_name: hankhank10/lawmaker
+repo_url: https://github.com/hankhank10/lawmaker-wiki
+repo_name: hankhank10/lawmaker-wiki
 
 theme:
   name: material
@@ -66,6 +66,7 @@ nav:
   - Strategy Guide: strategy-guide.md
   - FAQ: faq.md
   - Roadmap: roadmap.md
+  - Contributing: contributing.md
   - Discord: https://discord.gg/gKAvGTFKzB
 
 extra:
@@ -74,4 +75,5 @@ extra:
       link: https://discord.gg/gKAvGTFKzB
       name: Join Discord
     - icon: fontawesome/brands/github
-      link: https://github.com/hankhank10/lawmaker
+      link: https://github.com/hankhank10/lawmaker-wiki
+      name: Edit on GitHub

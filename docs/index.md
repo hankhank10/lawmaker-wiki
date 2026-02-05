@@ -54,4 +54,11 @@ Lawmaker is designed for players who enjoy:
 !!! success "Join Our Discord Community"
 Connect with other players, ask questions, share strategies, and stay updated on game developments. **[Join our Discord server →](https://discord.gg/gKAvGTFKzB)**
 
+## Contributing
+
+Found an error or want to improve the documentation? We welcome contributions!
+
+- **Quick edits**: Edit files directly on [GitHub](https://github.com/hankhank10/lawmaker-wiki)
+- **Learn more**: See our [Contributing Guide](contributing.md) for detailed instructions
+
 Ready to start your political journey? Head over to [Getting Started](getting-started.md) to create your first party!
