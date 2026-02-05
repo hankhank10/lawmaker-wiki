@@ -1,6 +1,6 @@
 # Welcome to Lawmaker
 
-**Lawmaker** is a multiplayer political simulation game where you take on the role of a political party leader in fictional democratic countries. Build your party, propose legislation, win elections, and shape the future of your nation.
+**Lawmaker** is a multiplayer political simulation game where you take on the role of a political party in a fictional democratic country. Build your party, propose legislation, win elections, and shape the future of your nation.
 
 ## What is Lawmaker?
 
@@ -23,41 +23,26 @@ Lawmaker combines elements of strategy, simulation, and social gameplay to creat
 
 ## Quick Links
 
-<div class="grid cards" markdown>
 
--   :material-rocket-launch:{ .lg .middle } __Getting Started__
 
-    ---
+- :material-rocket-launch:{ .lg .middle } **Getting Started**
+  ---
+  New to Lawmaker? Start here to learn the basics.
+  [:octicons-arrow-right-24: Getting Started](getting-started.md)
+- :material-book-open-variant:{ .lg .middle } **Game Concept**
+  ---
+  Understand the core concepts and mechanics.
+  [:octicons-arrow-right-24: Game Concept](game-concept.md)
+- :material-gamepad-variant:{ .lg .middle } **Gameplay Guides**
+  ---
+  Deep dive into specific game systems.
+  [:octicons-arrow-right-24: Legislation](gameplay/legislation.md)
+- :material-strategy:{ .lg .middle } **Strategy Guide**
+  ---
+  Tips and strategies for success.
+  [:octicons-arrow-right-24: Strategy Guide](strategy-guide.md)
 
-    New to Lawmaker? Start here to learn the basics.
 
-    [:octicons-arrow-right-24: Getting Started](getting-started.md)
-
--   :material-book-open-variant:{ .lg .middle } __Game Concept__
-
-    ---
-
-    Understand the core concepts and mechanics.
-
-    [:octicons-arrow-right-24: Game Concept](game-concept.md)
-
--   :material-gamepad-variant:{ .lg .middle } __Gameplay Guides__
-
-    ---
-
-    Deep dive into specific game systems.
-
-    [:octicons-arrow-right-24: Legislation](gameplay/legislation.md)
-
--   :material-strategy:{ .lg .middle } __Strategy Guide__
-
-    ---
-
-    Tips and strategies for success.
-
-    [:octicons-arrow-right-24: Strategy Guide](strategy-guide.md)
-
-</div>
 
 ## Game Time
 
