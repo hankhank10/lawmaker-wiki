@@ -21,7 +21,7 @@ Available countries include:
 - **Rheinland** - German-influenced federation
 
 !!! tip "Choosing Your Country"
-    Pick a country based on which community you want to join. Check each country's activity level and existing parties before deciding. You can create parties in multiple countries if you want!
+Pick a country based on which community you want to join. Check each country's activity level and existing parties before deciding. You can create parties in multiple countries if you want!
 
 ## Creating Your First Party
 
@@ -41,19 +41,19 @@ Give your party:
 
 This is the most important step! You'll set your party's position on 8+ major political issues:
 
-| Issue | Spectrum |
-|-------|----------|
-| **Gender Equality** | Traditional Roles ↔ Full Equality |
-| **Role of Religion** | Secular State ↔ Religious Governance |
-| **Environment** | Economic Growth ↔ Environmental Protection |
-| **Individual Liberty** | Strong Leadership ↔ Maximum Freedom |
-| **Military** | Diplomatic Solutions ↔ Strong Military |
-| **Immigration** | Border Security ↔ Open Borders |
-| **Economy** | Wealth Redistribution ↔ Free Market |
-| **Workers' Rights** | Business-Friendly ↔ Worker Protections |
+| Issue                  | Spectrum                                   |
+| ---------------------- | ------------------------------------------ |
+| **Gender Equality**    | Traditional Roles ↔ Full Equality          |
+| **Role of Religion**   | Secular State ↔ Religious Governance       |
+| **Environment**        | Economic Growth ↔ Environmental Protection |
+| **Individual Liberty** | Strong Leadership ↔ Maximum Freedom        |
+| **Military**           | Diplomatic Solutions ↔ Strong Military     |
+| **Immigration**        | Border Security ↔ Open Borders             |
+| **Economy**            | Wealth Redistribution ↔ Free Market        |
+| **Workers' Rights**    | Business-Friendly ↔ Worker Protections     |
 
 !!! warning "Choose Carefully"
-    Your ideological positions affect how voters perceive you. Vote consistently with your ideology to maintain credibility, or adjust your positions strategically to appeal to different voter groups.
+Your ideological positions affect how voters perceive you. Vote consistently with your ideology to maintain credibility, or adjust your positions strategically to appeal to different voter groups.
 
 ### 3. Launch Your Party
 
@@ -80,7 +80,7 @@ Check what laws other parties are proposing. Click on each proposal to:
 - Cast your vote (Yes, No, or Abstain)
 
 !!! tip "Voting Strategy"
-    Every vote shapes your party's legislative record. Voters will judge you based on your voting history, so vote according to your ideology or strategic goals.
+Every vote shapes your party's legislative record. Voters will judge you based on your voting history, so vote according to your ideology or strategic goals.
 
 ### 2. Check the Current Laws
 
@@ -118,14 +118,12 @@ Once you're comfortable with the basics:
 
 ## Tips for New Players
 
-!!! success "Starting Strategy"
-    - **Vote consistently** with your ideology to build a clear party identity
-    - **Don't spend all your PP immediately** - save some for opportunities
-    - **Study successful parties** in your country to learn what voters want
-    - **Communicate with other parties** - coalition building is key
-    - **Be patient** - electoral success takes time and consistent voting
+!!! success "Starting Strategy" - **Vote consistently** with your ideology to build a clear party identity - **Don't spend all your PP immediately** - save some for opportunities - **Study successful parties** in your country to learn what voters want - **Communicate with other parties** - coalition building is key - **Be patient** - electoral success takes time and consistent voting
 
 !!! info "Game Pace"
-    Remember: 1 real hour = 1 game day. You don't need to be online constantly. Check in once or twice a day to vote and make decisions.
+Remember: 1 real hour = 1 game day. You don't need to be online constantly. Check in once or twice a day to vote and make decisions.
+
+!!! tip "Need Help?"
+Have questions? Join our **[Discord community](https://discord.gg/gKAvGTFKzB)** to connect with experienced players, ask for advice, and learn from others' strategies.
 
 Ready to dive deeper? Continue to [Game Concept](game-concept.md) to understand the core mechanics, or jump to specific topics in the [Gameplay](gameplay/parties.md) section.

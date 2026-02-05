@@ -12,7 +12,10 @@ In a game built on proportional representation and coalition politics:
 - **Strategy benefits from allies** - Coordinate voting and timing
 
 !!! success "Communication is Free!"
-    Unlike most actions in Lawmaker, communication costs **0 Political Power**. Use it extensively!
+Unlike most actions in Lawmaker, communication costs **0 Political Power**. Use it extensively!
+
+!!! tip "Community Communication"
+Beyond in-game messaging, many players coordinate and discuss strategy on our **[Discord server](https://discord.gg/gKAvGTFKzB)**. Join to connect with your country's community, share strategies, and build relationships outside the game!
 
 ## Messaging System
 
@@ -58,7 +61,7 @@ Detailed message content:
 - Professional but friendly tone
 
 !!! tip "Writing Effective Messages"
-    Be clear, specific, and action-oriented. "Will you vote Yes on my healthcare proposal in exchange for my Yes vote on your education proposal?" is better than "Maybe we can work together sometime."
+Be clear, specific, and action-oriented. "Will you vote Yes on my healthcare proposal in exchange for my Yes vote on your education proposal?" is better than "Maybe we can work together sometime."
 
 ### Message Threads
 
@@ -83,7 +86,7 @@ Messages create **conversation threads**:
 - Duration and terms
 
 !!! example "Coalition Message"
-    Subject: "Coalition Proposal - Progressive Alliance"
+Subject: "Coalition Proposal - Progressive Alliance"
 
     Hi Social Democratic Party,
 
@@ -115,7 +118,7 @@ Messages create **conversation threads**:
 - Timeline for fulfillment
 
 !!! example "Vote Trading Message"
-    Subject: "Vote trade proposal - Labor laws"
+Subject: "Vote trade proposal - Labor laws"
 
     Hi Workers' Party,
 
@@ -135,7 +138,7 @@ Messages create **conversation threads**:
 - Avoid duplication
 
 !!! example "Coordination Message"
-    Subject: "Environmental legislation timing"
+Subject: "Environmental legislation timing"
 
     Hi Climate Action Party,
 
@@ -155,7 +158,7 @@ Messages create **conversation threads**:
 - Strategic insights
 
 !!! example "Information Message"
-    Subject: "Poll results - Election forecast"
+Subject: "Poll results - Election forecast"
 
     Hi Centrist Alliance,
 
@@ -177,7 +180,7 @@ Messages create **conversation threads**:
 - Long-term partnership cultivation
 
 !!! example "Diplomatic Message"
-    Subject: "Congratulations on election result"
+Subject: "Congratulations on election result"
 
     Hi Liberal Party,
 
@@ -209,7 +212,7 @@ Comments are useful for:
 ### Comment Strategy
 
 === "As Proposer"
-    **Defend your proposal**
+**Defend your proposal**
 
     - Respond to criticisms quickly
     - Provide additional justification
@@ -217,7 +220,7 @@ Comments are useful for:
     - Thank supporters publicly
 
 === "As Voter"
-    **Explain your position**
+**Explain your position**
 
     - State why you're voting Yes/No/Abstain
     - Reference your party's ideology
@@ -225,7 +228,7 @@ Comments are useful for:
     - Build public record
 
 === "As Opponent"
-    **Argue against proposal**
+**Argue against proposal**
 
     - Point out flaws or problems
     - Suggest alternatives
@@ -234,17 +237,17 @@ Comments are useful for:
 
 ### Public vs. Private Communication
 
-| Proposal Comments (Public) | Messages (Private) |
-|---------------------------|-------------------|
-| ✓ Visible to all parties | ✓ Confidential negotiation |
-| ✓ Creates public record | ✓ Can discuss sensitive topics |
-| ✓ Influences other parties | ✓ Make concrete deals |
-| ✓ Shows transparency | ✓ No public commitment |
-| ✗ Can't negotiate secretly | ✗ Only between two parties |
-| ✗ Commits you publicly | ✗ Not visible to others |
+| Proposal Comments (Public) | Messages (Private)             |
+| -------------------------- | ------------------------------ |
+| ✓ Visible to all parties   | ✓ Confidential negotiation     |
+| ✓ Creates public record    | ✓ Can discuss sensitive topics |
+| ✓ Influences other parties | ✓ Make concrete deals          |
+| ✓ Shows transparency       | ✓ No public commitment         |
+| ✗ Can't negotiate secretly | ✗ Only between two parties     |
+| ✗ Commits you publicly     | ✗ Not visible to others        |
 
 !!! tip "Use Both"
-    Use **messages** for negotiations and deals. Use **comments** for public advocacy and explanation.
+Use **messages** for negotiations and deals. Use **comments** for public advocacy and explanation.
 
 ## Communication Strategy
 
@@ -315,32 +318,15 @@ When parties disagree:
 
 ### Message Etiquette
 
-!!! success "Good Practices"
-    - **Clear subjects** - Recipient knows what message is about
-    - **Specific content** - Concrete proposals and asks
-    - **Professional tone** - Friendly but businesslike
-    - **Reasonable length** - Not too short, not essay-length
-    - **Proofread** - Check for clarity and errors
-    - **Respond promptly** - Within 24-48 hours if possible
+!!! success "Good Practices" - **Clear subjects** - Recipient knows what message is about - **Specific content** - Concrete proposals and asks - **Professional tone** - Friendly but businesslike - **Reasonable length** - Not too short, not essay-length - **Proofread** - Check for clarity and errors - **Respond promptly** - Within 24-48 hours if possible
 
 ### Message Mistakes
 
-!!! warning "What Not to Do"
-    - **Vague subjects** - "Question" or "Stuff"
-    - **Unclear asks** - Recipient doesn't know what you want
-    - **Aggressive tone** - Threats, insults, hostility
-    - **Wall of text** - 10-paragraph messages nobody will read
-    - **Ghosting** - Not responding to messages
-    - **Breaking commitments** - Promising votes then voting differently
+!!! warning "What Not to Do" - **Vague subjects** - "Question" or "Stuff" - **Unclear asks** - Recipient doesn't know what you want - **Aggressive tone** - Threats, insults, hostility - **Wall of text** - 10-paragraph messages nobody will read - **Ghosting** - Not responding to messages - **Breaking commitments** - Promising votes then voting differently
 
 ### Comment Etiquette
 
-!!! success "Good Comment Practices"
-    - **Relevant to proposal** - Stay on topic
-    - **Constructive criticism** - Suggest improvements
-    - **Explain reasoning** - Why you support/oppose
-    - **Respectful tone** - Disagree without being disagreeable
-    - **Cite specifics** - Reference particular articles or laws
+!!! success "Good Comment Practices" - **Relevant to proposal** - Stay on topic - **Constructive criticism** - Suggest improvements - **Explain reasoning** - Why you support/oppose - **Respectful tone** - Disagree without being disagreeable - **Cite specifics** - Reference particular articles or laws
 
 ## Communication in Different Contexts
 
@@ -430,14 +416,7 @@ Balance staying informed vs. notification overload:
 
 ## Tips for Communication Success
 
-!!! success "Master Communicator Traits"
-    1. **Responsive** - Reply to messages promptly
-    2. **Clear** - Specific, concrete proposals
-    3. **Reliable** - Honor your commitments
-    4. **Strategic** - Know when to communicate and when to stay quiet
-    5. **Professional** - Friendly but businesslike
-    6. **Active** - Use both messages and comments
-    7. **Diplomatic** - Build bridges, not burn them
+!!! success "Master Communicator Traits" 1. **Responsive** - Reply to messages promptly 2. **Clear** - Specific, concrete proposals 3. **Reliable** - Honor your commitments 4. **Strategic** - Know when to communicate and when to stay quiet 5. **Professional** - Friendly but businesslike 6. **Active** - Use both messages and comments 7. **Diplomatic** - Build bridges, not burn them
 
 ## Next Steps
 
@@ -446,3 +425,6 @@ Balance staying informed vs. notification overload:
 - [Elections & Voters](elections.md) - Electoral coordination
 - [Party Management](parties.md) - Build diplomatic relationships
 - [Strategy Guide](../strategy-guide.md) - Advanced negotiation tactics
+
+!!! success "Join the Community"
+Connect with other players on **[Discord](https://discord.gg/gKAvGTFKzB)** to discuss communication strategies, share tips, and build relationships that enhance your in-game diplomacy!

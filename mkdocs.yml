@@ -54,20 +54,24 @@ nav:
   - Getting Started: getting-started.md
   - Game Concept: game-concept.md
   - Gameplay:
-    - Party Management: gameplay/parties.md
-    - Legislation & Voting: gameplay/legislation.md
-    - Elections & Voters: gameplay/elections.md
-    - Characters & Activists: gameplay/characters.md
-    - Government & Cabinet: gameplay/cabinet.md
-    - Political Power: gameplay/resources.md
-    - Communication: gameplay/communication.md
+      - Party Management: gameplay/parties.md
+      - Legislation & Voting: gameplay/legislation.md
+      - Elections & Voters: gameplay/elections.md
+      - Characters & Activists: gameplay/characters.md
+      - Government & Cabinet: gameplay/cabinet.md
+      - Political Power: gameplay/resources.md
+      - Communication: gameplay/communication.md
   - Countries: countries.md
   - Laws & Policies: laws-and-policies.md
   - Strategy Guide: strategy-guide.md
   - FAQ: faq.md
   - Roadmap: roadmap.md
+  - Discord: https://discord.gg/gKAvGTFKzB
 
 extra:
   social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/gKAvGTFKzB
+      name: Join Discord
     - icon: fontawesome/brands/github
       link: https://github.com/hankhank10/lawmaker

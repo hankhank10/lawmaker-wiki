@@ -16,7 +16,7 @@ Why it works:
 - ✓ **Long-term credibility** - No flip-flopping accusations
 
 !!! success "The Golden Rule"
-    A mediocre ideology voted consistently will outperform a perfect ideology voted inconsistently. Voters value reliability over perfection.
+A mediocre ideology voted consistently will outperform a perfect ideology voted inconsistently. Voters value reliability over perfection.
 
 ### 2. Know Your Voters
 
@@ -56,6 +56,7 @@ Don't expect instant dominance. Build steadily.
 #### Left-Wing Progressive
 
 **Profile:**
+
 - 🌱 Environmental protection: +1.0
 - 🙋‍♀️ Gender equality: +0.9
 - 🔨 Workers' rights: +0.8
@@ -72,6 +73,7 @@ Don't expect instant dominance. Build steadily.
 #### Right-Wing Conservative
 
 **Profile:**
+
 - 💰 Free market: +0.9
 - 👮‍♂️ Law and order: +0.8
 - 🏴 National identity: +0.7
@@ -88,6 +90,7 @@ Don't expect instant dominance. Build steadily.
 #### Libertarian
 
 **Profile:**
+
 - 🗽 Individual liberty: +1.0
 - 💰 Free market: +0.8
 - ☮️ Diplomatic solutions: +0.6
@@ -104,6 +107,7 @@ Don't expect instant dominance. Build steadily.
 #### Socialist
 
 **Profile:**
+
 - 🚩 Wealth redistribution: +1.0
 - 🔨 Workers' rights: +1.0
 - 🛡️ Welfare state: +1.0
@@ -120,6 +124,7 @@ Don't expect instant dominance. Build steadily.
 #### Centrist
 
 **Profile:**
+
 - Most issues: 0.0 to ±0.3
 - Balanced, moderate positions
 - Pragmatic over ideological
@@ -129,7 +134,7 @@ Don't expect instant dominance. Build steadily.
 **Strategy:** Build broad coalitions, compromise legislation, stability messaging
 
 !!! warning "Centrist Challenge"
-    Centrist positioning is difficult - you can appear indecisive. If you go centrist, be **consistently moderate**, not randomly inconsistent.
+Centrist positioning is difficult - you can appear indecisive. If you go centrist, be **consistently moderate**, not randomly inconsistent.
 
 ## Legislative Strategy
 
@@ -166,7 +171,7 @@ Don't expect instant dominance. Build steadily.
 **Why:** High visibility. Recent votes matter most to voters. This is your campaign platform.
 
 !!! danger "Late-Cycle Risk"
-    Avoid proposing unpopular or divisive legislation late in election cycle. It will cost you votes!
+Avoid proposing unpopular or divisive legislation late in election cycle. It will cost you votes!
 
 ### Multi-Article Strategy
 
@@ -185,7 +190,7 @@ Don't expect instant dominance. Build steadily.
 - ✗ One bad article can sink entire proposal
 
 !!! tip "Package Deals"
-    Use multi-article proposals for ideologically coherent packages: "Green Energy Transition Act" (renewable energy + emission standards + conservation) makes sense together.
+Use multi-article proposals for ideologically coherent packages: "Green Energy Transition Act" (renewable energy + emission standards + conservation) makes sense together.
 
 ### Building Support Before Proposing
 
@@ -198,7 +203,7 @@ Don't expect instant dominance. Build steadily.
 5. **Propose** - Only when you have the votes
 
 !!! success "Pre-Negotiation"
-    The best proposers spend more time negotiating support than writing the proposal. Build your majority **before** spending PP.
+The best proposers spend more time negotiating support than writing the proposal. Build your majority **before** spending PP.
 
 ## Coalition Strategy
 
@@ -254,11 +259,7 @@ Don't expect instant dominance. Build steadily.
 5. **Transparency** - No secret deals that undermine coalition
 
 !!! warning "Coalition Collapse"
-    Most coalitions fail due to:
-    - Broken vote commitments
-    - Poor communication
-    - Uneven benefit distribution
-    - Ideological drift by one partner
+Most coalitions fail due to: - Broken vote commitments - Poor communication - Uneven benefit distribution - Ideological drift by one partner
 
 ## Electoral Strategy
 
@@ -271,11 +272,7 @@ Don't expect instant dominance. Build steadily.
 **Votes 90+ days before election:** Foundational - Lower impact but builds record
 
 !!! tip "Campaign Mode"
-    Enter "campaign mode" 30 days before elections:
-    - Only vote on safe, popular proposals
-    - Commission polls to track position
-    - Communicate electoral platform
-    - Avoid risks
+Enter "campaign mode" 30 days before elections: - Only vote on safe, popular proposals - Commission polls to track position - Communicate electoral platform - Avoid risks
 
 ### Reading the Electorate
 
@@ -399,7 +396,7 @@ Don't expect instant dominance. Build steadily.
 **When to use:** When you have majority support but want to push boundaries
 
 !!! warning "Risky"
-    This can backfire if parties vote No on entire package to block the controversial article.
+This can backfire if parties vote No on entire package to block the controversial article.
 
 ---
 
@@ -415,7 +412,7 @@ Don't expect instant dominance. Build steadily.
 **When to use:** After sustained electoral losses, need strategy change
 
 !!! danger "Dangerous"
-    This can destroy your brand if done poorly. Only pivot gradually and with clear justification.
+This can destroy your brand if done poorly. Only pivot gradually and with clear justification.
 
 ---
 
@@ -432,17 +429,7 @@ Don't expect instant dominance. Build steadily.
 
 ## Common Mistakes to Avoid
 
-!!! danger "Strategic Errors"
-    1. **Inconsistent voting** - Destroys your brand
-    2. **Ignoring voters** - Proposing unpopular laws
-    3. **Poor coalition management** - Breaking commitments
-    4. **Wasting PP** - Failed proposals, unnecessary actions
-    5. **Capping out PP** - Hitting 120 repeatedly wastes generation
-    6. **Late-cycle risks** - Controversial votes before elections
-    7. **Over-recruiting** - Too many low-quality activists
-    8. **No communication** - Isolation from other parties
-    9. **Impatience** - Expecting immediate electoral success
-    10. **Copying others** - No unique ideological positioning
+!!! danger "Strategic Errors" 1. **Inconsistent voting** - Destroys your brand 2. **Ignoring voters** - Proposing unpopular laws 3. **Poor coalition management** - Breaking commitments 4. **Wasting PP** - Failed proposals, unnecessary actions 5. **Capping out PP** - Hitting 120 repeatedly wastes generation 6. **Late-cycle risks** - Controversial votes before elections 7. **Over-recruiting** - Too many low-quality activists 8. **No communication** - Isolation from other parties 9. **Impatience** - Expecting immediate electoral success 10. **Copying others** - No unique ideological positioning
 
 ## Measuring Success
 
@@ -473,5 +460,8 @@ Don't expect instant dominance. Build steadily.
 - **Experiment:** Try different approaches
 - **Learn:** Study successful parties in your country
 - **Communicate:** Build relationships with other parties
+
+!!! success "Learn from the Community"
+Join our **[Discord server](https://discord.gg/gKAvGTFKzB)** to discuss strategies with experienced players, share your tactics, and learn from others' successes and failures. The community is a great resource for improving your game!
 
 Remember: Strategy is about **consistent execution over time**, not perfect individual decisions. Play the long game!
