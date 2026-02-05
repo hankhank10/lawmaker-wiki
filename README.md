@@ -9,6 +9,8 @@ Official user manual/wiki for Lawmaker, a multiplayer political simulation game.
 
 ## Contributing
 
+We welcome contributions to improve the documentation!
+
 To contribute to the wiki documentation:
 
 1. Fork the repository

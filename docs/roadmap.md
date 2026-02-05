@@ -4,7 +4,7 @@
 :white_check_mark: Completed
 :map: In progress
 :x: Not planned
-:work_in_progress: In progress now
+:work_in_progress: In progress
 
 **Character system**
 :white_check_mark: Basic character system with names, traits and ability to recruit/expel activists
