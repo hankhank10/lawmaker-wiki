@@ -1,6 +1,6 @@
 # Contributing to the Lawmaker Wiki
 
-Thank you for your interest in contributing to the Lawmaker Game Manual! This guide will help you get started with contributing to the wiki documentation.
+Thank you for your interest in contributing to the Lawmaker Game Wiki! This guide will help you get started with contributing to the wiki documentation.
 
 ## Quick Start
 
