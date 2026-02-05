@@ -23,10 +23,6 @@ To contribute to the wiki documentation:
 
 All contributions are licensed under the MIT License.
 
-## Testing
-
-This line was added to test the bidirectional sync!
-
 ---
 
 **Built with MkDocs and Material for MkDocs**
