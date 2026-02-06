@@ -26,12 +26,13 @@
 
 **Polling rework**
 :white_check_mark: Hide existing polling data (was always intended to give insights into the backend but not really for gameplay)
-:white_check_mark: Parties now have to spend PP to commission voting-intention polls
-:map: Parties can spend PP to commission polling on individual measures before they are proposed
+:white_check_mark: Parties now have to spend PP to commission voting-intention polls  
+:white_check_mark: Historical poll chart  
+:map: Parties can spend PP to commission polling on individual measures before they are proposed  
 :map: Clearer way to show citizen views and why they vote why they do as a group
 
-**Messaging rework**
-:map: Messages more intiutively built into the UI
+**Messaging rework**  
+:white_check_mark: Messages more intiutively built into the UI
 
 **Social media**
 :white_check_mark: Journalists report major events on social media
