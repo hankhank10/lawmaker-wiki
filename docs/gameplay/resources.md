@@ -19,13 +19,24 @@ Every major action in the game costs PP, making it a crucial strategic resource.
 
 You gain PP automatically over time:
 
-- **Rate:** 1 PP per game day
+- **Base rate:** 1 PP per game day (modified by your positions)
 - **Real time:** 1 PP per real-world hour
 - **Automatic:** No action required
 - **Per party:** Each party has its own PP pool
 
 !!! info "Passive Income"
     You don't need to do anything to gain PP - it accumulates automatically as long as your party exists.
+
+### Modifiers
+
+PP generation multiplies based on your party's current power:
+
+- **Head of State:** +20% if you hold the Head of State position (via a single-seat legislature or a cabinet position)
+- **Cabinet positions:** +10% for each other cabinet position you hold
+- **Legislature seats:** +10% if you hold any seats in a legislature (excluding single-seat legislatures)
+- **Legislature majority:** +10% if you hold a majority in a legislature
+
+Modifiers compound multiplicatively (e.g., 1.20 × 1.10 × 1.10).
 
 ### Maximum Capacity
 
@@ -74,12 +85,12 @@ These actions cost **0 PP**:
 
 Think of PP as a budget with two components:
 
-1. **Income:** 1 PP/hour × 24 hours = 24 PP/day
+1. **Income (base):** 1 PP/hour × 24 hours = 24 PP/day (before modifiers)
 2. **Expenses:** What you spend on actions
 
-**Daily budget:** You can sustainably spend ~24 PP per day
+**Daily budget (base):** You can sustainably spend ~24 PP per day before modifiers
 
-**Weekly budget:** ~168 PP per week
+**Weekly budget (base):** ~168 PP per week before modifiers
 
 !!! example "Weekly Budget Example"
     - Propose 3 laws: 90 PP
@@ -246,7 +257,7 @@ If you're resource-starved:
 1. **Stop spending** - Build reserves
 2. **Focus on voting** - Free action, still impacts game
 3. **Communicate** - Free coalition building
-4. **Wait for regeneration** - 24 PP/day adds up
+4. **Wait for regeneration** - Base 24 PP/day adds up (and modifiers can increase it)
 5. **Prioritize critical actions** - Only spend on essential proposals
 
 ### PP Surplus

@@ -63,7 +63,7 @@ Once you've defined your party, you're ready to enter the political arena!
 
 Your party dashboard shows:
 
-- **Political Power (PP)** - Your resource for actions (you gain 1 PP per game day)
+- **Political Power (PP)** - Your resource for actions (you gain a base 1 PP per game day, modified by your positions)
 - **Current Seats** - Your representation in legislatures
 - **Active Proposals** - Laws currently being voted on
 - **Upcoming Elections** - When the next election will occur
@@ -94,7 +94,7 @@ This helps you understand what's already been decided and what you might want to
 
 ### 3. Build Political Power
 
-You start with some Political Power (PP), but you'll need more to take major actions. PP regenerates at 1 per game day (1 real-world hour) up to a maximum of 120.
+You start with some Political Power (PP), but you'll need more to take major actions. PP regenerates at a base 1 per game day (1 real-world hour) up to a maximum of 120, with modifiers based on the positions your party holds.
 
 **PP Costs:**
 

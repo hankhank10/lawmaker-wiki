@@ -309,7 +309,7 @@ Enter "campaign mode" 30 days before elections: - Only vote on safe, popular pro
 
 ### Political Power Budgeting
 
-**Weekly sustainable budget:** ~168 PP (24/day × 7 days)
+**Weekly sustainable budget (base):** ~168 PP (24/day × 7 days), before modifiers
 
 **Recommended allocation:**
 

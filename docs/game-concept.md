@@ -111,7 +111,7 @@ Learn more: [Characters & Activists](gameplay/characters.md)
 
 **Political Power** is your action resource:
 
-- Gain 1 PP per game day (1 real hour)
+- Gain a base 1 PP per game day (1 real hour), modified by your positions
 - Maximum capacity: 120 PP
 - Spend PP to take major actions
 
