@@ -28,6 +28,18 @@ The main communication tool is **direct messaging** between parties:
 - Like email but within the game
 - Persistent conversation threads
 
+### Bloc Group Chats
+
+If your party belongs to an [international bloc](international-blocs.md), you also get access to that bloc's shared group chat:
+
+- Created automatically when a bloc is founded
+- Membership updates automatically as parties join or leave
+- Supports cross-country coordination in one thread
+- Appears in the messaging drawer under **Bloc Group Chats**
+
+!!! info "Unread Badge Behavior"
+    Unread bloc chat messages are included in your navbar unread message count.
+
 ### Sending Messages
 
 To send a message:
@@ -423,6 +435,7 @@ Balance staying informed vs. notification overload:
 - [Legislation & Voting](legislation.md) - What to coordinate on
 - [Government & Cabinet](cabinet.md) - Coalition negotiations
 - [Elections & Voters](elections.md) - Electoral coordination
+- [International Blocs](international-blocs.md) - Organize cross-country alliances and bloc chat
 - [Party Management](parties.md) - Build diplomatic relationships
 - [Strategy Guide](../strategy-guide.md) - Advanced negotiation tactics
 

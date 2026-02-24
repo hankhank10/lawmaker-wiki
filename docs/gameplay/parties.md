@@ -100,6 +100,7 @@ With your party, you can:
 5. **[Send messages](communication.md)** - Communicate with other parties (free)
 6. **[Attempt cabinet formation](cabinet.md)** - Form governments (free, requires seats)
 7. **[Call early elections](elections.md#early-elections)** - Trigger special elections (30 PP)
+8. **[Found and join international blocs](international-blocs.md)** - Build cross-country alliances (100 PP to found, 20 PP per application)
 
 ## Party Growth
 
@@ -165,6 +166,7 @@ Since proportional representation rarely gives any party a majority:
 
 - **Identify natural allies** - Parties with similar ideologies
 - **Communicate actively** - Use the [messaging system](communication.md)
+- **Build international relationships** - Use [international blocs](international-blocs.md) for cross-country coordination
 - **Coordinate proposals** - Support each other's legislation
 - **Share government** - Distribute cabinet positions fairly
 - **Build trust** - Honor agreements and vote as promised
@@ -239,4 +241,5 @@ Parties can become inactive if:
 - [Legislation & Voting](legislation.md) - Learn how to propose and vote on laws
 - [Elections & Voters](elections.md) - Understand how to win elections
 - [Characters & Activists](characters.md) - Recruit your party team
+- [International Blocs](international-blocs.md) - Coordinate with parties across countries
 - [Strategy Guide](../strategy-guide.md) - Advanced party strategies

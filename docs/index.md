@@ -12,6 +12,7 @@ Lawmaker combines elements of strategy, simulation, and social gameplay to creat
 - :material-account-group: **Recruit activists** to represent your party
 - :material-crown: **Form governments** and appoint cabinet ministers
 - :material-forum: **Negotiate with other parties** to build coalitions and pass laws
+- :material-earth: **Build international blocs** for cross-country coordination
 
 ## Why Play Lawmaker?
 
@@ -31,7 +32,7 @@ Lawmaker combines elements of strategy, simulation, and social gameplay to creat
   [:octicons-arrow-right-24: Game Concept](game-concept.md)
 - ## :material-gamepad-variant:{ .lg .middle } **Gameplay Guides**
   Deep dive into specific game systems.
-  [:octicons-arrow-right-24: Legislation](gameplay/legislation.md)
+  [:octicons-arrow-right-24: International Blocs](gameplay/international-blocs.md)
 - ## :material-strategy:{ .lg .middle } **Strategy Guide**
   Tips and strategies for success.
   [:octicons-arrow-right-24: Strategy Guide](strategy-guide.md)
