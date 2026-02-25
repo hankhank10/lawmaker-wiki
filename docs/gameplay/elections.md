@@ -110,6 +110,7 @@ Factors affecting turnout:
 - Controversial recent proposals (increases turnout)
 - Long periods without activity (decreases turnout)
 - Close competition between parties (increases turnout)
+- **Party branding** - parties with a custom [SVG logo](parties.md#party-logo) get a +5% turnout boost from their supporters; parties without a logo face a -5% penalty
 
 ## Electoral System
 

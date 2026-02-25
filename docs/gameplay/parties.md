@@ -77,6 +77,33 @@ Your ideological positions become your party's **pillars** - the core values you
 - The game's voter simulation (affects which voters support you)
 - Players researching the political landscape
 
+## Party Logo
+
+Your party can have a custom **SVG logo** that appears across the game - on your dashboard, in election result tables, in the messaging drawer, and on party detail pages.
+
+### Uploading a Logo
+
+To add or change your logo:
+
+1. Go to **Edit Party**
+2. Drag and drop an SVG file onto the upload area (or click to browse)
+3. Choose a **colour tint** to apply to the logo: white, black, grey, red, or blue
+4. Use the **scale slider** (50–100%) to adjust how large the logo appears in its avatar circle
+5. Save changes
+
+Logos are stored securely and display wherever your party appears in the interface.
+
+### Deleting a Logo
+
+On the Edit Party page you can remove your current logo with a two-step confirmation. This resets your party to the default monogram-style avatar.
+
+### Branding Effect on Turnout
+
+Having a custom logo gives your party a **+5% boost to supporter turnout** at election time. Parties without a custom logo face a **-5% penalty** instead. This reflects the real-world importance of recognisable political branding.
+
+!!! tip "Easy Gain"
+    Uploading any SVG logo is one of the cheapest ways to improve your electoral performance - it costs no Political Power.
+
 ## Managing Your Party
 
 ### Party Dashboard

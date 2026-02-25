@@ -19,7 +19,7 @@ Bloc memberships are also visible on:
 
 To found a bloc, your active party must have:
 
-- **100 Political Power (PP)** available
+- **50 Political Power (PP)** available
 - At least one core pillar (you choose one as the bloc's defining pillar)
 - A unique bloc name
 - A description
@@ -28,9 +28,11 @@ To found a bloc, your active party must have:
 
 When created:
 
-- 100 PP is deducted from the founding party
+- 50 PP is deducted from the founding party
 - The founding party is set as both **Founder Member** and **Leader**
 - A dedicated bloc group chat is created automatically
+- Bloc prestige is calculated immediately on creation
+- Your party is shown with a **Founder** badge on the bloc list
 
 ## Joining a Bloc
 
@@ -41,6 +43,7 @@ If your party is not a member, you can apply from the bloc detail page:
 - Cost is **not refunded** if the application is denied
 - You can only have one pending application to the same bloc at a time
 - The bloc's published membership criteria are shown in the application panel
+- Bloc leaders are notified by email when your application arrives (if they have that notification enabled)
 
 ## Leadership and Membership Rules
 
