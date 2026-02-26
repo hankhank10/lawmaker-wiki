@@ -27,9 +27,9 @@ To create a new party:
 
 ### Defining Your Ideology
 
-The most important part of creating your party is setting **ideological positions**. You'll define where your party stands on 8+ major issues:
+The most important part of creating your party is setting **ideological positions**. You'll choose **4 policy pillars** from the available issues and set your position on each:
 
-#### The 8 Core Issues
+#### The Political Issues
 
 | Issue | Left Position | Right Position | What It Means |
 |-------|--------------|----------------|---------------|
@@ -127,7 +127,7 @@ With your party, you can:
 5. **[Send messages](communication.md)** - Communicate with other parties (free)
 6. **[Attempt cabinet formation](cabinet.md)** - Form governments (free, requires seats)
 7. **[Call early elections](elections.md#early-elections)** - Trigger special elections (30 PP)
-8. **[Found and join international blocs](international-blocs.md)** - Build cross-country alliances (100 PP to found, 20 PP per application)
+8. **[Found and join international blocs](international-blocs.md)** - Build cross-country alliances (50 PP to found, 20 PP per application)
 
 ## Party Growth
 
@@ -226,30 +226,33 @@ Control visibility of:
 - Commissioned polls (public or private)
 - Internal party information
 
-## Multiple Parties
+## One Party Per Player
 
-You can create **multiple parties**:
+Each player can control **one party** at a time. Choose your country and party carefully — this is your sole vehicle for participating in the game.
 
-- **In different countries** - Fully allowed, recommended for experienced players
-- **In the same country** - Generally not allowed or discouraged (check rules)
+## Disbanding Your Party
 
-Each party is independent with its own:
+You can **voluntarily disband** your party at any time:
 
-- Political Power pool
-- Seats and voting weight
-- Character roster
-- Legislative record
+- All activists are released
+- Cabinet positions are vacated
+- Legislature seats are forfeited
+- The party is marked as disbanded
 
-## Party Dissolution
+### Reviving a Party
 
-Parties can become inactive if:
+A disbanded party can be **revived** by its owner, restoring it to active status. However, seats, cabinet positions, and activists lost during disbanding are not automatically restored.
 
-- The controlling player stops participating
-- The party loses all seats and remains inactive
-- The player chooses to abandon the party
+## Inactivity and Auto-Disbanding
 
-!!! warning "Inactive Parties"
-    Inactive parties may be removed from the game after extended periods of inactivity.
+To keep countries active, Lawmaker monitors party activity:
+
+- After **8 days** of owner inactivity, you'll receive a **warning email**
+- After **10 days** of inactivity, your party is **automatically disbanded**
+- Auto-disbanding only occurs when the country is **70% or more full** (to free up space for active players)
+
+!!! warning "Stay Active!"
+    Log in at least once every few days to prevent your party from being automatically disbanded. Even casting a single vote or sending a message resets your activity timer.
 
 ## Tips for Party Success
 

@@ -51,11 +51,11 @@ Your PP pool has a **maximum capacity**:
 
 ### Starting Amount
 
-New parties typically start with:
+New parties start with:
 
-- **Initial PP:** Enough to take first actions
-- **Varies:** May differ by game settings
-- **Check dashboard:** See your current PP
+- **Initial PP:** 100 PP
+- **Enough for:** 3 proposals, or a mix of proposals, recruitment, and polls
+- **Check dashboard:** See your current PP on your party dashboard
 
 ## PP Costs
 
@@ -68,6 +68,10 @@ New parties typically start with:
 | **[Recruit Character](characters.md)** | **10 PP** | Add activist to your party |
 | **[Commission Poll](elections.md#polling)** | **10 PP** | Survey electoral landscape |
 | **[Expel Character](characters.md#expelling-activists)** | **25 PP** | Remove activist from party |
+| **[Form Government](cabinet.md)** | **30 PP** | Propose a cabinet formation |
+| **[Constitutional Change](constitution.md)** | **60 PP** | Propose a change to the constitution |
+| **[Found International Bloc](international-blocs.md)** | **50 PP** | Create a new international bloc |
+| **[Apply to Bloc](international-blocs.md)** | **20 PP** | Apply to join an existing bloc |
 
 ### Free Actions
 
@@ -75,7 +79,6 @@ These actions cost **0 PP**:
 
 - ✓ **Voting on proposals** - Always free
 - ✓ **Sending messages** - Unlimited communication
-- ✓ **Forming governments** - Cabinet proposals are free
 - ✓ **Viewing information** - All browsing is free
 - ✓ **Commenting on proposals** - Discussion is free
 

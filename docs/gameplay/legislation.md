@@ -73,8 +73,23 @@ To propose a new law:
 
 1. Ensure you have **30 Political Power**
 2. Navigate to the "Propose Law" page
-3. Fill in the proposal details
-4. Submit for voting
+3. Fill in the proposal details (title, description, articles)
+4. Choose a **front person** — the activist who will sponsor the bill
+5. Submit for voting
+
+### Front Person (Bill Sponsor)
+
+Each proposal can have a **front person** — an [activist](characters.md) from your party who publicly sponsors the bill. The front person's stats directly affect how persuasive the proposal appears to voters:
+
+- **Authority** — experienced, credible activists make stronger sponsors
+- **Followers** — well-known activists lend more weight to proposals
+- **Persuasion** — charismatic speakers are more convincing
+
+!!! warning "No Sponsor Penalty"
+    Proposals submitted **without** a front person receive a 5% persuasiveness penalty. Always assign your best activist to important bills!
+
+!!! tip "Choose Wisely"
+    Your best persuader should sponsor your most important proposals. A Charismatic, Fantastic Speaker with high authority makes a much stronger front person than a new recruit.
 
 ### Proposal Components
 
@@ -276,6 +291,18 @@ You can **change your vote** before the 60-day period ends:
 - React to new information
 - Adjust to changing voter sentiment
 - Fix mistakes
+
+### Withdrawing a Proposal
+
+The proposing party can **withdraw** a proposal at any time before the voting period ends:
+
+- The proposal is immediately removed from active voting
+- The 30 PP cost is **not refunded**
+- Useful if you realise the votes aren't there or circumstances have changed
+
+### Multi-Legislature Voting
+
+In countries with **bicameral systems** (two chambers), proposals may need to pass in multiple legislatures simultaneously. Each legislature votes independently, and the proposal must achieve a majority in **all** required chambers to pass.
 
 ## After the Vote
 

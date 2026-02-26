@@ -8,10 +8,13 @@
 
 Elections happen on a **regular schedule**:
 
-- Typically every **4 game years** (~96 game days = ~4 real days)
-- Schedule is fixed and announced in advance
+- The frequency is set per legislature (e.g. every 12 game months, every 48 game months)
+- The next election date is displayed on the country dashboard
 - All parties participate automatically
 - Can be triggered early via [Early Election Calls](#early-elections)
+
+!!! info "Game Time"
+    Remember: 1 real-world hour = 1 game day. So a legislature with elections every 12 game months (~365 game days) would hold elections roughly every 15 real-world days.
 
 ### Election Process
 
@@ -54,6 +57,24 @@ Lawmaker simulates **individual voters** (called "electors"):
 
 !!! info "Why Individual Voters?"
     Unlike games with random or formula-based elections, Lawmaker's electors actually analyze your voting record and make informed decisions. This creates realistic, consequential elections.
+
+### Elector Profiles
+
+Each elector has a detailed profile you can view, including:
+
+- **Job type and employment sector** — what they do for a living
+- **Income and education level** — their socioeconomic background
+- **Housing status** — homeowner, renter, etc.
+- **Religious status** — their religious background
+- **Political worldview** — an AI-generated description of their political beliefs and priorities
+- **Life goals** — personal aspirations that influence which policies matter most to them
+
+!!! tip "Study the Electorate"
+    Visit individual elector profiles to understand what drives their votes. If many electors have life goals related to housing affordability, proposals on housing policy will resonate strongly.
+
+### Demographics Page
+
+Each country has a **demographics page** showing the composition of the electorate through histograms and visualisations. This helps you understand the overall voter population at a glance — their age distribution, income levels, employment sectors, and more.
 
 ### Elector Preferences
 

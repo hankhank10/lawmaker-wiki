@@ -21,7 +21,7 @@ Available countries include:
 - **Rheinland** - German-influenced federation
 
 !!! tip "Choosing Your Country"
-Pick a country based on which community you want to join. Check each country's activity level and existing parties before deciding. You can create parties in multiple countries if you want!
+    Pick a country based on which community you want to join. Check each country's activity level and existing parties before deciding. Each player can run **one party** at a time, so choose carefully!
 
 ## Creating Your First Party
 
@@ -39,7 +39,7 @@ Give your party:
 
 ### 2. Define Your Ideology
 
-This is the most important step! You'll set your party's position on 8+ major political issues:
+This is the most important step! You'll choose **4 policy pillars** from the available political issues and set your position on each:
 
 | Issue                  | Spectrum                                   |
 | ---------------------- | ------------------------------------------ |
@@ -63,7 +63,7 @@ Once you've defined your party, you're ready to enter the political arena!
 
 Your party dashboard shows:
 
-- **Political Power (PP)** - Your resource for actions (you gain a base 1 PP per game day, modified by your positions)
+- **Political Power (PP)** - Your resource for actions (you start with 100 PP and gain 1 PP per game day, modified by your positions)
 - **Current Seats** - Your representation in legislatures
 - **Active Proposals** - Laws currently being voted on
 - **Upcoming Elections** - When the next election will occur
@@ -94,18 +94,45 @@ This helps you understand what's already been decided and what you might want to
 
 ### 3. Build Political Power
 
-You start with some Political Power (PP), but you'll need more to take major actions. PP regenerates at a base 1 per game day (1 real-world hour) up to a maximum of 120, with modifiers based on the positions your party holds.
+You start with **100 Political Power (PP)**, and it regenerates at 1 PP per game day (1 real-world hour) up to a maximum of 120. Holding government positions increases your regeneration rate.
 
 **PP Costs:**
 
-- Propose new legislation: 30 PP
-- Recruit a character: 10 PP
-- Commission a poll: 10 PP
-- Call early election: 30 PP (or 10 PP for empty legislatures)
+| Action | Cost |
+|--------|------|
+| Propose new legislation | 30 PP |
+| Recruit a character | 10 PP |
+| Commission a poll | 10 PP |
+| Call early election | 30 PP (10 PP for empty legislatures) |
+| Form government | 30 PP |
+| Constitutional change | 60 PP |
+| Found international bloc | 50 PP |
+| Apply to bloc | 20 PP |
 
-### 4. Wait for Elections
+See [Political Power](gameplay/resources.md) for the full breakdown.
 
-Elections happen on a regular schedule (typically every 4 game years = ~96 real days). Your party will automatically participate based on your voting record and ideological positions.
+### 4. Agree to the Rules
+
+Before you can fully participate, you'll be asked to read and agree to the **game rules**. These cover basic expectations like staying in character, not using real-world names, and being respectful to other players.
+
+### 5. Wait for Elections
+
+Elections happen on a regular schedule set per legislature. Your party will automatically participate based on your voting record and ideological positions.
+
+## Achievements
+
+As you play, you'll unlock **achievements** that track your milestones:
+
+| Achievement | How to Unlock |
+|-------------|---------------|
+| **Party Founder** | Create a party |
+| **Legislator** | Propose legislation |
+| **Democratic Voice** | Vote on legislation |
+| **Elected** | Win a seat in a legislature |
+| **Majority Leader** | Win a majority in a legislature |
+| **Diplomat** | Send a DM to another party |
+| **Cabinet Member** | Take a cabinet position |
+| **Head of State** | Become Head of State |
 
 ## Next Steps
 

@@ -118,6 +118,24 @@ Drag or move events to a different future date. The same restrictions apply — 
 
 Future events can be deleted from the calendar. Past events are preserved as part of your campaign history.
 
+## Party Modifiers
+
+Campaign activity and random events can trigger **party modifiers** — temporary buffs or debuffs that affect your electoral performance.
+
+### Energised Base (Positive)
+
+- **Trigger:** Successful Supporter Rally (10% chance)
+- **Effect:** +20% turnout boost for your supporters
+- **Duration:** 10 game days
+
+### Campaign Finance Scandal (Negative)
+
+- **Trigger:** Random event
+- **Effect:** Voters are 10% less likely to vote for your party
+- **Duration:** 3 months
+
+Active modifiers are displayed on your party's profile page. Keep an eye on them — a well-timed Energised Base before an election can overcome a lingering scandal.
+
 ## Strategy Tips
 
 !!! success "Best Practices"

@@ -38,21 +38,24 @@ To recruit an activist:
 
 1. Ensure you have **10 Political Power**
 2. Navigate to character recruitment
-3. Browse available candidates
-4. Select a character to recruit
-5. They join your party immediately
+3. The game generates **3 candidates** for you to choose from
+4. Review their traits, age, and backstory
+5. Select one to recruit — they join your party immediately
+
+!!! tip "Pick from Three"
+    Each recruitment attempt presents exactly 3 randomly generated candidates. If none of them suit your needs, you can decline and try again later (spending another 10 PP).
 
 ### Candidate Pool
 
-The game generates **activist candidates** with:
+Each generated candidate has:
 
-- Randomized names
-- Age (typically 25-65 years)
+- Randomized names (region-appropriate for your country)
+- Age (21-55 years)
 - Gender
 - Unique backstory
-- Traits (see below)
-- Starting follower count
-- Base authority score
+- 3-5 traits (see below)
+- Starting follower count (affected by traits)
+- Base authority score (affected by traits)
 
 ### When to Recruit
 
@@ -135,60 +138,76 @@ Formula considers:
 
 ## Character Traits
 
-Characters can have **traits** that affect their abilities:
+Every character has **3-5 traits** that define their personality, background, and abilities. Traits fall into three categories and can have positive, negative, or neutral gameplay effects.
 
-### Positive Traits
+### Traits with Gameplay Effects
 
-| Trait | Effect |
-|-------|--------|
-| **Charismatic** | +Persuasion, +Profile - Natural charm and likability |
-| **Fantastic Speaker** | +Persuasion - Exceptional public speaking ability |
-| **Media Savvy** | +Profile - Skilled at managing public image |
-| **Experienced Negotiator** | +Persuasion - Effective at deal-making |
-| **Grassroots Organizer** | +Profile - Strong community connections |
-| **Policy Expert** | +Persuasion - Deep knowledge of legislation |
-| **Rising Star** | +Profile - Quick to build public recognition |
+These traits directly affect a character's persuasion, profile growth, authority, or starting followers:
 
-### Trait Combinations
+| Trait | Category | Effect |
+|-------|----------|--------|
+| **Charismatic** | Personality | +Persuasion, +Profile growth |
+| **Awkward** | Personality | -Persuasion, -Profile growth |
+| **Fantastic Speaker** | Skill | ++Persuasion, ++Profile growth |
+| **Poor Speaker** | Skill | -Persuasion, --Profile growth |
+| **Media Savvy** | Skill | +Persuasion, +Profile growth, starts with more followers |
+| **Reclusive** | Personality | --Profile growth |
+| **Well Connected** | Background | +Authority, starts with more followers |
+| **Outsider** | Background | -Authority |
+| **Academic** | Background | +Authority |
+| **Street Smart** | Background | Slightly lower authority |
+| **Former Military** | Background | +Authority |
+| **Former Banker** | Background | ++Authority |
+| **Celebrity** | Background | Massive starting followers, ++Profile growth, +Authority (very rare) |
 
-Characters can have multiple traits:
+### Flavour Traits
 
-- **1 trait** - Common
-- **2 traits** - Uncommon
-- **3+ traits** - Rare
+These traits add personality and backstory but don't currently have mechanical effects:
 
-!!! tip "Trait Synergy"
-    Characters with both persuasion and profile traits are ideal for leadership roles. They can propose effective legislation AND build public support.
+Analytical, Ambitious, Loyal, Ruthless, Idealist, Pragmatist, Wealthy, Working Class Background, Firebrand, Incorruptible, Eccentric
+
+### Mutually Exclusive Traits
+
+Some traits can't appear together on the same character:
+
+- Charismatic and Awkward/Reclusive
+- Fantastic Speaker and Poor Speaker
+- Media Savvy and Awkward/Reclusive
+- Loyal and Ruthless
+- Idealist and Ruthless
+- Wealthy and Working Class Background
+- Academic and Street Smart
+- Well Connected and Outsider
+- Celebrity and Outsider/Reclusive
 
 ### Trait Strategy
 
-When recruiting:
+When recruiting, look at the 3 candidates' traits carefully:
 
 === "For Proposing Laws"
     **Prioritize Persuasion Traits**
 
+    - Fantastic Speaker (strongest)
     - Charismatic
-    - Fantastic Speaker
-    - Experienced Negotiator
-    - Policy Expert
+    - Media Savvy
 
-    These characters make more compelling proposals.
+    These characters make more compelling proposals. Avoid characters with Awkward or Poor Speaker.
 
 === "For Cabinet Positions"
-    **Prioritize Profile Traits**
+    **Prioritize Profile & Authority Traits**
 
     - Media Savvy
-    - Rising Star
-    - Grassroots Organizer
+    - Celebrity (very rare)
+    - Well Connected, Academic, Former Military, Former Banker
 
     These characters build party visibility in government.
 
 === "All-Around Stars"
-    **Multiple Traits**
+    **Best Trait Combinations**
 
-    - Characters with 2-3 traits
-    - Balanced persuasion + profile
-    - Rare but powerful
+    - Charismatic + Fantastic Speaker = strong persuasion and profile
+    - Media Savvy + Well Connected = influence and authority
+    - Celebrity + any positive trait = rare powerhouse
 
 ## Using Activists
 
@@ -258,10 +277,21 @@ You can **expel** activists from your party:
 - **Cost:** 25 Political Power
 - **Effect:** Character leaves your party immediately
 - **Consequence:** Lose any cabinet positions they held
-- **Warning:** Can't rejoin your party
+- **What happens next:** The expelled character becomes a **free agent**
 
 !!! warning "Expensive and Permanent"
     Expelling activists is costly and irreversible. Only do this if absolutely necessary (e.g., need to make room for better candidates or after scandal).
+
+### Free Agent Recruitment
+
+When a character is expelled from a party, they become a **free agent** — unaffiliated and available for recruitment by any party.
+
+- Free agents retain their traits, followers, and authority
+- Any party can recruit a free agent (costs 10 PP like normal recruitment)
+- This means your expelled activists could end up working for a rival!
+
+!!! tip "One Party's Trash..."
+    Keep an eye out for free agents expelled by other parties. A character with strong traits might be a bargain pick-up for your roster.
 
 ### Roster Size
 
@@ -339,38 +369,22 @@ Typical activist career:
 !!! tip "Patience Pays Off"
     Don't expect new recruits to be superstars immediately. The most valuable activists are those who've been with your party for years.
 
-## Social Media Posts
+## Social Media & Profile Growth
 
-### Character Activity
+Activists automatically generate **social media posts** in response to game events. Their follower counts grow based on their activity:
 
-Activists post **social media content**:
+| Activity | Follower Boost |
+|----------|---------------|
+| **Sponsoring a bill** | +5,000 followers |
+| **Sponsored bill passes** | +15,000 followers |
+| **Sponsored bill fails** | +8,000 followers (still publicity) |
+| **Posting a comment** on a proposal | +500 followers |
 
-- Political commentary
-- Reactions to proposals
-- Party messaging
-- Policy discussions
+Characters with profile-boosting traits (Media Savvy, Celebrity, Fantastic Speaker) grow followers faster through a multiplier on these boosts.
 
-### Engagement Metrics
+When a character sponsors a bill that passes, their authority increases by 5%. When a sponsored bill fails, authority decreases by 5%.
 
-Posts track:
-
-- **Likes** - Public approval
-- **Shares** - Reach and influence
-- **Comments** - Discussion generated
-
-Higher engagement = growing influence
-
-### Strategic Posting
-
-Use character posts to:
-
-- Promote your party's positions
-- Criticize rival parties
-- Build public narrative
-- Influence discourse
-
-!!! info "Automated Activity"
-    Character social media activity is primarily automated by the game, but reflects your party's actions and positions.
+See [Social Media Feed](social-media.md) for more about the country-wide social media system.
 
 ## Tips for Character Management
 

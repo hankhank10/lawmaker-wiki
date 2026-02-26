@@ -92,7 +92,7 @@ To propose a cabinet formation:
 3. Write a description/justification
 4. Submit for voting
 
-**Cost:** Free (no Political Power required)
+**Cost:** 30 Political Power
 
 !!! tip "Coalition Cabinets"
     If no party has a majority, you'll need to negotiate with other parties. Offer cabinet positions to coalition partners in exchange for their support.

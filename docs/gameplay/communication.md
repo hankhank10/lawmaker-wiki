@@ -28,17 +28,35 @@ The main communication tool is **direct messaging** between parties:
 - Like email but within the game
 - Persistent conversation threads
 
-### Bloc Group Chats
+### Group Chats
 
-If your party belongs to an [international bloc](international-blocs.md), you also get access to that bloc's shared group chat:
+Beyond direct messages, Lawmaker provides several **group chat** channels:
 
-- Created automatically when a bloc is founded
-- Membership updates automatically as parties join or leave
-- Supports cross-country coordination in one thread
-- Appears in the messaging drawer under **Bloc Group Chats**
+| Group Chat | Who's In It | Purpose |
+|------------|-------------|---------|
+| **Country Chat** | All parties in your country | General discussion, public coordination |
+| **Government Chat** | Parties currently in government | Coalition coordination, policy discussion |
+| **Opposition Chat** | Parties not in government | Opposition strategy, alternative coalitions |
+| **Bloc Chat** | Members of an [international bloc](international-blocs.md) | Cross-country coordination |
+| **Custom Group Chats** | Player-created groups | Any purpose — coalition planning, issue-specific discussions |
 
-!!! info "Unread Badge Behavior"
-    Unread bloc chat messages are included in your navbar unread message count.
+Government and opposition chats update automatically as governments form and fall. Bloc chats update as parties join or leave.
+
+!!! info "Unread Badge"
+    Unread group chat messages are included in your navbar unread message count.
+
+### NPC Messages
+
+You'll also receive messages from **game bot characters** who deliver notifications about important events:
+
+| Bot | What They Send |
+|-----|---------------|
+| **LawBot** | Legal system notifications, law updates |
+| **GameMaster** | Game administration and rulings |
+| **NewsBot** | News and announcements |
+| **EconBot** | Economic updates and market information |
+
+These appear in your messaging drawer alongside player messages.
 
 ### Sending Messages
 
@@ -407,24 +425,38 @@ Sometimes not communicating is strategic:
 - Maintain mystery about your electoral strategy
 - Avoid committing too early
 
-## Notification Settings
+## Notifications & Email Preferences
 
-### Configure Alerts
+### Notification Center
 
-Set up notifications for:
+The **notification center** (bell icon in the navbar) aggregates your unread items in one place:
 
-- New messages received
-- New proposal comments
-- Responses to your comments
-- Important game events
+- Unread messages and group chats
+- New comments on your proposals
+- Replies to your comments
 
-### Managing Volume
+You can mark individual notifications as read, or clear them all at once.
 
-Balance staying informed vs. notification overload:
+### Email Notifications
 
-- **Critical alerts:** Messages, vote deadlines, elections
-- **Optional alerts:** Comments, less urgent events
-- **Adjust frequency:** Real-time vs. daily digest
+Lawmaker can send you **email alerts** for important game events. Configure your preferences on the **Email Preferences** page:
+
+| Notification | What It Covers |
+|-------------|----------------|
+| New law proposed | A proposal has been opened for voting |
+| New constitutional change | A constitutional change has been proposed |
+| Government formation attempt | A party is trying to form government |
+| Election held | An election has taken place |
+| New message received | Someone sent you a DM or group chat message |
+| New comment on your proposal | Someone commented on a proposal you authored |
+| New reply to your comment | Someone replied to your comment |
+| Proposal outcome | A proposal you voted on passed or failed |
+| Constitutional change outcome | A constitutional change was resolved |
+| Cabinet appointment | An activist was appointed to cabinet |
+| Bloc application received | Someone applied to join your bloc |
+
+!!! tip "Stay in the Loop"
+    Enable email notifications for at least **new proposals** and **elections** so you don't miss key moments. You can always turn off less important alerts if the volume gets too high.
 
 ## Tips for Communication Success
 
