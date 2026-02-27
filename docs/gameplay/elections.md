@@ -72,9 +72,12 @@ Each elector has a detailed profile you can view, including:
 !!! tip "Study the Electorate"
     Visit individual elector profiles to understand what drives their votes. If many electors have life goals related to housing affordability, proposals on housing policy will resonate strongly.
 
-### Demographics Page
+### Demographics and Issue Analysis
 
-Each country has a **demographics page** showing the composition of the electorate through histograms and visualisations. This helps you understand the overall voter population at a glance — their age distribution, income levels, employment sectors, and more.
+Each country now has two related views:
+
+- **Demographics** - Composition of the electorate through histograms and visualisations (age distribution, income levels, employment sectors, and more).
+- **Issue Analysis** - How elector issue views relate to demographic characteristics.
 
 ### Elector Preferences
 

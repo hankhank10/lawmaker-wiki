@@ -56,7 +56,7 @@
 **Polling**
 :white_check_mark: Parties spend PP to commission voting-intention polls
 :white_check_mark: Historical poll chart
-:white_check_mark: Demographics page with voter visualisations
+:white_check_mark: Demographics and Issue Analysis pages with voter visualisations
 :map: Parties can commission polling on individual measures before they are proposed
 :map: Clearer way to show citizen views and why they vote as a group
 
