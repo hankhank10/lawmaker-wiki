@@ -109,6 +109,44 @@ A constitutional change can be resolved before the 60-day period ends:
 
 The proposing party can **withdraw** a constitutional change at any time, whether it is still in draft or already open for voting. However, the 60 PP is not refunded once the change has been opened.
 
+## Amendments
+
+In addition to redistributing powers, parties can propose **amendments** — custom articles that become part of the constitution. Amendments are plain-text declarations with no direct gameplay effect, but they represent the will of the people.
+
+### Examples of Amendments
+
+- "The national bird shall be the Bald Eagle."
+- "Freedom of speech is an inalienable right of every citizen."
+- "The capital city shall forever remain in its current location."
+
+### Proposing an Amendment
+
+1. Navigate to your country's constitution page
+2. Click **"Propose Amendment"**
+3. Enter a **title**, the **amendment text**, and a **rationale** explaining why it should be adopted
+4. Save as a draft, then **open** it for voting
+
+Amendments follow the same voting process as constitutional power changes:
+
+- **Cost:** 60 Political Power
+- **Threshold:** Supermajority (same as other constitutional changes)
+- **Voting period:** 60 days
+- **Cooldown:** Same cooldown applies — a passed amendment prevents further constitutional changes for the cooldown period
+
+### Repealing an Amendment
+
+If an amendment has been passed and is part of the constitution, any party can propose to **repeal** it. To do so:
+
+1. View the constitution and find the amendment you want to repeal
+2. Click **"Propose Repeal"** next to the amendment
+3. Enter a **title** and **rationale** for the repeal
+4. The repeal goes through the same voting process as any constitutional change
+
+If the repeal passes, the amendment is removed from the constitution.
+
+!!! info "Amendments in the Constitution"
+    Passed amendments appear in a dedicated "Amendments" section at the end of the constitution, numbered with Roman numerals just like other constitutional articles.
+
 ## Strategy
 
 ### When to Propose
@@ -125,6 +163,8 @@ Constitutional changes are most likely to succeed when:
 - **Decentralise power** — Move powers from the executive to legislatures for more democratic oversight
 - **Depoliticise sensitive areas** — Move powers to professional bureaucrats to remove them from partisan control
 - **Weaken rivals** — Strip powers from cabinet positions held by opposition parties
+- **Signal values** — Propose amendments that reflect your party's ideology to rally supporters
+- **Force a position** — Propose an amendment to force rival parties to publicly vote for or against a popular idea
 
 !!! tip "Build Support First"
     Unlike normal proposals that need a simple majority, constitutional changes need a supermajority. Use the [messaging system](communication.md) to negotiate with other parties and secure enough votes before spending 60 PP.
