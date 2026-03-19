@@ -59,6 +59,35 @@ Columbia brings New World political traditions with a different executive struct
 
 Rheinland offers federal governance with German political traditions, coalition-focused politics, and a structured approach to government. [Read more about Rheinland →](countries/rheinland.md)
 
+## Private Countries
+
+Some countries are set up as **private, invite-only** games. These are created by [supporters](../support) who want to run a closed game with friends or a specific community.
+
+### How to Recognise a Private Country
+
+Private countries are marked with a **padlock icon** on the country list and on their detail page. Instead of a "Create Party" button, you will see a **"Join with Invite Code"** button.
+
+### Joining a Private Country
+
+To create a party in a private country you need an **invite code** — a short alphanumeric password provided by the country owner.
+
+There are two ways to join:
+
+1. **Via the invite link** — The country owner can share a direct URL of the form `/countries/<country-slug>/new-party/<code>`. Opening that link takes you straight to party creation with the code pre-validated.
+2. **Via the "Join with Invite Code" button** — Click the button on the country list or detail page, then type in your code when prompted.
+
+If you enter an incorrect code you will see an error and can try again.
+
+!!! tip "Getting an Invite Code"
+    Ask the country owner to share their invite link with you. The shareable link looks like: `https://lawmakergame.com/countries/my-country/new-party/ABC123`
+
+### Creating a Private Country
+
+Private countries are a **[supporter-only feature](../support)**. If you have supporter status you can tick the **"Make this a private country"** option when proposing a country, and set your own invite code (up to 8 alphanumeric characters). A random 6-character code is suggested for you, but you can edit it.
+
+!!! info "Supporter Feature"
+    The private country feature is available exclusively to Lawmaker supporters. Visit the [support page](../support) to find out how to become a supporter.
+
 ## Choosing a Country
 
 ### Factors to Consider

@@ -7,10 +7,21 @@ Your **political party** is your primary tool for participating in Lawmaker. Thi
 To create a new party:
 
 1. Select a [country](../countries.md) to participate in
-2. Click "Create New Party"
+2. Click "Create Party Here" (or "Join with Invite Code" for [private countries](#joining-a-private-country))
 3. Fill in the party details
 4. Define your ideological positions
 5. Launch your party!
+
+### Joining a Private Country
+
+Some countries require an **invite code** to create a party. These [private countries](../countries.md#private-countries) show a padlock icon and a **"Join with Invite Code"** button instead of the standard "Create Party" button.
+
+You can join in two ways:
+
+- **Direct invite link** — The country owner can share a URL like `/countries/<slug>/new-party/<code>` that pre-fills the code for you.
+- **Manual code entry** — Click "Join with Invite Code", type the code you were given, and proceed to party creation.
+
+Ask the country owner for their shareable invite link if you don't have one.
 
 ### Party Information
 
