@@ -157,10 +157,49 @@ Long-term players in a country:
 - Understand unwritten rules
 - Shape political culture
 
+## Historical Events
+
+Each country has a **Historical Events** section on its detail page, displaying major lore entries from its past. These are significant moments in the country's fictional history — typically 10–20 events spanning its existence.
+
+### What counts as a historical event?
+
+Historical events are **major, one-off moments** in a country's life story that give it depth and character. Good examples include:
+
+- The founding or independence of the country
+- A constitutional revolution or regime change
+- A major war, invasion, or peace treaty
+- A significant natural disaster or national crisis
+- The discovery of a valuable resource
+- A landmark social or cultural turning point
+
+!!! warning "Don't duplicate what's already recorded"
+    Events that are already tracked elsewhere in the game — such as **constitutional changes**, **elections**, and **passed legislation** — should **not** be entered as historical events. Use the historical events section for lore that isn't captured by those systems.
+
+### Adding a historical event
+
+Each event records a **year** (AD), a short **headline**, and an optional longer **description** that is hidden until a player clicks to expand it.
+
+!!! info "One event per year"
+    Only one historical event can exist per year in a country. If a year is already taken, you will see a warning as you type.
+
+**Who can add events:**
+
+| User type | Action |
+|-----------|--------|
+| Country owner or admin | **Add event** — published immediately |
+| Any other logged-in player | **Propose event** — saved as a draft pending approval |
+
+Proposed events are shown in a dashed style and marked **"Pending approval"**. Only the submitting player, the country owner, and admins can see them until approved.
+
+### Approving proposed events
+
+Country owners and admins see an **Approve** button on each pending event. Admins can also **Reject & delete** a proposal that doesn't fit the country's lore.
+
 ## Country Information Pages
 
 Each country has overview pages showing:
 
+- **Historical events** - Major lore events from the country's past
 - **Current laws** - Status of all laws
 - **Legislative history** - What's been changed
 - **Active parties** - Who's playing
