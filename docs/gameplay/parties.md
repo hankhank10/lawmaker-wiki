@@ -284,8 +284,8 @@ A disbanded party can be **revived** by its owner, restoring it to active status
 
 To keep countries active, Lawmaker monitors party activity:
 
-- After **8 days** of owner inactivity, you'll receive a **warning email**
-- After **10 days** of inactivity, your party is **automatically disbanded**
+- After **3 days** of owner inactivity, you'll receive a **warning email**
+- After **5 days** of inactivity, your party is **automatically disbanded**
 - Auto-disbanding only occurs when the country is **70% or more full** (to free up space for active players)
 
 !!! warning "Stay Active!"

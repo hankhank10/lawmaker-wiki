@@ -38,7 +38,7 @@ Constitutional changes cost **60 PP** (vs 30 PP), require a **supermajority** (t
 
 ### What happens when I'm inactive?
 
-After 8 days of inactivity, you'll receive a warning email. After 10 days, your party may be auto-disbanded (only if the country is 70%+ full). Log in regularly to stay active.
+After 3 days of inactivity, you'll receive a warning email. After 5 days, your party may be auto-disbanded (only if the country is 70%+ full). Log in regularly to stay active.
 
 ### What are party modifiers?
 
