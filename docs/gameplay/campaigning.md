@@ -40,21 +40,19 @@ Each event has one of four objectives:
 |-----------|---------|----------------------|
 | **Raise Funds** | Generate money for your party | Private Dinner, Telethon |
 | **Influence a Proposal** | Sway opinion on active legislation | Media Interview, Set Piece Speech |
-| **Raise Profile** | Increase your party's visibility | Media Interview |
+| **Raise Profile** | Increase your party's visibility | Media Interview, Viral Social Media Stunt |
 | **Get Out The Vote** | Mobilise your supporters for elections | Supporter Rally |
 
 ### Event Types
 
-| Event Type | Description | Used For |
-|------------|-------------|----------|
-| **Supporter Rally** | A public rally to energise your base | Get Out The Vote |
-| **Media Interview** | A press appearance to shape the narrative | Influence a Proposal, Raise Profile |
-| **Set Piece Speech** | A major policy address | Influence a Proposal |
-| **Private Dinner for Business Donors** | An exclusive fundraising dinner | Raise Funds |
-| **Telethon for Small Donations** | A grassroots fundraising drive | Raise Funds |
-
-!!! warning "Work in Progress"
-    Currently, only the **Supporter Rally** event type has gameplay effects. Other event types are planned for future updates.
+| Event Type | Description | Used For | Cost |
+|------------|-------------|----------|------|
+| **Supporter Rally** | A public rally to energise your base | Get Out The Vote | Free |
+| **Media Interview** | A press appearance to shape the narrative | Influence a Proposal, Raise Profile | $2,000 |
+| **Set Piece Speech** | A major policy address | Influence a Proposal | $15,000 |
+| **Viral Social Media Stunt** | A high-risk online campaign to raise your profile | Raise Profile | $3,000 |
+| **Private Dinner for Business Donors** | An exclusive fundraising dinner | Raise Funds | – |
+| **Telethon for Small Donations** | A grassroots fundraising drive | Raise Funds | – |
 
 ## Supporter Rallies
 
@@ -81,6 +79,78 @@ graph TD
     C --> E[+20% Turnout Boost for 10 Days]
     C --> F[Social Media Post Created]
 ```
+
+## Performance Events
+
+**Media Interviews**, **Set-Piece Speeches**, and **Viral Social Media Stunts** are performance events where the result depends on your activist's abilities and current condition. A strong outcome boosts your party's vote preference; a poor one can hurt it.
+
+All performance events generate a journalist post commenting on how it went, and any vote preference effects appear as **party modifiers** visible on your party profile page.
+
+### What Affects the Outcome?
+
+- **Activist traits** — A **Fantastic Speaker** is much more likely to shine; a **Poor Speaker** is at greater risk of a gaffe
+- **Activist energy** — Tired and Exhausted activists underperform and are more prone to mistakes (see [Activist Energy](#activist-energy) below)
+
+### Media Interview
+
+An activist faces the press to shape public opinion. Can be used to sway support for a proposal or simply raise your party's profile.
+
+| Outcome | Effect |
+|---------|--------|
+| **Standout** | A compelling interview that wins new voters — significant vote preference boost |
+| **Success** | A solid appearance that nudges opinion in your favour |
+| **Gaffe** | A stumble that damages your party's standing |
+
+### Set-Piece Speech
+
+A major policy address — the highest-stakes performance event. The potential rewards are greater than a media interview, but so are the consequences of failure.
+
+| Outcome | Effect |
+|---------|--------|
+| **Career-Defining Speech** | An exceptional address that delivers a **permanent** vote preference boost |
+| **Success** | A strong speech that boosts vote preference for a fortnight |
+| **Gaffe** | A poorly received speech with a significant and lasting penalty |
+
+!!! warning "High Stakes"
+    Set-piece speeches cost significantly more than other events and carry the greatest risk. Reserve them for important moments — and never assign a tired or exhausted activist.
+
+### Viral Social Media Stunt
+
+A lower-cost, faster option for raising your party's online profile. The stakes are smaller, but backfire is a real risk — especially for exhausted activists.
+
+| Outcome | Effect |
+|---------|--------|
+| **Hit** | The stunt goes viral and boosts your party's vote preference |
+| **Backfire** | The stunt generates backlash and damages your party's standing |
+
+!!! warning
+    Exhausted activists are significantly more likely to cause a viral stunt to backfire.
+
+---
+
+## Activist Energy
+
+Every activist has an **energy level** representing how much they have left in the tank. Running campaign events drains energy over time; rest restores it naturally.
+
+### Energy States
+
+Activists can be in one of three states, shown as traits in your activist list:
+
+| State | Shown As | What It Means |
+|-------|----------|---------------|
+| Rested | *(no trait)* | Full effectiveness at all campaign events |
+| Low energy | **Tired** trait | Reduced effectiveness at campaign events |
+| Critically low | **Exhausted** trait | Significantly reduced effectiveness; more likely to make mistakes at interviews and speeches; increased backfire risk on viral stunts |
+
+Energy recovers naturally over time. If an activist is carrying the **Tired** or **Exhausted** trait, easing their schedule for a while will let them recover.
+
+!!! tip "Rotate Your Roster"
+    If one of your activists has run out of steam, assign upcoming events to a fresher colleague. A deep bench pays dividends here.
+
+!!! warning "Don't Push Exhausted Activists"
+    Scheduling a high-stakes media interview or set-piece speech for an exhausted activist is a significant gamble. The increased risk of a gaffe — or a career-damaging stumble — is rarely worth it.
+
+---
 
 ## Assigning Activists
 
@@ -134,7 +204,22 @@ Campaign activity and random events can trigger **party modifiers** — temporar
 - **Effect:** Voters are 10% less likely to vote for your party
 - **Duration:** 3 months
 
-Active modifiers are displayed on your party's profile page. Keep an eye on them — a well-timed Energised Base before an election can overcome a lingering scandal.
+### Performance Event Modifiers
+
+Media interviews, set-piece speeches, and viral stunts can each trigger vote preference modifiers on your party depending on the outcome:
+
+| Event | Outcome | Effect |
+|-------|---------|--------|
+| Media Interview | Standout | Significant positive vote preference boost |
+| Media Interview | Success | Modest positive vote preference boost |
+| Media Interview | Gaffe | Negative vote preference penalty |
+| Set-Piece Speech | Career-Defining | Permanent positive vote preference boost |
+| Set-Piece Speech | Success | Significant positive vote preference boost |
+| Set-Piece Speech | Gaffe | Significant negative vote preference penalty |
+| Viral Social Media Stunt | Hit | Positive vote preference boost |
+| Viral Social Media Stunt | Backfire | Negative vote preference penalty |
+
+Active modifiers are displayed on your party's profile page. Keep an eye on them — a well-timed Energised Base before an election can overcome a lingering scandal, and a career-defining speech can give your party a permanent edge.
 
 ## Strategy Tips
 
@@ -144,11 +229,16 @@ Active modifiers are displayed on your party's profile page. Keep an eye on them
     3. **Fill your calendar** - One event per day means a full calendar shows an active, engaged party
     4. **Target key proposals** - Use Influence events to rally support for or against important legislation
     5. **Watch the odds** - Supporter Rallies have a 10% trigger chance, so schedule multiple for better odds of getting the Energised Base effect
+    6. **Match traits to events** - Use **Fantastic Speaker** activists for media interviews and set-piece speeches
+    7. **Watch activist energy** - Check for the **Tired** or **Exhausted** trait before scheduling performance events
+    8. **Rotate your roster** - Spread events across multiple activists to prevent fatigue building up
 
 !!! warning "Common Mistakes"
     - **Scheduling too late** - Events on election day itself are blocked
     - **Forgetting to assign activists** - Every event needs one
     - **Ignoring the calendar** - Campaign events are easy to overlook but can swing close elections
+    - **Running the same activist every day** - They'll become Tired or Exhausted, hurting their performance
+    - **Scheduling a set-piece speech with an exhausted activist** - The gaffe risk is very high
 
 ## Next Steps
 

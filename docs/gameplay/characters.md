@@ -127,6 +127,15 @@ Formula considers:
 - Media savvy
 - Experience (authority)
 
+### Energy
+
+Each activist has an **energy level** representing their current stamina. Running campaign events drains their energy over time; it recovers naturally when they aren't being over-scheduled.
+
+- When energy drops to a low level, an activist gains the **Tired** trait — they become less effective at campaign events
+- When energy becomes critically low, the **Tired** trait is replaced by **Exhausted** — performance drops further and they're more likely to make mistakes at high-profile events
+
+Energy state is visible in your activist list. If you see the **Tired** or **Exhausted** trait on an activist, ease their schedule until they recover. See [Campaign Events](campaigning.md#activist-energy) for full details.
+
 ### Profile Growth
 
 **Profile** measures how fast a character gains followers:
@@ -159,6 +168,18 @@ These traits directly affect a character's persuasion, profile growth, authority
 | **Former Military** | Background | +Authority |
 | **Former Banker** | Background | ++Authority |
 | **Celebrity** | Background | Massive starting followers, ++Profile growth, +Authority (very rare) |
+
+### State Traits
+
+These traits are set automatically by the game based on an activist's current condition. They cannot be recruited for — they appear and disappear as circumstances change:
+
+| Trait | Condition | Effect |
+|-------|-----------|--------|
+| **Tired** | Energy is low | Reduced effectiveness at all campaign events |
+| **Exhausted** | Energy is critically low | Significantly reduced effectiveness; more likely to make mistakes at interviews and speeches; increased backfire risk on viral stunts |
+
+!!! tip "Keep an Eye on These"
+    If **Tired** or **Exhausted** appears on one of your activists, ease their campaign schedule to let them recover before assigning them to important events.
 
 ### Flavour Traits
 
@@ -193,6 +214,14 @@ When recruiting, look at the 3 candidates' traits carefully:
 
     These characters make more compelling proposals. Avoid characters with Awkward or Poor Speaker.
 
+=== "For Campaign Performance Events"
+    **Best for Media Interviews & Set-Piece Speeches**
+
+    - Fantastic Speaker (strongly improves outcome odds)
+    - Charismatic (modest improvement)
+
+    Avoid assigning **Poor Speaker** activists to media interviews or set-piece speeches — they are significantly more likely to gaffe. A poor performance can hurt your vote preference and damage the activist's reputation.
+
 === "For Cabinet Positions"
     **Prioritize Profile & Authority Traits**
 
@@ -205,7 +234,7 @@ When recruiting, look at the 3 candidates' traits carefully:
 === "All-Around Stars"
     **Best Trait Combinations**
 
-    - Charismatic + Fantastic Speaker = strong persuasion and profile
+    - Charismatic + Fantastic Speaker = strong persuasion and profile (great for proposals and performance events)
     - Media Savvy + Well Connected = influence and authority
     - Celebrity + any positive trait = rare powerhouse
 
@@ -392,10 +421,11 @@ See [Social Media Feed](social-media.md) for more about the country-wide social 
     1. **Recruit early** - Build your roster before elections
     2. **Prioritize traits** - Look for Charismatic, Fantastic Speaker, Media Savvy
     3. **Invest in stars** - Give best activists cabinet positions
-    4. **Use specialists** - Best persuaders author proposals
+    4. **Use specialists** - Best persuaders author proposals; best speakers front performance events
     5. **Track growth** - Monitor follower and authority increases
     6. **Think long-term** - Best activists develop over years
     7. **Quality over quantity** - 3 great activists > 10 mediocre ones
+    8. **Manage energy** - Watch for the Tired or Exhausted trait and rotate activists to prevent burnout
 
 !!! warning "Common Mistakes"
     - **Over-recruiting** - Wasting PP on too many activists
@@ -403,6 +433,8 @@ See [Social Media Feed](social-media.md) for more about the country-wide social 
     - **No strategy** - Not matching activists to roles
     - **Impatience** - Expecting new recruits to be stars immediately
     - **Expelling unnecessarily** - Wasting 25 PP to remove activists
+    - **Running one activist constantly** - They'll become Tired or Exhausted, hurting performance at key events
+    - **Scheduling high-stakes speeches for exhausted activists** - The gaffe risk is very high
 
 ## Next Steps
 
