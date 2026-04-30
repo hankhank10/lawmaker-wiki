@@ -44,6 +44,7 @@ If your party is not a member, you can apply from the bloc detail page:
 - You can only have one pending application to the same bloc at a time
 - The bloc's published membership criteria are shown in the application panel
 - Bloc leaders are notified by email when your application arrives (if they have that notification enabled)
+- Bloc leaders also receive a message in the bloc's group chat when your application arrives
 
 ## Leadership and Membership Rules
 
@@ -62,6 +63,8 @@ Membership constraints:
 - The final remaining leader cannot leave
 - Leaving a bloc removes your party from that bloc's chat
 - If only one active (non-disbanded) member remains, that member is automatically kept as leader
+- If all leaders' parties disband, leadership is automatically transferred to the longest-serving active member
+- If all members' parties disband, the bloc is automatically deleted
 
 ## Disbanding a Bloc
 
