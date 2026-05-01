@@ -195,6 +195,9 @@ Proposed events are shown in a dashed style and marked **"Pending approval"**. O
 
 Country owners and admins see an **Approve** button on each pending event. Admins can also **Reject & delete** a proposal that doesn't fit the country's lore.
 
+!!! info "Email notification for private country owners"
+    If your country is private, you will receive an **email notification** whenever a player submits a lore event proposal that is awaiting your approval. The email includes the event year, headline, and description, along with a direct link to your country page where you can approve or reject it. You can manage this notification in your email preferences.
+
 ## Country Information Pages
 
 Each country has overview pages showing:
