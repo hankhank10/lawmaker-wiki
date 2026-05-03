@@ -15,7 +15,7 @@ After logging in, you'll need to select a country to play in. Each country is an
 
 Available countries include:
 
-- **Avalon** - A large parliamentary democracy (65 million population, 650 seats)
+- **Avalon** - A large constitutional monarchy (65 million population, 650 seats)
 - **Marianne** - French-inspired political system
 - **Columbia** - American-style governance
 - **Rheinland** - German-influenced federation
@@ -133,6 +133,7 @@ As you play, you'll unlock **achievements** that track your milestones:
 | **Diplomat** | Send a DM to another party |
 | **Cabinet Member** | Take a cabinet position |
 | **Head of State** | Become Head of State |
+| **Acceded to the Throne** | Become a reigning monarch |
 
 ## Next Steps
 
@@ -142,6 +143,7 @@ Once you're comfortable with the basics:
 2. **[Recruit Characters](gameplay/characters.md)** - Build your party team with activists
 3. **[Study the Voters](gameplay/elections.md)** - Understand how electors make decisions
 4. **[Connect with Other Parties](gameplay/communication.md)** - Send messages and negotiate
+5. **[Learn About Monarchies](gameplay/monarchy.md)** - Understand Crown nominations in countries like Avalon
 
 ## Tips for New Players
 

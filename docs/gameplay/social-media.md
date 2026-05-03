@@ -12,6 +12,8 @@ Navigate to your country's social media page to see the latest posts. Posts appe
 
 Your party's [activists](characters.md) generate social media posts in response to game events. Characters with more followers generate more engagement (likes, shares, comments).
 
+Sitting monarchs also post as the Crown. These posts use the monarch's regnal name and link to the monarchy page rather than to a party profile.
+
 ### NPC Journalists
 
 AI-controlled **journalist** characters post independent political commentary:
@@ -43,6 +45,7 @@ The feed automatically generates posts for major game events, including:
 - **International blocs** — bloc founded, party joined or left
 - **Campaign events** — successful [Supporter Rallies](campaigning.md) that trigger the Energised Base modifier
 - **Party modifiers** — events like campaign finance scandals
+- **Monarchy events** — vacancies, accessions, and Crown posts in countries with a monarchy
 
 ## Character Growth from Posts
 

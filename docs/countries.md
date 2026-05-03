@@ -20,6 +20,7 @@ Each country has:
 - **Different population** - Affects scale of politics
 - **Different legislatures** - Number and structure of assemblies
 - **Different cabinet positions** - Unique government roles
+- **Different constitutional offices** - Some countries may have monarchies or other special institutions
 - **Different player community** - Distinct political culture
 - **Different history** - Unique legislative and electoral records
 
@@ -27,13 +28,13 @@ Each country has:
 
 ### [Avalon](countries/avalon.md)
 
-!!! example "Parliamentary Democracy"
+!!! example "Constitutional Monarchy"
 **Population:** 65 million
 **Legislature:** National Assembly (650 seats)
-**System:** Westminster-style parliamentary democracy
+**System:** Westminster-style constitutional monarchy
 **Elections:** Every 4 game years
 
-Avalon is the flagship country in Lawmaker, featuring a large legislature (650 seats), active player community, established political traditions, and complex coalition dynamics. [Read more about Avalon →](countries/avalon.md)
+Avalon is the flagship country in Lawmaker, featuring a large legislature (650 seats), a hereditary Crown, active player community, established political traditions, and complex coalition dynamics. [Read more about Avalon →](countries/avalon.md)
 
 ### [Marianne](countries/marianne.md)
 
@@ -203,6 +204,7 @@ Country owners and admins see an **Approve** button on each pending event. Admin
 Each country has overview pages showing:
 
 - **Historical events** - Major lore events from the country's past
+- **Crown status** - Current monarch or vacancy details, for countries with a monarchy
 - **Current laws** - Status of all laws
 - **Legislative history** - What's been changed
 - **Active parties** - Who's playing

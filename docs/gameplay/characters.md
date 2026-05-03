@@ -275,6 +275,19 @@ Cabinet appointments give:
 
 See: [Government & Cabinet](cabinet.md)
 
+## Becoming Monarch
+
+In countries with a [hereditary monarchy](monarchy.md), an activist can be nominated for the Crown when the throne is vacant.
+
+If the nomination wins:
+
+- The activist leaves their party
+- They receive a regnal name, such as **King Arthur I** or **Queen Eleanor II**
+- Their public display name becomes their regnal name while they reign
+- They can post to social media as the Crown
+
+When a monarch abdicates or is removed for inactivity, that character retires from public life and does not return to the party.
+
 ### Building Character Profiles
 
 Activists grow over time:
@@ -440,6 +453,7 @@ See [Social Media Feed](social-media.md) for more about the country-wide social 
 
 - [Government & Cabinet](cabinet.md) - Appoint activists to positions
 - [Legislation & Voting](legislation.md) - Use activists to propose laws
+- [Hereditary Monarchy](monarchy.md) - Activists who become monarchs
 - [Party Management](parties.md) - Build your overall party strategy
 - [Political Power](resources.md) - Manage PP for recruitment
 - [Strategy Guide](../strategy-guide.md) - Advanced character tactics

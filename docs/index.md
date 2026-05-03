@@ -11,6 +11,7 @@ Lawmaker combines elements of strategy, simulation, and social gameplay to creat
 - :material-vote: **Compete in elections** against other players
 - :material-account-group: **Recruit activists** to represent your party
 - :material-crown: **Form governments** and appoint cabinet ministers
+- :material-chess-king: **Compete for hereditary thrones** in countries with monarchies
 - :material-forum: **Negotiate with other parties** to build coalitions and pass laws
 - :material-earth: **Build international blocs** for cross-country coordination
 

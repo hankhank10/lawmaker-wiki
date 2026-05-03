@@ -1,6 +1,6 @@
 # Constitution & Constitutional Changes
 
-Every country in Lawmaker has a **constitution** that defines how power is distributed across its institutions. The constitution assigns specific powers — such as declaring war, appointing judges, or setting monetary policy — to legislatures, cabinet positions, or independent bureaucrats.
+Every country in Lawmaker has a **constitution** that defines how power is distributed across its institutions. The constitution assigns specific powers - such as declaring war, appointing judges, or setting monetary policy - to legislatures, cabinet positions, hereditary monarchies, or independent bureaucrats.
 
 Players can propose **constitutional changes** to redistribute these powers, fundamentally reshaping how their country's government works.
 
@@ -10,6 +10,7 @@ Visit your country's constitution page to see all 18 constitutional powers and w
 
 - **Legislature** — power is held by a specific elected body (e.g. Parliament, Senate)
 - **Cabinet Position** — power is held by whoever occupies that role (e.g. Prime Minister, Defence Minister)
+- **Monarchy** — power is held by the Crown in countries with a hereditary monarchy
 - **Professional Non-Partisan Bureaucrats** — power is held by an independent civil service, outside political control
 
 !!! info "Country Differences"
@@ -38,7 +39,7 @@ The 18 powers defined in the constitution are:
 | **Regulate Political Parties** | Regulate party formation, funding, and conduct |
 | **Regulate the Environment** | Set environmental standards and protections |
 | **Set Monetary Policy** | Control interest rates, money supply, and monetary policy |
-| **Set Fiscal Policy** | Control government spending, taxation, and budget |
+| **Grant Pardons** | Grant clemency and pardons for criminal offences |
 
 ## Proposing Constitutional Changes
 
@@ -161,6 +162,7 @@ Constitutional changes are most likely to succeed when:
 
 - **Centralise executive power** — Move powers from legislatures or bureaucrats to cabinet positions your coalition controls
 - **Decentralise power** — Move powers from the executive to legislatures for more democratic oversight
+- **Empower the Crown** — Move powers to a hereditary monarchy where the country has one
 - **Depoliticise sensitive areas** — Move powers to professional bureaucrats to remove them from partisan control
 - **Weaken rivals** — Strip powers from cabinet positions held by opposition parties
 - **Signal values** — Propose amendments that reflect your party's ideology to rally supporters
@@ -178,5 +180,6 @@ Constitutional changes are most likely to succeed when:
 
 - [Legislation & Voting](legislation.md) - How normal proposals work (for comparison)
 - [Government & Cabinet](cabinet.md) - Cabinet positions that can hold constitutional powers
+- [Hereditary Monarchy](monarchy.md) - Crown offices that can hold constitutional powers
 - [Political Power](resources.md) - Managing the 60 PP cost
 - [Communication](communication.md) - Building supermajority coalitions

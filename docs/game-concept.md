@@ -93,6 +93,14 @@ After elections, parties can attempt to **form governments**:
 
 Learn more: [Government & Cabinet](gameplay/cabinet.md)
 
+### Monarchies
+
+Some countries also have a **hereditary monarchy**. When the throne is vacant, active parties may nominate one of their activists. If your nominee wins, your party becomes dormant and you play as the Crown until abdication or removal for inactivity.
+
+Monarchies can hold constitutional powers when the country's constitution assigns powers to the Crown.
+
+Learn more: [Hereditary Monarchy](gameplay/monarchy.md)
+
 ### Characters
 
 Your party recruits **characters** - individual activists who:
@@ -141,6 +149,7 @@ Lawmaker is an **ongoing simulation** without a fixed end. Success can mean:
 - **Coalition leadership** - Lead governments and appoint cabinets
 - **Ideological victory** - Move the country toward your values
 - **Long-term influence** - Build a party that lasts for many election cycles
+- **Royal legacy** - Found a dynasty in countries with a hereditary monarchy
 
 ## Strategic Depth
 
@@ -158,6 +167,7 @@ Each [country](countries.md) is an **independent simulation**:
 
 - Different countries don't interact
 - Each has unique population, seats, and cabinet structure
+- Some countries may also have unique offices such as hereditary monarchies
 - You can create parties in multiple countries
 - Each country develops its own meta-game and community
 

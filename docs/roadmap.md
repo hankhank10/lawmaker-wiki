@@ -19,7 +19,7 @@
 :white_check_mark: Parties display "in government" or "opposition" flags
 
 **Constitution & Constitutional Changes**
-:white_check_mark: 18 constitutional powers assigned to legislatures, cabinet positions, or bureaucrats
+:white_check_mark: 18 constitutional powers assigned to legislatures, cabinet positions, monarchies, or bureaucrats
 :white_check_mark: Parties can propose constitutional changes to redistribute powers (60 PP)
 :white_check_mark: Supermajority voting requirements with per-country configurable thresholds
 :white_check_mark: Cooldown period between successful changes
@@ -36,8 +36,15 @@
 :white_check_mark: Application and membership system
 :white_check_mark: Bloc group chats for cross-country coordination
 
+**Hereditary Monarchy**
+:white_check_mark: Countries can define a hereditary Crown
+:white_check_mark: Parties can nominate activists during vacancy windows
+:white_check_mark: Accession creates a reign, dynasty, regnal name, and Crown social identity
+:white_check_mark: Abdication, inactivity removal, and reign history
+:white_check_mark: Crown can hold constitutional powers
+
 **Achievements**
-:white_check_mark: 8 achievements tracking player milestones (Party Founder, Legislator, Elected, etc.)
+:white_check_mark: 9 achievements tracking player milestones (Party Founder, Legislator, Elected, Throne Accession, etc.)
 
 **Social Media**
 :white_check_mark: Country-wide social media feed with automated posts for major events
@@ -51,7 +58,7 @@
 :white_check_mark: Bloc group chats
 :white_check_mark: NPC messaging (LawBot, NewsBot, GameMaster, EconBot)
 :white_check_mark: Notification center
-:white_check_mark: Configurable email notifications (11 event types)
+:white_check_mark: Configurable email notifications (12 event types)
 
 **Polling**
 :white_check_mark: Parties spend PP to commission voting-intention polls

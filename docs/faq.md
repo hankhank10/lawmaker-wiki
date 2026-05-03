@@ -40,6 +40,12 @@ Constitutional changes cost **60 PP** (vs 30 PP), require a **supermajority** (t
 
 After 3 days of inactivity, you'll receive a warning email. After 5 days, your party may be auto-disbanded (only if the country is 70%+ full). Log in regularly to stay active.
 
+If you hold a hereditary throne, inactivity warnings apply to your reign too. Continued inactivity can force abdication, retire the monarch character, disband the enthroned party, and reopen the throne for nominations.
+
+### How do monarchies work?
+
+In countries with a hereditary monarchy, active parties may nominate one activist when the throne is vacant. The winning nominee becomes monarch, and the winning party becomes dormant while it reigns. The monarch may abdicate later, restoring the party with 0 seats and 0 Political Power. See [Hereditary Monarchy](gameplay/monarchy.md).
+
 ### What are party modifiers?
 
 Temporary effects that influence your electoral performance. Currently there are two: **Energised Base** (+20% turnout boost from Supporter Rallies) and **Campaign Finance Scandal** (-10% vote preference from random events). See [Campaign Events](gameplay/campaigning.md).
@@ -66,7 +72,7 @@ Beyond direct messages, you have access to: **Country chat** (all parties), **Go
 
 ### Can I get email notifications?
 
-Yes. Visit the **Email Preferences** page to configure alerts for 11 different event types including new proposals, elections, messages, and more.
+Yes. Visit the **Email Preferences** page to configure alerts for 12 different event types including new proposals, elections, messages, throne vacancies, and more.
 
 ## Political Power
 
@@ -91,6 +97,8 @@ Hold government positions! Each gives a multiplicative bonus: Head of State (+20
 | Constitutional change | 60 PP |
 | Found international bloc | 50 PP |
 | Apply to bloc | 20 PP |
+
+Monarchy nominations are free, but winning one has major consequences for your party.
 
 ## Still Have Questions?
 

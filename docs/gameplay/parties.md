@@ -165,6 +165,7 @@ With your party, you can:
 7. **[Call early elections](elections.md#early-elections)** - Trigger special elections (30 PP)
 8. **[Found and join international blocs](international-blocs.md)** - Build cross-country alliances (50 PP to found, 20 PP per application)
 9. **[Change a pillar](#changing-a-pillar)** - Shift your party's ideology on one issue (75 PP)
+10. **[Nominate an activist for the Crown](monarchy.md)** - In countries with a vacant monarchy, compete to found or continue a dynasty
 
 ## Party Growth
 
@@ -267,6 +268,21 @@ Control visibility of:
 
 Each player can control **one party** at a time. Choose your country and party carefully — this is your sole vehicle for participating in the game.
 
+## Enthroned Parties
+
+In countries with a [hereditary monarchy](monarchy.md), your party may nominate one of its activists when the throne is vacant. If your nominee wins, your party becomes **enthroned** and dormant for the duration of the reign.
+
+When your party is enthroned:
+
+- Your active identity switches from the party to the Crown
+- Your party's Political Power is reset to **0**
+- Your party loses all legislature seats
+- Cabinet positions held by your party's characters are vacated
+- International bloc memberships are removed
+- Your nominee leaves the party and reigns as the monarch
+
+You may abdicate to restore your party, but it returns with **0 seats** and **0 Political Power**.
+
 ## Disbanding Your Party
 
 You can **voluntarily disband** your party at any time:
@@ -291,6 +307,8 @@ To keep countries active, Lawmaker monitors party activity:
 !!! warning "Stay Active!"
     Log in at least once every few days to prevent your party from being automatically disbanded. Even casting a single vote or sending a message resets your activity timer.
 
+Monarchies have their own inactivity checks. If you hold a throne and remain inactive after warnings, you can be forced to abdicate and your enthroned party is disbanded instead of restored.
+
 ## Tips for Party Success
 
 !!! success "Best Practices"
@@ -308,5 +326,6 @@ To keep countries active, Lawmaker monitors party activity:
 - [Legislation & Voting](legislation.md) - Learn how to propose and vote on laws
 - [Elections & Voters](elections.md) - Understand how to win elections
 - [Characters & Activists](characters.md) - Recruit your party team
+- [Hereditary Monarchy](monarchy.md) - Nominate activists for the Crown
 - [International Blocs](international-blocs.md) - Coordinate with parties across countries
 - [Strategy Guide](../strategy-guide.md) - Advanced party strategies
