@@ -320,6 +320,10 @@ In countries with **bicameral systems** (two chambers), proposals may need to pa
 - Proposing party loses 30 PP with no result
 - All votes still recorded (voters remember!)
 
+### Royal Veto
+
+In countries with a hereditary monarchy, the reigning monarch can pre-register a veto on any open proposal. If the legislatures pass a bill the monarch has vetoed, the bill is blocked at royal assent and marked **Vetoed by Monarch** instead of becoming law. The monarch's choice stays private during voting and is only revealed if it actually changes the outcome. See [Royal Assent and Veto](monarchy.md#royal-assent-and-veto).
+
 ### Legislative History
 
 Every vote is **permanently recorded**:

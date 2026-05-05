@@ -44,7 +44,7 @@ If you hold a hereditary throne, inactivity warnings apply to your reign too. Co
 
 ### How do monarchies work?
 
-In countries with a hereditary monarchy, active parties may nominate one activist when the throne is vacant. The winning nominee becomes monarch, and the winning party becomes dormant while it reigns. The monarch may abdicate later, restoring the party with 0 seats and 0 Political Power. See [Hereditary Monarchy](gameplay/monarchy.md).
+In countries with a hereditary monarchy, active parties may nominate one activist when the throne is vacant. The winning nominee becomes monarch, and the winning party becomes dormant while it reigns. While reigning, the monarch can pre-register a veto on any open proposal — if the legislatures pass a bill the monarch has vetoed, royal assent is refused and the bill does not become law. The monarch may abdicate later, restoring the party with 0 seats and 0 Political Power. See [Hereditary Monarchy](gameplay/monarchy.md).
 
 ### What are party modifiers?
 

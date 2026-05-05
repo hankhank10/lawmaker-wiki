@@ -73,6 +73,33 @@ Powers assigned to the monarchy appear in the constitution under the Crown artic
 
 In Avalon, the Crown initially holds **Grant Pardons**.
 
+## Royal Assent and Veto
+
+In any country with a hereditary monarchy, the reigning monarch can pre-register a **veto** on any open proposal. The veto sits on top of the normal legislative vote — it does not replace it.
+
+### How it works
+
+On the proposal page, a reigning monarch sees a **Royal Assent** card with two choices:
+
+- **Allow passage** (the default) — the bill becomes law if the legislatures pass it
+- **Veto if it passes** — the bill is blocked at royal assent if the legislatures pass it
+
+The monarch can switch between these two states at any time while the proposal is open. While voting is in progress, no one else can see which option the monarch has chosen — parties continue to vote without knowing whether their bill will receive royal assent.
+
+### Resolution at tally time
+
+When the proposal closes, the legislatures' vote is tallied first:
+
+- If the legislatures **reject** the bill, the bill fails on its own. Any pre-registered veto is discarded and never recorded — no one ever learns that the monarch had a veto pending.
+- If the legislatures **pass** the bill and the monarch's choice is "allow passage", the bill becomes law as normal.
+- If the legislatures **pass** the bill but the monarch has registered a veto, the bill is blocked. The proposal is marked as **Vetoed by Monarch**, and a Lawbot post on the social feed announces that the monarch refused royal assent.
+
+The veto is therefore only ever made public when it actually changes the outcome.
+
+### When the monarch sees the page
+
+While reigning, the normal "Cast Your Vote" card is replaced by the Royal Assent card on each open proposal — monarchs do not vote on legislation, they decide whether to grant or refuse assent.
+
 ## Abdication
 
 A reigning monarch can abdicate at any time.
