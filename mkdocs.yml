@@ -52,6 +52,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
+  - Rules & Policies: rules.md
   - Game Concept: game-concept.md
   - Gameplay:
       - Party Management: gameplay/parties.md
