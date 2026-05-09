@@ -69,7 +69,7 @@ New parties start with:
 | **[Commission Poll](elections.md#polling)** | **10 PP** | Survey electoral landscape |
 | **[Expel Character](characters.md#expelling-activists)** | **25 PP** | Remove activist from party |
 | **[Form Government](cabinet.md)** | **30 PP** | Propose a cabinet formation |
-| **[Constitutional Change](constitution.md)** | **60 PP** | Propose a change to the constitution |
+| **[Constitutional Change](constitution.md)** | **30 PP per item (min 60 PP)**; 60 PP for monarchy establishment/abolition | Propose a change to the constitution |
 | **[Found International Bloc](international-blocs.md)** | **50 PP** | Create a new international bloc |
 | **[Apply to Bloc](international-blocs.md)** | **20 PP** | Apply to join an existing bloc |
 

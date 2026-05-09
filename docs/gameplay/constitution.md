@@ -55,7 +55,7 @@ Any party can propose a constitutional change to move one or more powers from th
 
 ### Requirements
 
-- **Cost:** 60 Political Power (deducted when you open the change for voting)
+- **Cost:** 30 Political Power per proposal in the package (minimum 60 PP total), deducted when you open the package for voting. Establishing or abolishing a monarchy always costs 60 PP regardless of package size.
 - Each change must include **at least one power move**
 - Only **one constitutional change** can be open for voting per country at a time
 - The proposing party **automatically votes Yes** in all required legislatures
@@ -65,7 +65,7 @@ Any party can propose a constitutional change to move one or more powers from th
 After a constitutional change passes, there is a **cooldown period** (typically 2 years) during which no further changes can be proposed. This prevents constant constitutional upheaval.
 
 !!! warning "High Stakes"
-    At 60 PP, constitutional changes are the most expensive action in the game. Make sure you have the votes lined up before opening one.
+    Constitutional change packages cost at least 60 PP — the highest minimum of any action in the game. Make sure you have the votes lined up before opening one.
 
 ## Voting on Constitutional Changes
 
@@ -75,7 +75,7 @@ Constitutional changes require a **supermajority** to pass — a higher threshol
 
 ```mermaid
 graph TD
-    A[Party Proposes Change] --> B[60 PP Deducted]
+    A[Party Proposes Change] --> B[PP Cost Deducted]
     B --> C[60-Day Voting Period]
     C --> D[Votes Tallied Per Legislature]
     D --> E{All Legislatures Meet Threshold?}
@@ -94,7 +94,7 @@ graph TD
 
 | | Normal Proposals | Constitutional Changes |
 |---|---|---|
-| **Cost** | 30 PP | 60 PP |
+| **Cost** | 30 PP | 30 PP per item (min 60 PP); 60 PP for monarchy establishment/abolition |
 | **Threshold** | Simple majority (>50%) | Supermajority (typically 66.6%) |
 | **Legislatures** | Usually one | May require approval from multiple chambers |
 | **Cooldown** | None | Typically 2 years after a successful change |
@@ -108,7 +108,7 @@ A constitutional change can be resolved before the 60-day period ends:
 
 ### Withdrawing a Change
 
-The proposing party can **withdraw** a constitutional change at any time, whether it is still in draft or already open for voting. However, the 60 PP is not refunded once the change has been opened.
+The proposing party can **withdraw** a constitutional change at any time, whether it is still in draft or already open for voting. However, the PP cost is not refunded once the change has been opened.
 
 ## Amendments
 
@@ -129,7 +129,7 @@ In addition to redistributing powers, parties can propose **amendments** — cus
 
 Amendments follow the same voting process as constitutional power changes:
 
-- **Cost:** 60 Political Power
+- **Cost:** 30 PP per item in the package (minimum 60 PP)
 - **Threshold:** Supermajority (same as other constitutional changes)
 - **Voting period:** 60 days
 - **Cooldown:** Same cooldown applies — a passed amendment prevents further constitutional changes for the cooldown period
@@ -156,7 +156,7 @@ Constitutional changes are most likely to succeed when:
 
 - Your party or coalition controls a **supermajority** of seats
 - There is broad **cross-party consensus** on the change
-- You can afford to spend **60 PP** and potentially wait out the cooldown
+- You can afford to spend **at least 60 PP** and potentially wait out the cooldown
 
 ### Common Moves
 
@@ -169,10 +169,10 @@ Constitutional changes are most likely to succeed when:
 - **Force a position** — Propose an amendment to force rival parties to publicly vote for or against a popular idea
 
 !!! tip "Build Support First"
-    Unlike normal proposals that need a simple majority, constitutional changes need a supermajority. Use the [messaging system](communication.md) to negotiate with other parties and secure enough votes before spending 60 PP.
+    Unlike normal proposals that need a simple majority, constitutional changes need a supermajority. Use the [messaging system](communication.md) to negotiate with other parties and secure enough votes before spending the PP.
 
 !!! warning "Common Mistakes"
-    - **Proposing without the votes** — 60 PP wasted on a doomed change
+    - **Proposing without the votes** — PP wasted on a doomed change
     - **Ignoring the cooldown** — If a change just passed, you'll need to wait before proposing another
     - **Forgetting bicameral requirements** — In countries with two chambers, both must approve independently
 
@@ -181,5 +181,5 @@ Constitutional changes are most likely to succeed when:
 - [Legislation & Voting](legislation.md) - How normal proposals work (for comparison)
 - [Government & Cabinet](cabinet.md) - Cabinet positions that can hold constitutional powers
 - [Hereditary Monarchy](monarchy.md) - Crown offices that can hold constitutional powers
-- [Political Power](resources.md) - Managing the 60 PP cost
+- [Political Power](resources.md) - Managing the PP cost
 - [Communication](communication.md) - Building supermajority coalitions
