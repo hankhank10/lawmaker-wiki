@@ -53,9 +53,13 @@ Any party can propose a constitutional change to move one or more powers from th
 4. Select which **powers** to move and where they should go
 5. Save as a draft, then **open** it for voting
 
+New packages are created with a default name (e.g. "Constitutional reform from {party} of {month} {year}"), but you can change this name and add a detailed description before opening for voting.
+
 ### Requirements
 
+- **Package name:** The package must have a **non-empty name** before you can open it for voting. You can edit the default name when reviewing your draft.
 - **Cost:** 30 Political Power per proposal in the package (minimum 60 PP total), deducted when you open the package for voting. Establishing or abolishing a monarchy always costs 60 PP regardless of package size.
+- **Sufficient Political Power:** Your party must have enough PP for the total cost of all items in the package.
 - Each change must include **at least one power move**
 - Only **one constitutional change** can be open for voting per country at a time
 - The proposing party **automatically votes Yes** in all required legislatures
@@ -127,9 +131,11 @@ In addition to redistributing powers, parties can propose **amendments** — cus
 3. Enter a **title**, the **amendment text**, and a **rationale** explaining why it should be adopted
 4. Save as a draft, then **open** it for voting
 
-Amendments follow the same voting process as constitutional power changes:
+Amendments follow the same voting process and requirements as constitutional power changes:
 
+- **Package name:** The package must have a **non-empty name** before you can open it for voting
 - **Cost:** 30 PP per item in the package (minimum 60 PP)
+- **Sufficient Political Power:** Your party must have enough PP for the total cost
 - **Threshold:** Supermajority (same as other constitutional changes)
 - **Voting period:** 60 days
 - **Cooldown:** Same cooldown applies — a passed amendment prevents further constitutional changes for the cooldown period
