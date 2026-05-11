@@ -64,6 +64,24 @@ New packages are created with a default name (e.g. "Constitutional reform from {
 - Only **one constitutional change** can be open for voting per country at a time
 - The proposing party **automatically votes Yes** in all required legislatures
 
+### Adjusting Election Frequency
+
+In addition to redistributing powers, parties can propose to adjust how often any legislature is elected:
+
+1. **View the constitution** - Each legislature article displays its current election frequency
+2. **Click "Propose change to election frequency"** on the legislature you want to adjust
+3. **Enter the new frequency** (2-120 months)
+4. **Save as a draft** or **open for voting**
+
+The proposed frequency change is added to your existing constitutional change package alongside any other proposed changes. Election frequency changes follow the same voting process as power moves:
+
+- **Cost:** 30 PP per change item (counted alongside power moves in the package total)
+- **Threshold:** Supermajority (typically 66.6%)
+- **Timing:** The new frequency takes effect **prospectively** — your next scheduled election still runs under the old schedule, but elections scheduled after that will use the new frequency
+
+!!! info "Prospective Application"
+    If an election is scheduled for Day 100 under the current frequency, and you pass a change to a different frequency on Day 50, that Day 100 election still runs. The new frequency only applies when scheduling elections that occur after Day 100.
+
 ### Cooldown Period
 
 After a constitutional change passes, there is a **cooldown period** (typically 2 years) during which no further changes can be proposed. This prevents constant constitutional upheaval.
