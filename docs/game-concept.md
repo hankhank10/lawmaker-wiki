@@ -65,9 +65,13 @@ Elections are determined by **individual simulated voters** (called "electors"):
 - Electors analyze your **voting record** to form opinions
 - They vote for parties that support policies they agree with
 - Recent votes matter more than old votes (time-weighted)
+- **National moods** can temporarily shift how voters view issues
 
 !!! example "How Voters Think"
     An elector who strongly supports environmental protection will favor parties that voted for green energy laws and against deregulation. If your party voted for coal subsidies, this elector probably won't vote for you!
+
+!!! info "National Moods"
+    Countries can experience **national moods** — political or cultural trends that shift voter priorities. A "Traditional Culture" mood makes voters slightly more conservative on certain issues. Learn more: [National Moods](gameplay/elections.md#national-moods)
 
 Learn more: [Elections & Voters](gameplay/elections.md)
 

@@ -90,6 +90,60 @@ Each elector has positions on the 8+ political issues:
 | **Economic Liberal** | Free market, low taxes, business-friendly, limited regulation |
 | **Democratic Socialist** | Wealth redistribution, worker rights, universal services, equality |
 
+### National Moods
+
+Beyond individual elector preferences, each country can experience **national moods** — shifts in the political climate that temporarily influence how voters view certain issues.
+
+#### What Are National Moods?
+
+A national mood is an active political or cultural trend that shapes public opinion across a country. When a mood is active:
+
+- **Issue positions shift** - All voters are pushed slightly in one direction on certain issues
+- **Issue importance changes** - Some topics become more or less salient to voters
+- **It affects your strategy** - You need to account for these shifts when proposing laws or building voter appeal
+
+!!! example "Mood Effects in Action"
+    Imagine a country experiencing a "Traditional Culture" mood. In this climate:
+    - Voters become slightly more conservative on issues like gender roles and religious influence
+    - Issues related to cultural values become more important to them
+    - A proposal on marriage equality might perform worse than usual
+    - Your party's policy positions are evaluated through this cultural lens
+
+#### Viewing National Moods
+
+You can see active moods on the **country dashboard**:
+
+1. **Mood badges** - Click on any mood to see:
+   - Name and description
+   - Which issues are affected (and which direction)
+   - Duration remaining (for temporary moods)
+   - Visual emoji icon for quick recognition
+
+2. **Mood impact** - Understanding what moods mean for your strategy:
+   - Study which issues are affected
+   - Consider how your party positions align
+   - Time sensitive proposals carefully
+
+#### Types of Moods
+
+Moods can be:
+
+- **Permanent** - Reflect the country's established character (e.g., "Strong Military Culture")
+- **Temporary** - Emerge from events and fade over time (e.g., "Economic Prosperity" lasting 1 year)
+
+#### Strategic Considerations
+
+When planning your proposals and voting strategy:
+
+- **Commission polls** before major votes to see how moods affect voter sentiment
+- **Time controversial proposals** - Avoid pushing against strong moods right before elections
+- **Adapt your messaging** - Explain how your positions serve voters under the current mood
+- **Build coalitions** with parties whose positions align with active moods
+- **Plan long-term** - Temporary moods pass, but current sentiment matters for immediate elections
+
+!!! tip "Use Moods to Your Advantage"
+    If a mood aligns with your party's values, it's a tailwind for your growth. If it opposes you, focus on other issues and wait for the mood to pass.
+
 ### How Electors Decide
 
 Electors vote for parties by:
