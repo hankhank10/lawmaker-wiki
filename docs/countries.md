@@ -21,6 +21,7 @@ Each country has:
 - **Different legislatures** - Number and structure of assemblies
 - **Different cabinet positions** - Unique government roles
 - **Different constitutional offices** - Some countries may have monarchies or other special institutions
+- **Different national moods** - Permanent moods reflect each country's established cultural character (e.g. a libertarian pioneering streak or a strong communitarian tradition)
 - **Different player community** - Distinct political culture
 - **Different history** - Unique legislative and electoral records
 
@@ -85,6 +86,17 @@ If you enter an incorrect code you will see an error and can try again.
 ### Creating a Private Country
 
 Private countries are a **[supporter-only feature](../support)**. If you have supporter status you can tick the **"Make this a private country"** option when proposing a country, and set your own invite code (up to 8 alphanumeric characters). A random 6-character code is suggested for you, but you can edit it.
+
+### National Moods at Country Creation
+
+When proposing a new country, you can choose one or more **permanent national moods** that define the country's cultural character from day one. These moods immediately influence how voters weigh issues and remain active unless a staff member removes them.
+
+Each mood entry shows its emoji, name, and a one-line summary. Selecting a mood reveals the issues it pulls on and the direction of the effect (e.g. "pulls toward environmental protection"). You can pick multiple moods — their effects stack.
+
+!!! tip "Choose moods that match your country's lore"
+    Permanent moods are meant to reflect deep national character, not short-term events. Pick moods that fit the story of your country. Temporary moods (triggered by in-game events) can be added later by staff.
+
+Learn more about how moods affect voters: [National Moods](gameplay/elections.md#national-moods)
 
 !!! info "Supporter Feature"
     The private country feature is available exclusively to Lawmaker supporters. Visit the [support page](../support) to find out how to become a supporter.
@@ -205,6 +217,7 @@ Each country has overview pages showing:
 
 - **Historical events** - Major lore events from the country's past
 - **Crown status** - Current monarch or vacancy details, for countries with a monarchy
+- **National moods** - Active moods shaping voter priorities (click any mood badge to see which issues it affects and how long it lasts)
 - **Current laws** - Status of all laws
 - **Legislative history** - What's been changed
 - **Active parties** - Who's playing
