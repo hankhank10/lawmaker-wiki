@@ -101,6 +101,62 @@ Learn more about how moods affect voters: [National Moods](gameplay/elections.md
 !!! info "Supporter Feature"
     The private country feature is available exclusively to Lawmaker supporters. Visit the [support page](../support) to find out how to become a supporter.
 
+## Proposing Public Countries
+
+Any logged-in player can **propose a new country** to add to Lawmaker's public roster. Proposed countries go through a two-stage process before going live.
+
+### How to Propose a Country
+
+On the countries list page, click **"Propose a Country"** to open the creation form. You'll define:
+
+- **Name** — Your country's name
+- **Description** — A short summary of its theme or lore
+- **Population** — In millions (affects scale of politics)
+- **System type** — The governance model (monarchy, republic, federal, presidential, etc.)
+- **Legislatures** — How many assemblies and how many seats in each
+- **Cabinet positions** — Government roles unique to your country
+- **Constitutional offices** — Special roles like monarch, chancellor, etc.
+- **National moods** — Permanent cultural moods that shape voter priorities
+- **Private option** — [Supporter-only] Make it invite-only instead of public
+
+Once submitted, your proposal enters the **moderation queue**.
+
+### Moderation & Community Voting
+
+Proposed countries follow a two-stage approval process:
+
+#### Stage 1: Staff Moderation
+
+When you submit your proposal, it enters **moderation**. The Lawmaker team reviews it for:
+
+- Lore quality and creativity
+- Mechanical balance and viability
+- Alignment with Lawmaker's vision
+- Technical correctness
+
+While awaiting moderation, your proposal is **not public** — only you and staff can see it. You can view its status on the countries list under **"My Proposed Countries"**.
+
+**Outcomes:**
+- **Approved** → Moves to Stage 2
+- **Rejected** → You receive an email with the rejection reason; you can propose a revised version anytime
+
+#### Stage 2: Community Voting
+
+Once approved by staff, your proposal appears on the **[Proposed Countries](./proposals)** page, visible to all players. The community can now **upvote** it (login required) to signal interest.
+
+Countries are sorted by upvote count, so the most popular proposals rise to the top. Staff reviews community feedback and decides when to grant final approval — moving the country from "up for vote" to "live" status.
+
+### Tracking Your Proposal
+
+On the countries list, your proposals appear under **"My Proposed Countries"** with a status badge:
+
+- **Awaiting moderation** — Staff is reviewing it (not yet public)
+- **Up for community vote** — Passed moderation; [see it on the proposals list](./proposals) where players can upvote it
+- **Rejected** — Did not pass moderation; check the email for the reason and feel free to propose a revised version
+
+!!! tip "Share Your Proposal"
+    Once your country is up for community voting, encourage your friends to upvote it! Countries with strong community support are prioritized for launch.
+
 ## Choosing a Country
 
 ### Factors to Consider
