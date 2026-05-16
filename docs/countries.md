@@ -142,7 +142,7 @@ While awaiting moderation, your proposal is **not public** — only you and staf
 
 #### Stage 2: Community Voting
 
-Once approved by staff, your proposal appears on the **[Proposed Countries](./proposals)** page, visible to all players. The community can now **upvote** it (login required) to signal interest.
+Once approved by staff, your proposal appears on the **[Proposed Countries](countries/proposals.md)** page, visible to all players. The community can now **upvote** it (login required) to signal interest.
 
 Countries are sorted by upvote count, so the most popular proposals rise to the top. Staff reviews community feedback and decides when to grant final approval — moving the country from "up for vote" to "live" status.
 
@@ -151,7 +151,7 @@ Countries are sorted by upvote count, so the most popular proposals rise to the 
 On the countries list, your proposals appear under **"My Proposed Countries"** with a status badge:
 
 - **Awaiting moderation** — Staff is reviewing it (not yet public)
-- **Up for community vote** — Passed moderation; [see it on the proposals list](./proposals) where players can upvote it
+- **Up for community vote** — Passed moderation; [see it on the proposals list](countries/proposals.md) where players can upvote it
 - **Rejected** — Did not pass moderation; check the email for the reason and feel free to propose a revised version
 
 !!! tip "Share Your Proposal"
