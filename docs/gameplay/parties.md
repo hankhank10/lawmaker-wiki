@@ -42,8 +42,8 @@ The most important part of creating your party is setting **ideological position
 
 #### The Political Issues
 
-| Issue | Left Position | Right Position | What It Means |
-|-------|--------------|----------------|---------------|
+| Issue | -1 | +1 | What It Means |
+|-------|----|----|---------------|
 | **Gender Equality** | Traditional gender roles | Full gender equality | Family structure, workplace equality, gender policy |
 | **Role of Religion** | Secular governance | Religious influence | Church-state separation, religious freedom vs. tradition |
 | **Environment** | Economic growth first | Environmental protection | Climate policy, regulation, green energy vs. industry |
