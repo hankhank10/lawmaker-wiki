@@ -101,6 +101,71 @@ Learn more about how moods affect voters: [National Moods](gameplay/elections.md
 !!! info "Supporter Feature"
     The private country feature is available exclusively to Lawmaker supporters. Visit the [support page](../support) to find out how to become a supporter.
 
+## Country Flags & Flag Suggestions
+
+Every country can have a **national flag** displayed on its detail page and in country lists. When a live country doesn't have a flag, any player can initiate a **48-day flag suggestion process** — a democratic way for the community to choose a flag together.
+
+### How Flag Suggestions Work
+
+#### Starting a Suggestion Process
+
+When a country has no flag, any player with an active party in that country can **propose a flag**:
+
+1. Navigate to the country detail page
+2. Click the flag section (showing "This country has no flag yet")
+3. Upload an SVG file (max 100 KB)
+4. Once submitted, the **flag suggestion process starts** for 48 game days
+
+All other players in the country receive **email notifications and Discord alerts** that a flag suggestion process has begun.
+
+#### Participating in Suggestions
+
+During the 48-day window, any player with an active party in the country can:
+
+- **Upload one flag per party** (if you have multiple parties, you can submit one flag from each)
+- **Upvote any suggestion** you like (multiple upvotes per suggestion)
+- **View all suggestions** and current vote counts on the country page
+
+Voting is anonymous — upvoters aren't shown publicly, but upvote counts are visible.
+
+#### Resolution
+
+When the 48 days end, the system **automatically selects the most-upvoted flag**. If there's a tie, the earliest-proposed flag wins.
+
+The chosen flag becomes the country's official flag and is displayed on:
+
+- Country detail page
+- Country list pages
+- Proposed countries list
+- Any other country display
+
+!!! info "One Process at a Time"
+    Only one flag suggestion process can be active per country. Once a flag is chosen, it can only be changed if removed by staff.
+
+### Including a Flag When Proposing a Country
+
+When you propose a new country, you can optionally **include a flag at creation**:
+
+1. Fill in the country creation form (name, legislatures, cabinet positions, etc.)
+2. In the **"Country Flag"** section, upload an SVG file
+3. The flag is set immediately when the country goes live
+
+If you don't include a flag, the country will be flagless and any player can start the suggestion process later.
+
+### Flag File Requirements
+
+Flags must be:
+
+- **SVG format** (.svg files only)
+- **Maximum 100 KB**
+- **Valid XML** with proper SVG markup
+- **Safe** — scripts and unsafe content are automatically removed
+
+!!! tip "SVG Tips"
+    - Use free tools like Inkscape to create or modify SVG flags
+    - Simplify your design to keep file size small
+    - Test your SVG in a validator before uploading
+
 ## Proposing Public Countries
 
 Any logged-in player can **propose a new country** to add to Lawmaker's public roster. Proposed countries go through a two-stage process before going live.
@@ -117,6 +182,7 @@ On the countries list page, click **"Propose a Country"** to open the creation f
 - **Cabinet positions** — Government roles unique to your country
 - **Constitutional offices** — Special roles like monarch, chancellor, etc.
 - **National moods** — Permanent cultural moods that shape voter priorities
+- **Country flag** — [Optional] Upload an SVG flag for your country at creation
 - **Private option** — [Supporter-only] Make it invite-only instead of public
 
 Once submitted, your proposal enters the **moderation queue**.
