@@ -131,6 +131,81 @@ Moods can be:
 - **Permanent** - Reflect the country's established character (e.g., "Strong Military Culture")
 - **Temporary** - Emerge from events and fade over time (e.g., "Economic Prosperity" lasting 1 year)
 
+#### Available National Moods
+
+The following permanent moods are available when proposing new countries:
+
+=== "Traditional Culture ⛪"
+    **Faith, family, and the way things have always been done.**
+    
+    Voters skew socially conservative on identity and family issues, more sympathetic to religious influence in public life.
+    
+    - Moves voters toward: traditional gender roles, religious governance
+    - Moves voters away from: multiculturalism, immigration
+
+=== "Pioneer Spirit 🤠"
+    **Don't tread on me. Build it yourself.**
+    
+    Voters lean libertarian: they like personal freedom and dislike state intervention in the economy.
+    
+    - Moves voters toward: individual liberty, free markets
+    - Moves voters away from: welfare state, worker rights
+
+=== "Common Ground 🫂"
+    **We look after each other here.**
+    
+    Voters expect the state to provide a baseline for everyone and view inequality with suspicion.
+    
+    - Moves voters toward: welfare state, worker rights, education
+    - Moves voters away from: free markets
+
+=== "Stewards of the Land 🌱"
+    **What we leave behind matters more than what we take.**
+    
+    Voters prioritise long-term ecological sustainability and peaceful resolution over military action.
+    
+    - Moves voters toward: environmental protection
+    - Moves voters away from: military strength
+
+=== "Deeply Polarised ⚡"
+    **Every issue is the issue. Every fight is the fight.**
+    
+    Voters care intensely about their positions. Salience is doubled across the board, making elections turn on conviction rather than nuance.
+    
+    - Effect: All issues become more salient to all voters (no position shift)
+
+=== "Strength through Strength 🗡️"
+    **Borders matter. Strength is respected. The nation comes first.**
+    
+    Voters prize military capability and sovereign control above internationalism.
+    
+    - Moves voters toward: military strength, law and order
+    - Moves voters away from: immigration, multiculturalism
+
+=== "Citizens of the World 🌍"
+    **Everyone is welcome. Every identity is valid.**
+    
+    Voters are comfortable with diversity, supportive of gender equality, and welcoming to newcomers.
+    
+    - Moves voters toward: multiculturalism, gender equality, immigration
+    - Moves voters away from: religious governance in public life
+
+=== "The Great Disillusionment 😑"
+    **What's the point? Nobody's listening anyway.**
+    
+    Voters haven't shifted their views, but they've stopped caring as much. Salience is halved across the board, making elections noisier and less driven by conviction.
+    
+    - Effect: All issues become less salient (no position shift)
+
+=== "Patriarchal Society 👨‍⚖️"
+    **Men lead. That's just how it's always been done.**
+    
+    Male authority is deeply embedded in social, legal, and cultural norms. Gender issues carry extra weight in voter decision-making.
+    
+    - Moves voters toward: traditional gender roles, religious governance
+    - Moves voters away from: gender equality
+    - Gender roles become more important to voters
+
 #### Strategic Considerations
 
 When planning your proposals and voting strategy:
