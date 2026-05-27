@@ -113,7 +113,7 @@ When a country has no flag, any player with an active party in that country can 
 
 1. Navigate to the country detail page
 2. Click the flag section (showing "This country has no flag yet")
-3. Upload an SVG file (max 100 KB)
+3. Upload an SVG file (max 500 KB)
 4. Once submitted, the **flag suggestion process starts** for 48 game days
 
 All other players in the country receive **email notifications and Discord alerts** that a flag suggestion process has begun.
@@ -157,7 +157,7 @@ If you don't include a flag, the country will be flagless and any player can sta
 Flags must be:
 
 - **SVG format** (.svg files only)
-- **Maximum 100 KB**
+- **Maximum 500 KB**
 - **Valid XML** with proper SVG markup
 - **Safe** — scripts and unsafe content are automatically removed
 
