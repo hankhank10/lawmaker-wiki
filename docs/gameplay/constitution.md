@@ -89,6 +89,9 @@ After a constitutional change passes, there is a **cooldown period** (typically 
 !!! warning "High Stakes"
     Constitutional change packages cost at least 60 PP — the highest minimum of any action in the game. Make sure you have the votes lined up before opening one.
 
+!!! info "Exception: Constitutional Crisis"
+    The cooldown is bypassed for **pure abolish-the-monarchy packages** while a [Constitutional Crisis](monarchy.md#constitutional-crisis) national mood is active on the country. Any other change type in the package — or no crisis — and the normal cooldown applies.
+
 ## Voting on Constitutional Changes
 
 Constitutional changes require a **supermajority** to pass — a higher threshold than ordinary legislation.
@@ -111,6 +114,9 @@ graph TD
 4. Each required legislature must independently meet its **approval threshold** (typically 66.6% of all seats)
 5. If **all** legislatures meet the threshold, the change passes
 6. If **any** legislature fails to meet the threshold, the change fails
+
+!!! info "Exception: Constitutional Crisis"
+    While a [Constitutional Crisis](monarchy.md#constitutional-crisis) is active, the threshold is **halved** for packages containing only an abolish-the-monarchy item. The discount is evaluated live, at vote tally — if the crisis expires before the vote closes, the full threshold applies.
 
 ### Key Differences from Normal Legislation
 

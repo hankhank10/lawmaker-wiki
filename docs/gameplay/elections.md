@@ -206,6 +206,22 @@ The following permanent moods are available when proposing new countries:
     - Moves voters away from: gender equality
     - Gender roles become more important to voters
 
+#### Event-Triggered Moods
+
+Some moods are not selectable when proposing a country — they attach automatically when specific in-game events happen.
+
+=== "Constitutional Crisis 🏛️💥"
+    **The monarch has refused royal assent on a bill the legislature wanted to pass.**
+    
+    Triggered automatically when a reigning monarch vetoes a bill that had cleared the legislatures. Lasts 90 days; another such veto in that window resets the clock.
+    
+    - **No** effect on voter positions or salience
+    - Halves the approval threshold on **pure abolish-the-monarchy** constitutional change packages
+    - Bypasses the constitutional change cooldown for **pure abolish-the-monarchy** packages
+    - Mixed packages (abolition + anything else) get neither benefit
+    
+    See [Hereditary Monarchy → Constitutional Crisis](monarchy.md#constitutional-crisis) for full mechanics.
+
 #### Strategic Considerations
 
 When planning your proposals and voting strategy:

@@ -100,6 +100,46 @@ The veto is therefore only ever made public when it actually changes the outcome
 
 While reigning, the normal "Cast Your Vote" card is replaced by the Royal Assent card on each open proposal — monarchs do not vote on legislation, they decide whether to grant or refuse assent.
 
+## Constitutional Crisis
+
+When the monarch uses the veto to block a bill that had already passed the legislatures, the country enters a **Constitutional Crisis**. This is automatic — no one has to do anything for it to begin.
+
+### How it triggers
+
+The crisis is triggered at the moment a veto actually changes the outcome of a tally:
+
+- The legislatures **passed** the bill.
+- The reigning monarch had registered a **veto**.
+- The bill is therefore blocked at royal assent.
+
+A pre-registered veto that never came into play — because the legislatures rejected the bill on their own — does **not** trigger a crisis. The trigger requires the veto to be visibly overruling the legislature, not merely waiting in the wings.
+
+### How it appears
+
+A new national mood, **🏛️💥 Constitutional Crisis**, attaches to the country and is visible on the country page alongside any other active moods. It lasts **90 days**. The countdown is shown in the mood panel.
+
+If the monarch vetoes another otherwise-passing bill before the 90 days are up, the clock **resets** to a full 90 days from the new veto. The crisis does not stack or compound — there is always at most one Constitutional Crisis attachment on a country at a time.
+
+### What it changes
+
+The Constitutional Crisis has no effect on elector opinions or issue salience — it doesn't shift positions or polarise voters. Its effects are surgical, applying only to the rules around abolishing the monarchy:
+
+- **Halved threshold to abolish.** Constitutional change packages that contain **only** an abolish-the-monarchy item have their approval threshold halved in every required legislature. A country whose constitution normally requires (say) 80% to amend itself drops to 40% for the duration of the crisis. If the configured threshold is already at the 50% floor, it drops to 25%.
+
+- **Cooldown bypass on pure abolition.** Constitutions normally have a cooldown after each successful amendment — typically a year or two during which no further constitutional change can be opened. While the crisis is active, this cooldown is bypassed **for pure abolish-monarchy packages only**.
+
+Both of these checks are evaluated **live**, at the moment a package is opened or its votes are tallied. They don't get locked in at draft time. If the crisis expires before the vote closes, the normal threshold and cooldown rules apply from that point on.
+
+### The mixed-package rule
+
+The threshold halving and cooldown bypass only apply when the package contains nothing other than an abolish-the-monarchy item. As soon as you add a custom article, a power move, a repeal, or anything else, the whole package falls back to the configured threshold and the normal cooldown is enforced.
+
+This is deliberate: a Constitutional Crisis is meant to make it specifically easier to remove the monarchy, not to act as a general lever for pushing other constitutional changes through at a discount.
+
+### Why it exists
+
+Constitutional Crisis exists to give players a real consequence for using the royal veto. The monarchy is structurally powerful — the threat of veto can shape what bills parties even attempt — but every veto carries a cost. Hold the line too often and you may find that the country has built a republican majority that it could not have assembled in normal political weather.
+
 ## Abdication
 
 A reigning monarch can abdicate at any time.
