@@ -175,6 +175,7 @@ Any logged-in player can **propose a new country** to add to Lawmaker's public r
 On the countries list page, click **"Propose a Country"** to open the creation form. You'll define:
 
 - **Name** — Your country's name
+- **Official name prefix** — [Optional] A prefix placed before the country name to form the official name (e.g. "The Republic of"). Leave blank to set no official name; it can be adopted later via constitutional amendment.
 - **Description** — A short summary of its theme or lore
 - **Population** — In millions (affects scale of politics)
 - **System type** — The governance model (monarchy, republic, federal, presidential, etc.)
