@@ -34,13 +34,36 @@ stands in for a slice of the population (population ÷ number of electors).
 Each elector contributes to GDP based on:
 
 1. **Employment status** — the unemployed and the retired contribute nothing.
-2. **Income band** — medium earners contribute the baseline GDP per capita; high
-   earners contribute more, low earners less (the exact multipliers are tunable
-   per country, defaulting to 2× for high and 0.5× for low).
+2. **Income band** — each employed elector is in one of four bands that scale
+   their contribution relative to the baseline GDP per capita:
+
+    | Income band | Default multiplier | Typical share of employed |
+    |-------------|-------------------|--------------------------|
+    | Low         | 0.5×              | ~30%                     |
+    | Medium      | 1.0× (baseline)   | ~40%                     |
+    | High        | 2.0×              | ~29%                     |
+    | Elite       | 10.0×             | ~1%                      |
+
+    The per-country multipliers for each band are tunable by a superuser.
+
 3. **A small personal variation** — each elector has a fixed ±5% modifier.
 
 National GDP is the sum of every elector's contribution multiplied by the number
 of people they represent.
+
+## Unemployment and retirement
+
+The share of the population that is unemployed or retired varies by economy type:
+
+| Economy type    | Retired (% of adults) | Unemployed (% of workforce) |
+|-----------------|----------------------|-----------------------------|
+| Failed state    | 8%                   | 35%                         |
+| Developing      | 12%                  | 16%                         |
+| Developed       | 22%                  | 6%                          |
+| Highly advanced | 25%                  | 4%                          |
+
+These reflect the different demographic and labour-market profiles of each
+economy type. Both groups contribute zero to GDP.
 
 ## The Economy page
 
@@ -49,8 +72,12 @@ page, and the menu). It shows a **live** snapshot — recalculated every visit �
 including:
 
 - Average GDP per capita (the actual figure, not the baseline)
-- Total GDP, broken down by low / medium / high earners
-- Unemployment rate and a simple income-inequality measure
+- Median GDP per capita (the middle value across employed electors)
+- Total GDP, broken down by low / medium / high / elite earners
+- Unemployment rate
+- **Inequality ratio** — the mean GDP per capita of high earners divided by the
+  mean of low earners (a higher number means greater inequality; elite earners
+  are not included in this figure)
 - A history table and graph of how the economy has changed month on month
 - The country's **international rankings** (by total GDP and GDP per capita)
 
@@ -67,4 +94,6 @@ snapshot.
 
 At the start of each game month, every country's baseline GDP per capita grows by
 the monthly equivalent of its annual growth rate (or shrinks, if the rate is
-negative). Over twelve months this compounds to roughly the stated annual figure.
+negative). Each month's increment also has a small random variation of ±5%, so
+the actual path is slightly uneven even at a constant growth rate. Over twelve
+months this compounds to roughly the stated annual figure.
