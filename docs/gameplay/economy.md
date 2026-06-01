@@ -97,3 +97,14 @@ the monthly equivalent of its annual growth rate (or shrinks, if the rate is
 negative). Each month's increment also has a small random variation of ±5%, so
 the actual path is slightly uneven even at a constant growth rate. Over twelve
 months this compounds to roughly the stated annual figure.
+
+### National Moods and Economic Growth
+
+A country may experience temporary **national moods** that modify its economic
+growth rate:
+
+- **Economic Miracle** - Doubles the baseline annual growth rate (e.g., a 2% growth country grows at ~4% while the mood lasts)
+- **Economic Crash** - Overrides the baseline and forces contraction at ~-3.5%/year regardless of normal growth
+
+These are external economic events that can occur during gameplay. See
+[National Moods](elections.md#event-triggered-moods) for more details.

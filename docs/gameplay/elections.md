@@ -222,6 +222,28 @@ Some moods are not selectable when proposing a country — they attach automatic
     
     See [Hereditary Monarchy → Constitutional Crisis](monarchy.md#constitutional-crisis) for full mechanics.
 
+=== "Economic Miracle 📈"
+    **Boom times — the economy is firing on all cylinders.**
+    
+    Triggered by rare alignments of favourable conditions (productivity surges, investment booms, resource windfalls, or confident markets). Lasts **2 years** by default.
+    
+    - **No** effect on voter positions or salience
+    - **Effect on economy:** Baseline GDP per capita grows at **double** the country's normal annual growth rate
+    - Example: A country normally growing at 2%/year would grow at ~4% while the mood is active
+    
+    These mood events are external to player action and appear as shifts in the nation's economy.
+
+=== "Economic Crash 📉"
+    **The bottom has fallen out — the economy is contracting.**
+    
+    Triggered by severe downturns (financial crises, burst bubbles, trade shocks, or collapse in confidence). Lasts **2 years** by default.
+    
+    - **No** effect on voter positions or salience
+    - **Effect on economy:** Baseline GDP per capita shrinks at around **-3.5%/year** regardless of the country's normal trend
+    - Example: A country normally growing at 5%/year would instead shrink at -3.5% while the mood is active
+    
+    These mood events are external to player action and appear as shifts in the nation's economy.
+
 #### Strategic Considerations
 
 When planning your proposals and voting strategy:
