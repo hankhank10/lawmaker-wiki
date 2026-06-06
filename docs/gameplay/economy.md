@@ -78,6 +78,7 @@ including:
 - **Inequality ratio** — the mean GDP per capita of high earners divided by the
   mean of low earners (a higher number means greater inequality; elite earners
   are not included in this figure)
+- **Interest expense/income** — the actual interest paid or earned on the country's debt or reserves in the previous month. This is a **backward-looking figure** based on last month's balance and the country's credit rating, not a projection of future interest payments.
 - A history table and graph of how the economy has changed month on month
 - The country's **international rankings** (by total GDP and GDP per capita)
 

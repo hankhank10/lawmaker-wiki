@@ -421,9 +421,17 @@ Check if you're likely to gain or lose seats:
 
 ## Polling
 
+### Viewing Polls
+
+All logged-in users can view election polls, whether or not they have an active party in the country:
+
+- **Party members** can see all polls their party has commissioned (private and public)
+- **Non-party users** (monarchs, spectators, players from other countries) can see public and published polls
+- **Admins** can see all polls in the country
+
 ### Commissioning Polls
 
-You can pay to see **electoral forecasts**:
+Only parties with an active presence in the country can commission new polls:
 
 - **Cost:** 10 Political Power
 - **Shows:** Projected vote share for all parties
@@ -432,7 +440,7 @@ You can pay to see **electoral forecasts**:
 
 To commission a poll:
 
-1. Ensure you have 10 PP
+1. Ensure you have 10 PP and an active party in the country
 2. Go to polling section
 3. Choose public or private poll
 4. Review results

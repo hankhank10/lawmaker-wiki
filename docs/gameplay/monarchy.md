@@ -62,6 +62,17 @@ The accession has major consequences:
 
 While reigning, you can post to the social media feed as the Crown. Crown posts use the monarch's regnal name and link back to the monarchy page.
 
+## As a Reigning Monarch
+
+When you are reigning, your navigation menu gains an **Insights** dropdown that provides read-only access to:
+
+- **Election Polling** - View [election polls](#polling) commissioned by parties in your country
+- **Focus Groups** - Study individual [elector profiles](elections.md#elector-profiles) and their preferences
+- **Demographics** - View [demographic visualizations](elections.md#demographics-and-issue-analysis) of the electorate
+- **Issue Analysis** - Analyze how [elector issue views](elections.md#demographics-and-issue-analysis) relate to demographics
+
+These views are available for analysis and research, though as the Crown you cannot commission new polls (that requires an active party). This allows monarchs to monitor political sentiment and electoral trends even while not participating in party politics.
+
 !!! warning "A Crown Is Not A Campaign Vehicle"
     Winning the throne is a permanent-looking prestige move, but it removes your party from normal electoral politics while the reign lasts. Do not nominate casually.
 
