@@ -34,14 +34,16 @@ All discussions must be in English to allow for effective moderation.
 
 ## Account Policies
 
-### Multiple Accounts During Alpha
+### Multiple Accounts
 
-During the **alpha phase** of Lawmaker, players are permitted to maintain multiple accounts for the same person, with the following restrictions:
+Players may hold multiple accounts, each with a different email address, subject to the following rules:
 
-- **No same-country accounts**: You cannot operate multiple parties in the same country. Accounts must be in different countries.
-- **No collaboration**: You cannot coordinate or collaborate between your multiple accounts. Each account must operate independently as separate players.
+- **One party per country, per person**: You may not operate more than one party within the same country, regardless of how many accounts you hold.
+- **No collaboration between your own accounts**: Each account must play fully independently. You may not pass information, coordinate votes, or otherwise give any of your own accounts an unfair advantage.
 
-Once the game exits alpha, the multiple account policy will be reviewed and updated accordingly.
+Accounts that appear to be operated by the same person within the same country may be investigated and removed.
+
+Once the game exits alpha, this multi-account policy will be reviewed and updated.
 
 ---
 

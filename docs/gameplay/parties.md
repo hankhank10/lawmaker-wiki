@@ -264,9 +264,9 @@ Control visibility of:
 - Commissioned polls (public or private)
 - Internal party information
 
-## One Party Per Player
+## One Party Per Country
 
-Each player can control **one party** at a time. Choose your country and party carefully — this is your sole vehicle for participating in the game.
+Each account controls **one active party**. If you want to participate in multiple countries, you will need a separate account with a different email address for each. Operating more than one party in the same country — across any number of accounts — is not permitted.
 
 ## Enthroned Parties
 
