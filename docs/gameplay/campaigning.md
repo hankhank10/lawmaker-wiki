@@ -8,7 +8,7 @@ Every party has a **campaign calendar** showing the current game month. From her
 
 - View upcoming and past events
 - Schedule new events on future dates
-- Edit or move future events
+- Edit, move, or copy future events
 - See election days marked on the calendar
 
 !!! info "One Event Per Day"
@@ -183,6 +183,24 @@ You can edit any **future** event to change its:
 ### Moving Events
 
 Drag or move events to a different future date. The same restrictions apply — you can't move events to election days or past dates.
+
+### Copying Events
+
+You can **copy** any event to a different date to duplicate its setup:
+
+1. Click on the event to open its details
+2. Click the **Copy event** button
+3. The event is copied to your clipboard — a notification appears showing what was copied
+4. Click any future date where you want to paste it
+5. The event is pasted with the same objective, event type, and activist assigned
+6. Press **Esc** or click **Cancel** to clear the clipboard without pasting
+
+This is useful when you want to schedule similar events on multiple dates or reuse a successful event setup.
+
+!!! info "Paste Target Requirements"
+    - The target date must be in the future
+    - No other event can be scheduled on that date (one event per day)
+    - The date cannot be an election day
 
 ### Deleting Events
 
