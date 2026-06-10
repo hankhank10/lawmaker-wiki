@@ -41,7 +41,7 @@ Players may hold multiple accounts, each with a different email address, subject
 - **One party per country, per person**: You may not operate more than one party within the same country, regardless of how many accounts you hold.
 - **No collaboration between your own accounts**: Each account must play fully independently. You may not pass information, coordinate votes, or otherwise give any of your own accounts an unfair advantage.
 
-Accounts that appear to be operated by the same person within the same country may be investigated and removed.
+Accounts that appear to be operated by the same person within the same country may be investigated and removed. **If a violation is detected and you do not voluntarily disband the extra parties, all of your parties may be deleted.**
 
 Once the game exits alpha, this multi-account policy will be reviewed and updated.
 
