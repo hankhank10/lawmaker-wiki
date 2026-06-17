@@ -267,6 +267,9 @@ Electors vote for parties by:
 4. **Forming opinions** - Build a positive or negative view of each party
 5. **Casting their vote** - Support the party that best matches their preferences
 
+!!! note "Budgets count too — about 30% of the picture"
+    Voters don't only judge you on laws. **Budget decisions (tax and spending) now shape opinions as well.** Each elector's overall view of your party is roughly 70% based on your social policy record (laws) and 30% on your financial policy record (budgets). Voters react personally to income tax changes in their own bracket, and they notice when spending rises or falls in areas they care about — defence, education, welfare, the environment, and more. See [the economy guide](economy.md#how-budgets-affect-voters) for a full breakdown of how this works and how to use it strategically.
+
 !!! example "Elector Decision-Making"
     **Elector Profile:** Strong environmentalist
 
