@@ -221,7 +221,7 @@ Each issue has a spectrum from **-1 to +1**:
 
 ## Laws Catalog
 
-Below are all **17 laws** that can be changed through [proposals](gameplay/legislation.md). Each law has 2-4 options representing different policy positions.
+Below are all **18 laws** that can be changed through [proposals](gameplay/legislation.md). Each law has 2-4 options representing different policy positions.
 
 ### Defense
 
@@ -238,6 +238,23 @@ Determines whether citizens are required to serve in the armed forces.
 | **Conscription from 18-25** | | ⚔️ Strong military (+1.0), 🗽 Very low liberty (-0.9), 👶 Neutral young |
 
 **Rationale:** Military service policies determine armed forces size and readiness, restrict personal freedom through mandated service, and affect young people's ability to pursue education and careers.
+
+---
+
+#### 👩‍✈️ Women in the Armed Forces
+
+**Code:** `women_in_military`
+
+Determines whether women can serve in the armed forces and in what capacity.
+
+| Option | Default | Impacts |
+|--------|---------|---------|
+| **Women Barred** | | 🙋‍♀️ Traditional roles (-0.7), ⚔️ Reduced military strength (-0.35) |
+| **No Fighting for Thee** | | 🙋‍♀️ Traditional roles (-0.5), ⚔️ Reduced military strength (-0.15) |
+| **Armour Glass Ceiling** | | 🙋‍♀️ Some tradition (-0.2), ⚔️ Slight reduced strength (-0.05) |
+| **Equal Participation** | ✓ | 🙋‍♀️ Gender equality (+1.0), ⚔️ Optimal military strength (+0.0) |
+
+**Rationale:** Women's participation in the armed forces affects equality policies, determines the recruitment pool size and military effectiveness, and shapes broader social signals about gender roles.
 
 ---
 
@@ -583,4 +600,4 @@ When [voting on proposals](gameplay/legislation.md#voting-on-proposals):
 
 ---
 
-*Last updated: 2025-01-27 (Catalog version)*
+*Last updated: 2026-06-15*

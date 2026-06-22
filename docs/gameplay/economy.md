@@ -65,6 +65,17 @@ The share of the population that is unemployed or retired varies by economy type
 These reflect the different demographic and labour-market profiles of each
 economy type. Both groups contribute zero to GDP.
 
+## Country Summary & Credit Rating
+
+Every country's detail page shows an **economy summary box** with key economic metrics at a glance:
+
+- **GDP** — Total national gross domestic product
+- **GDP per capita** — Average wealth per adult
+- **Credit rating** — The country's current credit rating (AAA, AA, A, BBB, BB, B, or CCC) based on debt-to-GDP ratio. This rating determines the interest rate the country pays on its debt (AAA = 2.0%, CCC = 18.0%).
+- **Unemployment** — Current percentage of the workforce without jobs
+
+The credit rating is a key indicator of fiscal health — managing your country's budget and keeping debt manageable helps maintain a strong rating and lower borrowing costs.
+
 ## The Economy page
 
 Every country has an **Economy** page (linked from the dashboard, the country
