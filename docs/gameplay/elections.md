@@ -257,6 +257,99 @@ When planning your proposals and voting strategy:
 !!! tip "Use Moods to Your Advantage"
     If a mood aligns with your party's values, it's a tailwind for your growth. If it opposes you, focus on other issues and wait for the mood to pass.
 
+### Elector Satisfaction
+
+Beyond individual party opinions, each elector has a **satisfaction score** — a measure of how happy they are with the *current state of the country*, independent of any particular party. This is distinct from their opinion of your party: satisfaction reflects whether the country's finances compare favourably to similar nations, not whether they agree with your voting record.
+
+#### What Is Satisfaction?
+
+Satisfaction is a score from **−1 (extremely dissatisfied) to +1 (satisfied)**, based on how the country's economy compares to its **peer countries** — nations at a similar level of economic development in the same world. When your country's taxes and spending outperform peers in ways that matter to each elector, satisfaction rises. When you compare poorly, it falls.
+
+!!! info "Economy required"
+    Elector satisfaction only exists in countries with an active economy. If your country's economy is disabled, no satisfaction scores or badges will appear.
+
+#### What Drives Satisfaction?
+
+Two financial forces move each elector's satisfaction:
+
+| Driver | Weight | What it measures |
+|--------|--------|-----------------|
+| **Tax (pocketbook)** | 70% | Is the elector's income-band tax rate lower or higher than peer countries? |
+| **Spending (issue-mapped)** | 30% | Does your government spend more or less than peers on issues this elector cares about? |
+
+**Tax:** Every elector sits in an income band (low, medium, high, or elite). If your country taxes their band *more* than peers, they are less satisfied; if you tax them *less*, they are happier. Wealthier electors are more sensitive — the elite and high earners react strongly to their tax rate, while low earners weight the services that tax pays for more heavily.
+
+**Spending:** Government spending in each area maps to the political issues electors already hold positions on:
+
+| Spending area | Issue it speaks to |
+|--------------|-------------------|
+| Defence | Military strength |
+| Education | Education & young people |
+| Welfare & healthcare | Welfare state; support for older people |
+| Police & justice | Law and order |
+| Environment | Environmental protection |
+| Foreign aid | Internationalism |
+
+If your country spends more per capita than peers on an area an elector cares about, they are more satisfied. Spend less, and they notice.
+
+!!! example "Satisfaction in practice"
+    A **low-income elector** who cares strongly about the welfare state will be most satisfied when your country spends generously on welfare compared to peers, and will be less affected by tax levels. A **high-income elector** focused on low taxes will primarily track whether your income tax on their band is competitive with peer nations.
+
+#### Satisfaction Bands
+
+Elector satisfaction is grouped into four bands:
+
+| Band | Score range | Badge | Shown publicly? |
+|------|-------------|-------|-----------------|
+| **Satisfied** | ≥ +0.2 | 😊 | Yes |
+| **Indifferent** | −0.2 to +0.2 | *(none — silent)* | No |
+| **Dissatisfied** | −0.45 to −0.2 | 😟 | Yes |
+| **Extremely dissatisfied** | < −0.45 | 😠 | Yes |
+
+The **indifferent band is deliberately silent** — no badge appears. The absence of a satisfaction badge is itself meaningful: the country is broadly on par with its peers.
+
+#### Where to View Satisfaction
+
+Satisfaction scores appear in several places in the game:
+
+1. **Elector list** — A satisfaction column shows each elector's score and mood. Sort the list to find your most and least satisfied voters and spot patterns across income bands.
+
+2. **Elector detail page** — Each elector's profile has a satisfaction breakdown card showing:
+   - Their overall score and band
+   - The tax component: what your country charges their band vs the peer average
+   - The top spending issues contributing to their score, with explanations
+
+3. **Poll detail page** — When you commission or view a poll, a **National Satisfaction** card shows:
+   - The country-wide average satisfaction score
+   - A mood badge for the national band
+   - A distribution chart showing how many electors fall into each band
+
+4. **Polling history** — The polling centre table includes satisfaction scores for historical polls, so you can track how national sentiment has shifted over time.
+
+5. **Country page** — When a country's satisfaction tips into a notable band (satisfied, dissatisfied, or extremely dissatisfied), a **mood badge** appears on the country page alongside other national moods. Players from other countries can see this at a glance.
+
+!!! note "Satisfaction vs party opinion"
+    Satisfaction measures happiness with *the country's situation as a whole*, not with your party specifically. A dissatisfied electorate doesn't automatically punish the governing party — but it does signal that financial conditions compare poorly to peers, and creates an opening for parties promising change.
+
+#### Mood-Shift Journalism
+
+When a country's public satisfaction band changes — for example, tipping from *Indifferent* to *Dissatisfied*, or recovering from *Dissatisfied* back to *Satisfied* — the country's political journalist automatically **publishes a social media post** noting the shift. This makes significant changes in national sentiment visible to all players watching that country.
+
+!!! tip "Only public polls and elections trigger news"
+    Satisfaction mood-shift posts only fire when confirmed by a **public poll or election**. Private party polls update the data internally but do not generate journalist posts.
+
+#### Strategic Implications
+
+Satisfaction is a diagnostic signal, not a direct vote-changer — but it tells you important things about the electorate's underlying mood:
+
+- **High satisfaction** means the country is outperforming its peers financially. This benefits governing parties defending the status quo and makes bold reform harder to sell to voters.
+- **Low satisfaction** means the country is falling behind peers. This creates an opening for opposition parties running on change, and makes voters more receptive to policy shifts.
+- **Spending lever:** You can improve satisfaction by increasing spending in areas important to your electorate — but only if that spending is genuinely *above* the peer average. Matching peers is invisible to voters.
+- **Tax lever:** Cutting taxes on a band relative to peers improves that band's satisfaction, but the effect is most pronounced for high and elite earners.
+
+!!! tip "Commission polls to track satisfaction"
+    Satisfaction scores are only refreshed when a poll is commissioned or an election occurs. Commission regular public polls to keep satisfaction data current and visible to all parties in the country.
+
 ### How Electors Decide
 
 Electors vote for parties by:
@@ -475,6 +568,7 @@ Polls show:
 - **Projected seats** in next election
 - **Turnout forecast**
 - **Margin of error**
+- **National satisfaction** score and distribution (economies only) — see [Elector Satisfaction](#elector-satisfaction)
 
 !!! warning "Polls Are Snapshots"
     Polls show current opinions, not future results. Voters can change their minds based on new votes and proposals before election day!
