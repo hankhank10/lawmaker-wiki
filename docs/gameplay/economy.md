@@ -106,8 +106,8 @@ snapshot.
 
 At the start of each game month, every country's baseline GDP per capita grows by
 the monthly equivalent of its annual growth rate (or shrinks, if the rate is
-negative). Each month's increment also has a small random variation of ±5%, so
-the actual path is slightly uneven even at a constant growth rate. Over twelve
+negative). Each month's increment also has a random variation of ±10%, so
+the actual path is noticeably uneven even at a constant growth rate. Over twelve
 months this compounds to roughly the stated annual figure.
 
 ## How budgets affect voters
