@@ -617,6 +617,31 @@ If opposition is <50%, early election is called.
     - **Opposition parties** vote No to deny them advantage
     - **Small parties** might vote Yes if they're growing
 
+### Automatic Early Elections (Empty Legislature)
+
+Sometimes a legislature can empty out between scheduled elections — most often when a
+governing party is **disbanded or deleted** and its seats are vacated. To stop a chamber
+from being left without enough sitting members to function, the game watches for this
+automatically.
+
+- **What triggers it:** During the **daily check**, if the share of a legislature's seats
+  occupied by active parties drops **below 50%**, an early election is automatically called
+  for that legislature.
+- **No vote required:** Unlike a party-called early election, this happens on its own — there
+  is no proposal and no PP cost. The election is simply scheduled.
+- **When it's held:** The early election is set for **10 game days** later, giving parties
+  time to campaign before the seats are refilled.
+- **Just the affected chamber:** Only the under-occupied legislature goes back to the voters.
+  Other legislatures in the same country keep their normal election schedule.
+- **You'll see it in the news:** When this happens, the in-game political press posts an
+  update announcing that the depleted legislature is being sent back to the electorate, so
+  every party knows an early election is coming.
+
+!!! info "Why this exists"
+    A legislature that loses most of its members can no longer pass laws or hold a working
+    majority. Automatically refilling it keeps the country governable instead of leaving it
+    stuck with a hollowed-out chamber until the next scheduled election.
+
 ## Post-Election
 
 ### Forming Government
