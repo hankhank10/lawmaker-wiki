@@ -65,6 +65,44 @@ Laws cover areas like:
 
 See the full catalog: [Laws & Policies](../laws-and-policies.md)
 
+## Exploring Laws
+
+With 95 laws across 21 policy areas, Lawmaker provides dedicated tools to explore and compare laws across countries.
+
+### Per-Country Law Page
+
+Each country has a dedicated **Laws** page that displays all current laws in that country:
+
+**Access:** From the country detail page, click the country name in the menu or select "View Laws"
+
+**Features:**
+
+- **Organized by category** - Laws grouped into logical sections (Defence, Economy, Education, Environment, Healthcare, Immigration, and more)
+- **Live search** - Search for laws by title, current option, or any available option label
+- **Category filter** - Toggle specific policy areas on and off
+- **Current law state** - Each law shows its current setting clearly
+- **Full legislative history** - Expand any law to see voting records and when it was last changed
+- **Proposal interface** - Directly propose changes to laws from this page
+
+!!! tip "Exploring Before Proposing"
+    Use the law page to understand the current state of all laws before proposing changes. See what other parties have voted for historically and identify areas where your party might build consensus.
+
+### International Laws Explorer
+
+The **International Laws Explorer** is a global comparison tool available from the International menu. It lets you see how all countries in the world compare on any given law.
+
+**Access:** Main menu → International → Laws Explorer
+
+**Features:**
+
+- **Choose any law** from the full catalog via dropdown (grouped by category)
+- **Visual comparison chart** - See how many countries hold each position on that law
+- **Country spotlight** - Optionally drop a country badge on the chart to see exactly where that country sits
+- **Tooltip details** - Hover over each position to see which countries hold it (shows list if 5 or fewer, count if more)
+
+!!! example "Using the Explorer"
+    You want to understand the international stance on minimum wage policy. Open the Laws Explorer, select "Minimum Wage Policy" from the Labour dropdown. The chart shows that 12 countries have "No minimum wage", 8 have "Basic minimum wage", and 4 have "High living wage". You can drop your country badge to see exactly where you fit in the global distribution.
+
 ## Proposing Legislation
 
 ### Creating a Proposal
