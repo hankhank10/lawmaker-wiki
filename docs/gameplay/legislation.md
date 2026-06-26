@@ -211,6 +211,18 @@ Plan accordingly! See [Political Power](resources.md) for resource management.
 
 ## Voting on Proposals
 
+### Finding Open Proposals
+
+Open proposals are displayed on the **country detail page** in the "Currently being voted on" section. Each proposal shows:
+
+- **Title** - The name of the proposal
+- **Articles** - The specific law changes included
+- **Proposer** - Which party proposed it
+- **Status button** - "Vote" if you haven't voted yet, "View" if you have already voted
+
+!!! tip "Quick Access"
+    The country detail page gives you a quick overview of active voting. Click on any proposal to see the full details, voting history, and cast or change your vote.
+
 ### The Voting Period
 
 - **Duration**: 60 game days (2.5 real days)
