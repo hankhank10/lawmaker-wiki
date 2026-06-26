@@ -52,28 +52,29 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
-  - Rules & Policies: rules.md
   - Game Concept: game-concept.md
-  - Gameplay:
-      - Party Management: gameplay/parties.md
-      - International Blocs: gameplay/international-blocs.md
+  - Quick Reference: reference.md
+  - Playing the Game:
+      - Party & Ideology: gameplay/parties.md
+      - Characters & Activists: gameplay/characters.md
       - Legislation & Voting: gameplay/legislation.md
       - Elections & Voters: gameplay/elections.md
-      - Economy: gameplay/economy.md
-      - Characters & Activists: gameplay/characters.md
       - Campaign Events: gameplay/campaigning.md
+      - Communication & Coalitions: gameplay/communication.md
+  - Government & Institutions:
+      - Government & Cabinet: gameplay/cabinet.md
       - Constitution: gameplay/constitution.md
       - Hereditary Monarchy: gameplay/monarchy.md
-      - Government & Cabinet: gameplay/cabinet.md
-      - Political Power: gameplay/resources.md
-      - Social Media: gameplay/social-media.md
-      - Communication: gameplay/communication.md
-  - Countries: countries.md
-  - Laws & Policies: laws-and-policies.md
-  - Strategy Guide: strategy-guide.md
-  - FAQ: faq.md
-  - Roadmap: roadmap.md
-  - Contributing: contributing.md
+  - Reference:
+      - Laws & Policies: laws-and-policies.md
+      - Economy: gameplay/economy.md
+      - Countries: countries.md
+      - Strategy Guide: strategy-guide.md
+      - FAQ: faq.md
+  - About:
+      - Rules & Policies: rules.md
+      - Roadmap: roadmap.md
+      - Contributing: contributing.md
   - Discord: https://discord.gg/gKAvGTFKzB
 
 extra:

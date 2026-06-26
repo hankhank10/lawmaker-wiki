@@ -1,158 +1,53 @@
 # Getting Started
 
-Welcome to Lawmaker! This guide will walk you through your first steps in the game.
+This guide walks you through your first hour in Lawmaker: making an account, choosing a country, and launching a party.
 
-## Creating Your Account
+## 1. Create your account
 
-1. Visit [lawmakergame.com](https://lawmakergame.com)
-2. Create an account with your email address
-3. Verify your email (check your spam folder if needed)
-4. Log in to access the game
+Sign up at [lawmakergame.com](https://lawmakergame.com) with your email, verify it (check spam), and log in.
 
-## Choosing a Country
+## 2. Choose a country
 
-After logging in, you'll need to select a country to play in. Each country is an **independent simulation** - parties in one country don't interact with parties in another.
+Each country runs its own **self-contained simulation** — laws, elections, and the economy play out separately in each, so what happens in one country doesn't change another. Players can still connect across borders (through [international blocs](gameplay/communication.md#international-blocs) and cross-country messaging), but you play **one party per country**, so pick the community you want to join.
 
-Available countries include:
+Current countries include **Avalon** (a large constitutional monarchy), **Marianne**, **Columbia**, and **Rheinland**. Before committing, look at a country's activity level and which parties already exist — an active country with a gap in the political spectrum is the best place to start. See [Countries](countries.md) for the full picture.
 
-- **Avalon** - A large constitutional monarchy (65 million population, 650 seats)
-- **Marianne** - French-inspired political system
-- **Columbia** - American-style governance
-- **Rheinland** - German-influenced federation
+## 3. Create your party
 
-!!! tip "Choosing Your Country"
-    Pick a country based on which community you want to join. Check each country's activity level and existing parties before deciding. Each player can run **one party** at a time, so choose carefully!
+Give your party a name, abbreviation, colour, slogan, and description. Then do the part that matters most: **define your ideology**.
 
-## Creating Your First Party
+You choose **4 policy pillars** — four political issues, each with a position on its spectrum. These become the platform voters and other players judge you by. A few examples of the issues you can build on:
 
-Once you've selected a country, it's time to create your political party.
+| Issue | Spectrum |
+| --- | --- |
+| **Economy** | Wealth redistribution ↔ Free market |
+| **Environment** | Economic growth ↔ Environmental protection |
+| **Immigration** | Border security ↔ Open borders |
+| **Individual Liberty** | Strong leadership ↔ Maximum freedom |
 
-### 1. Basic Information
+There are 16 issues in all — see [Laws & Policies](laws-and-policies.md) for the complete list. Pick four that give you a clear, coherent identity.
 
-Give your party:
+!!! tip "Pick a lane"
+    A sharp, consistent platform beats a vague one. Voters reward parties that stand for something recognisable, so choose pillars you're willing to vote for consistently.
 
-- **Name** - What your party will be called
-- **Abbreviation** - A short form (e.g., "Democratic Party" → "DP")
-- **Color** - Your party's identifying color on charts and maps
-- **Slogan** - A catchy phrase that summarizes your platform
-- **Description** - Explain your party's vision and goals
+## 4. Take your first actions
 
-### 2. Define Your Ideology
+Once your party is live, your dashboard shows your seats, **Political Power (PP)**, open proposals, and upcoming elections. Good first moves:
 
-This is the most important step! You'll choose **4 policy pillars** from the available political issues and set your position on each:
+- **Read the open proposals** other parties have put forward, and cast your votes (Yes / No / Abstain). Voting is free and every vote joins your permanent record.
+- **Check your country's current laws** to understand the status quo before you try to change it.
+- **Introduce yourself** to other parties — coalition-building is how laws get passed, and messaging costs nothing.
 
-| Issue                  | Spectrum                                   |
-| ---------------------- | ------------------------------------------ |
-| **Gender Equality**    | Traditional Roles ↔ Full Equality          |
-| **Role of Religion**   | Secular State ↔ Religious Governance       |
-| **Environment**        | Economic Growth ↔ Environmental Protection |
-| **Individual Liberty** | Strong Leadership ↔ Maximum Freedom        |
-| **Military**           | Diplomatic Solutions ↔ Strong Military     |
-| **Immigration**        | Border Security ↔ Open Borders             |
-| **Economy**            | Wealth Redistribution ↔ Free Market        |
-| **Workers' Rights**    | Business-Friendly ↔ Worker Protections     |
+You start with **100 PP** and earn more over time. PP is the currency for major actions like proposing a law (30 PP) or recruiting an activist (10 PP); see the [Quick Reference](reference.md) for the full list of costs. Don't spend it all at once — keep a reserve for opportunities.
 
-!!! warning "Choose Carefully"
-Your ideological positions affect how voters perceive you. Vote consistently with your ideology to maintain credibility, or adjust your positions strategically to appeal to different voter groups.
+!!! info "Agree to the rules first"
+    Before you can fully participate, you'll be asked to read and accept the [game rules](rules.md) — stay in character, no real-world names, be respectful.
 
-### 3. Launch Your Party
+## What's next
 
-Once you've defined your party, you're ready to enter the political arena!
+- **[Game Concept](game-concept.md)** — understand how the whole game fits together.
+- **[Legislation & Voting](gameplay/legislation.md)** — propose your first law.
+- **[Elections & Voters](gameplay/elections.md)** — learn how electors decide.
+- **[Strategy Guide](strategy-guide.md)** — tips for building a winning party.
 
-## Understanding the Dashboard
-
-Your party dashboard shows:
-
-- **Political Power (PP)** - Your resource for actions (you start with 100 PP and gain 1 PP per game day, modified by your positions)
-- **Current Seats** - Your representation in legislatures
-- **Active Proposals** - Laws currently being voted on
-- **Upcoming Elections** - When the next election will occur
-- **Recent Activity** - Latest game events
-
-## Your First Actions
-
-### 1. Review Active Proposals
-
-Check what laws other parties are proposing. Click on each proposal to:
-
-- Read the proposed changes
-- See how other parties voted
-- Cast your vote (Yes, No, or Abstain)
-
-!!! tip "Voting Strategy"
-Every vote shapes your party's legislative record. Voters will judge you based on your voting history, so vote according to your ideology or strategic goals.
-
-### 2. Check the Current Laws
-
-Visit your country's overview page to see:
-
-- All current laws and their settings
-- Which parties enacted them
-- Historical changes to laws
-
-This helps you understand what's already been decided and what you might want to change.
-
-### 3. Build Political Power
-
-You start with **100 Political Power (PP)**, and it regenerates at 1 PP per game day (1 real-world hour) up to a maximum of 120. Holding government positions increases your regeneration rate.
-
-**PP Costs:**
-
-| Action | Cost |
-|--------|------|
-| Propose new legislation | 30 PP |
-| Recruit a character | 10 PP |
-| Commission a poll | 10 PP |
-| Call early election | 30 PP (10 PP for empty legislatures) |
-| Form government | 30 PP |
-| Constitutional change | 60 PP |
-| Found international bloc | 50 PP |
-| Apply to bloc | 20 PP |
-
-See [Political Power](gameplay/resources.md) for the full breakdown.
-
-### 4. Agree to the Rules
-
-Before you can fully participate, you'll be asked to read and agree to the **game rules**. These cover basic expectations like staying in character, not using real-world names, and being respectful to other players.
-
-### 5. Wait for Elections
-
-Elections happen on a regular schedule set per legislature. Your party will automatically participate based on your voting record and ideological positions.
-
-## Achievements
-
-As you play, you'll unlock **achievements** that track your milestones:
-
-| Achievement | How to Unlock |
-|-------------|---------------|
-| **Party Founder** | Create a party |
-| **Legislator** | Propose legislation |
-| **Democratic Voice** | Vote on legislation |
-| **Elected** | Win a seat in a legislature |
-| **Majority Leader** | Win a majority in a legislature |
-| **Diplomat** | Send a DM to another party |
-| **Cabinet Member** | Take a cabinet position |
-| **Head of State** | Become Head of State |
-| **Acceded to the Throne** | Become a reigning monarch |
-
-## Next Steps
-
-Once you're comfortable with the basics:
-
-1. **[Propose Your First Law](gameplay/legislation.md)** - Create legislation to change your country
-2. **[Recruit Characters](gameplay/characters.md)** - Build your party team with activists
-3. **[Study the Voters](gameplay/elections.md)** - Understand how electors make decisions
-4. **[Connect with Other Parties](gameplay/communication.md)** - Send messages and negotiate
-5. **[Learn About Monarchies](gameplay/monarchy.md)** - Understand Crown nominations in countries like Avalon
-
-## Tips for New Players
-
-!!! success "Starting Strategy" - **Vote consistently** with your ideology to build a clear party identity - **Don't spend all your PP immediately** - save some for opportunities - **Study successful parties** in your country to learn what voters want - **Communicate with other parties** - coalition building is key - **Be patient** - electoral success takes time and consistent voting
-
-!!! info "Game Pace"
-Remember: 1 real hour = 1 game day. You don't need to be online constantly. Check in once or twice a day to vote and make decisions.
-
-!!! tip "Need Help?"
-Have questions? Join our **[Discord community](https://discord.gg/gKAvGTFKzB)** to connect with experienced players, ask for advice, and learn from others' strategies.
-
-Ready to dive deeper? Continue to [Game Concept](game-concept.md) to understand the core mechanics, or jump to specific topics in the [Gameplay](gameplay/parties.md) section.
+As you play, you'll also unlock **achievements** that track milestones — founding your party, passing legislation, winning seats, joining a cabinet, and more.

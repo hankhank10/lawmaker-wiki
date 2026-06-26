@@ -66,4 +66,4 @@ Once a proposed country is approved by staff and goes live:
 - The proposal page is archived
 - Community votes helped shape the game!
 
-See [Proposing Countries](../countries.md#proposing-public-countries) to learn how to create your own proposal.
+See [Proposing Countries](../countries.md#proposing-a-new-country) to learn how to create your own proposal.

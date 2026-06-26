@@ -1,8 +1,8 @@
 # Game Concept
 
-Lawmaker is a **multiplayer political simulation game** that puts you in charge of a political party in a fictional democratic country. Your goal is to build electoral success through strategic legislation, coalition building, and understanding voter behavior.
+Lawmaker puts you in charge of a political party in a fictional democracy. You build electoral success through legislation, coalition-building, and understanding what voters want. This page explains how the pieces fit together — each system has its own detailed guide linked below.
 
-## Core Gameplay Loop
+## The core loop
 
 ```mermaid
 graph LR
@@ -15,183 +15,39 @@ graph LR
     G --> B
 ```
 
-1. **Create your party** with a distinct ideology
-2. **Vote on proposals** from other parties
-3. **Build your legislative record** through consistent voting
-4. **Compete in elections** where voters judge your record
-5. **Win seats** in the legislature
-6. **Form governments** and appoint cabinet ministers
-7. **Propose new laws** to shape the country
-8. Repeat!
+You create a party with a clear ideology, vote on proposals to build a legislative record, compete in elections where voters judge that record, win seats, form governments, and propose laws of your own — then do it all again, cycle after cycle.
 
-## Key Concepts
+## How voters decide
 
-### Political Parties
+This is what makes Lawmaker different from most political games: elections aren't random or formula-driven. Your country's population is modelled as a set of individual **electors**, each with their own job, background, priorities, and positions on the political issues.
 
-You control a **political party** - a group representing specific ideological positions. Your party:
+When an election comes, each elector looks at how every party actually voted, compares it to their own values, and supports the party that fits best. **Recent votes matter more than old ones**, so your record is always live. Vote consistently with your platform and you build a base; flip-flop and voters lose track of what you stand for.
 
-- Has positions on 8+ major political issues
-- Gains representation through elections
-- Proposes and votes on legislation
-- Recruits [characters](gameplay/characters.md) as activists
-- Uses [Political Power](gameplay/resources.md) as a resource
+Lawmaker uses **proportional representation** — your share of the vote is roughly your share of the seats. No single party usually wins a majority, so **coalition-building is essential**.
 
-Learn more: [Party Management](gameplay/parties.md)
+Learn more: [Elections & Voters](gameplay/elections.md).
 
-### Legislative Process
+## The systems you'll use
 
-The heart of Lawmaker is the **legislative system**:
+- **[Party Management](gameplay/parties.md)** — your platform, branding, and identity.
+- **[Legislation & Voting](gameplay/legislation.md)** — propose laws and vote on others'. Each proposal bundles 1–5 article changes and is open for 60 game days; votes are weighted by seats.
+- **[Characters & Activists](gameplay/characters.md)** — recruit the people who front your bills and fill cabinets. Their traits shape how persuasive you are.
+- **[Government & Cabinet](gameplay/cabinet.md)** — after elections, parties form governments by appointing activists to ministerial posts.
+- **Political Power** — the action currency. You earn it over time and spend it on major moves; it prevents spam and forces real choices. Every cost is listed in the [Quick Reference](reference.md).
+- **[Campaign Events](gameplay/campaigning.md)**, **[Communication](gameplay/communication.md)**, **[Economy](gameplay/economy.md)**, **[Constitution](gameplay/constitution.md)**, and — in some countries — **[Hereditary Monarchy](gameplay/monarchy.md)** add further depth.
 
-- Any party can **propose a law** (costs 30 PP)
-- Proposals contain 1-5 **articles** (individual law changes)
-- All parties **vote** on each proposal (Yes/No/Abstain)
-- Votes are weighted by **seat count** in the legislature
-- After 60 game days, proposals pass or fail based on majority
+## Winning
 
-Each law has multiple **options** representing different policy positions. For example, the minimum wage law has three options:
+Lawmaker is an ongoing simulation with no fixed end. "Success" is whatever you make it: winning the most seats, passing landmark laws, leading governing coalitions, moving the country toward your values over many cycles — or, in countries with a throne, founding a royal dynasty.
 
-- No minimum wage (free market)
-- Basic minimum wage (moderate)
-- High living wage minimum (worker-friendly)
+The recurring tension is **ideological purity vs. electoral viability**: do you vote your conscience or chase voters? Add coalition trust, resource management, and timing, and you have a game that rewards long-term thinking over any single clever move.
 
-Learn more: [Legislation & Voting](gameplay/legislation.md)
+## Multiple countries
 
-### Voter Simulation
+Every [country](countries.md) runs its own self-contained simulation — separate laws, elections, and economy, its own population and legislatures, and sometimes special institutions like a monarchy. What happens in one country doesn't change another, and each develops its own meta-game and community — though players can still connect across borders through [international blocs](gameplay/communication.md#international-blocs). You can run a party in more than one, using a separate account per country.
 
-Elections are determined by **individual simulated voters** (called "electors"):
+## Next steps
 
-- Each country has ~60 electors representing the population
-- Each elector has **personal preferences** on political issues
-- Electors analyze your **voting record** to form opinions
-- They vote for parties that support policies they agree with
-- Recent votes matter more than old votes (time-weighted)
-- **National moods** can temporarily shift how voters view issues
-
-!!! example "How Voters Think"
-    An elector who strongly supports environmental protection will favor parties that voted for green energy laws and against deregulation. If your party voted for coal subsidies, this elector probably won't vote for you!
-
-!!! info "National Moods"
-    Countries can experience **national moods** — political or cultural trends that shift voter priorities. A "Traditional Culture" mood makes voters slightly more conservative on certain issues. Learn more: [National Moods](gameplay/elections.md#national-moods)
-
-Learn more: [Elections & Voters](gameplay/elections.md)
-
-### Electoral System
-
-Lawmaker uses **proportional representation**:
-
-- Vote share determines seat allocation
-- 10% of votes ≈ 10% of seats
-- No single party usually wins a majority
-- Coalition building is essential
-
-Elections happen on a **regular schedule** (typically every 4 game years).
-
-### Government Formation
-
-After elections, parties can attempt to **form governments**:
-
-- [Cabinet positions](gameplay/cabinet.md) represent executive power (Prime Minister, ministers, etc.)
-- Parties nominate [characters](gameplay/characters.md) for these positions
-- All parties vote on the proposed government
-- Successful formations give parties executive authority
-
-Learn more: [Government & Cabinet](gameplay/cabinet.md)
-
-### Monarchies
-
-Some countries also have a **hereditary monarchy**. When the throne is vacant, active parties may nominate one of their activists. If your nominee wins, your party becomes dormant and you play as the Crown until abdication or removal for inactivity.
-
-Monarchies can hold constitutional powers when the country's constitution assigns powers to the Crown.
-
-Learn more: [Hereditary Monarchy](gameplay/monarchy.md)
-
-### Characters
-
-Your party recruits **characters** - individual activists who:
-
-- Represent your party publicly
-- Can hold cabinet positions
-- Have unique traits (Charismatic, Media Savvy, etc.)
-- Build followers and authority over time
-- Post political commentary
-
-There are also **journalists** - independent characters who comment on politics but aren't affiliated with parties.
-
-Learn more: [Characters & Activists](gameplay/characters.md)
-
-### Political Power (PP)
-
-**Political Power** is your action resource:
-
-- Gain a base 1 PP per game day (1 real hour), modified by your positions
-- Maximum capacity: 120 PP
-- Spend PP to take major actions
-
-This system prevents spam and encourages strategic decision-making.
-
-Learn more: [Political Power](gameplay/resources.md)
-
-## Game Time
-
-!!! info "Time Progression"
-    **1 real-world hour = 1 game day**
-
-    This means:
-    - 1 real day = 24 game days
-    - 1 real week = ~168 game days (~7 game months)
-    - 1 real month = ~720 game days (~2 game years)
-    - Elections every 4 game years = ~2 real months
-
-The slow pace allows players to participate without constant attention. Check in once or twice a day to make decisions.
-
-## Win Conditions
-
-Lawmaker is an **ongoing simulation** without a fixed end. Success can mean:
-
-- **Electoral dominance** - Win the most seats consistently
-- **Legislative legacy** - Pass significant laws that shape the country
-- **Coalition leadership** - Lead governments and appoint cabinets
-- **Ideological victory** - Move the country toward your values
-- **Long-term influence** - Build a party that lasts for many election cycles
-- **Royal legacy** - Found a dynasty in countries with a hereditary monarchy
-
-## Strategic Depth
-
-Success in Lawmaker requires balancing:
-
-- **Ideological purity** vs. **electoral viability** - Do you vote your conscience or chase voters?
-- **Short-term gains** vs. **long-term strategy** - Opportunistic votes may hurt your record
-- **Solo play** vs. **coalition building** - Can you win without allies?
-- **Resource management** - When to spend Political Power and when to save it
-- **Timing** - When to propose laws, call elections, or form governments
-
-## Multiple Countries
-
-Each [country](countries.md) is an **independent simulation**:
-
-- Different countries don't interact
-- Each has unique population, seats, and cabinet structure
-- Some countries may also have unique offices such as hereditary monarchies
-- You can create parties in multiple countries
-- Each country develops its own meta-game and community
-
-## What Makes Lawmaker Unique?
-
-Unlike most political games:
-
-- **Real human opposition** - You compete against other players, not AI
-- **Voter simulation** - Elections aren't random; they reflect your voting record
-- **Long-term consequences** - Every vote matters for future elections
-- **Social gameplay** - Negotiation and coalition building are essential
-- **Asymmetric competition** - Small parties can punch above their weight through strategy
-
-## Next Steps
-
-Ready to dive deeper into specific systems?
-
-- [Party Management](gameplay/parties.md) - Build and customize your party
-- [Legislation & Voting](gameplay/legislation.md) - The legislative process
-- [Elections & Voters](gameplay/elections.md) - How elections work
-- [Characters & Activists](gameplay/characters.md) - Recruit your team
-- [Government & Cabinet](gameplay/cabinet.md) - Form governments
-- [Strategy Guide](strategy-guide.md) - Tips for success
+- [Getting Started](getting-started.md) — if you haven't created a party yet.
+- [Party Management](gameplay/parties.md) — build and customise your party.
+- [Strategy Guide](strategy-guide.md) — how to actually do well.

@@ -1,331 +1,66 @@
 # Party Management
 
-Your **political party** is your primary tool for participating in Lawmaker. This guide covers how to create, customize, and manage your party effectively.
+Your party is how you participate in Lawmaker. This guide covers creating one, defining its identity, and the events that can reshape or end it.
 
-## Creating a Party
+## Creating a party
 
-To create a new party:
+Pick a [country](../countries.md), choose "Create Party Here", and fill in your details: name, abbreviation, colour, slogan, and description. Then set your ideology.
 
-1. Select a [country](../countries.md) to participate in
-2. Click "Create Party Here" (or "Join with Invite Code" for [private countries](#joining-a-private-country))
-3. Fill in the party details
-4. Define your ideological positions
-5. Launch your party!
+!!! info "Private countries"
+    Some countries are invite-only and show a padlock instead of a "Create Party" button. To join, you need an **invite code** from the country owner — either a share link they send you or a code you enter manually. See [Private Countries](../countries.md#private-countries).
 
-### Joining a Private Country
+## Your ideology: the 4 pillars
 
-Some countries require an **invite code** to create a party. These [private countries](../countries.md#private-countries) show a padlock icon and a **"Join with Invite Code"** button instead of the standard "Create Party" button.
+The most important choice you make is your **4 policy pillars** — four political issues, each set to a position on its spectrum (from -1 to +1). These are the platform voters and other players judge you by.
 
-You can join in two ways:
+| Issue | -1 | +1 |
+| --- | --- | --- |
+| **Gender Equality** | Traditional roles | Full equality |
+| **Role of Religion** | Secular governance | Religious influence |
+| **Environment** | Growth first | Environmental protection |
+| **Individual Liberty** | Strong leadership | Maximum freedom |
+| **Military** | Diplomatic solutions | Strong military |
+| **Immigration** | Border security | Open borders |
+| **Economy** | Wealth redistribution | Free market |
+| **Workers' Rights** | Business-friendly | Worker protections |
 
-- **Direct invite link** — The country owner can share a URL like `/countries/<slug>/new-party/<code>` that pre-fills the code for you.
-- **Manual code entry** — Click "Join with Invite Code", type the code you were given, and proceed to party creation.
+These are eight of the **16 issues** available — the full list is in [Laws & Policies](../laws-and-policies.md). Choose four that give you a coherent, recognisable identity, and be ready to vote for them consistently.
 
-Ask the country owner for their shareable invite link if you don't have one.
+!!! example "A coherent platform"
+    A "Green Progressive Alliance" might anchor on Environment **+1.0**, Workers' Rights **+0.8**, Gender Equality **+0.9**, and Individual Liberty **+0.6** — a clear cluster a voter can read at a glance.
 
-### Party Information
+### Changing a pillar
 
-#### Basic Details
+You can replace **one** of your four pillars at any time for **75 PP**. It's deliberately expensive and public: the country's political journalist automatically posts a news story about your shift, so everyone notices. Voters who liked the old position may drift away while new ones arrive — so it's usually safest **right after an election**, giving the electorate time to adjust before it next matters.
 
-- **Name** - Your party's full name (e.g., "Progressive Democratic Alliance")
-- **Abbreviation** - Short form for displays (e.g., "PDA")
-- **Color** - Hex color code for charts and visualizations
-- **Slogan** - A memorable phrase (e.g., "Progress for All")
-- **Description** - Longer text explaining your party's goals and vision
+## Party branding
 
-!!! tip "Naming Your Party"
-    Choose a name that reflects your ideology and appeals to voters. Generic names like "National Party" are less memorable than "Green Future Coalition" or "Free Market Alliance".
+Your party can have a custom **SVG logo**, uploaded on the Edit Party page with an optional colour tint and size adjustment. It appears wherever your party shows up in the game.
 
-### Defining Your Ideology
+It's not just decoration: a custom logo gives a **+5% supporter-turnout boost** at elections, while a party with no logo takes a **-5% penalty**. Since uploading one costs no PP, it's one of the cheapest electoral gains available — do it early.
 
-The most important part of creating your party is setting **ideological positions**. You'll choose **4 policy pillars** from the available issues and set your position on each:
+## One party per country
 
-#### The Political Issues
+Each account controls **one active party**. To play in multiple countries you need a separate account (with a different email) per country. Running more than one party in the same country, across any number of accounts, isn't permitted — see the [rules](../rules.md).
 
-| Issue | -1 | +1 | What It Means |
-|-------|----|----|---------------|
-| **Gender Equality** | Traditional gender roles | Full gender equality | Family structure, workplace equality, gender policy |
-| **Role of Religion** | Secular governance | Religious influence | Church-state separation, religious freedom vs. tradition |
-| **Environment** | Economic growth first | Environmental protection | Climate policy, regulation, green energy vs. industry |
-| **Individual Liberty** | Strong leadership | Maximum freedom | Government authority vs. personal autonomy |
-| **Military** | Diplomatic solutions | Strong military | Defense spending, intervention, peace vs. strength |
-| **Immigration** | Border security | Open borders | Immigration quotas, citizenship, cultural integration |
-| **Economy** | Wealth redistribution | Free market | Taxation, welfare, regulation vs. capitalism |
-| **Workers' Rights** | Business-friendly | Worker protections | Labor laws, unions, minimum wage |
+## Enthroned parties
 
-#### Additional Issues
+In countries with a [hereditary monarchy](monarchy.md), your party can nominate one of its activists when the throne is vacant. If your nominee wins, your party becomes **enthroned** and dormant: it loses its seats, its PP resets to 0, its cabinet posts and bloc memberships are vacated, and your nominee leaves to reign as monarch. You can later abdicate to restore the party — but it returns with **0 seats and 0 PP**. Don't nominate casually.
 
-- **Multiculturalism**
-- **Support for Young People**
-- **Law and Order**
-- And more...
+## Disbanding and inactivity
 
-#### How to Set Positions
+You can **voluntarily disband** at any time, releasing your activists, cabinet posts, and seats. A disbanded party can be **revived** by its owner, though anything lost on disbanding doesn't automatically come back.
 
-Each issue has a **slider from -1 to +1**:
+To keep countries alive, Lawmaker also disbands inactive parties:
 
-- **-1.0** = Strongly left/progressive position
-- **0.0** = Centrist/neutral position
-- **+1.0** = Strongly right/conservative position
+- After **3 days** of inactivity, you get a **warning email**.
+- After **5 days**, your party is **auto-disbanded** — but only when the country is **70%+ full**, to free space for active players.
 
-!!! example "Example Party Ideology"
-    **"Green Progressive Alliance"**
+Any action — even a single vote or message — resets your activity timer, so logging in every few days is enough. (Reigning monarchs have their own inactivity checks; see [Hereditary Monarchy](monarchy.md).)
 
-    - Gender Equality: **+0.9** (strong equality)
-    - Role of Religion: **-0.8** (secular state)
-    - Environment: **+1.0** (maximum protection)
-    - Individual Liberty: **+0.6** (personal freedom)
-    - Military: **-0.7** (diplomatic approach)
-    - Immigration: **+0.5** (welcoming)
-    - Economy: **+0.4** (moderate redistribution)
-    - Workers' Rights: **+0.8** (strong protections)
+## Next steps
 
-### Party Pillars
-
-Your ideological positions become your party's **pillars** - the core values you campaign on. These are visible to:
-
-- Other parties (to understand your positions)
-- The game's voter simulation (affects which voters support you)
-- Players researching the political landscape
-
-### Changing a Pillar
-
-Sometimes a party needs to evolve. You can replace **one pillar** with a different ideological position at any time — but it isn't cheap or quiet.
-
-**Cost:** 75 Political Power (PP)
-
-**How it works:**
-
-1. Go to your party page and click **"Change Pillar"**
-2. Select which of your current 4 pillars you want to replace
-3. Choose a new position from the available issues (you cannot pick an issue already covered by your other 3 pillars)
-4. Review the change and confirm — this is permanent
-
-**What happens after:**
-
-- Your party's pillar is immediately updated
-- The country's **political journalist** automatically posts a news story about your party's ideological shift, generated by AI
-- Other players and voters will see your new position straight away
-
-!!! warning "Think carefully"
-    Changing a pillar is a significant political signal. Voters who liked your old position may be alienated, while new voters may be attracted. The journalist post means everyone will notice — there is no quiet way to do this.
-
-!!! tip "Picking the right moment"
-    Consider changing a pillar **after an election** to give voters time to adjust before the next vote. Mid-cycle changes can be risky if they contradict your recent voting record.
-
-## Party Logo
-
-Your party can have a custom **SVG logo** that appears across the game - on your dashboard, in election result tables, in the messaging drawer, and on party detail pages.
-
-### Uploading a Logo
-
-To add or change your logo:
-
-1. Go to **Edit Party**
-2. Drag and drop an SVG file onto the upload area (or click to browse)
-3. Choose a **colour tint** to apply to the logo: white, black, grey, red, or blue
-4. Use the **scale slider** (50–100%) to adjust how large the logo appears in its avatar circle
-5. Save changes
-
-Logos are stored securely and display wherever your party appears in the interface.
-
-### Deleting a Logo
-
-On the Edit Party page you can remove your current logo with a two-step confirmation. This resets your party to the default monogram-style avatar.
-
-### Branding Effect on Turnout
-
-Having a custom logo gives your party a **+5% boost to supporter turnout** at election time. Parties without a custom logo face a **-5% penalty** instead. This reflects the real-world importance of recognisable political branding.
-
-!!! tip "Easy Gain"
-    Uploading any SVG logo is one of the cheapest ways to improve your electoral performance - it costs no Political Power.
-
-## Managing Your Party
-
-### Party Dashboard
-
-Your dashboard displays:
-
-- **Current seats** in each legislature
-- **Political Power** (PP) available
-- **Active proposals** you need to vote on
-- **Upcoming deadlines** (elections, votes closing)
-- **Recent activity** in your country
-
-### Party Actions
-
-With your party, you can:
-
-1. **[Vote on proposals](legislation.md)** - Shape legislation (free)
-2. **[Propose new laws](legislation.md)** - Submit legislation (30 PP)
-3. **[Recruit characters](characters.md)** - Add activists to your team (10 PP)
-4. **[Commission polls](elections.md#polling)** - Survey electoral prospects (10 PP)
-5. **[Send messages](communication.md)** - Communicate with other parties (free)
-6. **[Attempt cabinet formation](cabinet.md)** - Form governments (free, requires seats)
-7. **[Call early elections](elections.md#early-elections)** - Trigger special elections (30 PP)
-8. **[Found and join international blocs](international-blocs.md)** - Build cross-country alliances (50 PP to found, 20 PP per application)
-9. **[Change a pillar](#changing-a-pillar)** - Shift your party's ideology on one issue (75 PP)
-10. **[Nominate an activist for the Crown](monarchy.md)** - In countries with a vacant monarchy, compete to found or continue a dynasty
-
-## Party Growth
-
-### Gaining Seats
-
-Your party gains seats through [elections](elections.md). Seat count is determined by:
-
-- **Vote share** - More votes = more seats (proportional system)
-- **Voter preferences** - Electors vote based on their values
-- **Your voting record** - Voters judge you by your legislative history
-- **Consistency** - Voting according to your ideology builds trust
-
-### Building Influence
-
-Successful parties:
-
-- Vote consistently with their stated ideology
-- Build coalitions with like-minded parties
-- Recruit charismatic [characters](characters.md) with high follower counts
-- Time their proposals strategically
-- Manage [Political Power](resources.md) efficiently
-
-### Party Reputation
-
-Your party builds a reputation through:
-
-- **Legislative record** - How you voted on every proposal
-- **Laws enacted** - Which laws you successfully passed
-- **Government participation** - Cabinet positions held
-- **Longevity** - Surviving multiple election cycles
-
-## Party Strategy
-
-### Ideological vs. Electoral Strategy
-
-There are two main approaches:
-
-=== "Ideological Purity"
-    **Vote your values consistently**
-
-    ✓ Clear party identity
-    ✓ Attracts ideologically aligned voters
-    ✓ Builds trust and credibility
-    ✗ May limit electoral appeal
-    ✗ Could alienate centrist voters
-
-=== "Electoral Pragmatism"
-    **Vote to maximize appeal**
-
-    ✓ Broader electoral base
-    ✓ Can win centrist voters
-    ✓ Flexible coalition building
-    ✗ Inconsistent record
-    ✗ May confuse voters
-    ✗ Vulnerable to attacks on flip-flopping
-
-!!! tip "Finding Balance"
-    Most successful parties find a middle ground: stay true to core values while being flexible on less important issues.
-
-### Coalition Building
-
-Since proportional representation rarely gives any party a majority:
-
-- **Identify natural allies** - Parties with similar ideologies
-- **Communicate actively** - Use the [messaging system](communication.md)
-- **Build international relationships** - Use [international blocs](international-blocs.md) for cross-country coordination
-- **Coordinate proposals** - Support each other's legislation
-- **Share government** - Distribute cabinet positions fairly
-- **Build trust** - Honor agreements and vote as promised
-
-### Timing Your Proposals
-
-Strategic timing matters:
-
-- **Early in election cycle** - Less risky, gives time for voters to forget
-- **Mid-cycle** - Normal time for routine proposals
-- **Late in cycle** - High-risk, highly visible, defines your campaign
-- **After winning election** - Mandate to implement your platform
-
-## Party Settings
-
-### Communication Preferences
-
-Configure how you receive notifications:
-
-- Email alerts for new proposals
-- Election reminders
-- Message notifications
-- Vote deadline warnings
-
-### Privacy Settings
-
-Control visibility of:
-
-- Your party's ideological positions (always visible)
-- Commissioned polls (public or private)
-- Internal party information
-
-## One Party Per Country
-
-Each account controls **one active party**. If you want to participate in multiple countries, you will need a separate account with a different email address for each. Operating more than one party in the same country — across any number of accounts — is not permitted.
-
-## Enthroned Parties
-
-In countries with a [hereditary monarchy](monarchy.md), your party may nominate one of its activists when the throne is vacant. If your nominee wins, your party becomes **enthroned** and dormant for the duration of the reign.
-
-When your party is enthroned:
-
-- Your active identity switches from the party to the Crown
-- Your party's Political Power is reset to **0**
-- Your party loses all legislature seats
-- Cabinet positions held by your party's characters are vacated
-- International bloc memberships are removed
-- Your nominee leaves the party and reigns as the monarch
-
-You may abdicate to restore your party, but it returns with **0 seats** and **0 Political Power**.
-
-## Disbanding Your Party
-
-You can **voluntarily disband** your party at any time:
-
-- All activists are released
-- Cabinet positions are vacated
-- Legislature seats are forfeited
-- The party is marked as disbanded
-
-### Reviving a Party
-
-A disbanded party can be **revived** by its owner, restoring it to active status. However, seats, cabinet positions, and activists lost during disbanding are not automatically restored.
-
-## Inactivity and Auto-Disbanding
-
-To keep countries active, Lawmaker monitors party activity:
-
-- After **3 days** of owner inactivity, you'll receive a **warning email**
-- After **5 days** of inactivity, your party is **automatically disbanded**
-- Auto-disbanding only occurs when the country is **70% or more full** (to free up space for active players)
-
-!!! warning "Stay Active!"
-    Log in at least once every few days to prevent your party from being automatically disbanded. Even casting a single vote or sending a message resets your activity timer.
-
-Monarchies have their own inactivity checks. If you hold a throne and remain inactive after warnings, you can be forced to abdicate and your enthroned party is disbanded instead of restored.
-
-## Tips for Party Success
-
-!!! success "Best Practices"
-    1. **Define a clear ideology** - Pick a lane and stick to it
-    2. **Vote consistently** - Build a coherent legislative record
-    3. **Engage actively** - Vote on every proposal
-    4. **Build relationships** - Communicate with other parties
-    5. **Manage PP wisely** - Don't waste Political Power on low-value actions
-    6. **Study voters** - Commission polls to understand the electorate
-    7. **Recruit strategically** - Choose characters that align with your brand
-    8. **Think long-term** - Electoral success takes multiple cycles
-
-## Next Steps
-
-- [Legislation & Voting](legislation.md) - Learn how to propose and vote on laws
-- [Elections & Voters](elections.md) - Understand how to win elections
-- [Characters & Activists](characters.md) - Recruit your party team
-- [Hereditary Monarchy](monarchy.md) - Nominate activists for the Crown
-- [International Blocs](international-blocs.md) - Coordinate with parties across countries
-- [Strategy Guide](../strategy-guide.md) - Advanced party strategies
+- [Legislation & Voting](legislation.md) — propose and vote on laws.
+- [Elections & Voters](elections.md) — turn your platform into seats.
+- [Characters & Activists](characters.md) — build your party's roster.
+- [Strategy Guide](../strategy-guide.md) — ideology, coalitions, and the long game.

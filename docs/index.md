@@ -1,66 +1,21 @@
 # Welcome to Lawmaker
 
-**Lawmaker** is a multiplayer political simulation game where you take on the role of a political party in a fictional democratic country. Build your party, propose legislation, win elections, and shape the future of your nation.
+**Lawmaker** is a multiplayer political simulation game. You run a political party in a fictional democracy: build a platform, vote on laws, win elections, form governments, and shape your country over many years of play.
 
-## What is Lawmaker?
+You're competing against other real players. Elections aren't random — a population of individually modelled electors judges your party on the way you actually vote, so every decision becomes part of your record.
 
-Lawmaker combines elements of strategy, simulation, and social gameplay to create a unique political experience. You'll:
+## Start here
 
-- :material-handshake: **Build political parties** with distinct ideologies and values
-- :material-gavel: **Propose and vote on legislation** to shape your country's laws
-- :material-vote: **Compete in elections** against other players
-- :material-account-group: **Recruit activists** to represent your party
-- :material-crown: **Form governments** and appoint cabinet ministers
-- :material-chess-king: **Compete for hereditary thrones** in countries with monarchies
-- :material-forum: **Negotiate with other parties** to build coalitions and pass laws
-- :material-earth: **Build international blocs** for cross-country coordination
+- **[Getting Started](getting-started.md)** — create your account, pick a country, and launch your first party.
+- **[Game Concept](game-concept.md)** — how the pieces fit together: the core loop, voters, and winning.
+- **[Strategy Guide](strategy-guide.md)** — once you know the rules, how to actually do well.
 
-## Why Play Lawmaker?
+The **Gameplay** section in the sidebar covers each system in depth — legislation, elections, characters, cabinets, monarchies, and more.
 
-- **Strategic Depth**: Every vote shapes your party's record and affects how voters perceive you
-- **Realistic Simulation**: Individual voters make decisions based on their values and your voting record - there are thousands of individually modelled voters with backstories, preferences, goals and prejudices
-- **Long-term Planning**: Build a legislative legacy over multiple election cycles
-- **Social Gameplay**: Negotiate, form alliances, and compete with other players
-- **Multiple Countries**: Each country is an independent simulation with unique characteristics
+!!! info "Game time runs slow"
+    **1 real-world hour = 1 game day.** You don't need to play constantly — check in once or twice a day to vote and make decisions. A typical election cycle plays out over a few real-world weeks.
 
-## Quick Links
+!!! success "Join the community"
+    Most coordination, questions, and strategy talk happens on our **[Discord server](https://discord.gg/gKAvGTFKzB)**. It's the best place to find your country's players and get help.
 
-- ## :material-rocket-launch:{ .lg .middle } **Getting Started**
-  New to Lawmaker? Start here to learn the basics.
-  [:octicons-arrow-right-24: Getting Started](getting-started.md)
-- ## :material-book-open-variant:{ .lg .middle } **Game Concept**
-  Understand the core concepts and mechanics.
-  [:octicons-arrow-right-24: Game Concept](game-concept.md)
-- ## :material-gamepad-variant:{ .lg .middle } **Gameplay Guides**
-  Deep dive into specific game systems.
-  [:octicons-arrow-right-24: International Blocs](gameplay/international-blocs.md)
-- ## :material-strategy:{ .lg .middle } **Strategy Guide**
-  Tips and strategies for success.
-  [:octicons-arrow-right-24: Strategy Guide](strategy-guide.md)
-
-## Game Time
-
-!!! info "Game Time vs Real Time"
-In Lawmaker, **1 real-world hour = 1 game day**. This means you don't need to play constantly - you can check in periodically to vote on proposals, make strategic decisions, and manage your party at your own pace.
-
-## Community
-
-Lawmaker is designed for players who enjoy:
-
-- Political strategy and simulation
-- Long-term planning and coalition building
-- Legislative and parliamentary gameplay
-- Competing with other human players
-- Building and shaping virtual societies
-
-!!! success "Join Our Discord Community"
-Connect with other players, ask questions, share strategies, and stay updated on game developments. **[Join our Discord server →](https://discord.gg/gKAvGTFKzB)**
-
-## Contributing
-
-Found an error or want to improve the documentation? We welcome contributions!
-
-- **Quick edits**: Edit files directly on [GitHub](https://github.com/hankhank10/lawmaker-wiki)
-- **Learn more**: See our [Contributing Guide](contributing.md) for detailed instructions
-
-Ready to start your political journey? Head over to [Getting Started](getting-started.md) to create your first party!
+Ready? Head to **[Getting Started](getting-started.md)** and create your first party.

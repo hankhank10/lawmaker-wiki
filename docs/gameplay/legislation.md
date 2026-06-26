@@ -1,465 +1,70 @@
 # Legislation & Voting
 
-The **legislative system** is the heart of Lawmaker. This guide explains how to propose laws, vote on legislation, and understand the voting process.
+Legislation is the heart of Lawmaker. Parties propose changes to the country's laws, everyone votes, and the results become part of each party's permanent record. This guide covers how to propose laws and how voting works.
 
-## How Legislation Works
+## How a law passes
 
 ```mermaid
 graph TD
-    A[Party Proposes Law] --> B[60-Day Voting Period]
-    B --> C[Parties Cast Votes]
-    C --> D{Majority Support?}
-    D -->|Yes| E[Law Passes]
-    D -->|No| F[Law Fails]
-    E --> G[Law Takes Effect]
-    F --> H[Status Quo Remains]
+    A[Party proposes a law] --> B[60-day voting period]
+    B --> C{More Yes than No?}
+    C -->|Yes| D[Law passes, takes effect immediately]
+    C -->|No| E[Law fails, status quo remains]
 ```
 
-### The Process
+1. A party **proposes** a law (costs 30 PP).
+2. All parties **vote** Yes, No, or Abstain over a **60 game-day** window (about 2.5 real days).
+3. Votes are **weighted by seats** — a party with 100 seats casts 100 votes; a party with 0 seats can't vote.
+4. When the window closes, if Yes outweighs No the law passes and takes effect immediately. Otherwise the status quo holds. Abstentions don't count either way.
 
-1. A party **proposes** a new law (costs 30 PP)
-2. All parties can **vote** during a 60-day period
-3. Votes are weighted by **seat count**
-4. After 60 days, votes are tallied
-5. **Majority support** → law passes
-6. **Majority opposition** → law fails
-7. Laws take effect immediately when passed
+## What a law looks like
 
-## Understanding Laws
+Each law governs one policy area (for example, *Minimum Wage Policy*) and has several **options** representing different positions. A proposal swaps one or more laws from their current option to a new one.
 
-### Law Structure
+!!! example "Minimum Wage Policy"
+    - **No minimum wage** — let the market decide
+    - **Basic minimum wage** — a minimum living standard *(current)*
+    - **High living wage** — a comfortable standard for all workers
 
-Each law in Lawmaker has:
+There are 95 laws across 21 policy areas. The authoritative, up-to-date catalogue — with each law's current setting and options — lives in the game itself, on your country's **Laws** page and the **International Laws Explorer** (which compares positions across every country). Use them to see the status quo before proposing a change.
 
-- **Name** - What the law governs (e.g., "Minimum Wage Policy")
-- **Code** - Unique identifier (e.g., `MIN_WAGE`)
-- **Options** - Different policy positions (usually 2-3 choices)
-- **Current state** - Which option is currently active
+## Proposing a law
 
-### Law Options
+A proposal bundles **1–5 articles**, each changing one law. It costs **30 PP** regardless of how many articles it contains or whether it passes.
 
-Each law has multiple **options** representing different policy positions:
+When you propose, you give it a clear title and a description making the case for it, then choose a **front person**.
 
-!!! example "Minimum Wage Law"
-    **Current state:** Basic minimum wage
+### The front person
 
-    **Options:**
+The front person is an [activist](characters.md) from your party who sponsors the bill. Their **authority**, **followers**, and **persuasion** make the proposal more convincing to voters — so put your strongest speaker on your most important bills. A proposal with **no** front person takes a **5% persuasiveness penalty**, so always assign one.
 
-    1. **No minimum wage** - Let the market decide wages
-    2. **Basic minimum wage** - Ensure a minimum living standard
-    3. **High living wage** - Guarantee comfortable living for all workers
+### One article or several?
 
-    Each option represents a different philosophical approach.
+- **Single-article** proposals are easier to build consensus around and send a clear message.
+- **Multi-article** packages let you bundle a coherent agenda into one 30 PP proposal — but they're all-or-nothing, so one controversial article can sink the whole package.
 
-### Law Categories
+## Voting on proposals
 
-Laws cover areas like:
+Open proposals appear on your country page. For each one you cast **Yes**, **No**, or **Abstain**, and you can **change your vote** any time before the window closes — useful as coalition negotiations evolve.
 
-- **Labor & Economy** - Minimum wage, unions, taxation
-- **Social Policy** - Healthcare, education, welfare
-- **Environment** - Emissions, conservation, green energy
-- **Immigration** - Border policy, citizenship, quotas
-- **Defense & Security** - Military spending, police powers
-- **Civil Rights** - Equality, freedom of speech, privacy
-- **Governance** - Electoral rules, government structure
+!!! warning "No seats, no vote"
+    Voting weight comes from seats. A party with 0 seats in a legislature can't vote on its proposals — win seats in [elections](elections.md) first.
 
-See the full catalog: [Laws & Policies](../laws-and-policies.md)
+A few mechanics worth knowing:
 
-## Exploring Laws
+- **Withdrawing:** the proposing party can pull a proposal before the window closes, but the 30 PP is **not** refunded.
+- **Bicameral countries:** where there are two chambers, a proposal must reach a majority in **all** required chambers to pass.
+- **Royal veto:** in countries with a [monarchy](monarchy.md#royal-assent-and-veto), the monarch can block a bill that the legislature passed. The veto stays hidden during voting and is only revealed if it changes the outcome.
 
-With 95 laws across 21 policy areas, Lawmaker provides dedicated tools to explore and compare laws across countries.
+## Your record is permanent
 
-### Per-Country Law Page
+Every vote is recorded forever. Voters analyse your history, other parties research your positions, and you can't delete or hide a vote once cast. A failed proposal still costs you the 30 PP **and** leaves the vote on everyone's record — which is exactly why lining up support *before* you propose matters so much.
 
-Each country has a dedicated **Laws** page that displays all current laws in that country:
+For the tactics of *when* and *what* to propose — timing across the election cycle, vote-trading, building majorities — see the [Strategy Guide](../strategy-guide.md).
 
-**Access:** From the country detail page, click the country name in the menu or select "View Laws"
+## Next steps
 
-**Features:**
-
-- **Organized by category** - Laws grouped into logical sections (Defence, Economy, Education, Environment, Healthcare, Immigration, and more)
-- **Live search** - Search for laws by title, current option, or any available option label
-- **Category filter** - Toggle specific policy areas on and off
-- **Current law state** - Each law shows its current setting clearly
-- **Full legislative history** - Expand any law to see voting records and when it was last changed
-- **Proposal interface** - Directly propose changes to laws from this page
-
-!!! tip "Exploring Before Proposing"
-    Use the law page to understand the current state of all laws before proposing changes. See what other parties have voted for historically and identify areas where your party might build consensus.
-
-### International Laws Explorer
-
-The **International Laws Explorer** is a global comparison tool available from the International menu. It lets you see how all countries in the world compare on any given law.
-
-**Access:** Main menu → International → Laws Explorer
-
-**Features:**
-
-- **Choose any law** from the full catalog via dropdown (grouped by category)
-- **Visual comparison chart** - See how many countries hold each position on that law
-- **Country spotlight** - Optionally drop a country badge on the chart to see exactly where that country sits
-- **Tooltip details** - Hover over each position to see which countries hold it (shows list if 5 or fewer, count if more)
-
-!!! example "Using the Explorer"
-    You want to understand the international stance on minimum wage policy. Open the Laws Explorer, select "Minimum Wage Policy" from the Labour dropdown. The chart shows that 12 countries have "No minimum wage", 8 have "Basic minimum wage", and 4 have "High living wage". You can drop your country badge to see exactly where you fit in the global distribution.
-
-## Proposing Legislation
-
-### Creating a Proposal
-
-To propose a new law:
-
-1. Ensure you have **30 Political Power**
-2. Navigate to the "Propose Law" page
-3. Fill in the proposal details (title, description, articles)
-4. Choose a **front person** — the activist who will sponsor the bill
-5. Submit for voting
-
-### Front Person (Bill Sponsor)
-
-Each proposal can have a **front person** — an [activist](characters.md) from your party who publicly sponsors the bill. The front person's stats directly affect how persuasive the proposal appears to voters:
-
-- **Authority** — experienced, credible activists make stronger sponsors
-- **Followers** — well-known activists lend more weight to proposals
-- **Persuasion** — charismatic speakers are more convincing
-
-!!! warning "No Sponsor Penalty"
-    Proposals submitted **without** a front person receive a 5% persuasiveness penalty. Always assign your best activist to important bills!
-
-!!! tip "Choose Wisely"
-    Your best persuader should sponsor your most important proposals. A Charismatic, Fantastic Speaker with high authority makes a much stronger front person than a new recruit.
-
-### Proposal Components
-
-#### 1. Proposal Title
-
-Give your proposal a descriptive name:
-
-- ✓ **Good**: "Workers' Rights and Minimum Wage Act"
-- ✓ **Good**: "Green Energy Transition Package"
-- ✗ **Bad**: "My Proposal"
-- ✗ **Bad**: "Law #1"
-
-#### 2. Proposal Description
-
-Explain why you're proposing this law:
-
-- What problem does it solve?
-- How will it benefit the country?
-- Why should other parties support it?
-
-!!! tip "Writing Good Descriptions"
-    Persuasive descriptions increase the chances other parties will support your proposal. Explain the reasoning, not just the mechanics.
-
-#### 3. Articles
-
-Each proposal contains 1-5 **articles** - individual law changes:
-
-- **Minimum**: 1 article (simple proposal)
-- **Maximum**: 5 articles (complex reform package)
-- Each article changes one law from its current option to a new option
-
-!!! example "Multi-Article Proposal"
-    **"Social Welfare Reform Act"**
-
-    - Article 1: Change healthcare from "Private system" to "Universal healthcare"
-    - Article 2: Change education from "Paid tuition" to "Free public education"
-    - Article 3: Change minimum wage from "None" to "Basic minimum"
-
-    This is a package deal - all three pass or none pass.
-
-### Strategic Proposal Design
-
-#### Single vs. Multi-Article
-
-=== "Single-Article Proposals"
-    **One law change**
-
-    ✓ Easier to build consensus
-    ✓ Clear message to voters
-    ✓ Higher chance of passage
-    ✗ Uses full 30 PP for one change
-
-=== "Multi-Article Proposals"
-    **Multiple law changes (2-5)**
-
-    ✓ Efficient use of PP
-    ✓ Can create coherent policy packages
-    ✓ Forces other parties to accept whole package
-    ✗ Harder to get support
-    ✗ One controversial article can sink entire proposal
-
-#### Timing Your Proposals
-
-Consider:
-
-- **Early in election cycle** - Safe time to propose controversial laws
-- **Mid-cycle** - Normal legislative activity
-- **Late in cycle** - High visibility, defines your pre-election platform
-- **After election** - Claim a mandate from voters
-- **During coalition talks** - Demonstrate legislative priorities
-
-### Proposal Costs
-
-Each proposal costs **30 Political Power**, regardless of:
-
-- Number of articles (1-5 all cost the same)
-- Complexity of changes
-- Whether it passes or fails
-
-Plan accordingly! See [Political Power](resources.md) for resource management.
-
-## Voting on Proposals
-
-### Finding Open Proposals
-
-Open proposals are displayed on the **country detail page** in the "Currently being voted on" section. Each proposal shows:
-
-- **Title** - The name of the proposal
-- **Articles** - The specific law changes included
-- **Proposer** - Which party proposed it
-- **Status button** - "Vote" if you haven't voted yet, "View" if you have already voted
-
-!!! tip "Quick Access"
-    The country detail page gives you a quick overview of active voting. Click on any proposal to see the full details, voting history, and cast or change your vote.
-
-### The Voting Period
-
-- **Duration**: 60 game days (2.5 real days)
-- **Open voting**: All parties can see how others voted
-- **Can change vote**: Change your mind anytime before closing
-- **Automatic closure**: Voting ends after 60 days
-
-### Casting Your Vote
-
-For each proposal, you choose:
-
-=== "Yes"
-    **Support the proposal**
-
-    - You want these laws to pass
-    - Aligns with your ideology
-    - Part of a coalition agreement
-
-=== "No"
-    **Oppose the proposal**
-
-    - You disagree with these changes
-    - Conflicts with your values
-    - Strategically opposing a rival
-
-=== "Abstain"
-    **Neutral / No position**
-
-    - You don't have strong feelings
-    - Minor issue for your party
-    - Politically safer than taking a stance
-
-### Vote Weight
-
-Your vote is weighted by **seats held**:
-
-- Party with 100 seats = 100 votes
-- Party with 10 seats = 10 votes
-- Party with 0 seats = 0 votes (can't vote)
-
-!!! warning "No Seats = No Vote"
-    Parties without seats in a legislature cannot vote on proposals for that legislature. Win seats in [elections](elections.md) to gain voting power!
-
-### How Votes Are Tallied
-
-After 60 days:
-
-1. Count all "Yes" votes (weighted by seats)
-2. Count all "No" votes (weighted by seats)
-3. **If Yes > No**: Proposal **passes**
-4. **If No ≥ Yes**: Proposal **fails**
-5. Abstentions don't count either way
-
-!!! example "Vote Tally Example"
-    **Total seats in legislature**: 650
-
-    **Votes cast:**
-    - Party A (250 seats): Yes
-    - Party B (200 seats): Yes
-    - Party C (150 seats): No
-    - Party D (50 seats): Abstain
-
-    **Result:**
-    - Yes votes: 450 (250 + 200)
-    - No votes: 150
-    - Abstentions: 50 (don't count)
-
-    **Outcome**: Proposal **passes** (450 > 150)
-
-## Voting Strategy
-
-### Ideological Voting
-
-Vote according to your party's [ideology](parties.md#defining-your-ideology):
-
-- Builds consistent legislative record
-- Voters reward consistency
-- Clear party brand
-- Easier to predict and explain
-
-### Strategic Voting
-
-Consider:
-
-- **Coalition agreements** - Honor deals with allies
-- **Electoral timing** - Popular vs. unpopular votes
-- **Voter preferences** - What the electorate wants
-- **Opposition tactics** - Block rival parties' proposals
-
-### The Abstention Strategy
-
-Abstaining can be useful when:
-
-- **Issue is minor** - Save political capital for important fights
-- **Coalition conflict** - Avoid breaking agreements
-- **Uncertain voter response** - Don't risk taking unpopular position
-- **Lack of information** - Need more time to decide
-
-!!! warning "Overuse of Abstentions"
-    Voters may see excessive abstentions as weak leadership. Use sparingly!
-
-### Reading the Room
-
-Check voting trends:
-
-- How are other parties voting?
-- Who are your natural allies supporting?
-- Is there a consensus forming?
-- Will your vote matter?
-
-### Vote Switching
-
-You can **change your vote** before the 60-day period ends:
-
-- Respond to coalition negotiations
-- React to new information
-- Adjust to changing voter sentiment
-- Fix mistakes
-
-### Withdrawing a Proposal
-
-The proposing party can **withdraw** a proposal at any time before the voting period ends:
-
-- The proposal is immediately removed from active voting
-- The 30 PP cost is **not refunded**
-- Useful if you realise the votes aren't there or circumstances have changed
-
-### Multi-Legislature Voting
-
-In countries with **bicameral systems** (two chambers), proposals may need to pass in multiple legislatures simultaneously. Each legislature votes independently, and the proposal must achieve a majority in **all** required chambers to pass.
-
-## After the Vote
-
-### If Proposal Passes
-
-- Laws change immediately
-- Country's law state updates
-- Proposing party gets credit
-- All votes are recorded in legislative history
-
-### If Proposal Fails
-
-- Status quo remains
-- Laws don't change
-- Proposing party loses 30 PP with no result
-- All votes still recorded (voters remember!)
-
-### Royal Veto
-
-In countries with a hereditary monarchy, the reigning monarch can pre-register a veto on any open proposal. If the legislatures pass a bill the monarch has vetoed, the bill is blocked at royal assent and marked **Vetoed by Monarch** instead of becoming law. The monarch's choice stays private during voting and is only revealed if it actually changes the outcome. See [Royal Assent and Veto](monarchy.md#royal-assent-and-veto).
-
-### Legislative History
-
-Every vote is **permanently recorded**:
-
-- Voters analyze your voting history
-- Other parties research your positions
-- Historical records show party evolution
-- Can't delete or hide past votes
-
-!!! danger "Votes Are Forever"
-    Every vote shapes your party's reputation. Vote carefully - you can't take it back!
-
-## Advanced Tactics
-
-### Log-Rolling
-
-**Definition**: Trading votes - "I'll support your proposal if you support mine"
-
-- Common in coalition politics
-- Can build legislative majorities
-- Requires trust and communication
-- Use the [messaging system](communication.md)
-
-### Blocking Coalitions
-
-Coordinate with other parties to **block** a rival's proposal:
-
-- Organize opposition through messages
-- Ensure enough "No" votes
-- Prevent rivals from achieving their goals
-
-### Poison Pills
-
-Add **controversial articles** to multi-article proposals:
-
-- Forces opponents to oppose the entire package
-- Can sink otherwise popular legislation
-- Risky: may backfire and hurt your own proposal
-
-### Timing Games
-
-Strategic use of the 60-day window:
-
-- Vote early to signal commitment
-- Vote late to see others' positions
-- Change vote at last minute
-- Coordinate surprise coalition votes
-
-## Proposal Comments
-
-### Discussion System
-
-Each proposal has a **comment thread**:
-
-- Argue for or against the proposal
-- Explain your vote to other parties
-- Try to persuade others to change votes
-- Build public record of debate
-
-### Using Comments Strategically
-
-- **Rally support**: Persuade undecided parties
-- **Explain votes**: Justify controversial positions to voters
-- **Negotiate**: Offer to change vote if articles amended
-- **Campaign**: Use as public platform for your values
-
-## Tips for Legislative Success
-
-!!! success "Proposal Tips"
-    - **Build coalitions first** - Line up support before proposing
-    - **Keep it simple** - Single-article proposals pass more often
-    - **Write compelling descriptions** - Persuasion matters
-    - **Time it right** - Consider election cycles
-    - **Have backup plans** - Don't spend PP on doomed proposals
-
-!!! success "Voting Tips"
-    - **Vote consistently** - Align with your ideology
-    - **Vote on everything** - Abstaining too much looks weak
-    - **Read proposals carefully** - Understand what you're voting for
-    - **Communicate with allies** - Coordinate coalition votes
-    - **Remember voters are watching** - Every vote affects elections
-
-## Next Steps
-
-- [Elections & Voters](elections.md) - How your voting record affects elections
-- [Government & Cabinet](cabinet.md) - Forming governments after elections
-- [Political Power](resources.md) - Managing your action resources
-- [Communication](communication.md) - Negotiating with other parties
-- [Strategy Guide](../strategy-guide.md) - Advanced legislative tactics
+- [Elections & Voters](elections.md) — how your voting record turns into seats.
+- [Characters & Activists](characters.md) — recruit strong front-people.
+- [Communication](communication.md) — negotiate support before you propose.
+- [Quick Reference](../reference.md) — the PP costs and voting rules at a glance.

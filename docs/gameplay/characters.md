@@ -1,459 +1,85 @@
 # Characters & Activists
 
-**Characters** are individuals in the game who represent your party, hold cabinet positions, and influence public opinion. This guide explains how to recruit and manage your party's roster.
+**Characters** are the people of Lawmaker. Your party recruits **activists** — the public faces who front your bills and fill cabinet posts. There are also **journalists**: independent, game-controlled characters who comment on politics but can't be recruited or hold office.
 
-## Types of Characters
+## Recruiting activists
 
-### Activists
+Recruiting costs **10 PP** and shows you **3 randomly generated candidates** — each with a name, age, backstory, and a set of traits. Pick one and they join immediately, or decline and try again later (for another 10 PP).
 
-**Activists** are party-affiliated characters who:
+There's no hard limit on roster size, but each recruit costs PP and most successful parties run a focused core of a few strong activists rather than a crowd.
 
-- Represent your party publicly
-- Can hold [cabinet positions](cabinet.md)
-- Propose legislation on behalf of the party
-- Build influence through followers and authority
-- Have unique traits affecting their effectiveness
+## Traits
 
-!!! info "Your Party Team"
-    Activists are essentially your party's public faces - the politicians, organizers, and leaders who carry your message.
+Every character has **3–5 traits**. Some change how effective they are; others are pure flavour.
 
-### Journalists
+### Traits with gameplay effects
 
-**Journalists** are independent characters who:
+These shape an activist's **persuasion** (how convincing their proposals and speeches are), **profile growth** (how fast they gain followers), **authority** (credibility), and starting followers:
 
-- Post political commentary
-- Are not affiliated with any party
-- Cannot hold cabinet positions
-- Influence public discourse
-- Can't be recruited by parties
+| Trait | Effect |
+| --- | --- |
+| **Charismatic** | +Persuasion, +Profile |
+| **Awkward** | −Persuasion, −Profile |
+| **Fantastic Speaker** | ++Persuasion, ++Profile |
+| **Poor Speaker** | −Persuasion, −−Profile |
+| **Media Savvy** | +Persuasion, +Profile, more starting followers |
+| **Reclusive** | −−Profile |
+| **Well Connected** | +Authority, more starting followers |
+| **Academic** / **Former Military** | +Authority |
+| **Former Banker** | ++Authority |
+| **Outsider** | −Authority |
+| **Celebrity** (very rare) | Huge starting followers, ++Profile, +Authority |
 
-!!! note "NPCs Only"
-    Journalists are controlled by the game, not by players. They provide flavor and commentary on the political landscape.
+Some traits can't coexist (e.g. Charismatic and Awkward, Fantastic Speaker and Poor Speaker). The rest — Loyal, Ruthless, Idealist, Ambitious, Firebrand, and so on — add personality without mechanical effect.
 
-## Recruiting Activists
+When recruiting, favour **persuasion traits** (Fantastic Speaker, Charismatic, Media Savvy) for activists who'll sponsor bills and front campaign events, and avoid putting **Poor Speaker** activists on high-stakes appearances.
 
-### The Recruitment Process
+### State traits: energy
 
-To recruit an activist:
+Activists have an **energy** level that drains when they run [campaign events](campaigning.md) and recovers with rest. As it falls they pick up state traits automatically:
 
-1. Ensure you have **10 Political Power**
-2. Navigate to character recruitment
-3. The game generates **3 candidates** for you to choose from
-4. Review their traits, age, and backstory
-5. Select one to recruit — they join your party immediately
+- **Tired** (low energy) — reduced effectiveness at campaign events.
+- **Exhausted** (critically low) — significantly reduced effectiveness, more gaffes at interviews and speeches, and higher backfire risk on viral stunts.
 
-!!! tip "Pick from Three"
-    Each recruitment attempt presents exactly 3 randomly generated candidates. If none of them suit your needs, you can decline and try again later (spending another 10 PP).
+If you see Tired or Exhausted in your activist list, ease that person's schedule — or assign upcoming events to a fresher colleague.
 
-### Candidate Pool
+## What activists do
 
-Each generated candidate has:
+- **Front bills.** When [proposing a law](legislation.md), assign an activist as front person; their persuasion makes the bill more convincing.
+- **Hold cabinet posts.** [Cabinet](cabinet.md) positions build a character's authority, followers, and profile over time.
+- **Become monarch.** In countries with a [monarchy](monarchy.md), an activist can be nominated for a vacant throne. If they win, they leave the party, take a regnal name (e.g. *King Arthur I*), and reign as the Crown.
 
-- Randomized names (region-appropriate for your country)
-- Age (21-55 years)
-- Gender
-- Unique backstory
-- 3-5 traits (see below)
-- Starting follower count (affected by traits)
-- Base authority score (affected by traits)
+Activists grow with experience — sponsoring successful bills and serving in cabinet builds authority and followers — so your most valuable people are usually the ones you've developed over several cycles.
 
-### When to Recruit
+## Expelling and free agents
 
-Strategic timing for recruitment:
+You can **expel** an activist for **25 PP**; they leave immediately, vacating any cabinet post, and become a **free agent**. Free agents keep their traits, followers, and authority, and **any** party can recruit them for the normal 10 PP — including your rivals. It's expensive and irreversible, so expel sparingly — but do keep an eye out for strong free agents other parties have let go.
 
-✓ **After winning elections** - Build your government team
-✓ **Before cabinet formation** - Need qualified candidates for positions
-✓ **Building party profile** - Add charismatic activists
-✓ **Long-term investment** - Grow activists over time
-✗ **When low on PP** - Save for proposals or polls
-✗ **Without clear need** - Don't recruit just because you can
+## Social media and growth
 
-## Character Attributes
+Activists post automatically in response to events, and their follower counts grow with activity:
 
-### Basic Information
+| Activity | Follower boost |
+| --- | --- |
+| Sponsoring a bill | +5,000 |
+| A sponsored bill passes | +15,000 |
+| A sponsored bill fails | +8,000 |
+| Commenting on a proposal | +500 |
 
-Each character has:
+Profile-boosting traits (Media Savvy, Celebrity, Fantastic Speaker) multiply these gains. A sponsored bill passing also lifts the activist's authority by ~5% (a failure costs ~5%).
 
-- **Full name** - First and last name
-- **Age** - Current age in years
-- **Gender** - Male, female, or non-binary
-- **Backstory** - Brief biography
-- **Party affiliation** - Which party they belong to
-- **Join date** - When they joined the party
+### The country social media feed
 
-### Influence Metrics
+Every country has a public **social media feed** — a timeline that chronicles its politics. Three kinds of account post to it:
 
-#### Followers
+- **Your activists**, automatically, in response to game events; characters with more followers generate more engagement. Reigning [monarchs](monarchy.md) also post here as the Crown.
+- **Journalists** — independent, game-controlled characters who comment on events and add colour. They aren't affiliated with any party and can't be recruited.
+- **Game bots** — **LawBot** (laws and proposals), **NewsBot** (announcements), **GameMaster** (administration), and **EconBot** (economy) — which post automatic updates for major events: new and resolved proposals, constitutional changes, elections, government formations, bloc activity, successful rallies, and monarchy events.
 
-**Social media followers** represent public influence:
+The feed is where the story of your country's politics is told, and where your activists build the followings that make them effective bill sponsors.
 
-- Starts at base level (varies by character)
-- Grows over time with activity
-- Increases faster for:
-    - Characters in cabinet positions
-    - Characters proposing successful legislation
-    - Characters with positive traits
+## Next steps
 
-Higher followers = greater public influence
-
-#### Authority
-
-**Authority score** represents credibility and experience:
-
-- Starts at base level
-- Increases with:
-    - Time in government
-    - Successful proposals
-    - High follower growth
-- Decreases with:
-    - Failed proposals
-    - Public scandals (future feature)
-
-Higher authority = more persuasive proposals
-
-### Persuasion Score
-
-**Persuasion** affects proposal success:
-
-- Calculated from traits
-- High persuasion = better at convincing other parties
-- Matters when proposing legislation
-- Can range from poor to exceptional
-
-Formula considers:
-
-- Charisma traits
-- Speaking ability traits
-- Media savvy
-- Experience (authority)
-
-### Energy
-
-Each activist has an **energy level** representing their current stamina. Running campaign events drains their energy over time; it recovers naturally when they aren't being over-scheduled.
-
-- When energy drops to a low level, an activist gains the **Tired** trait — they become less effective at campaign events
-- When energy becomes critically low, the **Tired** trait is replaced by **Exhausted** — performance drops further and they're more likely to make mistakes at high-profile events
-
-Energy state is visible in your activist list. If you see the **Tired** or **Exhausted** trait on an activist, ease their schedule until they recover. See [Campaign Events](campaigning.md#activist-energy) for full details.
-
-### Profile Growth
-
-**Profile** measures how fast a character gains followers:
-
-- Calculated from traits
-- High profile = faster follower growth
-- Useful for party visibility
-- Helps with electoral appeal
-
-## Character Traits
-
-Every character has **3-5 traits** that define their personality, background, and abilities. Traits fall into three categories and can have positive, negative, or neutral gameplay effects.
-
-### Traits with Gameplay Effects
-
-These traits directly affect a character's persuasion, profile growth, authority, or starting followers:
-
-| Trait | Category | Effect |
-|-------|----------|--------|
-| **Charismatic** | Personality | +Persuasion, +Profile growth |
-| **Awkward** | Personality | -Persuasion, -Profile growth |
-| **Fantastic Speaker** | Skill | ++Persuasion, ++Profile growth |
-| **Poor Speaker** | Skill | -Persuasion, --Profile growth |
-| **Media Savvy** | Skill | +Persuasion, +Profile growth, starts with more followers |
-| **Reclusive** | Personality | --Profile growth |
-| **Well Connected** | Background | +Authority, starts with more followers |
-| **Outsider** | Background | -Authority |
-| **Academic** | Background | +Authority |
-| **Street Smart** | Background | Slightly lower authority |
-| **Former Military** | Background | +Authority |
-| **Former Banker** | Background | ++Authority |
-| **Celebrity** | Background | Massive starting followers, ++Profile growth, +Authority (very rare) |
-
-### State Traits
-
-These traits are set automatically by the game based on an activist's current condition. They cannot be recruited for — they appear and disappear as circumstances change:
-
-| Trait | Condition | Effect |
-|-------|-----------|--------|
-| **Tired** | Energy is low | Reduced effectiveness at all campaign events |
-| **Exhausted** | Energy is critically low | Significantly reduced effectiveness; more likely to make mistakes at interviews and speeches; increased backfire risk on viral stunts |
-
-!!! tip "Keep an Eye on These"
-    If **Tired** or **Exhausted** appears on one of your activists, ease their campaign schedule to let them recover before assigning them to important events.
-
-### Flavour Traits
-
-These traits add personality and backstory but don't currently have mechanical effects:
-
-Analytical, Ambitious, Loyal, Ruthless, Idealist, Pragmatist, Wealthy, Working Class Background, Firebrand, Incorruptible, Eccentric
-
-### Mutually Exclusive Traits
-
-Some traits can't appear together on the same character:
-
-- Charismatic and Awkward/Reclusive
-- Fantastic Speaker and Poor Speaker
-- Media Savvy and Awkward/Reclusive
-- Loyal and Ruthless
-- Idealist and Ruthless
-- Wealthy and Working Class Background
-- Academic and Street Smart
-- Well Connected and Outsider
-- Celebrity and Outsider/Reclusive
-
-### Trait Strategy
-
-When recruiting, look at the 3 candidates' traits carefully:
-
-=== "For Proposing Laws"
-    **Prioritize Persuasion Traits**
-
-    - Fantastic Speaker (strongest)
-    - Charismatic
-    - Media Savvy
-
-    These characters make more compelling proposals. Avoid characters with Awkward or Poor Speaker.
-
-=== "For Campaign Performance Events"
-    **Best for Media Interviews & Set-Piece Speeches**
-
-    - Fantastic Speaker (strongly improves outcome odds)
-    - Charismatic (modest improvement)
-
-    Avoid assigning **Poor Speaker** activists to media interviews or set-piece speeches — they are significantly more likely to gaffe. A poor performance can hurt your vote preference and damage the activist's reputation.
-
-=== "For Cabinet Positions"
-    **Prioritize Profile & Authority Traits**
-
-    - Media Savvy
-    - Celebrity (very rare)
-    - Well Connected, Academic, Former Military, Former Banker
-
-    These characters build party visibility in government.
-
-=== "All-Around Stars"
-    **Best Trait Combinations**
-
-    - Charismatic + Fantastic Speaker = strong persuasion and profile (great for proposals and performance events)
-    - Media Savvy + Well Connected = influence and authority
-    - Celebrity + any positive trait = rare powerhouse
-
-## Using Activists
-
-### Proposing Legislation
-
-When [proposing laws](legislation.md), select an activist to author it:
-
-- Activist's **persuasion** affects perception
-- High-persuasion activists make stronger proposals
-- Choose your best persuader for important proposals
-- All activists can propose regardless of traits
-
-!!! example "Proposal Authorship"
-    You want to propose a controversial environmental law. You have two activists:
-
-    - **Sarah Chen** - Charismatic, Fantastic Speaker (high persuasion)
-    - **John Smith** - No traits (average persuasion)
-
-    Choose Sarah to author the proposal for better chances of success!
-
-### Appointing to Cabinet
-
-Activists can be appointed to [cabinet positions](cabinet.md):
-
-- Prime Minister
-- Finance Minister
-- Foreign Minister
-- And others (varies by country)
-
-Cabinet appointments give:
-
-- Prestige to your party
-- Authority boost to the character
-- Faster follower growth
-- Symbolic power
-
-See: [Government & Cabinet](cabinet.md)
-
-## Becoming Monarch
-
-In countries with a [hereditary monarchy](monarchy.md), an activist can be nominated for the Crown when the throne is vacant.
-
-If the nomination wins:
-
-- The activist leaves their party
-- They receive a regnal name, such as **King Arthur I** or **Queen Eleanor II**
-- Their public display name becomes their regnal name while they reign
-- They can post to social media as the Crown
-
-When a monarch abdicates or is removed for inactivity, that character retires from public life and does not return to the party.
-
-### Building Character Profiles
-
-Activists grow over time:
-
-1. **Gain followers** through activity and positions
-2. **Build authority** through successful proposals
-3. **Increase persuasion** with experience
-4. **Become party leaders** over multiple election cycles
-
-!!! success "Long-Term Investment"
-    The best activists are those you've developed over years. Early recruitment pays off in the long run!
-
-## Managing Your Roster
-
-### Party Activists List
-
-View all your party's activists:
-
-- Current cabinet positions
-- Follower counts
-- Authority scores
-- Traits
-- Join dates
-
-### Expelling Activists
-
-You can **expel** activists from your party:
-
-- **Cost:** 25 Political Power
-- **Effect:** Character leaves your party immediately
-- **Consequence:** Lose any cabinet positions they held
-- **What happens next:** The expelled character becomes a **free agent**
-
-!!! warning "Expensive and Permanent"
-    Expelling activists is costly and irreversible. Only do this if absolutely necessary (e.g., need to make room for better candidates or after scandal).
-
-### Free Agent Recruitment
-
-When a character is expelled from a party, they become a **free agent** — unaffiliated and available for recruitment by any party.
-
-- Free agents retain their traits, followers, and authority
-- Any party can recruit a free agent (costs 10 PP like normal recruitment)
-- This means your expelled activists could end up working for a rival!
-
-!!! tip "One Party's Trash..."
-    Keep an eye out for free agents expelled by other parties. A character with strong traits might be a bargain pick-up for your roster.
-
-### Roster Size
-
-There's typically **no hard limit** on activist count, but:
-
-- Each recruitment costs 10 PP
-- More activists = harder to manage
-- Quality > Quantity
-- Most successful parties have 3-7 core activists
-
-## Character Strategy
-
-### Specialist Approach
-
-Build a **specialized roster**:
-
-- 1-2 **persuasive speakers** for proposing laws
-- 1-2 **media-savvy faces** for cabinet positions
-- 1-2 **all-rounders** for flexibility
-
-### Star System
-
-Focus on building **star politicians**:
-
-- Recruit high-trait activists early
-- Give them cabinet positions when possible
-- Use them to author important proposals
-- Build their follower counts over time
-- Create recognizable party leaders
-
-### Depth vs. Stars
-
-Two approaches:
-
-=== "Star System"
-    **Few high-profile activists**
-
-    ✓ Clear party leadership
-    ✓ Recognizable faces
-    ✓ Efficient PP use
-    ✗ Less flexibility
-    ✗ Vulnerable if star leaves
-
-=== "Deep Bench"
-    **Many activists**
-
-    ✓ Flexibility in appointments
-    ✓ Multiple cabinet members
-    ✓ Resilient to losses
-    ✗ Expensive (10 PP each)
-    ✗ Harder to build individual profiles
-
-## Character Development
-
-### Growth Mechanics
-
-Activists improve through:
-
-1. **Time in party** - Experience matters
-2. **Cabinet positions** - Government service boosts profile
-3. **Successful proposals** - Authoring passed laws builds authority
-4. **Public activity** - Social media engagement grows followers
-5. **Electoral success** - Winning elections helps everyone
-
-### Career Progression
-
-Typical activist career:
-
-1. **Recruit** (Day 1) - Join party with base stats
-2. **Backbencher** (Years 1-2) - Build experience
-3. **Rising Star** (Years 2-4) - Increase authority and followers
-4. **Cabinet Member** (Years 3-6) - Hold government positions
-5. **Party Leader** (Years 5+) - Top persuasion and profile
-
-!!! tip "Patience Pays Off"
-    Don't expect new recruits to be superstars immediately. The most valuable activists are those who've been with your party for years.
-
-## Social Media & Profile Growth
-
-Activists automatically generate **social media posts** in response to game events. Their follower counts grow based on their activity:
-
-| Activity | Follower Boost |
-|----------|---------------|
-| **Sponsoring a bill** | +5,000 followers |
-| **Sponsored bill passes** | +15,000 followers |
-| **Sponsored bill fails** | +8,000 followers (still publicity) |
-| **Posting a comment** on a proposal | +500 followers |
-
-Characters with profile-boosting traits (Media Savvy, Celebrity, Fantastic Speaker) grow followers faster through a multiplier on these boosts.
-
-When a character sponsors a bill that passes, their authority increases by 5%. When a sponsored bill fails, authority decreases by 5%.
-
-See [Social Media Feed](social-media.md) for more about the country-wide social media system.
-
-## Tips for Character Management
-
-!!! success "Best Practices"
-    1. **Recruit early** - Build your roster before elections
-    2. **Prioritize traits** - Look for Charismatic, Fantastic Speaker, Media Savvy
-    3. **Invest in stars** - Give best activists cabinet positions
-    4. **Use specialists** - Best persuaders author proposals; best speakers front performance events
-    5. **Track growth** - Monitor follower and authority increases
-    6. **Think long-term** - Best activists develop over years
-    7. **Quality over quantity** - 3 great activists > 10 mediocre ones
-    8. **Manage energy** - Watch for the Tired or Exhausted trait and rotate activists to prevent burnout
-
-!!! warning "Common Mistakes"
-    - **Over-recruiting** - Wasting PP on too many activists
-    - **Ignoring traits** - Recruiting activists without useful traits
-    - **No strategy** - Not matching activists to roles
-    - **Impatience** - Expecting new recruits to be stars immediately
-    - **Expelling unnecessarily** - Wasting 25 PP to remove activists
-    - **Running one activist constantly** - They'll become Tired or Exhausted, hurting performance at key events
-    - **Scheduling high-stakes speeches for exhausted activists** - The gaffe risk is very high
-
-## Next Steps
-
-- [Government & Cabinet](cabinet.md) - Appoint activists to positions
-- [Legislation & Voting](legislation.md) - Use activists to propose laws
-- [Hereditary Monarchy](monarchy.md) - Activists who become monarchs
-- [Party Management](parties.md) - Build your overall party strategy
-- [Political Power](resources.md) - Manage PP for recruitment
-- [Strategy Guide](../strategy-guide.md) - Advanced character tactics
+- [Legislation & Voting](legislation.md) — put your best persuader on important bills.
+- [Campaign Events](campaigning.md) — where activist traits and energy come into play.
+- [Government & Cabinet](cabinet.md) — appoint activists to office.
