@@ -39,6 +39,43 @@ Each country has overview pages bringing together its current laws and legislati
 - **Historical events** — major lore moments from the country's past (its founding, a revolution, a war), added by the country owner or proposed by any player for approval. These are for lore not already captured by the game's own records of elections and legislation.
 - **National flag** — every country can have one. When a country has none, any player can start a **48-day flag-suggestion process** where the community uploads and upvotes designs, and the most-upvoted flag wins.
 
+### Historical events
+
+Historical events are **major, one-off moments** in a country's life story that give it depth and character. Good examples include:
+
+- The founding or independence of the country
+- A constitutional revolution or regime change
+- A major war, invasion, or peace treaty
+- A significant natural disaster or national crisis
+- The discovery of a valuable resource
+- A landmark social or cultural turning point
+
+!!! warning "Don't duplicate what's already recorded"
+    Events that are already tracked elsewhere in the game — such as **constitutional changes**, **elections**, and **passed legislation** — should **not** be entered as historical events. Use the historical events section for lore that isn't captured by those systems.
+
+#### Adding a historical event
+
+Each event records a **year** (AD), a short **headline**, and an optional longer **description** that is hidden until a player clicks to expand it.
+
+!!! info "One event per year"
+    Only one historical event can exist per year in a country. If a year is already taken, you will see a warning as you type.
+
+**Who can add events:**
+
+| User type | Action |
+|-----------|--------|
+| Country owner or admin | **Add event** — published immediately |
+| Any other logged-in player | **Propose event** — saved as a draft pending approval |
+
+Proposed events are shown in a dashed style and marked **"Pending approval"**. Only the submitting player, the country owner, and admins can see them until approved.
+
+#### Approving and managing proposed events
+
+Country owners and admins see an **Approve** button on each pending event, and a **Reject & delete** button to discard a proposal that doesn't fit the country's lore. They can also **Delete** an already-published event from their country's record.
+
+!!! info "Email notification for country owners"
+    If you proposed the country (you are its owner), you will receive an **email notification** whenever a player submits a lore event proposal that is awaiting your approval — for any of your countries, public or private. The email includes the event year, headline, and description, along with a direct link to your country page where you can review and approve it. You can manage this notification in your email preferences.
+
 ## Next steps
 
 - [Create your party](gameplay/parties.md) once you've chosen a country.
