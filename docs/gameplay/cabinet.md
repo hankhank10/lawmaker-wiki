@@ -22,6 +22,8 @@ graph TD
 
 A party proposes a cabinet for **30 PP**, nominating an activist for every position. All parties then vote (weighted by seats, over a 60-day window), and the cabinet forms if it wins majority support. Nominees can come from **any** party, which is what makes coalition governments possible.
 
+You can build your proposed cabinet as a **draft** first (this is free and stays private to your party) and only pay the 30 PP when you **open it for voting**. Only **one** formation vote can run at a time per country, so a draft never blocks other parties — but opening yours is held until any vote already underway has resolved.
+
 ## Coalitions
 
 Because proportional representation rarely hands one party a majority, governments are usually **coalitions**, and cabinet positions are the bargaining chips. To build one, you offer posts to partners in rough proportion to the seats they bring, agree on a shared agenda, and coordinate your votes.
