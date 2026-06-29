@@ -84,6 +84,8 @@ Any logged-in user can *view* public polls; only active parties can commission t
 
 A party can trigger an election before the scheduled date for **30 PP** (just 10 PP if no party holds seats). It's put to a vote over a 60-day window and goes ahead unless opposition reaches 50%. Leading parties use this to lock in gains; opposition parties vote it down to deny them the moment.
 
+**The motion concludes early** if the outcome becomes mathematically certain before the 60-day window ends — that is, once yes has secured more than 50% of occupied seats (it will pass), or once yes can no longer reach 50% no matter how remaining votes fall (it will fail). This applies even if votes are still incoming.
+
 Separately, the game calls an **automatic** early election (no vote, no PP) for any single legislature that empties below 50% occupancy — usually after a governing party is disbanded — holding it 10 game days later so the chamber can be refilled.
 
 ## Next steps
