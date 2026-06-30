@@ -63,6 +63,70 @@ Two temporary [national moods](elections.md#national-moods) act directly on the 
 
 These are external events outside player control; they show up as shifts in the nation's economy.
 
+## IMF Intervention
+
+A country that lets its debt spiral out of control eventually loses the freedom to run its own books. The status-quo budget bakes in a structural deficit, and as your credit rating falls your borrowing costs climb (up to **18%** a year at the worst rating). Left unchecked, the interest compounds and the debt runs away. When it becomes catastrophic, the **International Monetary Fund steps in** — a rescue, but one with harsh strings attached.
+
+### The warning: "Economy on the Brink"
+
+Before the IMF gets involved, you get a clear warning. Once your **debt reaches 150% of GDP** your credit rating bottoms out at **CCC**, the worst rating, and an **Economy on the Brink** badge appears on the country. This is the danger zone: borrowing is at its most expensive, and you are one bad stretch away from losing control of the budget. Treat it as your last chance to balance the books on your own terms.
+
+### What triggers an intervention
+
+If debt keeps climbing past the brink, the IMF takes over when:
+
+- Your **debt reaches 200% of GDP**, and
+- It **stays at or above 200% for 3 consecutive months**.
+
+A single bad month won't do it — the books have to stay deep in the red across a full quarter. But at 200% debt-to-GDP a country is effectively insolvent, so once you're there the clock runs fast.
+
+### What happens when the IMF takes over
+
+The intervention hits immediately and reshapes the whole country:
+
+- **An emergency austerity budget is imposed** — no vote, no say. Every tax band is set to **50%**, and spending in every category is slashed to roughly **25% of what comparable countries spend**. By design this budget runs a large surplus: it exists to pay down the debt fast.
+- **The economy crashes into a recession** lasting **1 year** — growth turns sharply negative while the austerity bites.
+- **Budget policy is locked** under IMF conditions for as long as the programme runs (see below).
+- **The responsible parties are branded** with a heavy political penalty (see below).
+
+### The one upside: cheap debt
+
+There is a single carrot. While you are under the programme, your debt becomes **cheap**: a fixed **5%** annual borrow rate, instead of the up-to-18% a 200%-debt country would otherwise pay. Combined with the surplus the austerity budget generates, that cheap interest is the engine that climbs you out of the hole. The programme is brutal, but it is survivable — and the discounted rate is what makes the recovery reachable.
+
+### Living under the programme
+
+You don't lose the budget entirely. You can still propose your own budgets while under the IMF — but they must satisfy two conditions to be valid:
+
+| Condition | Rule |
+| --- | --- |
+| **No deficit** | Spending must not exceed the tax take. You may run a surplus, never a deficit. |
+| **Tax floor** | Every tax band must stay at or above **40%** (just below the 50% emergency level, so you can ease off a little — but not gut revenue). |
+
+A proposal that breaks either rule is rejected. This lets you steer spending priorities and soften the tax burden slightly, but it cannot undo the discipline that gets you out.
+
+### The political cost: "Destroyed Economy"
+
+Someone is blamed for the wreck. When the IMF intervenes, a crushing **Destroyed Economy** brand is applied to:
+
+- **Every party in government** at the time, and
+- **Every party that voted for the budgets** that drove the country into insolvency.
+
+The brand cuts the affected parties' vote share roughly **in half** — far harsher than any other party penalty — and it is *sticky*. It lasts the **entire** time the country is under the programme, **plus 2 years after** you exit. Balancing the books does not wash it off; the reckoning outlives the bailout.
+
+!!! warning "Voting for a deficit budget is a recorded act"
+    The IMF reads the ledger. If you voted *for* the budgets that ran the debt up, you wear the **Destroyed Economy** brand even if you're long out of government by the time the IMF arrives. Parties that opposed those budgets are spared.
+
+### How the programme ends
+
+The programme ends on recovery, not on a timer. The IMF leaves once your **debt falls back to 100% of GDP or below and stays there for 6 consecutive months**.
+
+Crucially, the **recession only lasts 1 year**, while the programme runs until the debt recovers — which usually takes longer. So once the recession lifts, **growth resumes even while you are still under the IMF**, and a growing GDP helps drag your debt-to-GDP ratio back down alongside the austerity surplus. That combination — surplus, cheap 5% debt, and renewed growth — is how a country claws its way back out.
+
+!!! tip "Avoiding and escaping a bailout"
+    The cheapest crisis is the one you never have. Watch your credit rating: once it slips toward **CCC (150% debt)**, your borrowing costs are punishing and the **Economy on the Brink** warning is telling you the IMF is next. Pass a surplus budget *before* you hit 200% and you keep control on your own terms.
+
+    If the IMF is already in, don't fight the programme — use it. The 5% debt rate is the lowest borrowing cost in the game, so a disciplined balanced (or surplus) budget pays the debt down fast. Hold the line through the 1-year recession, let growth resume, and push debt-to-GDP back to 100% for six straight months to exit. Just remember the **Destroyed Economy** brand follows the culprits for two years past recovery — so the parties that *caused* the crisis carry the electoral cost long after the books are balanced.
+
 ## Next steps
 
 - [Elections & Voters](elections.md) — how voter opinion turns into seats.
