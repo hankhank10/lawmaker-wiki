@@ -76,9 +76,9 @@ Before the IMF gets involved, you get a clear warning. Once your **debt reaches 
 If debt keeps climbing past the brink, the IMF takes over when:
 
 - Your **debt reaches 200% of GDP**, and
-- It **stays at or above 200% for 3 consecutive months**.
+- It **hits 200% of GDP in any single month**.
 
-A single bad month won't do it — the books have to stay deep in the red across a full quarter. But at 200% debt-to-GDP a country is effectively insolvent, so once you're there the clock runs fast.
+At 200% debt-to-GDP a country is effectively insolvent, so the IMF steps in immediately.
 
 ### What happens when the IMF takes over
 
