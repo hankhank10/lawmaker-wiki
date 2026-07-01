@@ -49,7 +49,7 @@ Boost a category and you gain the voters who prize that issue; cut it and you lo
 
 ### Outliers are where the votes are
 
-Your country is compared against similar **peer countries**. Spending that's wildly above or below the peer average becomes a **hot-button issue** — changing it moves lots of opinion. Spending close to the peer norm barely registers. So your biggest electoral opportunities (and risks) are in the categories where your country is already an outlier.
+Your country is compared against similar **peer countries**. Spending that's wildly above or below the **median** peer country becomes a **hot-button issue** — changing it moves lots of opinion. Spending close to the peer norm barely registers. Using the median (rather than the average) means a single outlier peer can't skew the comparison. So your biggest electoral opportunities (and risks) are in the categories where your country is already an outlier.
 
 !!! tip "Make your laws and budget tell the same story"
     The budget is a precision tool, not a blunt one. A defence-and-order party that boosts military and police spending is doubling down convincingly. A green party that *cuts* environment spending is contradicting its own platform — and voters notice. Because budgets are only ~30% of the picture, a budget move works best when it reinforces a voting record already pointing the same way.
