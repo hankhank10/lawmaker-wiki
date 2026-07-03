@@ -15,7 +15,7 @@ When a country is created it's assigned one of four **economy types**, which set
 
 GDP comes from the country's electors — each contributes according to whether they're employed and which income band (low, medium, high, or elite) they sit in. The country's prosperity grows (or shrinks) month by month at its growth rate, with some random variation, and temporary [national moods](#national-moods-and-economic-growth) can boost or crash it.
 
-Each country's **Economy page** shows a live snapshot — average and median GDP per capita, totals by income band, an inequality ratio, the credit rating and its borrowing costs, and history — plus an **International Economy** league table ranking every country in the world. Browse these in-game; the numbers update on every visit.
+Each country's **Economy page** shows a live snapshot — average and median GDP per capita, totals by income band, an inequality ratio, the credit rating and its borrowing costs, and history — plus an **International Economy** league table ranking every country in the world. Browse these in-game; the numbers update on every visit. A country under an active [IMF programme](#imf-intervention) shows a **‼️ IMF** badge in the league table's rating column instead of a normal letter grade, so you can spot which economies are under IMF control at a glance.
 
 ## How budgets affect voters
 
