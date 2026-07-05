@@ -12,11 +12,14 @@ There are three kinds:
 
 | Demand | What voters are asking for | How it reads |
 | --- | --- | --- |
-| **Tax cut** | Bring a specific income band's tax rate down — at least a few points, and at least back to the peer average | *"Taxes on middle incomes are way too high! Cut the medium-earner rate from 32% to 25%."* |
-| **Spending rise** | Lift spending in a starved category up to what comparable countries spend | *"Our schools are falling behind! Raise education spending to match our neighbours."* |
+| **Tax cut** | Bring a specific income band's tax rate down — a real cut, though not all the way to the peer average | *"Taxes on middle incomes are way too high! Cut the medium-earner rate from 32% to 25%."* |
+| **Spending rise** | Lift spending in a starved category a real step closer to what comparable countries spend | *"Our schools are falling behind! Raise education spending closer to our neighbours."* |
 | **End IMF control** | Get the country out of its IMF programme | *"Enough austerity — get the IMF out of our country."* |
 
 The exact wording is generated fresh each time in an angry-but-plausible voter voice, but the figures underneath it are snapshotted from the real state of your economy the moment the demand is issued — and they never change afterwards, even if peer averages drift. The demand is a fixed, published ask.
+
+!!! note "Targets close most of the gap, not all of it"
+    A demand's target doesn't ask you to fully match your peers — it closes roughly **two-thirds of the gap** to the peer benchmark and lands on a clean, round number, so the ask is exactly hittable rather than a jarring "cut to 36.7%". A tax cut always removes **at least 5 points** off the band's rate, and a spending rise always adds **at least 25%**, so even a narrow gap produces a demand worth fighting over.
 
 !!! note "Demands are one-sided on purpose"
     Voters only ever demand **lower taxes** or **more spending** (or their country back). Nobody marches for a balanced budget. That's the whole tension: each demand is individually popular and, taken together, fiscally reckless. Being loved and being responsible are not the same move — and the system is built around that fact.
@@ -130,7 +133,7 @@ Demands are hard to miss — that's by design, so the hangover feels inevitable 
 
 - **Dashboard card** — a prominent card on your player dashboard tracks your country's demands in two halves: the **live demands** you can still pledge to (with a clear "you have / have not pledged" marker), and your **in-delivery commitments** that bite at the next election — each with a live "delivered ✓ / not yet delivered" check and a risk cue reading your *current* power status ("you hold power — this will bite" vs "you're not in power"). It's the drumbeat that keeps the reckoning in view.
 - **Demand detail page** — the full headline and narrative, the grounding numbers (current vs peer benchmark vs target), the lifecycle status, the roster of every pledging party with their plan and outcome, and the **pledge form** for eligible leaders. The form spells the deal out before you commit.
-- **Country page** — a "The voters demand" card for any live demand, with recent resolved demands listed beneath.
+- **Country page and economy page** — a "The voters demand" card for any live demand, with recent resolved demands listed beneath.
 - **Budget page** — a slim banner showing any live demand's target, right where delivery actually happens, so you can draft toward it.
 
 Your [party page](parties.md) also shows the **People's Pledge** or **Broken Promises** badges (with tooltips) whenever they're active, alongside a list of your party's pledges and their outcomes.

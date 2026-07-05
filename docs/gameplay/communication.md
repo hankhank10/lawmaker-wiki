@@ -35,6 +35,7 @@ Every [proposal](legislation.md) has a public **comment thread**. Unlike private
 - **Founding** a bloc costs **50 PP**. You set a unique name, description, SVG logo, **membership criteria**, and a **defining pillar** (one of your party's pillars). The founder becomes Leader, and a bloc group chat is created automatically.
 - **Joining** costs **20 PP** to apply (not refunded if rejected), with a short rationale; a leader approves or denies it.
 - **Leaders** approve applications, promote other members to leader, and manage the logo. Stability rules keep blocs intact — founders can't leave their own bloc, the last leader can't resign, and a bloc with no members left is deleted.
+- A bloc **outlives its founder**: if the founding party or its owner's account is ever deleted, the bloc carries on with its members and its defining pillar intact — only the record of who originally founded it is cleared.
 
 Blocs carry an **International Prestige** score (and are ranked by it) that rises with a bloc's size, its **ideological coherence** (members who share the defining pillar help; opponents hurt), and its **clout** — members holding big legislature shares, heads of government, cabinet offices, and recent legislation.
 
