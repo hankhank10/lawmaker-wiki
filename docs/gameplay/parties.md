@@ -31,7 +31,7 @@ These are eight of the **16 issues** available — the full list is in [Laws & P
 
 ### Changing a pillar
 
-You can replace **one** of your four pillars at any time for **75 PP**. It's deliberately expensive and public: the country's political journalist automatically posts a news story about your shift, so everyone notices. Voters who liked the old position may drift away while new ones arrive — so it's usually safest **right after an election**, giving the electorate time to adjust before it next matters.
+You can replace **one** of your four pillars at any time for **75 PP**. It's deliberately expensive and public: one of the country's journalists automatically posts a news story about your shift, so everyone notices. Voters who liked the old position may drift away while new ones arrive — so it's usually safest **right after an election**, giving the electorate time to adjust before it next matters.
 
 ## Party branding
 

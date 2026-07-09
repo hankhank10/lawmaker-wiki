@@ -132,7 +132,7 @@ That's why the promise and the delivery can come apart so brutally. You pledge a
 Demands are hard to miss — that's by design, so the hangover feels inevitable rather than sprung on you.
 
 - **Dashboard card** — a prominent card on your player dashboard tracks your country's demands in two halves: the **live demands** you can still pledge to (with a clear "you have / have not pledged" marker), and your **in-delivery commitments** that bite at the next election — each with a live "delivered ✓ / not yet delivered" check and a risk cue reading your *current* power status ("you hold power — this will bite" vs "you're not in power"). It's the drumbeat that keeps the reckoning in view.
-- **Demand detail page** — the full headline and narrative, the grounding numbers (current vs peer benchmark vs target), the lifecycle status, the roster of every pledging party with their plan and outcome, and the **pledge form** for eligible leaders. The form spells the deal out before you commit.
+- **Demand detail page** — the full headline and narrative, the grounding numbers (current vs peer benchmark vs target), the lifecycle status, the roster of every pledging party with their plan and outcome, the country's **next election date**, and the **pledge form** for eligible leaders. The form spells the deal out before you commit.
 - **Country page and economy page** — a "The voters demand" card for any live demand, with recent resolved demands listed beneath.
 - **Budget page** — a slim banner showing any live demand's target, right where delivery actually happens, so you can draft toward it.
 

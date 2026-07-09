@@ -70,11 +70,14 @@ Profile-boosting traits (Media Savvy, Celebrity, Fantastic Speaker) multiply the
 
 ### The country social media feed
 
-Every country has a public **social media feed** — a timeline that chronicles its politics. Three kinds of account post to it:
+Every country has a public **social media feed** — a timeline that chronicles its politics. Four kinds of account post to it:
 
 - **Your activists**, automatically, in response to game events; characters with more followers generate more engagement. Reigning [monarchs](monarchy.md) also post here as the Crown.
-- **Journalists** — independent, game-controlled characters who comment on events and add colour. They aren't affiliated with any party and can't be recruited.
+- **Journalists** — independent, game-controlled characters who comment on events and add colour. They aren't affiliated with any party and can't be recruited. Each country has a small **press corps** of up to four journalists, each with a distinct outlet and voice: a **broadsheet** correspondent (measured, authoritative), a **tabloid** reporter (punchy and vivid), a **gossip** columnist (chatty, personality-first), and a **wonk** (an economics correspondent who owns the budget/IMF beat with plain-language analysis). Whoever's best suited covers a given story, and on the very biggest news two contrasting voices sometimes both weigh in. Bylines read "Journalist @ *Outlet Name*" — e.g. *"Jane Doe (Journalist @ The Aldland Chronicle)"* — so it's always clear who's writing and for which paper.
+- **Ordinary voters** — a sampled slice of electors post their own reactions to what's been happening, in their own voice, tagged simply as "Voter." Some react to recent national events (a proposal passing, a budget landing, an election result); others post a "change of heart" when a rival party's persuasion campaign actually shifts their view on an issue. These posts are colour only — reading them doesn't change anyone's opinion — but they're a live read on how the public is taking your politics.
 - **Game bots** — **LawBot** (laws and proposals), **NewsBot** (announcements), **GameMaster** (administration), and **EconBot** (economy) — which post automatic updates for major events: new and resolved proposals, constitutional changes, elections, government formations, bloc activity, successful rallies, and monarchy events.
+
+You can filter the feed by poster (**Journalists**, **Politicians**, **Voters**) and by country, from the Filters card above the feed.
 
 The feed is where the story of your country's politics is told, and where your activists build the followings that make them effective bill sponsors.
 

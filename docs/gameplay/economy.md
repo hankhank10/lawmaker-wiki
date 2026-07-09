@@ -32,6 +32,8 @@ Laws still matter more, but budgets are the decisive secondary factor — and th
 
 Every elector sits in an income band. When you vote for a budget, they look at what it does to **their own band's** income tax: cut it and they warm to you, raise it and they cool. **Wealthier voters react far more strongly** to their own tax rate, while lower-income voters care more about the services tax funds. So a budget that slashes elite taxes delights a small group of rich voters and barely registers with everyone else.
 
+Each personal income tax band can be set anywhere from **0% up to a hard cap of 90%** on a proposed budget — you can't balance the books by taxing a band at 100%.
+
 ### Spending maps onto the issues voters care about
 
 Each spending area connects to a political issue voters already hold opinions on:
