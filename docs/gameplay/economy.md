@@ -1,21 +1,28 @@
 # Economy
 
-Most countries in Lawmaker have a **modelled economy** that gives the nation a size (total GDP), a prosperity level (GDP per capita), and a growth trajectory. All figures are in US dollars. You don't manage the economy directly — but your party's **budget votes** shape it and, crucially, shape how voters see you.
+Most countries in Lawmaker have a **modelled economy** that gives the nation a size (total GDP), a prosperity level (GDP per capita), and a growth trajectory built from its **industries**. All figures are in US dollars. You don't manage the economy directly — but your party's **budget votes** shape it and, crucially, shape how voters see you.
 
 ## The shape of a country's economy
 
-When a country is created it's assigned one of four **economy types**, which set its starting prosperity and growth:
-
-| Economy type | GDP per capita | Annual growth | Unemployment |
-| --- | --- | --- | --- |
-| Failed state | ~$1,500 | 0.5% | High |
-| Developing | ~$12,000 | 4.5% | Moderate |
-| Developed | ~$50,000 | 2.0% | Low |
-| Highly advanced | ~$85,000 | 1.5% | Very low |
-
-GDP comes from the country's electors — each contributes according to whether they're employed and which income band (low, medium, high, or elite) they sit in. The country's prosperity grows (or shrinks) month by month at its growth rate, with some random variation, and temporary [national moods](#national-moods-and-economic-growth) can boost or crash it.
+Every country starts as a **developed economy**, with a starting GDP per capita in the tens of thousands of dollars and some random variation between countries. GDP comes from the country's electors — each contributes according to whether they're employed and which income band (low, medium, high, or elite) they sit in. Temporary [national moods](#national-moods-and-economic-growth) can boost or crash growth on top of the ordinary trajectory described below.
 
 Each country's **Economy page** shows a live snapshot — average and median GDP per capita, totals by income band, an inequality ratio, the credit rating and its borrowing costs, and history — plus an **International Economy** league table ranking every country in the world. Browse these in-game; the numbers update on every visit. A country under an active [IMF programme](#imf-intervention) shows a **‼️ IMF** badge in the league table's rating column instead of a normal letter grade, so you can spot which economies are under IMF control at a glance.
+
+## Industries: where growth comes from
+
+A country's growth isn't one flat number — it's built up from **industries**. Every economy is a mix of up to twelve industries: Agriculture & Food, Oil & Gas, Mining & Metals, Technology, Financial Services, Pharmaceuticals, Consumer Goods & Retail, Automotive, Aerospace & Defence, Tourism & Hospitality, Media & Entertainment, and Professional Services. Three of these — Agriculture & Food, Consumer Goods & Retail, and Professional Services — are present in every country; the rest are present or absent depending on the country's mix.
+
+Each industry has its own growth story that plays out across the whole world at once — a global technology boom lifts every tech-heavy country simultaneously, while an oil slump hits every petrostate at the same time. Your country's growth each month is the blended result of how every one of its industries is doing, weighted by how much of your economy that industry makes up. A country that's heavily invested in a booming industry outgrows an otherwise similar rival that isn't — visible, explainable growth, rather than a single dice roll.
+
+### Economic focus
+
+When a country is founded (or proposed), its founder can choose an **economic focus** — a preset economic identity such as *Technology Powerhouse*, *Petrostate*, *Financial Hub*, *Mining Economy*, *Industrial Heartland*, *Agricultural Heartland*, *Tourism Paradise*, *Life Sciences Hub*, or *Cultural Powerhouse* — or leave it as a **Balanced Economy** with no dominant sector. A focus guarantees its chosen industry (or industries) is present and boosted into a genuine **specialism**; the rest of the country's mix is still generated at random. Choosing a focus doesn't change how tax, budgets, or elections work — it only shapes where your country's growth comes from.
+
+### The Industries tab
+
+Every country's Economy page has an **Industries** tab showing the current mix: each industry's share of the economy, a **Specialism** badge on the country's focus industries, and how each industry is growing this month — globally, and (once there's enough history) for your country specifically. The **International Economy** page carries the same idea up a level, with a global industries overview and per-industry rankings showing which countries have the largest sectors in each field.
+
+A country's industry mix is set at creation and then only changes by growing or shrinking — a fast-growing specialism becomes an even larger share of the economy over time, reinforcing the country's identity the longer it goes unchanged.
 
 ## How budgets affect voters
 
