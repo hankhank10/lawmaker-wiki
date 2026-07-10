@@ -51,7 +51,7 @@ A single ban pushes the acting party to **Autocratic Leanings**; do it repeatedl
 
 ## Order arrest
 
-The holder of the **Power to be Head of the Police** can have a named politician detained. It costs **30 PP** and adds **25 autocracy points** — the most autocratic act in the catalogue. Any active party politician can be targeted, including your own colleagues.
+The holder of the **Power to be Head of the Police** can have a named politician detained. It costs **30 PP** and adds **25 autocracy points** — the most autocratic act in the catalogue. Any active party politician can be targeted, including colleagues in your own party — with two exceptions: you can't target **yourself**, and a **sitting single-seat office holder** (for example, an elected president) can't be arrested at all — only voted out at the ballot box. A candidate contesting such an office, and anyone holding a cabinet seat, remains fair game.
 
 An arrested politician is detained for **12 months**, during which they:
 
