@@ -11,9 +11,10 @@ that vote themselves into them.
 A global decision is triggered centrally — you'll see it appear for your country with no
 warning — and it always has exactly **two choices**. Each choice comes with a short list of
 consequences: some are pure flavour ("we'll be seen as a humanitarian leader"), and some are
-programmatic — a real budget effect that shows up on your country's books once the decision
-resolves. Effect-bearing consequences are marked with a **budget impact** chip so you can see
-at a glance which choice actually costs (or earns) something.
+programmatic — a real budget effect that shows up on your country's books, or a national
+mood your country gains, once the decision resolves. Effect-bearing consequences are marked
+with a chip (**budget impact** or **national mood**) so you can see at a glance which choice
+actually does something.
 
 One of the two choices is always marked as the **default** — the one that wins automatically
 if your country can't produce a clear winner (see [Abstention and deadlock](#abstention-and-deadlock)
@@ -83,6 +84,23 @@ resolves:
   attach it to.
 - Effects apply regardless of whether your country is under an [IMF programme](economy.md#imf-intervention)
   — a decision you voted (or defaulted) into still bites even under emergency austerity.
+
+## National mood effects
+
+Some choices change how your country *feels* rather than what it pays: the winning choice
+grants a **national mood** for a fixed number of days.
+
+- The consequence bullet spells out exactly what will happen — which mood, how long it lasts,
+  and (if there's one) the delay: "National mood: Six Seven Obsession for 67 days, starting
+  7 days after the decision".
+- The mood arrives **after the authored delay** (or on resolution day if there's none), and
+  from that moment it behaves exactly like any other temporary national mood — same
+  notification when it lands, same influence on your electorate, same automatic expiry once
+  its days run out.
+- Unlike budget effects, mood effects apply to **every country**, including those with their
+  economy disabled — moods act on voters, not budgets.
+- If your country already has that mood active when the effect lands, nothing changes — the
+  existing mood simply carries on with its original expiry.
 
 ## Where to find decisions in-game
 
