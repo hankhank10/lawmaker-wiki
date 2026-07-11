@@ -8,6 +8,13 @@ Every country starts as a **developed economy**, with a starting GDP per capita 
 
 Every country's **Economy page** is split into tabs. **Economic Growth** is the live snapshot — GDP per capita, total GDP, unemployment, income inequality, a GDP breakdown by earner band, an international ranking, and growth history. **Debt & Reserves** covers the credit rating, its borrowing (or interest-earning) rate, and reserve/debt history. There's also an **Industries** tab (below) and a **Budget** tab for casting your vote. Browse these in-game; the numbers update on every visit. The separate **International Economy** page carries a league table ranking every country in the world; a country under an active [IMF programme](#imf-intervention) shows a **‼️ IMF** badge in its rating column instead of a normal letter grade, so you can spot which economies are under IMF control at a glance.
 
+The **Budget** tab can also carry a **Global decision effects** section — a set of fixed
+income or expenditure rows created when your country votes (or defaults) its way into a
+[global decision's](global-decisions.md#budget-effects) programmatic consequence. Each row
+shows its label, direction, monthly amount, and months remaining, and folds straight into the
+budget totals and Sankey chart alongside ordinary tax and spending. It only appears once your
+country actually has an active effect.
+
 ## Industries: where growth comes from
 
 A country's growth isn't one flat number — it's built up from **industries**. Every economy is a mix of up to twelve industries: Agriculture & Food, Oil & Gas, Mining & Metals, Technology, Financial Services, Pharmaceuticals, Consumer Goods & Retail, Automotive, Aerospace & Defence, Tourism & Hospitality, Media & Entertainment, and Professional Services. Three of these — Agriculture & Food, Consumer Goods & Retail, and Professional Services — are present in every country; the rest are present or absent depending on the country's mix.
@@ -140,3 +147,4 @@ Crucially, the **recession only lasts 1 year**, while the programme runs until t
 
 - [Elections & Voters](elections.md) — how voter opinion turns into seats.
 - [Legislation & Voting](legislation.md) — the laws that make up your social-policy record.
+- [Global Decisions](global-decisions.md) — the world-wide votes that can add their own income or expenditure rows to your budget.

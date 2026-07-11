@@ -143,4 +143,5 @@ Your [party page](parties.md) also shows the **People's Pledge** or **Broken Pro
 - [Elections & Voters](elections.md) — the elections that open, close, and judge every demand.
 - [Economy](economy.md#how-budgets-affect-voters) — how budgets deliver demands, and how the IMF programme ends.
 - [Legislation & Voting](legislation.md) — the wider record voters judge you on.
+- [Global Decisions](global-decisions.md) — the game's other public, reason-required commitment — a world-wide vote instead of a single-country pledge.
 - [Strategy Guide](../strategy-guide.md) — timing, positioning, and when a promise is worth the risk.

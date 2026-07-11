@@ -64,6 +64,7 @@ In **bicameral** countries a proposal must clear its threshold in all required c
 | Constitutional-change cooldown | ~2 years after a successful change |
 | Constitutional Crisis mood | 90 days (resets on a further veto) |
 | Economic Miracle / Crash mood | ~2 years |
+| [Global decision](gameplay/global-decisions.md) voting window | 12 game days, same for every country |
 
 ## Turnout & vote-preference modifiers
 
