@@ -11,10 +11,11 @@ that vote themselves into them.
 A global decision is triggered centrally — you'll see it appear for your country with no
 warning — and it always has exactly **two choices**. Each choice comes with a short list of
 consequences: some are pure flavour ("we'll be seen as a humanitarian leader"), and some are
-programmatic — a real budget effect that shows up on your country's books, or a national
-mood your country gains, once the decision resolves. Effect-bearing consequences are marked
-with a chip (**budget impact** or **national mood**) so you can see at a glance which choice
-actually does something.
+programmatic — a real budget effect that shows up on your country's books, a national
+mood your country gains, or a change to one of your country's industries, once the decision
+resolves. Effect-bearing consequences are marked with a chip (**budget impact**,
+**national mood** or **industry**) so you can see at a glance which choice actually does
+something.
 
 One of the two choices is always marked as the **default** — the one that wins automatically
 if your country can't produce a clear winner (see [Abstention and deadlock](#abstention-and-deadlock)
@@ -101,6 +102,25 @@ grants a **national mood** for a fixed number of days.
   economy disabled — moods act on voters, not budgets.
 - If your country already has that mood active when the effect lands, nothing changes — the
   existing mood simply carries on with its original expiry.
+
+## Industry effects
+
+Some choices reshape your country's economy itself, in one of two ways:
+
+- **Establishing an industry** — the winning choice plants (or tops up) a named industry at a
+  stated percentage of your country's industrial base, optionally after a delay: "Industry:
+  Space Industry established at 1% of the industrial base, starting 365 days after the
+  decision". The new industry is added **on top of** your existing base — the total grows —
+  and from that day it grows (or shrinks) like any other industry. If your country already
+  has that industry at or above the stated size, nothing changes: the effect never makes an
+  industry smaller.
+- **Changing an industry's growth** — the winning choice adds a flat modifier, in percentage
+  points, to one industry's growth rate for a fixed period: "Industry: Automotive growth +2
+  percentage points for 12 months". The modifier can be negative ("Oil & Gas growth -5
+  percentage points…"), applies exactly as stated with no randomness around it, and expires
+  on its own when the period ends.
+
+Like budget effects, industry effects only apply to countries with their economy enabled.
 
 ## Where to find decisions in-game
 
