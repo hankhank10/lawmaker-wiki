@@ -79,6 +79,32 @@ Two temporary [national moods](elections.md#national-moods) act directly on the 
 
 These are external events outside player control; they show up as shifts in the nation's economy.
 
+## Credit rating
+
+Every country carries a **credit rating** — a letter grade, shown on the **Debt & Reserves** tab
+and in the **International Economy** league table, that sets how expensive it is for your
+country to borrow. It is driven entirely by one number: **debt as a percentage of GDP**.
+
+| Rating | Debt-to-GDP | Annual borrow rate |
+| --- | --- | --- |
+| AAA | Under 30% | 2% |
+| AA | 30%–50% | 3% |
+| A | 50%–70% | 4% |
+| BBB | 70%–90% | 6% |
+| BB | 90%–120% | 8% |
+| B | 120%–150% | 12% |
+| CCC | 150% or more | 18% |
+
+The rating is recalculated automatically every month from your current debt-to-GDP ratio — there's
+nothing to vote on directly. A country running a **reserve** (positive balance) rather than debt
+always sits at the best rating and *earns* interest on that reserve instead of paying it.
+
+The borrow rate matters because it applies to your whole outstanding debt, every month: a country
+that lets its rating slide from AA to BB is paying roughly triple the annual interest on the same
+balance, which drags on the budget and makes it harder to ever run a surplus again — a downward
+spiral if left unchecked. Bottoming out at **CCC** triggers the **Economy on the Brink** warning
+covered below; a country under an active **IMF programme** shows a special **‼️ IMF** badge in place of a letter grade, with its own discounted rate.
+
 ## IMF Intervention
 
 A country that lets its debt spiral out of control eventually loses the freedom to run its own books. The status-quo budget bakes in a structural deficit, and as your credit rating falls your borrowing costs climb (up to **18%** a year at the worst rating). Left unchecked, the interest compounds and the debt runs away. When it becomes catastrophic, the **International Monetary Fund steps in** — a rescue, but one with harsh strings attached.
