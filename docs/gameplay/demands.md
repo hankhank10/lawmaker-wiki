@@ -18,11 +18,14 @@ There are three kinds:
 
 The exact wording is generated fresh each time in an angry-but-plausible voter voice, but the figures underneath it are snapshotted from the real state of your economy the moment the demand is issued — and they never change afterwards, even if peer averages drift. The demand is a fixed, published ask.
 
-!!! note "Targets close most of the gap, not all of it"
-    A demand's target doesn't ask you to fully match your peers — it closes roughly **two-thirds of the gap** to the peer benchmark and lands on a clean, round number, so the ask is exactly hittable rather than a jarring "cut to 36.7%". A tax cut always removes **at least 5 points** off the band's rate, and a spending rise always adds **at least 25%**, so even a narrow gap produces a demand worth fighting over.
+!!! note "Targets close nearly all of the gap"
+    A demand's target doesn't ask you to fully match your peers — it closes roughly **90% of the gap** to the peer benchmark and lands on a clean, round number, so the ask is exactly hittable rather than a jarring "cut to 36.7%". A tax cut always removes **at least 5 points** off the band's rate, and a spending rise always adds **at least 25%**, so even a narrow gap produces a demand worth fighting over.
 
 !!! note "Demands are one-sided on purpose"
     Voters only ever demand **lower taxes** or **more spending** (or their country back). Nobody marches for a balanced budget. That's the whole tension: each demand is individually popular and, taken together, fiscally reckless. Being loved and being responsible are not the same move — and the system is built around that fact.
+
+!!! note "Not every demand looks to your neighbours"
+    Most demands are grounded in a real comparison against peer countries — but occasionally (about one in four), the voters don't bother comparing at all. They simply decide a tax band should be slashed to next to nothing, or a spending line should be doubled or tripled, with no peer benchmark behind the number. These arbitrary demands look and behave exactly like any other demand — same pledging, same delivery conditions, same judgment at the ballot box — they just aren't chasing what anyone else is doing.
 
 ### The IMF special case
 
