@@ -10,7 +10,7 @@ Afterwards you'll see each party's vote totals and percentages, seats won, turno
 
 ## Understanding electors
 
-Your country's population is modelled as a set of individual **electors** — roughly 60 of them, each standing in for a slice of the population. Every elector has a job, income band, education, housing and religious background, a political worldview, and personal life goals. You can open any elector's profile to see what drives them, and a country's **Demographics** and **Issue Analysis** views show the shape of the electorate as a whole.
+Your country's population is modelled as a set of individual **electors**. Every elector has a job, income band, education, housing and religious background, a political worldview, and personal life goals. You can open any elector's profile to see what drives them, and a country's **Demographics** and **Issue Analysis** views show the shape of the electorate as a whole.
 
 This is why elections feel real: electors actually read your record and respond to it.
 
