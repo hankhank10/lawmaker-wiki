@@ -40,9 +40,9 @@ vote**, full stop.
   while the window is open. The reverse also applies — a country founded *after* the trigger
   simply doesn't get a row for that decision at all; it'll be in on the next one.
 
-## The 12-day window
+## The 24-day window
 
-Once triggered, a decision stays open for **12 game days** for every country at once, and
+Once triggered, a decision stays open for **24 game days** for every country at once, and
 every country resolves together on the same date — there's no early resolution the way
 budget votes have. You'll see a live countdown ("closes in *N* days", counting down to
 "closes in 1 day" on the last votable day) on both the decisions index and the decision's
