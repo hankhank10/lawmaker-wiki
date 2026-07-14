@@ -122,6 +122,25 @@ Some choices reshape your country's economy itself, in one of two ways:
 
 Like budget effects, industry effects only apply to countries with their economy enabled.
 
+## Hidden consequences and delayed news
+
+Not every consequence is on the table when you vote. Some effects are **hidden** — their
+delay is real, but the consequence bullet is kept off the choice cards (and out of the
+launch-day news) until the effect actually comes into force. This turns a decision that would
+otherwise be obvious into a genuine gamble: you weigh the scenario and the visible bullets, but
+the full picture only becomes clear once time has passed.
+
+A hidden effect appears on the decision page **the day it lands** — on that date the whole
+world crosses the same reveal line, because every country resolves a decision on the same game
+date.
+
+A delayed effect can also carry its own **breaking-news announcement**. When such an effect
+finally comes into force, a journalist in every country files a post reporting it — for
+example, months after a grid-hardening vote: *"A generational solar storm has hit the world.
+Those who failed to prepare will see a huge impact on their technology sector."* If your country
+chose to prepare, the storm passes quietly; if it didn't, that post is the moment the bill comes
+due.
+
 ## Where to find decisions in-game
 
 - **Global Decisions page** — the player-facing home of the feature: live decisions pinned at
