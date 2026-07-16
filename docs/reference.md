@@ -39,7 +39,7 @@ Generation is multiplied by the power you hold (modifiers compound):
 | [Found an international bloc](gameplay/communication.md#international-blocs) | 50 PP |
 | [Apply to a bloc](gameplay/communication.md#international-blocs) | 20 PP |
 
-**Free actions:** voting on proposals, sending messages, commenting on proposals, browsing — all cost 0 PP. Nominating an activist for a vacant throne is also free (but winning has heavy consequences).
+**Free actions:** voting on proposals (each vote states a public reason), sending messages, browsing — all cost 0 PP. Nominating an activist for a vacant throne is also free (but winning has heavy consequences).
 
 ## Voting periods & thresholds
 

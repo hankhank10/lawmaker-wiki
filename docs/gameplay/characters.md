@@ -64,7 +64,6 @@ Activists post automatically in response to events, and their follower counts gr
 | Sponsoring a bill | +5,000 |
 | A sponsored bill passes | +15,000 |
 | A sponsored bill fails | +8,000 |
-| Commenting on a proposal | +500 |
 
 Profile-boosting traits (Media Savvy, Celebrity, Fantastic Speaker) multiply these gains. A sponsored bill passing also lifts the activist's authority by ~5% (a failure costs ~5%).
 

@@ -47,7 +47,7 @@ After the election, win or lose, study the result — which votes helped, which 
 
 ## Managing Political Power
 
-[PP](reference.md#political-power-pp) is your throttle. Keep a ~30–60 PP reserve so you can always act, don't sit at the 120 cap wasting generation, and lean on the free actions — voting, messaging, commenting — which cost nothing and drive most of your influence. In a coalition, take turns proposing so partners share the PP load.
+[PP](reference.md#political-power-pp) is your throttle. Keep a ~30–60 PP reserve so you can always act, don't sit at the 120 cap wasting generation, and lean on the free actions — voting (with a public reason), messaging — which cost nothing and drive most of your influence. In a coalition, take turns proposing so partners share the PP load.
 
 ## The bottom line
 

@@ -24,9 +24,9 @@ Government, opposition, and bloc chats update their membership automatically as 
 
 You'll also receive messages from automated **game bot** characters delivering notifications: **LawBot** (legal/law updates), **GameMaster** (administration), **NewsBot** (announcements), and **EconBot** (economic updates). They appear in your messaging drawer alongside player messages.
 
-## Proposal comments
+## Vote reasons
 
-Every [proposal](legislation.md) has a public **comment thread**. Unlike private messages, comments are visible to all parties and create a public record — so they're the place to argue your case, explain a vote, respond to criticism, or signal that you'd switch to Yes if an article changed. Use **messages** for private deals and **comments** for public advocacy.
+Every vote cast on a [proposal](legislation.md) (and on budgets, early election calls, and constitutional changes) must state a public **reason**, shown in the page's **voting record**. Unlike private messages, reasons are visible to all parties and create a public record — so they're the place to argue your case, respond to criticism, or signal that you'd switch to Yes if an article changed (every vote change is logged, with its fresh reason). Use **messages** for private deals and **vote reasons** for public advocacy.
 
 ## International blocs
 
@@ -44,7 +44,7 @@ Blocs carry an **International Prestige** score (and are ranked by it) that rise
 
 ## Staying notified
 
-The **notification centre** (the navbar bell) gathers your unread messages, new comments on your proposals, and replies to your comments in one place.
+The **notification centre** gathers your unread messages in one place. The notification bell also surfaces votes — with their public [reasons](#vote-reasons) — cast by other parties on your own proposals, budgets, constitutional packages, and early election calls.
 
 You can also get **email alerts** for key events — new proposals, constitutional changes, government-formation attempts, elections, new messages, proposal outcomes, cabinet appointments, bloc applications, and more — configured on the **Email Preferences** page. At minimum, enabling alerts for **new proposals** and **elections** means you won't miss the moments that matter.
 
