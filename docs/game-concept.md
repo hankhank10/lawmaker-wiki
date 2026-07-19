@@ -1,27 +1,16 @@
 # Game Concept
 
-Lawmaker puts you in charge of a political party in a fictional democracy. You build electoral success through legislation, coalition-building, and understanding what voters want. This page explains how the pieces fit together — each system has its own detailed guide linked below.
-
-## The core loop
-
-```mermaid
-graph LR
-    A[Create Party] --> B[Vote on Laws]
-    B --> C[Build Record]
-    C --> D[Elections]
-    D --> E[Win Seats]
-    E --> F[Form Government]
-    F --> G[Propose Laws]
-    G --> B
-```
+Lawmaker is a role-playing game which puts you in charge of a political party in a fictional democracy.
 
 You create a party with a clear ideology, vote on proposals to build a legislative record, compete in elections where voters judge that record, win seats, form governments, and propose laws of your own — then do it all again, cycle after cycle.
+
+The "role playing" part is important. While Lawmaker does provide some mechanics to make the game structured, the core quality of the game is determined based on how well parties roleplay.
 
 ## How voters decide
 
 This is what makes Lawmaker different from most political games: elections aren't random or formula-driven. Your country's population is modelled as a set of individual **electors**, each with their own job, background, priorities, and positions on the political issues.
 
-When an election comes, each elector looks at how every party actually voted, compares it to their own values, and supports the party that fits best. **Recent votes matter more than old ones**, so your record is always live. Vote consistently with your platform and you build a base; flip-flop and voters lose track of what you stand for.
+When an election comes, each elector looks at how every party actually voted (even if proposals didn't become law), compares it to their own values, and supports the party that fits best. **Recent votes matter more than old ones**, so your record is always live. Vote consistently with your platform and you build a base; flip-flop and voters lose track of what you stand for.
 
 Lawmaker uses **proportional representation** — your share of the vote is roughly your share of the seats. No single party usually wins a majority, so **coalition-building is essential**.
 
