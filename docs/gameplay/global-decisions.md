@@ -29,7 +29,6 @@ vote**, full stop.
 - Every active party in a country that received the decision gets exactly one vote — **not**
   weighted by seats, legislature presence, or anything else. A tiny party with no seats
   carries exactly as much weight as the governing party.
-- Only the **party leader** can cast it, same as any other leader-gated action.
 - Casting a vote requires a short **public reason** — a few sentences explaining your party's
   position. It's moderated like any public text, and just like a demand pledge, it's **locked
   the moment you submit it**: no second thoughts, no quiet editing. Votes and reasons are
@@ -40,29 +39,9 @@ vote**, full stop.
   while the window is open. The reverse also applies — a country founded *after* the trigger
   simply doesn't get a row for that decision at all; it'll be in on the next one.
 
-## The 24-day window
+## The voting window
 
-Once triggered, a decision stays open for **24 game days** for every country at once, and
-every country resolves together on the same date — there's no early resolution the way
-budget votes have. You'll see a live countdown ("closes in *N* days", counting down to
-"closes in 1 day" on the last votable day) on both the decisions index and the decision's
-own page.
-
-## Abstention and deadlock
-
-Not voting is simply **abstaining** — there's no explicit "abstain" button, you just don't
-cast a vote, and abstentions count for neither side.
-
-When the window closes, each country resolves independently:
-
-- **Strict majority wins.** More yes votes than no (or vice versa) and that choice's
-  consequences apply.
-- **A tie — including 0 votes cast either way — falls to the decision's default choice.**
-  This is called a "deadlock default," and it's flagged plainly on the decision page
-  ("deadlock — default applied") so nobody mistakes it for a real majority.
-- A country with **no eligible parties at all** still gets a row and still resolves — it just
-  shows "no parties — default pending" while the window is open, then quietly defaults the
-  moment it closes. "Every country receives it" is meant literally.
+Once triggered, a decision stays open for a period of time (usually but not always **24 game days**) for every country at once, and every country resolves together on the same date — there's no early resolution the way budget votes have. You'll see a live countdown ("closes in *N* days", counting down to "closes in 1 day" on the last votable day) on both the decisions index and the decision's own page.
 
 ## Budget effects
 
@@ -140,21 +119,6 @@ example, months after a grid-hardening vote: *"A generational solar storm has hi
 Those who failed to prepare will see a huge impact on their technology sector."* If your country
 chose to prepare, the storm passes quietly; if it didn't, that post is the moment the bill comes
 due.
-
-## Where to find decisions in-game
-
-- **Global Decisions page** — the player-facing home of the feature: live decisions pinned at
-  the top with their countdown, historical ones below with their outcome ("14 countries said
-  yes, 3 said no"), newest first.
-- **Decision detail page** — the full scenario, both choices with their consequence lists, the
-  default-choice marker, your party's vote form (if you haven't voted yet) or your party's
-  locked vote and reason (if you have), and a **world response table** — one section per
-  country, showing every cast vote with its reason while the window is open, and the frozen
-  outcome and tallies once it's resolved.
-- **Dashboard card** — a prominent card tells you when your party has a decision waiting and
-  whether you've voted yet, with the nearest deadline surfaced first if more than one is live.
-- **Budget page** — any active decision effects for your country appear as their own section,
-  right alongside the rest of your country's finances.
 
 ## Next steps
 
