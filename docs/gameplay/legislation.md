@@ -43,6 +43,12 @@ The front person is an [activist](characters.md) from your party who sponsors th
 - **Single-article** proposals are easier to build consensus around and send a clear message.
 - **Multi-article** packages let you bundle a coherent agenda into one 30 PP proposal — but they're all-or-nothing, so one controversial article can sink the whole package.
 
+### Drafts and stale bills
+
+A new proposal starts as a private **draft**, visible only to your party, and it costs nothing until you open it for the 30 PP vote. While it sits in draft, another party's bill can pass and move a targeted law to the very option your draft was aiming for — leaving it a no-op that would achieve nothing if opened.
+
+Lawmaker watches for this: a draft whose law has already been overtaken gets an **"Already in effect"** badge, both in your proposals list and on the article itself within the draft, plus a banner naming which party made the change and when. It's advisory only — you can still open the bill — but it's a cue to edit out the stale article or discard the draft rather than spend 30 PP for nothing.
+
 ## Voting on proposals
 
 Open proposals appear on your country page. For each one you cast **Yes**, **No**, or **Abstain**, and you can **change your vote** any time before the window closes — useful as coalition negotiations evolve.
