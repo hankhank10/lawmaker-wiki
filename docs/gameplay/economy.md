@@ -31,6 +31,12 @@ Every country's Economy page has an **Industries** tab showing the current mix: 
 
 A country's industry mix is set at creation and then only changes by growing or shrinking — a fast-growing specialism becomes an even larger share of the economy over time, reinforcing the country's identity the longer it goes unchanged.
 
+### Laws that shape industries
+
+A handful of laws are policy *for* an industry, and while they stand they speed that sector up or slow it down every month. Ban new fossil fuel extraction and Oil & Gas shrinks; deregulate the banks and Financial Services races ahead (while the sectors starved of capital — agriculture, automotive, mining — give a little back); accelerate AI and Technology grows faster. The Industries tab lists every such law your country currently has in force, the option it sits on, and the annual percentage points it adds to or takes off each industry, in a **Laws shaping growth** table below the industry mix.
+
+Only laws set *away* from their neutral default appear: a country at the default position on everything gets no boost and no drag, and the table is empty. Change the law and the effect changes with it at the next monthly tick — nothing lingers. One caveat: a growth buff needs a sector to act on, so an impact aimed at an industry your country doesn't have (a dedicated AI sector, say) is shown greyed out and does nothing until that industry exists.
+
 ## How budgets affect voters
 
 This is the part that matters for your strategy. Voters judge you on **how you vote on budgets** (including proposing your own), not just on laws. Each elector's overall view of your party is roughly:
