@@ -6,6 +6,8 @@ Lawmaker runs on coalitions, and coalitions run on talking to other parties. Bes
 
 The core tool is **party-to-party messaging** — private, persistent conversation threads, much like email inside the game. This is where deals get made: coalition offers, vote trades ("I'll back your healthcare bill if you back my education bill"), and relationship-building. Specific, concrete asks land far better than vague ones.
 
+In a DM or a group chat, you can **reply directly to a specific message** — handy in a busy group chat where several conversations are happening at once. Hit **Reply** on the message (or long-press it on mobile) and your response carries a quoted preview of what you're answering; anyone who taps that preview jumps straight to the original message in the thread.
+
 ## Group chats
 
 Beyond DMs, several **group chats** are available:
