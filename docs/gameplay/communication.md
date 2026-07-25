@@ -22,6 +22,8 @@ Beyond DMs, several **group chats** are available:
 
 Government, opposition, and bloc chats update their membership automatically as governments form, fall, and blocs change. Unread group messages count toward your navbar badge.
 
+You can **leave** a custom group chat at any time — everyone still in the chat sees a "has left the chat" notice. If a custom group chat is ever left with fewer than 2 active parties, it's automatically deleted.
+
 ## NPC messages
 
 You'll also receive messages from automated **game bot** characters delivering notifications: **LawBot** (legal/law updates), **GameMaster** (administration), **NewsBot** (announcements), and **EconBot** (economic updates). They appear in your messaging drawer alongside player messages.
