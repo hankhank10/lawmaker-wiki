@@ -33,9 +33,15 @@ A country's industry mix is set at creation and then only changes by growing or 
 
 ### Laws that shape industries
 
-A handful of laws are policy *for* an industry, and while they stand they speed that sector up or slow it down every month. Ban new fossil fuel extraction and Oil & Gas shrinks; deregulate the banks and Financial Services races ahead (while the sectors starved of capital — agriculture, automotive, mining — give a little back); accelerate AI and Technology grows faster. The Industries tab lists every such law your country currently has in force, the option it sits on, and the annual percentage points it adds to or takes off each industry, in a **Laws shaping growth** table below the industry mix.
+A handful of laws are policy *for* an industry, and while they stand they speed that sector up or slow it down every month. Ban new fossil fuel extraction and Oil & Gas shrinks; deregulate the banks and Financial Services races ahead (while the sectors starved of capital — agriculture, automotive, mining — give a little back); accelerate AI and Technology grows faster. Both the **Economic Growth** tab and the **Industries** tab show a **Laws shaping growth** card listing every such law your country currently has in force, the option it sits on, and the annual percentage points it adds to or takes off each industry.
 
-Only laws set *away* from their neutral default appear: a country at the default position on everything gets no boost and no drag, and the table is empty. Change the law and the effect changes with it at the next monthly tick — nothing lingers. One caveat: a growth buff needs a sector to act on, so an impact aimed at an industry your country doesn't have (a dedicated AI sector, say) is shown greyed out and does nothing until that industry exists.
+Only laws set *away* from their neutral default appear: a country at the default position on everything gets no boost and no drag, and the card doesn't show. Change the law and the effect changes with it at the next monthly tick — nothing lingers. One caveat: a growth buff needs a sector to act on, so an impact aimed at an industry your country doesn't have (a dedicated AI sector, say) is shown greyed out and does nothing until that industry exists.
+
+### Global events that shape industries
+
+[Global decisions](global-decisions.md#industry-effects) can also move an industry's growth rate, temporarily — a solar storm battering Technology worldwide, a subsidy programme boosting Automotive for a year. Whenever one of these effects is currently active for your country, a matching **Global events shaping growth** card appears alongside the laws card on the **Economic Growth** and **Industries** tabs, naming the decision that caused it (linking through to its detail page), the industry it touches, and the annual percentage points it's currently adding or taking off. Hover an entry to see the date the effect ends.
+
+Like the laws card, this one only shows while at least one effect is live — it disappears again once every active effect has expired — and an effect aimed at an industry your country doesn't have is shown greyed out until that sector exists. These effects stack with the global industry rate and with any standing law impacts above.
 
 ## How budgets affect voters
 
