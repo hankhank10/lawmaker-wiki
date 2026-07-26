@@ -72,7 +72,7 @@ Beyond direct messages, you have access to: **Country chat** (all parties), **Go
 
 ### Can I get email notifications?
 
-Yes. Visit the **Email Preferences** page to configure alerts for 12 different event types including new proposals, elections, messages, throne vacancies, and more.
+Yes. Gameplay events (new proposals, elections, proposal outcomes, cabinet appointments, voter demands, and more) are bundled into a **Briefing** email sent at most twice a day, and direct messages get their own separate alert. Visit the **Email Preferences** page to switch either on or off.
 
 ## Political Power
 

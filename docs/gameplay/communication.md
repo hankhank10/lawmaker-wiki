@@ -50,7 +50,7 @@ Blocs carry an **International Prestige** score (and are ranked by it) that rise
 
 The **notification centre** gathers your unread messages in one place. The notification bell also surfaces votes — with their public [reasons](#vote-reasons) — cast by other parties on your own proposals, budgets, constitutional packages, and early election calls.
 
-You can also get **email alerts** for key events — new proposals, constitutional changes, government-formation attempts, elections, new messages, proposal outcomes, cabinet appointments, bloc applications, and more — configured on the **Email Preferences** page. At minimum, enabling alerts for **new proposals** and **elections** means you won't miss the moments that matter.
+You can also get **email alerts**, controlled by two switches on the **Email Preferences** page. The **Briefing** bundles everything happening in your country — new proposals, constitutional changes, government-formation attempts, elections, proposal outcomes, cabinet appointments, bloc applications, voter demands, budget outcomes, and more — into a single round-up email sent **at most twice a day**, however much happened in between. **Direct messages** are a separate switch, since a person writing to you deserves its own alert rather than waiting for the next round-up.
 
 ## Next steps
 

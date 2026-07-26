@@ -58,7 +58,7 @@
 :white_check_mark: Bloc group chats
 :white_check_mark: NPC messaging (LawBot, NewsBot, GameMaster, EconBot)
 :white_check_mark: Notification center
-:white_check_mark: Configurable email notifications (12 event types)
+:white_check_mark: Twice-daily email briefing digest, with direct messages alerted separately
 
 **Polling**
 :white_check_mark: Parties spend PP to commission voting-intention polls
