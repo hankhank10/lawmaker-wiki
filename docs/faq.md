@@ -18,6 +18,10 @@ New parties start with **100 PP**. You regenerate 1 PP per game day (1 real-worl
 
 Yes. Before you can fully participate, you'll be asked to read and agree to the game rules. These cover basic expectations like staying in character, not using real-world names, and being respectful.
 
+### Can I change the site language or theme?
+
+Yes. Open the **Settings** menu (the appearance/language icon in the top navigation, or the Settings entry in the mobile menu) to switch between **Light** and **Dark** appearance, and between **English** and **Svenska**. Swedish is being rolled out page by page, so some areas may still show English while translation continues.
+
 ## Gameplay
 
 ### How do elections work?

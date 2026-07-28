@@ -82,3 +82,5 @@
 :white_check_mark: Onboarding task system with rules agreement
 :white_check_mark: Discord webhook integration for country updates
 :white_check_mark: Party inactivity warnings and auto-disbanding
+:white_check_mark: Light/dark theme switcher
+:map: Swedish language support (rolling out page by page)
