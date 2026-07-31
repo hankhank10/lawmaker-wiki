@@ -20,7 +20,7 @@ Yes. Before you can fully participate, you'll be asked to read and agree to the 
 
 ### Can I change the site language or theme?
 
-Yes. Open the **Settings** menu (the appearance/language icon in the top navigation, or the Settings entry in the mobile menu) to switch between **Light** and **Dark** appearance, and between **English** and **Svenska**. Swedish is being rolled out page by page, so some areas may still show English while translation continues.
+Yes. Open the **Settings** menu (the appearance/language icon in the top navigation, or the Settings entry in the mobile menu) to switch between **Light** and **Dark** appearance, and between **English**, **Svenska**, and **Français**. Swedish and French are being rolled out page by page, so some areas may still show English while translation continues.
 
 ## Gameplay
 

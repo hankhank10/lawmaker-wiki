@@ -8,6 +8,8 @@ The core tool is **party-to-party messaging** — private, persistent conversati
 
 In a DM or a group chat, you can **reply directly to a specific message** — handy in a busy group chat where several conversations are happening at once. Hit **Reply** on the message (or long-press it on mobile) and your response carries a quoted preview of what you're answering; anyone who taps that preview jumps straight to the original message in the thread.
 
+For anything that doesn't warrant a full reply, you can **react to a message** with a 👍 or 👎 — click the message bubble to open the picker, and click again to toggle a reaction off. Reactions from everyone who's reacted are collapsed into a small badge with a count under the message; hover (or long-press on mobile) a badge to see who left it. This works on any message, including ones from the game's own bots.
+
 ## Group chats
 
 Beyond DMs, several **group chats** are available:

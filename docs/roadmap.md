@@ -84,3 +84,4 @@
 :white_check_mark: Party inactivity warnings and auto-disbanding
 :white_check_mark: Light/dark theme switcher
 :map: Swedish language support (rolling out page by page)
+:map: French language support (rolling out page by page)
