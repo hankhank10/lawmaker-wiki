@@ -39,6 +39,14 @@ Your party can have a custom **SVG logo**, uploaded on the Edit Party page with 
 
 It's not just decoration: a custom logo gives a **+5% supporter-turnout boost** at elections, while a party with no logo takes a **-5% penalty**. Since uploading one costs no PP, it's one of the cheapest electoral gains available — do it early.
 
+### Changing your slogan or description
+
+You can rewrite your **slogan** and **description** on the Edit Party page. It costs no PP, but the change doesn't go live straight away: it joins a queue and only takes effect once a moderator approves it.
+
+Approval turns on whether the change is **realistic and in character**. Fixing typos, tidying up wording or correcting a mistake is always fine. Anything more substantive — a new slogan, a rewritten description, a change of political direction — has to be properly roleplayed: it should read like something your party would actually announce, and fit what your party has been doing in the game. Out-of-character or joke rewrites get turned down.
+
+You can have one change waiting at a time; submitting again replaces it, and you can withdraw it while it's still pending. **Party names** aren't covered by this — to change your name, ask in the Discord support channel.
+
 ## One party per country
 
 Each account controls **one active party**. To play in multiple countries you need a separate account (with a different email) per country. Running more than one party in the same country, across any number of accounts, isn't permitted — see the [rules](../rules.md).
