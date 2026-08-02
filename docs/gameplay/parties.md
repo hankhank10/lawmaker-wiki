@@ -59,6 +59,12 @@ In countries with a [hereditary monarchy](monarchy.md), your party can nominate 
 
 You can **voluntarily disband** at any time, releasing your activists, cabinet posts, and seats. A disbanded party can be **revived** by its owner, though anything lost on disbanding doesn't automatically come back.
 
+Disbanding by choice starts a **30 game day cooldown** on founding a *new* party in that same country. This stops "flipping" — walking away from a bad position and immediately re-founding with a clean slate. The cooldown is narrow on purpose:
+
+- It only applies to the country you disbanded in. You can create a party in a **different country** immediately.
+- It only follows a **voluntary** disbandment. Parties auto-disbanded for inactivity carry no cooldown.
+- It never blocks **reviving** a disbanded party — your old party can come back at any time, cooldown or not.
+
 To keep countries alive, Lawmaker also disbands inactive parties:
 
 - After **3 days** of inactivity, you get a **warning email**.
