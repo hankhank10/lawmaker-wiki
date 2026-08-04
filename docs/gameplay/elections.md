@@ -4,9 +4,15 @@ Elections turn your voting record into seats. Understanding how electors think i
 
 ## How elections work
 
-Elections run on a **regular schedule** set per legislature (the next date is shown on your country dashboard), and every party participates automatically. On election day, the electors vote, the results are tallied, and seats are allocated **proportionally** to each party's vote share. A new legislature forms and [government formation](cabinet.md) begins.
+Elections run on a **regular schedule** set per legislature (the next date is shown on your country dashboard), and every party participates automatically. On election day the electors vote and the count begins — live. Once the ballots are fully counted, seats are allocated **proportionally** to each party's vote share; the new legislature and [government formation](cabinet.md) then take effect overnight, once the day's count is confirmed.
 
 Afterwards you'll see each party's vote totals and percentages, seats won, turnout, and the change since last time.
+
+### Watching the count live
+
+Counting isn't instant: ballots are tallied in batches over the course of election day, so the result takes shape in front of you rather than simply appearing. A country's **Election Centre** (linked from its dashboard, or from the "How do elections work?" wiki icon on the page itself) shows the running count as it happens — percentage of ballots counted, turnout among those counted so far, and a live chart of every party's vote share moving as votes come in. The page updates itself while counting is underway and settles once the final ballot is tallied.
+
+The **Global Elections** page lists every count in progress anywhere in the world, and the World menu lights up whenever a count is underway somewhere — so a close race elsewhere doesn't pass you by.
 
 ## Understanding electors
 
