@@ -28,7 +28,9 @@ If you're new, **Avalon** is the safest start — it's the most active and estab
 
 Some countries are **private, invite-only** games run by [supporters](../support) for a closed community. They're marked with a padlock, and joining one needs an **invite code** (a share link or a code you enter) from the country owner. Creating a private country is a supporter-only feature.
 
-Because nobody can join a private country without a code, one with no parties in it is unreachable rather than merely quiet. So a private country that has **no parties at all for 3 real-life days** sends its owner a warning email, and one that is still empty after **7 real-life days** is **deleted**. Founding a party there — or getting someone else to — resets the clock immediately, and a country whose only player is on the throne does not count as empty. Public countries are never deleted this way.
+The owner of a private country can **open it to everyone** from the country page ("Make public"). Doing so removes the padlock, deletes the invite code, and lets any player create a party there. **This is one-way** — a country that has been made public cannot be made private again, because parties that join while it is public cannot be removed. Everything else is untouched: the owner stays the owner, and existing parties, laws, elections and historical events carry on as before.
+
+Because nobody can join a private country without a code, one with no parties in it is unreachable rather than merely quiet. So a private country that has **no parties at all for 3 real-life days** sends its owner a warning email, and one that is still empty after **7 real-life days** is **deleted**. Founding a party there — or getting someone else to — resets the clock immediately, and a country whose only player is on the throne does not count as empty. Public countries are never deleted this way — so making an empty private country public is also a way to stop its clock, at the cost of the invite code.
 
 ## Proposing a new country
 
