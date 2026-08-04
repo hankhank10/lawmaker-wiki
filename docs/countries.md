@@ -28,6 +28,8 @@ If you're new, **Avalon** is the safest start — it's the most active and estab
 
 Some countries are **private, invite-only** games run by [supporters](../support) for a closed community. They're marked with a padlock, and joining one needs an **invite code** (a share link or a code you enter) from the country owner. Creating a private country is a supporter-only feature.
 
+Because nobody can join a private country without a code, one with no parties in it is unreachable rather than merely quiet. So a private country that has **no parties at all for 3 real-life days** sends its owner a warning email, and one that is still empty after **7 real-life days** is **deleted**. Founding a party there — or getting someone else to — resets the clock immediately, and a country whose only player is on the throne does not count as empty. Public countries are never deleted this way.
+
 ## Proposing a new country
 
 Any logged-in player can **propose a public country** from the countries list, defining its name, population, system type, legislatures, cabinet positions, constitutional offices, and permanent national moods (and optionally a flag). Proposals go through **staff moderation** and then **community upvoting**, with the most popular and well-built proposals prioritised for launch. You can track your own proposals and their status on the countries list.
