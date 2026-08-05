@@ -34,7 +34,34 @@ Because nobody can join a private country without a code, one with no parties in
 
 ## Proposing a new country
 
-Any logged-in player can **propose a public country** from the countries list, defining its name, population, system type, legislatures, cabinet positions, constitutional offices, and permanent national moods (and optionally a flag). Proposals go through **staff moderation** and then **community upvoting**, with the most popular and well-built proposals prioritised for launch. You can track your own proposals and their status on the countries list.
+[Supporters](../support) can always **propose a public country**; other players need an account at least **30 days old**, and everyone is limited to **one active proposal at a time** — a rejected proposal doesn't count against the limit, so you're free to try again with a fresh idea once one is resolved.
+
+!!! info "Proposals are temporarily supporters-only"
+    While the team works through a moderation backlog, submitting a new proposal is temporarily limited to supporters, regardless of account age. This is a temporary measure, not a permanent rule, and it doesn't affect anyone's ability to browse and upvote existing proposals in the meantime.
+
+From the countries list you define the country's name, population, system type, legislatures, cabinet positions, constitutional offices, and permanent national moods (and optionally a flag). Before you can submit, you must confirm you've read the acceptance criteria below and write a **rationale for creation** (minimum 100 characters) making the case for why the country is worth adding.
+
+### What makes a good country proposal
+
+Most proposals are **not accepted**. A small number of countries are approved — the ones that offer genuinely interesting and distinctive gameplay — and submissions are held to a high bar:
+
+- **Care and attention.** Spelling, punctuation and grammar are part of the review; a proposal with typos will be sent back or declined.
+- **Fictional countries only.** No real countries or thinly veiled stand-ins — you can reference a continent or broad geography ("a mountainous state on a northern coastline"), but not specific countries or named neighbours.
+- **Keep the description to 1–2 paragraphs.** Set a scene — don't recount the nation's whole history (that emerges later through lore events) or describe the form of government (the game handles that).
+- **English only.** All submissions must be written in English.
+- **Be sparing with cabinet positions.** Large cabinets are hard to fill and stall gameplay; 6–10 positions usually works well.
+- **The game does not simulate race or religion.** Don't build your concept around them.
+- **Tell us why it's interesting.** Your rationale should make the case for a distinctive economic situation, an unusual political fault line, or another fresh gameplay angle.
+
+### Review and the "changes requested" loop
+
+Proposals go through **staff moderation** before reaching community upvoting. Reviewing a proposal, a moderator can:
+
+- **Accept** it, sending it to community upvoting.
+- **Reject** it outright, with a reason.
+- **Request changes** — leaving a comment on a specific problem instead of rejecting outright. Your proposal moves into a **changes requested** state; you edit it to address the comment, then mark it **ready for review** to put it back in the moderation queue. You'll get an email whenever a moderator comments on your draft, and the back-and-forth is visible as a comment thread on the proposal's own page.
+
+Once accepted, a proposal moves to **community upvoting**, with the most popular and well-built proposals prioritised for launch. You can track your own proposals and their status, and browse and upvote others', on the countries list.
 
 ## Country pages
 
