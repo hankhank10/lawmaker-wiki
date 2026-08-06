@@ -84,10 +84,20 @@ Your country is compared against similar **peer countries**. Spending that's wil
 
 ## National moods and economic growth
 
-Two temporary [national moods](elections.md#national-moods) act directly on the economy:
+Three temporary [national moods](elections.md#national-moods) act directly on the economy. Like laws
+and global events, they work **through** your industries rather than around them — each one bends every
+industry's growth rate, and your mix decides how much that hurts:
 
-- **Economic Miracle** — doubles the baseline annual growth rate for its duration.
-- **Economic Crash** — overrides growth and forces a contraction (around -3.5%/year).
+- **Economic Miracle** — doubles every industry's growth rate for its duration (two years).
+- **Recession** — takes **3 percentage points a year** off every industry (one year). A sector booming
+  at 8% limps along at 5%; the ordinary 2%-a-year sectors tip into decline.
+- **Economic Crash** — takes **6 percentage points a year** off every industry (two years): twice as
+  deep as a recession, and twice as long. Almost nothing keeps growing through one.
+
+Because these are modifiers, not a flat national number, a country riding a genuine boom sector rides
+out a downturn far better than one built on stagnant industries — and the [Industries tab](#the-industries-tab)
+shows exactly which of your sectors are still standing. A recession is also attached automatically when
+the [IMF intervenes](#imf-intervention).
 
 These are external events outside player control; they show up as shifts in the nation's economy.
 
@@ -139,7 +149,7 @@ At 200% debt-to-GDP a country is effectively insolvent, so the IMF steps in imme
 The intervention hits immediately and reshapes the whole country:
 
 - **An emergency austerity budget is imposed** — no vote, no say. Every tax band is set to **50%**, and spending in every category is slashed to roughly **25% of what comparable countries spend**. By design this budget runs a large surplus: it exists to pay down the debt fast.
-- **The economy crashes into a recession** lasting **1 year** — growth turns sharply negative while the austerity bites.
+- **The economy crashes into a recession** lasting **1 year** — 3 percentage points come off every industry's growth while the austerity bites, which is enough to push most economies into outright contraction.
 - **Budget policy is locked** under IMF conditions for as long as the programme runs (see below).
 - **The responsible parties are branded** with a heavy political penalty (see below).
 
