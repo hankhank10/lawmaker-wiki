@@ -60,6 +60,10 @@ Some moods are **permanent**, baked into a country's character when it's created
 | **Patriarchal Society** 👨‍⚖️ | Toward traditional gender roles; gender issues weigh more heavily |
 | **Deeply Polarised** ⚡ | No position shift — but *every* issue matters more to everyone |
 | **The Great Disillusionment** 😑 | No position shift — every issue matters *less*; elections get noisier |
+| **Nation Builders** 🏗️ | Toward infrastructure and education spending; away from environmental protection |
+| **Silver Republic** 👴 | Toward support for older people; away from young people and immigration; elder issues weigh more heavily |
+| **Secular Republic** 🏛️ | Toward secular governance and individual liberty; religious-governance issues weigh more heavily |
+| **Bread and Circuses** 🍞 | No position shift — but wages, welfare, and prices weigh more heavily; culture-war issues fade |
 
 Others are **event-triggered** and attach automatically when something happens in the game: a **Constitutional Crisis** (a monarch vetoes a passed bill — see [Hereditary Monarchy](monarchy.md#constitutional-crisis)), or an **Economic Miracle / Crash** that bends the country's growth rate (see [Economy](economy.md#national-moods-and-economic-growth)).
 

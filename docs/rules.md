@@ -45,6 +45,10 @@ Accounts that appear to be operated by the same person within the same country m
 
 Once the game exits alpha, this multi-account policy will be reviewed and updated.
 
+### Yellow Cards
+
+Moderators enforce these rules with **yellow cards**. If you receive one, the next page you load shows a notice you must acknowledge before you can keep playing. A second yellow card within 30 days results in permanent removal from the game.
+
 ---
 
 By playing Lawmaker, you agree to follow these rules and policies. Violations may result in warnings, temporary suspension, or permanent removal from the game.
