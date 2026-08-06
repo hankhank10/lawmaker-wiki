@@ -41,8 +41,13 @@ Parties can also propose **amendments** — custom plain-text articles added to 
 !!! tip "Line up a supermajority first"
     A supermajority is a high bar and the package costs at least 60 PP, so don't open one until you've [negotiated](communication.md) the votes. Common moves include centralising power in cabinet posts your coalition holds, decentralising it to legislatures for oversight, or depoliticising a sensitive area by handing it to independent bureaucrats.
 
+## The Supreme Court
+
+Some countries also recognise a [Supreme Court](supreme-court.md) — a bench that can strike an amendment out of the constitution, or order a law changed, when a party successfully argues it is unlawful. Its rulings take direct effect and bypass the supermajority process entirely, so a constitution with a court in it is never settled by the numbers alone.
+
 ## Next steps
 
+- [The Supreme Court](supreme-court.md) — appealing an amendment, a law, or an office-holder.
 - [Government & Cabinet](cabinet.md) — cabinet positions that can hold powers.
 - [Hereditary Monarchy](monarchy.md) — Crown offices and the constitutional crisis mechanic.
 - [Communication](communication.md) — building the supermajority you'll need.
