@@ -2,7 +2,7 @@
 
 Some countries recognise a **Supreme Court**. When it hears a matter for a country it sits, and is styled, as *The Supreme Court of that country* — the Supreme Court of Broadlands, the Supreme Court of Avalon. It is the final arbiter of the law: its rulings take direct effect and cannot be appealed.
 
-Whether a country has a court is a fact of its [constitution](constitution.md). It defaults to off, and is currently switched on per country by the game's administrators.
+Whether a country has a court is a fact of its [constitution](constitution.md). New countries have one by default; the game's administrators can still switch it off for a particular country.
 
 ## What the court will hear
 
