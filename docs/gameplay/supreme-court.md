@@ -47,6 +47,8 @@ So why bother? Because the justices read the thread before they vote. A well-arg
 
 ### Deliberation — 30 days
 
+The moment a case leaves pleading, every eligible justice is emailed immediately that a case awaits their vote — this doesn't wait for the twice-daily briefing, since it's a deadline the justice needs to act on.
+
 The justices vote to **uphold** or **deny**, each with a written rationale.
 
 Votes are **secret** until the ruling is published — not just from players, but from the other justices too. Nobody is voting with the tally in front of them. A vote cannot be changed once cast.
