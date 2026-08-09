@@ -24,6 +24,8 @@ Every country uses the same [political issues](laws-and-policies.md#political-is
 
 If you're new, **Avalon** is the safest start — it's the most active and established. Otherwise, look for a country with an engaged community *and* a gap in its political spectrum you could fill. Before committing, check who's already playing, recent elections, and the current laws, then build a party that occupies space no one else does. A unique, well-placed party is far more impactful than a copy of an existing one.
 
+Each country only has room for so many parties at once (see [Quick Reference](reference.md#party-basics)) — one showing **Country full** won't let you found a new party there until an existing one disbands, so have a second choice in mind.
+
 ## Private countries
 
 Some countries are **private, invite-only** games run by [supporters](../support) for a closed community. They're marked with a padlock, and joining one needs an **invite code** (a share link or a code you enter) from the country owner. Creating a private country is a supporter-only feature.
