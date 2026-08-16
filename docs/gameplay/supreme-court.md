@@ -49,9 +49,11 @@ So why bother? Because the justices read the thread before they vote. A well-arg
 
 The moment a case leaves pleading, every eligible justice is emailed immediately that a case awaits their vote — this doesn't wait for the twice-daily briefing, since it's a deadline the justice needs to act on.
 
-The justices vote to **uphold** or **deny**, each with a written rationale.
+The justices vote to **uphold** or **deny**, each with a written rationale of at least **100 characters** — the court publishes reasoning, not just a verdict.
 
 Votes are **secret** until the ruling is published — not just from players, but from the other justices too. Nobody is voting with the tally in front of them. A vote cannot be changed once cast.
+
+A justice can save a private, rewritable **draft** of their vote and rationale before they're ready to cast — visible only to them, and available from the moment the case is filed, so it can already hold the reasoning built up while reading the pleading thread. Casting deletes the draft; a cast that's rejected for a rationale that's too short is kept as a draft rather than lost.
 
 If every justice eligible to sit has voted before the 30 days are up, the court rules early rather than waiting out the clock.
 
@@ -87,5 +89,7 @@ Their *party* plays on as usual — it may plead, and it may even be the appella
 The case page is the whole record: the appellant's argument, the pleading thread, and the bench.
 
 While the case is live, the bench panel shows only whether each seat has voted, is awaiting, or is recused. After the ruling it shows every seat's choice and reasoning in full, along with the tally.
+
+Once a case is decided, any player can rate each justice's opinion as **Good RP** or **Bad RP**. This is a judgement on how well-argued the opinion is, not on whether you agree with the ruling — a decision you think is dead wrong can still be excellent roleplay, and one you cheered for can still be lazily argued. Your rating is private: no running totals or scores are shown to players.
 
 If you are a justice, the page opens with a banner making clear that you are acting as a member of the court and not as your party, and the vote form lives inside it.
