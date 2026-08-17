@@ -57,7 +57,7 @@ In countries with a [hereditary monarchy](monarchy.md), your party can nominate 
 
 ## Disbanding and inactivity
 
-You can **voluntarily disband** at any time, releasing your activists, cabinet posts, and seats. A disbanded party can be **revived** by its owner, though anything lost on disbanding doesn't automatically come back.
+You can **voluntarily disband** at any time, releasing your activists, cabinet posts, and seats. Any [Supreme Court](supreme-court.md) case your party filed and is still awaiting a ruling on is closed as withdrawn, with no refund of its filing fee. A disbanded party can be **revived** by its owner, though anything lost on disbanding doesn't automatically come back.
 
 Disbanding by choice starts a **30 game day cooldown** on founding a *new* party in that same country. This stops "flipping" — walking away from a bad position and immediately re-founding with a clean slate. The cooldown is narrow on purpose:
 

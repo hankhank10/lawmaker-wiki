@@ -25,7 +25,7 @@ Only **amendments** can be struck down. Power allocations, legislatures, cabinet
 
 Any live party in a country with a court may file an appeal, for **60 PP**. Only **one case runs at a time** in a country, so if the court is already sitting you have to wait.
 
-Filing is the commitment. There is no draft stage and no withdrawal — once the case is entered, it runs its course, and the fee is not returned. (The single exception is a case no justice was able to hear; see below.)
+Filing is the commitment. There is no draft stage and no voluntary withdrawal — once the case is entered, it runs its course, and the fee is not returned. Two things can still end a case early without a ruling on the merits: a case no justice was able to hear (see [No quorum](#no-quorum) below), and a case whose appellant party disbands before a ruling (see [Withdrawn](#withdrawn-appellant-disbands) below).
 
 Your written case is the opening submission of the record. Make it argue something.
 
@@ -71,6 +71,10 @@ If the appeal is upheld, the remedy is applied automatically and immediately.
 ### No quorum
 
 If no justice was able to sit — an empty bench, or every justice recused — the case is **dismissed for want of a quorum**. That is not a ruling on the merits, and the **60 PP filing fee is refunded in full**. The appellant was failed by the institution, not defeated by it.
+
+### Withdrawn — appellant disbands
+
+If the appellant's party disbands while its case is still pleading or deliberating, the case is closed immediately as **withdrawn**, with no ruling on the merits. There is nobody left to prosecute it, so it doesn't keep occupying the country's one-case slot until its dates happen to run out on their own. Unlike a no-quorum dismissal, the **60 PP filing fee is not refunded**.
 
 ## The justices
 
