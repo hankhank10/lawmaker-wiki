@@ -102,6 +102,9 @@ Each event records a **year** (AD), a short **headline**, and an optional longer
 
 Proposed events are shown in a dashed style and marked **"Pending approval"**. Only the submitting player, the country owner, and admins can see them until approved.
 
+!!! info "Historical events on proposed countries"
+    While a country is still a **draft proposal**, its proposer (and admins) can add historical events directly from the proposal page — right up until a moderator accepts it for community voting. Once the proposal is **up for votes, its history is locked**: no events can be added, changed or removed. The timeline stays visible to voters, and normal historical-event rules resume once the country goes live.
+
 #### Approving and managing proposed events
 
 Country owners and admins see an **Approve** button on each pending event, and a **Reject & delete** button to discard a proposal that doesn't fit the country's lore. They can also **Delete** an already-published event from their country's record.
