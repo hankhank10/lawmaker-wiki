@@ -24,7 +24,7 @@ This is why elections feel real: electors actually read your record and respond 
 
 Electors retire by **age**, not by chance. Once an elector reaches their country's retirement age they're shown as **Retired**, but they keep their working history on record — a profile might read "Retired — formerly a nurse in healthcare" — rather than losing their identity. The threshold itself is just the **Pension Age** law: raise it and electors below the new age go back to work immediately; lower it (or abolish pensions entirely) and more of the population retires at the next tick. There's no lag or transition — the change is visible the moment the law takes effect.
 
-This has real economic teeth: a country's retired share of the population, shown on the [Economy page](economy.md), moves the labour force and GDP along with it, so pension policy is as much an economic lever as a social one.
+This has real economic teeth: a country's retired share of the population, shown on the [Economy page](economy.md), moves the labour force and GDP along with it, so pension policy is as much an economic lever as a social one. The one group it doesn't touch economically is the **elite** band, whose wealth keeps earning (and paying tax) in retirement — they still show as retired, they just don't stop contributing.
 
 ### How an elector decides
 
