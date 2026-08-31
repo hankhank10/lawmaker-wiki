@@ -16,7 +16,7 @@ There are four things you can claim:
 |---|---|---|
 | A law in force is illegal or unconstitutional | Which law, and which option it should be moved to instead | The law is changed to the option you asked for |
 | A cabinet member is acting illegally | Which minister, and what they did | The minister is removed from office |
-| A president is acting illegally | Which directly elected single-seat office | An impeachment: an early election is called for that office |
+| A president is acting illegally | Which directly elected single-seat office | An impeachment: the office holder is removed at once and barred from that office for good, and an early election is called to fill it |
 | A constitutional amendment is illegal or inconsistent | Which amendment, and why it cannot stand | The amendment is struck from the constitution |
 
 Only **amendments** can be struck down. Power allocations, legislatures, cabinet positions and the monarchy are structural constitution content with their own [constitutional change](constitution.md) machinery, and the court does not touch them.
@@ -64,6 +64,14 @@ Everything is revealed at once: each seat's vote and full rationale, and the tal
 The appeal is **upheld if strictly more than half of the votes cast** are to uphold. Recusals and absences are not counted in that total, and **a tie is a denial** — the court presumes what it is asked to strike down is lawful until a majority says otherwise.
 
 If the appeal is upheld, the remedy is applied automatically and immediately.
+
+!!! warning "Impeachment"
+    An upheld impeachment removes the office holder the moment the ruling lands. Their party's
+    nomination stops counting, so the office falls vacant, and that person is **barred from that
+    office permanently** — their party has to field somebody else. They are not barred from
+    anything else: they can still lead a party, sit in a chamber, take a cabinet post or stand for
+    a different single-seat office. The office itself then goes to an **early election**, so it is
+    the country, not the court, that picks the successor.
 
 !!! note "If the world moved on"
     A case runs to its end even if its target disappears — the minister resigns, the law changes, the amendment is repealed by other means. The ruling still publishes; the court simply notes that there was nothing left to order. Justices can, and in roleplay should, deny an appeal that has become moot.
