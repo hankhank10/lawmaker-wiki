@@ -39,6 +39,13 @@ This has real economic teeth: a country's retired share of the population, shown
 !!! note "Budgets count too — about 30%"
     Voters judge you on more than laws. Each elector's view is roughly **70% your social-policy record (laws)** and **30% your financial record (budgets)** — they react to tax changes in their own income band and to spending shifts in areas they care about. A party that ignores budgets hands a free advantage to rivals. See [How budgets affect voters](economy.md#how-budgets-affect-voters).
 
+!!! note "When no party has a positive opinion score"
+    An elector's votes always go somewhere, even when nothing they've seen impresses them:
+
+    - If every score is zero or negative, votes are split equally among the parties the elector is merely neutral about — not the ones they dislike.
+    - If every known party is disliked, votes are split in proportion to how little each is disliked, rather than all going to whichever party is disliked least.
+    - A party with **no recent voting record** is unknown to the elector, not neutral — it's excluded from both of the above and gets no votes by default, so a brand-new party can't sweep the disaffected vote just by having nothing on the record yet. The only exception is a country where no party has any record at all: then votes still split equally across all of them.
+
 ### Time-weighting
 
 Recent votes dominate: the last 30 days carry the most weight, 30–90 days moderate weight, and anything over a year barely registers. Voters, like real ones, remember what you did lately.
