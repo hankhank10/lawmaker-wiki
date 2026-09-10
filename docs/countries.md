@@ -112,6 +112,12 @@ Country owners and admins see an **Approve** button on each pending event, and a
 !!! info "Email notification for country owners"
     If you proposed the country (you are its owner), you will receive an **email notification** whenever a player submits a lore event proposal that is awaiting your approval — for any of your countries, public or private. The email includes the event year, headline, and description, along with a direct link to your country page where you can review and approve it. You can manage this notification in your email preferences.
 
+## The world map
+
+Some countries are placed on a **continent** and shown together on an interactive world map, hosted outside the game itself. A country that's been placed shows a **Continent** card on its page, with a **view map** link and a list of its neighbours on that continent.
+
+On the map, each country is sized by its population, and clicking one opens a card with its flag, name and population, plus a link straight back into the game to view the country or join it.
+
 ## Next steps
 
 - [Create your party](gameplay/parties.md) once you've chosen a country.
