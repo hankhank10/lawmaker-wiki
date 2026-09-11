@@ -90,6 +90,8 @@ Lawmaker uses **proportional representation**: roughly, vote share equals seat s
 Party seats ≈ (party votes ÷ total votes) × total seats
 ```
 
+Seats are allocated using the **D'Hondt method** (highest averages), the same system used in Spain, Portugal, Poland and Israel. It guarantees that a party with over half the vote wins at least half the seats — and a strict majority whenever the chamber has an odd number of seats — so a decisive election winner can actually form a government instead of being locked out by rounding. It's a touch kinder to large parties than a pure remainder-based count would be; that's the trade that buys the guarantee.
+
 ### Turnout
 
 Not every elector votes every time. Controversial recent proposals and close races push turnout up; long inactivity pushes it down. **Party branding matters here**: a custom [logo](parties.md#party-branding) gives a +5% turnout boost among your supporters, and going without costs you 5%.
