@@ -39,13 +39,17 @@ Your party can have a custom **SVG logo**, uploaded on the Edit Party page with 
 
 It's not just decoration: a custom logo gives a **+5% supporter-turnout boost** at elections, while a party with no logo takes a **-5% penalty**. Since uploading one costs no PP, it's one of the cheapest electoral gains available — do it early.
 
-### Changing your slogan or description
+### Changing your name, slogan or description
 
-You can rewrite your **slogan** and **description** on the Edit Party page. It costs no PP, but the change doesn't go live straight away: it joins a queue and only takes effect once a moderator approves it.
+You can rewrite your **name**, **slogan** and **description** on the Edit Party page. It costs no PP, but the change doesn't go live straight away: it joins a queue and only takes effect once a moderator approves it.
 
-Approval turns on whether the change is **realistic and in character**. Fixing typos, tidying up wording or correcting a mistake is always fine. Anything more substantive — a new slogan, a rewritten description, a change of political direction — has to be properly roleplayed: it should read like something your party would actually announce, and fit what your party has been doing in the game. Out-of-character or joke rewrites get turned down.
+Approval turns on whether the change is **realistic and in character**. Fixing typos, tidying up wording or correcting a mistake is always fine. Anything more substantive — a new slogan, a rewritten description, a change of political direction — has to be properly roleplayed: it should read like something your party would actually announce, and fit what your party has been doing in the game. Out-of-character or joke rewrites get turned down. The same goes for a **rename**: parties change their name when something has actually happened to them — a merger, a relaunch, a split — not on a whim.
 
-You can have one change waiting at a time; submitting again replaces it, and you can withdraw it while it's still pending. **Party names** aren't covered by this — to change your name, ask in the Discord support channel.
+A new name follows the same rules as one picked at creation: at least 5 characters, and not already used by another party in your country. Renaming changes your party's name only — its **web address never changes**, so every link, bookmark and mention pointing at your party keeps working.
+
+A rename is also **public**: once it's approved, one of the country's journalists reports the rebrand, naming both your old and your new name, and it's posted in the country's Discord channel. Nobody has to guess who you used to be.
+
+You can have one change waiting at a time; submitting again replaces it, and you can withdraw it while it's still pending.
 
 ## One party per country
 
