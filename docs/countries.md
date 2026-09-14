@@ -114,7 +114,7 @@ Country owners and admins see an **Approve** button on each pending event, and a
 
 ## The world map
 
-Some countries are placed on a **continent** and shown together on an interactive world map, hosted outside the game itself. A country that's been placed shows a **Continent** card on its page, with a **view map** link and a list of its neighbours on that continent.
+Some countries are placed on a **continent** and shown together on an interactive world map, hosted outside the game itself. A country that's been placed shows a **Continent** card on its page, with a **view map** link and a list of its neighbours on that continent. You can also jump straight to the map at any time from the main menu, under **World → Map**.
 
 On the map, each country is sized by its population, and clicking one opens a card with its flag, name and population, plus a link straight back into the game to view the country or join it.
 
