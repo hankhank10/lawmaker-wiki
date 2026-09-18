@@ -45,6 +45,13 @@ Accounts that appear to be operated by the same person within the same country m
 
 Once the game exits alpha, this multi-account policy will be reviewed and updated.
 
+### Legal Notice
+
+By continuing to play you agree to the [Legal Notice](https://alpha.lawmakergame.com/legal/). It
+explains the data Lawmaker collects to keep the game fair (including your IP address and a browser
+fingerprint used to detect multiple accounts in the same country) and confirms that anything you
+submit to the game may be used by Lawmaker without compensation.
+
 ### Yellow Cards
 
 Moderators enforce these rules with **yellow cards**. If you receive one, the next page you load shows a notice you must acknowledge before you can keep playing. A second yellow card within 30 days results in permanent removal from the game.
