@@ -40,6 +40,8 @@ There are **95 laws** across 21 policy areas — defence, the economy, education
 
 The full, authoritative catalogue — with each law's current setting, its available options, and their political impacts — is shown **in the game itself** when you draft a proposal, and on each country's **Laws** page. That's always the up-to-date source, so refer there rather than to a static list.
 
+A handful of these options — the ones that attack the mechanisms of accountability, like press control, protest bans and mass surveillance — also carry **autocracy points** for any party that votes them into law. See [Authoritarian laws](gameplay/executive-actions.md#authoritarian-laws) for the full list and how the points are paid.
+
 ## Next steps
 
 - [Party Management](gameplay/parties.md) — turn these issues into your platform.

@@ -56,6 +56,8 @@ Open proposals appear on your country page. For each one you cast **Yes**, **No*
 !!! warning "No seats, no vote"
     Voting weight comes from seats. A party with 0 seats in a legislature can't vote on its proposals — win seats in [elections](elections.md) first.
 
+A handful of laws attack the mechanisms of accountability — press control, protest bans, mass surveillance and the like. Voting **Yes** on one of these stains your party's [autocracy score](executive-actions.md#authoritarian-laws): the full points if you proposed it, half if you just voted for it. Check the notice on the proposal page before you commit your vote.
+
 A few mechanics worth knowing:
 
 - **Withdrawing:** the proposing party can pull a proposal before the window closes, but the 30 PP is **not** refunded.
