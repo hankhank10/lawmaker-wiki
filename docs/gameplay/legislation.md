@@ -26,7 +26,7 @@ Each law governs one policy area (for example, *Minimum Wage Policy*) and has se
     - **Basic minimum wage** — a minimum living standard *(current)*
     - **High living wage** — a comfortable standard for all workers
 
-There are 95 laws across 21 policy areas. The authoritative, up-to-date catalogue — with each law's current setting and options — lives in the game itself, on your country's **Laws** page and the **International Laws Explorer** (which compares positions across every country). Use them to see the status quo before proposing a change.
+There are 110 laws across 19 policy areas. The authoritative, up-to-date catalogue — with each law's current setting and options — lives in the game itself, on your country's **Laws** page and the **International Laws Explorer** (which compares positions across every country). Use them to see the status quo before proposing a change.
 
 ## Proposing a law
 

@@ -105,6 +105,7 @@ Only a curated set of options across the law catalogue carry points. Everything 
 | Data Privacy | Citizens must share all personal data with the state |
 | Curfew Policy | Universal curfew |
 | Official Language Policy | Mandatory state-constructed language |
+| Government Transparency | Government business secret by default; leaking a serious crime |
 
 **Tier 3 — weakens accountability · +5 points**
 
@@ -113,6 +114,8 @@ Only a curated set of options across the law catalogue carry points. Everything 
 | Identity Cards | Mandatory biometric ID + central register |
 | Press Regulation | Statutory press regulator with powers |
 | Blasphemy Law | Strict blasphemy laws |
+| Police Body Cameras | No cameras; filming the police is a criminal offence |
+| Anti-Corruption Commission | Commission appointed and directed by ministers |
 
 ### Restoration credit
 
@@ -122,8 +125,12 @@ Reversing an erosion pays credit back, the same way a [pardon](#issue-pardon) of
 | --- | --- | --- |
 | Media Censorship | Free press | −5 |
 | Right to Protest | Unrestricted right to assemble | −5 |
+| Government Transparency | Open by default; contracts, meetings and expenses published | −3 |
+| Anti-Corruption Commission | Independent commission with its own prosecutors | −3 |
 
 The points above are charged for **new** erosion only. Moving a law from an unscored option to a Tier 1 option costs the full 20; stepping it up from a Tier 2 option to a Tier 1 option costs the 10 points of difference; and swapping between two options of the same tier, or loosening a Tier 1 law to Tier 2, costs nothing (and pays nothing back).
+
+One law **starts** on a scored option: most countries begin with their anti-corruption commission appointed and directed by ministers. Starting there costs nobody anything — points are only charged to the parties that *vote a change through*, never to the country's inherited position. The +5 can only be taken by a party that actively rolls the law back from a more independent arrangement.
 
 Restoration credit is only paid when the law is being moved **away from an option that itself carries points** — and never more than that option carried. Moving a *moderate, unscored* law straight to free press pays nothing, and moving it back doesn't cost anything either. That closes off the obvious farm: you can't toggle a law between an ordinary default and a restoration option to rack up free credit, because no erosion ever happened to restore.
 

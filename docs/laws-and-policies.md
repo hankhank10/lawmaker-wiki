@@ -36,7 +36,7 @@ Pick four issues that form a coherent identity, and be ready to vote for them co
 
 ## The laws catalogue
 
-There are **95 laws** across 21 policy areas — defence, the economy, education, environment, healthcare, immigration, and more. Each law has several options representing different positions, and a [proposal](gameplay/legislation.md) changes one or more laws from their current option to a new one.
+There are **110 laws** across 19 policy areas — defence, the economy, education, environment, healthcare, immigration, and more. Each law has several options representing different positions, and a [proposal](gameplay/legislation.md) changes one or more laws from their current option to a new one.
 
 The full, authoritative catalogue — with each law's current setting, its available options, and their political impacts — is shown **in the game itself** when you draft a proposal, and on each country's **Laws** page. That's always the up-to-date source, so refer there rather than to a static list.
 

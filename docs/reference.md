@@ -81,6 +81,6 @@ In **bicameral** countries a proposal must clear its threshold in all required c
 
 - **One active party per account**, and one party per country (use a separate account per country).
 - A party chooses **4 pillars** from the **16 political issues** when it's created.
-- A proposal bundles **1–5 articles** (each changing one law). There are **95 laws** across 21 policy areas.
+- A proposal bundles **1–5 articles** (each changing one law). There are **110 laws** across 19 policy areas.
 - Voter opinion is roughly **70% your law record, 30% your budget record** (a per-country setting).
 - Each country caps how many parties can exist in it at once — **7 by default**, though individual countries can be set higher or lower. Once a country hits its cap it shows **Country full** and won't let a new party be founded there until one disbands.
