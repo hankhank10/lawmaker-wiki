@@ -46,8 +46,21 @@ The holder of the **Power to regulate political parties** can silence a rival:
 - The target party is **banned from organising public events for 6 months**. Any of their scheduled [campaign events](campaigning.md) inside the ban window are **cancelled immediately, with no refund** of money or activist energy.
 - While the ban runs, the target **cannot create, edit, move or copy** campaign events at all — their calendar shows the ban and disables those controls. They can still *delete* events to tidy up.
 - There is no stacking: a target already under a ban can't be re-banned until it lapses. When it does lapse, the party can organise again the next day, and the executive can pay the price to ban them afresh.
+- A ban is not always a sentence served in full — whoever holds the gating power can **[lift it early](#lift-public-events-ban)**, including a government that inherits the office from the executive that imposed it.
 
 A single ban pushes the acting party to **Autocratic Leanings**; do it repeatedly and you climb toward **Terrifyingly Autocratic**, bleeding votes at every election until the ledger fades.
+
+## Lift public events ban
+
+The same **Power to regulate political parties** that silences a party can also free one. It costs **30 PP** and, like a pardon, *reduces* the acting party's autocracy score — by **10 points**.
+
+- Only a party **currently serving a ban** can be freed; the target picker lists them with the date each ban would otherwise have lapsed, and marks your own party if it is among them.
+- The ban ends **immediately**. The freed party can create, edit, move and copy campaign events again the same day, without waiting out the remaining months.
+- **What's gone stays gone.** Events the ban cancelled were deleted, along with the money and activist energy spent on them. Lifting the ban returns the *right to organise*, not the campaign that was destroyed.
+- Nothing stops the executive banning them again afterwards — at the usual price of 30 PP and 15 autocracy points. Since the lift's −10 is smaller than the ban's +15, cycling a rival in and out of a ban *deepens* an autocratic record rather than laundering it.
+- You **can** free your own party — a party that wins the office while serving a predecessor's ban is not condemned to sit the rest of it out — but doing so scores you **nothing**. The −10 is credit for freeing *someone else*; ending a ban on yourself costs the 30 PP and buys a way out, not a democratic record. (The ledger still records it, at 0 points, and the press still reports whose ban you lifted.)
+
+As with a pardon, the score is floored at 0: freeing parties can offset autocratic acts you have already committed, but it never buys a party a vote *bonus*.
 
 ## Order arrest
 
