@@ -25,7 +25,7 @@ Only **amendments** can be struck down. Power allocations, legislatures, cabinet
 
 Any live party in a country with a court may file an appeal, for **60 PP**. Only **one case runs at a time** in a country, so if the court is already sitting you have to wait.
 
-Filing is the commitment. There is no draft stage and no voluntary withdrawal — once the case is entered, it runs its course, and the fee is not returned. Two things can still end a case early without a ruling on the merits: a case no justice was able to hear (see [No quorum](#no-quorum) below), and a case whose appellant party disbands before a ruling (see [Withdrawn](#withdrawn-appellant-disbands) below).
+Filing is the commitment. There is no draft stage and no voluntary withdrawal — once the case is entered, it runs its course, and the fee is not returned. Three things can still end a case early without a ruling on the merits: a case no justice was able to hear (see [No quorum](#no-quorum) below), a case whose appellant party disbands before a ruling (see [Withdrawn](#withdrawn-appellant-disbands) below), and an impeachment whose office changes party mid-case (see [Closed — the office changes party](#closed-the-office-changes-party) below).
 
 Your written case is the opening submission of the record. Make it argue something.
 
@@ -66,6 +66,11 @@ The appeal is **upheld if strictly more than half of the votes cast** are to uph
 If the appeal is upheld, the remedy is applied automatically and immediately.
 
 !!! warning "Impeachment"
+    An impeachment is brought against the party holding the office, and an upheld ruling falls on
+    whoever that party has in the office on the day — not on the person your case text names. If
+    the office has passed to a *different* party by then, the case is already closed: see
+    [Closed — the office changes party](#closed-the-office-changes-party).
+
     An upheld impeachment removes the office holder the moment the ruling lands. Their party's
     nomination stops counting, so the office falls vacant, and that person is **barred from that
     office permanently** — their party has to field somebody else. They are not barred from
@@ -83,6 +88,15 @@ If no justice was able to sit — an empty bench, or every justice recused — t
 ### Withdrawn — appellant disbands
 
 If the appellant's party disbands while its case is still pleading or deliberating, the case is closed immediately as **withdrawn**, with no ruling on the merits. There is nobody left to prosecute it, so it doesn't keep occupying the country's one-case slot until its dates happen to run out on their own. Unlike a no-quorum dismissal, the **60 PP filing fee is not refunded**.
+
+### Closed — the office changes party
+
+An impeachment names an office, but it is brought against **the party sitting in that office** when the case is filed. That party is the respondent, and it stays the respondent for the life of the case:
+
+- If the party puts **somebody else** in the office — a new leader, a new nominee — the case carries on, and an upheld ruling removes and bars whoever is in the office on the day of the ruling. A party cannot dodge a verdict by changing its nominee the week before the vote.
+- If the office passes to **another party** — an election, a collapse, a reallocation of the seat — the respondent is gone. The case is closed immediately as **closed — the office changed party**, with no ruling on the merits, and the **60 PP filing fee is returned in full**. The new holder never had a case to answer, and the court will not hand their office to a case that was never about them.
+
+So an impeachment is a race against the calendar: win the argument while your opponent still holds the office, or the electorate settles it first and your case dies with the presidency it was aimed at. If the same party wins the office back later, the old case does not come back with it — file again.
 
 ## The justices
 
