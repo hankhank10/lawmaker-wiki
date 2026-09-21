@@ -107,11 +107,27 @@ Any logged-in user can *view* public polls; only active parties can commission t
 
 ## Early elections
 
-A party can trigger an election before the scheduled date for **30 PP** (just 10 PP if no party holds seats). It's put to a vote over a 60-day window and goes ahead unless opposition reaches 50%. Leading parties use this to lock in gains; opposition parties vote it down to deny them the moment.
+A party can trigger an election before the scheduled date for **30 PP** (just 10 PP if the chamber voting on the call holds no seats). It's put to a vote over a 60-day window and goes ahead unless opposition reaches 50%. Leading parties use this to lock in gains; opposition parties vote it down to deny them the moment.
 
 **The motion concludes early** if the outcome becomes mathematically certain before the 60-day window ends — that is, once yes has secured more than 50% of occupied seats (it will pass), or once yes can no longer reach 50% no matter how remaining votes fall (it will fail). This applies even if votes are still incoming.
 
-Separately, the game calls an **automatic** early election (no vote, no PP) for any single legislature that empties below 50% occupancy — usually after a governing party is disbanded — holding it 10 game days later so the chamber can be refilled.
+### Single-seat offices
+
+A single-seat office — a presidency, say — can't be sent to the country by its own single occupant, so the call is decided by another chamber, the one named in the constitution as its no-confidence legislature. What that call is depends on whether anyone holds the office:
+
+- **The office is held.** It's a **vote of no confidence** in the holder, costing **30 PP** and needing the constitution's no-confidence threshold (typically 75% of votes cast) in the deciding chamber. Win it and the office goes to an early election.
+- **The office is vacant.** There's no holder to withdraw confidence from, so it's simply a call to refill the seat: **10 PP**, and a **simple majority** in the deciding chamber is enough.
+
+Either way, abstentions are ignored and the election is held 10 game days after the voting period ends.
+
+### Automatic early elections
+
+The game calls an **automatic** early election (no vote, no PP) in two cases, holding it 10 game days later:
+
+- **A chamber empties below 50% occupancy** — usually after a governing party is disbanded.
+- **A single-seat office falls vacant** and at least one party has a candidate standing for it. Nobody standing means an election nobody could win, so a vacant office waits for its first nominee — a party that wants the seat filled sooner should put a candidate up for it.
+
+An [upheld impeachment](supreme-court.md) schedules the same election directly, without waiting for either check.
 
 ## Next steps
 

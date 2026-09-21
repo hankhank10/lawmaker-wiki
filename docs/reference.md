@@ -33,7 +33,8 @@ Generation is multiplied by the power you hold (modifiers compound):
 | [Commission a poll](gameplay/elections.md#polling) | 10 PP |
 | [Expel a character](gameplay/characters.md#expelling-and-free-agents) | 25 PP |
 | [Form a government](gameplay/cabinet.md) | 30 PP |
-| [Call an early election](gameplay/elections.md#early-elections) | 30 PP (10 PP if no party holds seats) |
+| [Call an early election](gameplay/elections.md#early-elections) | 30 PP (10 PP if the chamber voting on the call holds no seats) |
+| [Vote of no confidence in a single-seat office](gameplay/elections.md#single-seat-offices) | 30 PP (10 PP if the office is vacant) |
 | [Change a pillar](gameplay/parties.md#changing-a-pillar) | 75 PP |
 | [Constitutional change](gameplay/constitution.md) | 30 PP per item (min 60 PP); 60 PP to establish or abolish a monarchy |
 | [Found an international bloc](gameplay/communication.md#international-blocs) | 50 PP |
@@ -49,7 +50,8 @@ Generation is multiplied by the power you hold (modifiers compound):
 | Budget | 60 game days | Simple majority of filled seats |
 | Cabinet formation | 60 game days | Majority support (all proposed parties must vote yes) |
 | Constitutional change / amendment | 60 game days | Supermajority (typically ~66.6%), in **every** required chamber |
-| Early-election call | 60 game days (5 if no party holds seats) | Passes unless ≥50% oppose |
+| Early-election call | 60 game days (5 if no party holds seats in the voting chamber) | Passes unless ≥50% oppose |
+| No-confidence vote (single-seat office) | 60 game days | Constitution's threshold (typically 75%) of votes cast — a simple majority while the office is vacant |
 
 In **bicameral** countries a proposal must clear its threshold in all required chambers. Abstentions never count toward either side.
 

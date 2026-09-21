@@ -95,7 +95,7 @@ Hold government positions! Each gives a multiplicative bonus: Head of State (+20
 | Propose law | 30 PP |
 | Recruit character | 10 PP |
 | Commission poll | 10 PP |
-| Call early election | 30 PP (10 PP for empty legislatures) |
+| Call early election | 30 PP (10 PP if the chamber voting on it holds no seats, or the single-seat office is vacant) |
 | Expel character | 25 PP |
 | Form government | 30 PP |
 | Constitutional change | 60 PP |
