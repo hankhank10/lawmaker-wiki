@@ -35,6 +35,12 @@ Two less common shapes are worth knowing: a **minority government** (under 50% o
 
 The detailed tactics of *who* to partner with, when to lead versus join, and how to keep a coalition together live in the [Strategy Guide](../strategy-guide.md).
 
+## Partial and vacant cabinets
+
+A cabinet doesn't only change through a full formation vote — a single position can fall vacant on its own, for example when the [Supreme Court](supreme-court.md) removes a minister from office, the governing party is banned or disbanded, or the Crown fills cabinet posts one at a time. When that happens, the country page shows an **Incomplete Cabinet** notice instead of treating the government as having collapsed.
+
+The ministers still in post remain genuinely in office: they keep their constitutional powers, can still be targeted by [executive actions](executive-actions.md), and their character page still shows their title. Only the empty positions are marked **Vacant**. A country only shows the "no cabinet formed" empty state once *every* position is unfilled — as long as at least one minister remains, the country page and dashboard cabinet card list who's still serving alongside the vacant chairs, until a new formation vote fills the cabinet again.
+
 ## Next steps
 
 - [Elections & Voters](elections.md) — win the seats that make a government possible.
