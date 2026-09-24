@@ -38,7 +38,7 @@ The activist from your party who publicly sponsors a bill. Their persuasion, aut
 
 ### How do constitutional changes differ from normal proposals?
 
-Constitutional changes cost **60 PP** (vs 30 PP), require a **supermajority** (typically 66.6% vs simple majority), may need approval from **multiple legislatures**, and have a **cooldown period** after passing. See [Constitution](gameplay/constitution.md).
+Constitutional changes cost **at least 60 PP** per package (30 PP per standard change, 60 PP per major change, vs 30 PP for a bill), require a **supermajority** (typically 66.6% vs simple majority), may need approval from **multiple legislatures**, and have a **cooldown period** after passing. See [Constitution](gameplay/constitution.md).
 
 ### What happens when I'm inactive?
 
@@ -98,7 +98,7 @@ Hold government positions! Each gives a multiplicative bonus: Head of State (+20
 | Call early election | 30 PP (10 PP if the chamber voting on it holds no seats, or the single-seat office is vacant) |
 | Expel character | 25 PP |
 | Form government | 30 PP |
-| Constitutional change | 60 PP |
+| Constitutional change | from 60 PP |
 | Found international bloc | 50 PP |
 | Apply to bloc | 20 PP |
 

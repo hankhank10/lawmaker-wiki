@@ -36,7 +36,7 @@ Generation is multiplied by the power you hold (modifiers compound):
 | [Call an early election](gameplay/elections.md#early-elections) | 30 PP (10 PP if the chamber voting on the call holds no seats) |
 | [Vote of no confidence in a single-seat office](gameplay/elections.md#single-seat-offices) | 30 PP (10 PP if the office is vacant) |
 | [Change a pillar](gameplay/parties.md#changing-a-pillar) | 75 PP |
-| [Constitutional change](gameplay/constitution.md) | 30 PP per item (min 60 PP); 60 PP to establish or abolish a monarchy |
+| [Constitutional change](gameplay/constitution.md#what-can-be-amended) | 30 PP per standard change, 60 PP per major change (min 60 PP per package); required follow-on changes are free |
 | [Found an international bloc](gameplay/communication.md#international-blocs) | 50 PP |
 | [Apply to a bloc](gameplay/communication.md#international-blocs) | 20 PP |
 
@@ -63,7 +63,7 @@ In **bicameral** countries a proposal must clear its threshold in all required c
 | Auto-disband for inactivity | after 5 days (only if the country is ≥70% full) |
 | Early election held after a successful call | 10 game days later |
 | Auto early election (legislature drops below 50% occupancy) | held 10 game days later, no PP cost, no vote |
-| Constitutional-change cooldown | ~2 years after a successful change |
+| Constitutional-change cooldown | set by Article II of each constitution (0–5 years, 1 by default) |
 | Constitutional Crisis mood | 90 days (resets on a further veto) |
 | Economic Miracle / Crash mood | ~2 years |
 | [Global decision](gameplay/global-decisions.md) voting window | 24 game days, same for every country |

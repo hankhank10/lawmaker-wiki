@@ -37,7 +37,7 @@ Blocking a bill that the legislature had passed automatically triggers a **Const
 - the threshold to pass a **pure abolish-the-monarchy** change is **halved**, and
 - the usual constitutional-change **cooldown is bypassed** for such a package.
 
-Add anything else to that package — any other power move, amendment, or repeal — and it loses both benefits. In short, a crisis makes it specifically easier to *remove* the Crown, which is the real cost of using the veto: lean on it too often and the country may assemble a republican majority it couldn't have mustered in calmer weather.
+The replacements the abolition adds automatically — a new head of government, a new body to appoint the cabinet, and a new holder for each Crown power — don't count against this, and you can still choose them. Add anything else to that package — another power move, amendment, or repeal — and it loses both benefits. In short, a crisis makes it specifically easier to *remove* the Crown, which is the real cost of using the veto: lean on it too often and the country may assemble a republican majority it couldn't have mustered in calmer weather.
 
 ## Leaving the throne
 
