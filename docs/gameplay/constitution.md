@@ -13,7 +13,7 @@ There are **18 such powers** in all, spanning the military and intelligence serv
 
 ## What can be amended
 
-Every part of the constitution is either **Amendable** or **Entrenched**, and the constitution page shows which. Entrenched articles carry a lock: *"Entrenched: this part of the constitution cannot be amended"*.
+Every part of the constitution is either **Amendable** or **Entrenched**, and the constitution page shows which. Entrenched articles carry a closed padlock 🔒: *"Entrenched: this part of the constitution cannot be amended"*. Amendable parts carry a pencil ✏️; hover over it to see exactly what an amendment can change there.
 
 | Part of the constitution | Status | Cost |
 | --- | --- | --- |
