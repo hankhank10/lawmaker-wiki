@@ -41,7 +41,7 @@ The replacements the abolition adds automatically — a new head of government, 
 
 ## Leaving the throne
 
-A monarch can **abdicate** at any time: the reign ends, the monarch character retires, and your party is restored — but with **0 seats and 0 PP**, regaining none of what it gave up. Monarchies also have **inactivity** checks; if a reigning monarch goes inactive after warnings, abdication is forced — and a *forced* abdication **disbands** the enthroned party rather than restoring it. Log in regularly while you reign.
+A monarch can **abdicate** at any time: the reign ends, the monarch character retires, and your party is restored — but with **0 seats and 0 PP**, regaining none of what it gave up. Monarchies also have **inactivity** checks; if a reigning monarch goes inactive after warnings, abdication is forced — and a *forced* abdication **disbands** the enthroned party rather than restoring it. Take an action regularly while you reign — logging in alone doesn't count.
 
 ## Next steps
 

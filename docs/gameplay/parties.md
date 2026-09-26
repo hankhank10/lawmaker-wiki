@@ -74,7 +74,7 @@ To keep countries alive, Lawmaker also disbands inactive parties:
 - After **3 days** of inactivity, you get a **warning email**.
 - After **5 days**, your party is **auto-disbanded** — but only when the country is **70%+ full**, to free space for active players.
 
-Any action — even a single vote or message — resets your activity timer, so logging in every few days is enough. (Reigning monarchs have their own inactivity checks; see [Hereditary Monarchy](monarchy.md).)
+Any action — even a single vote or message — resets your activity timer. Simply logging in or browsing does **not** count: you need to actually do something every few days. (Reigning monarchs have their own inactivity checks; see [Hereditary Monarchy](monarchy.md).)
 
 ## Next steps
 

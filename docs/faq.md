@@ -42,7 +42,7 @@ Constitutional changes cost **at least 60 PP** per package (30 PP per standard c
 
 ### What happens when I'm inactive?
 
-After 3 days of inactivity, you'll receive a warning email. After 5 days, your party may be auto-disbanded (only if the country is 70%+ full). Log in regularly to stay active.
+After 3 days of inactivity, you'll receive a warning email. After 5 days, your party may be auto-disbanded (only if the country is 70%+ full). To stay active, take an action every few days — a vote, a message, a proposal. Just logging in doesn't count.
 
 If you hold a hereditary throne, inactivity warnings apply to your reign too. Continued inactivity can force abdication, retire the monarch character, disband the enthroned party, and reopen the throne for nominations.
 
