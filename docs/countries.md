@@ -41,7 +41,7 @@ Because nobody can join a private country without a code, one with no parties in
 !!! info "Proposals are temporarily supporters-only"
     While the team works through a moderation backlog, submitting a new proposal is temporarily limited to supporters, regardless of account age. This is a temporary measure, not a permanent rule, and it doesn't affect anyone's ability to browse and upvote existing proposals in the meantime.
 
-From the countries list you define the country's name, population, system type, legislatures, cabinet positions, constitutional offices, and permanent national moods (and optionally a flag). Before you can submit, you must confirm you've read the acceptance criteria below and write a **rationale for creation** (minimum 100 characters) making the case for why the country is worth adding.
+From the countries list you define the country's name, population, system type, legislatures, cabinet positions, constitutional offices, and permanent national moods (and optionally a flag). Before you can submit, you must confirm you've read the acceptance criteria below, write a **rationale for creation** (minimum 100 characters) making the case for why the country is worth adding, and add at least **three [historical events](#historical-events)** — each with a year and a headline — to give the country an opening backstory.
 
 ### What makes a good country proposal
 
@@ -103,7 +103,7 @@ Each event records a **year** (AD), a short **headline**, and an optional longer
 Proposed events are shown in a dashed style and marked **"Pending approval"**. Only the submitting player, the country owner, and admins can see them until approved.
 
 !!! info "Historical events on proposed countries"
-    While a country is still a **draft proposal**, its proposer (and admins) can add historical events directly from the proposal page — right up until a moderator accepts it for community voting. Once the proposal is **up for votes, its history is locked**: no events can be added, changed or removed. The timeline stays visible to voters, and normal historical-event rules resume once the country goes live.
+    A country proposal must be submitted with **at least three historical events** already filled in — the proposal form has a dedicated Historical Events section for this, pre-filled with three blank rows. These publish immediately as part of the proposal; they aren't held for approval the way another player's suggestion would be. While the draft is still a proposal, its proposer (and admins) can keep adding events directly from the proposal page — right up until a moderator accepts it for community voting. If a moderator requests changes, the draft must still have at least three published events before it can be resubmitted, and the proposer can't delete an event that would take it below that minimum while it's awaiting review (admins can). Once the proposal is **up for votes, its history is locked**: no events can be added, changed or removed. The timeline stays visible to voters, and normal historical-event rules resume once the country goes live.
 
 #### Approving and managing proposed events
 
