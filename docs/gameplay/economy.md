@@ -23,7 +23,7 @@ Each industry has its own growth story that plays out across the whole world at 
 
 ### Economic focus
 
-When a country is founded (or proposed), its founder can choose an **economic focus** — a preset economic identity such as *Technology Powerhouse*, *Petrostate*, *Financial Hub*, *Mining Economy*, *Industrial Heartland*, *Agricultural Heartland*, *Tourism Paradise*, *Life Sciences Hub*, or *Cultural Powerhouse* — or leave it as a **Balanced Economy** with no dominant sector. A focus guarantees its chosen industry (or industries) is present and boosted into a genuine **specialism**; the rest of the country's mix is still generated at random. Choosing a focus doesn't change how tax, budgets, or elections work — it only shapes where your country's growth comes from.
+When a country is founded (or proposed), its founder can choose an **economic focus** — a preset economic identity such as *Technology Powerhouse*, *Petrostate*, *Financial Hub*, *Mining Economy*, *Industrial Heartland*, *Agricultural Heartland*, *Tourism Paradise*, *Life Sciences Hub*, or *Cultural Powerhouse* — or leave it as a **Balanced Economy** with no dominant sector. A focus guarantees its chosen industry (or industries) is present and sized to actually dominate the economy — together making up 30–40% of it and outranking every other sector — earning a genuine **specialism** badge rather than just being present; the rest of the country's mix is still generated at random. Choosing a focus doesn't change how tax, budgets, or elections work — it only shapes where your country's growth comes from.
 
 ### The Industries tab
 
