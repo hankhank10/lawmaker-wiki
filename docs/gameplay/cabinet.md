@@ -9,6 +9,8 @@ A cabinet is a set of positions — Prime Minister (or equivalent) plus minister
 !!! info "Cabinet posts are mostly symbolic"
     Legislative power in Lawmaker comes from **seats and votes**, not cabinet posts. Holding office gives your party prestige and visibility, and boosts the appointed activist's authority and follower growth — but it doesn't grant direct power over laws. (The exception: a [constitution](constitution.md) can assign specific powers to a named cabinet position.) Treat the cabinet as recognition and long-term character development rather than a lever over legislation.
 
+If a cabinet position is the country's **head of government** (a Prime Minister, for example), the party holding it can also call a [Constitutional Convention](constitution.md#constitutional-conventions) for 75 PP: a year of cheaper constitutional change with no cooldown between packages.
+
 ## Forming a government
 
 ```mermaid

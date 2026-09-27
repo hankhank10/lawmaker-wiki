@@ -41,6 +41,7 @@ Every part of the constitution is either **Amendable** or **Entrenched**, and th
 - **Major** changes cost **60 PP** each.
 - A package costs at least **60 PP** in total.
 - **Dependent changes**, the ones added automatically because another change requires them, are **free**. Abolishing a ministry that holds four powers costs 60 PP, not 180 PP.
+- During a [Constitutional Convention](#constitutional-conventions), a package costs **no more than 75 PP**, however many changes it holds.
 
 Some rules the game uses aren't part of the constitution at all, so they can't be amended: the pass thresholds for ordinary laws, the maximum number of parties, how a monarch is chosen, and the parliament's seating style.
 
@@ -54,7 +55,7 @@ Constitutional changes are made in **packages**. A package can hold many changes
 - runs for a **60-day** voting period, with the proposing party automatically voting Yes;
 - is limited to **one open package per country at a time**.
 
-After a package passes there's a **cooldown** before another can be opened, set in Article II. A package can resolve early if it already has the votes, or if too many No votes make the threshold impossible. The proposer can withdraw at any time, but the PP isn't refunded once voting has opened.
+After a package passes there's a **cooldown** before another can be opened, set in Article II. A [Constitutional Convention](#constitutional-conventions) suspends the cooldown while it sits. A package can resolve early if it already has the votes, or if too many No votes make the threshold impossible. The proposer can withdraw at any time, but the PP isn't refunded once voting has opened.
 
 ### Drafting
 
@@ -84,7 +85,7 @@ You don't write a title or summary for each change: the game describes each one 
 | **Cost** | 30 PP | 30 PP per standard change, 60 PP per major change (min 60) |
 | **Threshold** | Simple majority (>50%) | Supermajority of **all seats** |
 | **Chambers** | Usually one | Every chamber Article II requires |
-| **Cooldown** | None | Set in Article II, 0–5 years |
+| **Cooldown** | None | Set in Article II, 0–5 years (suspended during a [convention](#constitutional-conventions)) |
 
 ### Election frequency
 
@@ -107,7 +108,7 @@ Article II sets how the constitution itself is changed. Every part of it is amen
 
 - **Threshold per chamber:** **50%–90% of all seats**, in whole percentages. Some countries have an existing threshold such as 66.6%; it stays valid until someone amends it.
 - **Required chambers:** which chambers must approve a package. Only **multi-seat** chambers can be required, and **at least one** must stay required. Adding a chamber means setting its threshold too.
-- **Cooldown:** **0–5 whole years** between successful packages.
+- **Cooldown:** **0–5 whole years** between successful packages. It doesn't apply while a [Constitutional Convention](#constitutional-conventions) is sitting.
 
 A package is always voted on under the thresholds and required chambers **in force when it opened**. A package that lowers the threshold still has to clear the old, higher one. A package that changes the cooldown starts the **new** cooldown when it passes.
 
@@ -149,6 +150,43 @@ Each package has a review page, which is also where you vote. It shows:
 
 While a package is open, articles it would change show an **Amendment pending** marker on the constitution page, linking to it.
 
+## Constitutional conventions
+
+Normally a constitution changes slowly: one package at a time, with an Article II cooldown after every package that passes. A **Constitutional Convention** is a year set aside for rewriting it. While a convention sits, packages can pass one after another and each one is cheap, so a country can make a large set of changes in a single burst instead of over many years.
+
+### Calling a convention
+
+A convention can be called from the **Constitutional Convention** panel on the country's constitution page, by:
+
+- the **head of government**: the party whose character holds the head-of-government office, whether that's a single-seat office such as a presidency or a cabinet position such as Prime Minister. Calling it costs that party **75 PP**.
+- the **reigning monarch**, in a country with a [Crown](monarchy.md). This is **free**, since monarchs don't spend PP, and the monarch can call one whether or not the Crown is the head of government.
+
+A convention can be called even while the constitution is in its normal post-amendment cooldown. It can't be called while one is already sitting, or within **10 years** of the last one ending. The panel shows whether a convention is in session and until when, whether one can be called, or when the cooldown ends. When a convention can be called, the head of government's party and the monarch also see a reminder on their dashboard: *"You can call a constitutional convention"*.
+
+### While a convention sits
+
+A convention lasts **one year** (365 game days) and appears on the country as a **Constitutional Convention** [national mood](elections.md#national-moods). Unlike most moods it has no effect on voter opinions, issue importance or the economy: it only changes the rules for constitutional change.
+
+- **The cooldown is suspended.** As soon as one package closes, the next can be opened, so several packages can pass during the year.
+- **Package cost is capped at 75 PP.** Put as many changes in a package as you like; opening it never costs more than 75 PP. The usual 60 PP minimum still applies, and the package's cost breakdown shows when the cap has been applied. The price is fixed when the package is opened, so a package opened on the convention's last day keeps its capped price.
+- **Any party can propose.** Only the head of government or monarch can *call* a convention, but every party can open packages during it.
+- **One package at a time still applies.** Only one package can be open for voting at once; others have to wait for it to close.
+- **Voting is unchanged.** Every package still needs the supermajority set in [Article II](#article-ii-the-amendment-rule), in every required chamber, over the usual 60-day voting period.
+
+!!! tip "Plan the year"
+    A 60-day voting period and one open package at a time mean only a handful of packages can run through a single convention. Agree the order with other parties before it's called, and bundle related changes together: with the cap, one large package costs the same as a small one.
+
+### When it ends
+
+A convention ends after its year, or earlier if an admin ends it. When it ends:
+
+- the **normal Article II cooldown** resumes, counted from the last time the constitution was changed. A package that passed near the end of the convention still starts the usual cooldown.
+- a **10-year cooldown** starts before another convention can be called.
+
+### Founding conventions
+
+A newly created country starts with a **founding convention** for its first year, so its first parties can settle the constitution they want to play under. It works exactly like a convention that has been called, and its end also starts the 10-year cooldown. Countries that existed before conventions were introduced don't get one retroactively.
+
 ## The Supreme Court
 
 Some countries also recognise a [Supreme Court](supreme-court.md): a bench that can strike an amendment out of the constitution, or order a law changed, when a party successfully argues it is unlawful. Its rulings take direct effect and bypass the supermajority process entirely, so a constitution with a court in it is never settled by the numbers alone. Players can't add or remove the court through a constitutional change.
@@ -157,5 +195,5 @@ Some countries also recognise a [Supreme Court](supreme-court.md): a bench that 
 
 - [The Supreme Court](supreme-court.md): appealing an amendment, a law, or an office-holder.
 - [Government & Cabinet](cabinet.md): cabinet positions that can hold powers.
-- [Hereditary Monarchy](monarchy.md): Crown offices and the constitutional crisis mechanic.
+- [Hereditary Monarchy](monarchy.md): Crown offices, the constitutional crisis mechanic, and calling a convention as monarch.
 - [Communication](communication.md): building the supermajority you'll need.

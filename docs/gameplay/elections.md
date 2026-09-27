@@ -72,7 +72,7 @@ Some moods are **permanent**, baked into a country's character when it's created
 | **Secular Republic** 🏛️ | Toward secular governance and individual liberty; religious-governance issues weigh more heavily |
 | **Bread and Circuses** 🍞 | No position shift — but wages, welfare, and prices weigh more heavily; culture-war issues fade |
 
-Others are **event-triggered** and attach automatically when something happens in the game: a **Constitutional Crisis** (a monarch vetoes a passed bill — see [Hereditary Monarchy](monarchy.md#constitutional-crisis)), or an **Economic Miracle / Crash** that bends the country's growth rate (see [Economy](economy.md#national-moods-and-economic-growth)).
+Others are **event-triggered** and attach automatically when something happens in the game: a **Constitutional Crisis** (a monarch vetoes a passed bill — see [Hereditary Monarchy](monarchy.md#constitutional-crisis)), a **Constitutional Convention** (called by the head of government or the monarch, or at a new country's founding; it doesn't move voters, it only relaxes the rules for constitutional change for a year — see [Constitutional conventions](constitution.md#constitutional-conventions)), or an **Economic Miracle / Crash** that bends the country's growth rate (see [Economy](economy.md#national-moods-and-economic-growth)).
 
 When a mood lines up with your platform, it's a tailwind — propose into it. When it's against you, focus elsewhere and wait, since temporary moods pass.
 

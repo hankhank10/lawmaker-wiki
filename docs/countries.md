@@ -65,6 +65,8 @@ Proposals go through **staff moderation** before reaching community upvoting. Re
 
 Once accepted, a proposal moves to **community upvoting**, with the most popular and well-built proposals prioritised for launch. You can track your own proposals and their status, and browse and upvote others', on the countries list.
 
+When a proposed country goes live, it begins with a year-long **founding [Constitutional Convention](gameplay/constitution.md#constitutional-conventions)**: constitutional packages are capped at 75 PP and there's no cooldown between them, so the first parties can reshape the constitution you proposed before it settles down.
+
 ## Country pages
 
 Each country has overview pages bringing together its current laws and legislative history, active parties and seat distribution, the current government, the election schedule, recent activity, any [Crown](gameplay/monarchy.md) status, and active national moods. Two extras give a country depth:

@@ -39,6 +39,10 @@ Blocking a bill that the legislature had passed automatically triggers a **Const
 
 The replacements the abolition adds automatically — a new head of government, a new body to appoint the cabinet, and a new holder for each Crown power — don't count against this, and you can still choose them. Add anything else to that package — another power move, amendment, or repeal — and it loses both benefits. In short, a crisis makes it specifically easier to *remove* the Crown, which is the real cost of using the veto: lean on it too often and the country may assemble a republican majority it couldn't have mustered in calmer weather.
 
+### Calling a constitutional convention
+
+The reigning monarch can call a [Constitutional Convention](constitution.md#constitutional-conventions) **for free**, whether or not the Crown is the head of government. For a year the constitutional-change cooldown is suspended and packages are capped at 75 PP, so parties can rewrite the constitution quickly. That includes the parts about the Crown: a convention makes it easier for every party to propose changes, abolishing the monarchy among them, even though it doesn't lower the threshold the way a crisis does.
+
 ## Leaving the throne
 
 A monarch can **abdicate** at any time: the reign ends, the monarch character retires, and your party is restored — but with **0 seats and 0 PP**, regaining none of what it gave up. Monarchies also have **inactivity** checks; if a reigning monarch goes inactive after warnings, abdication is forced — and a *forced* abdication **disbands** the enthroned party rather than restoring it. Take an action regularly while you reign — logging in alone doesn't count.
