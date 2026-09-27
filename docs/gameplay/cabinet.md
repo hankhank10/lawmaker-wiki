@@ -20,9 +20,9 @@ graph TD
     D -->|No| F[Proposal fails, try again]
 ```
 
-A party proposes a cabinet for **30 PP**, nominating an activist for every position. All parties then vote (weighted by seats, over a 60-day window), and the cabinet forms if Yes votes reach a **majority of the legislature's total seats** — not just a majority of the seats that voted, so empty or non-voting seats can't hand a minority party control. Nominees can come from **any** party, which is what makes coalition governments possible.
+A party proposes a cabinet for **30 PP** — or **10 PP** when every cabinet post is vacant, since there is no sitting government to replace — nominating an activist for every position. All parties then vote (weighted by seats, over a 60-day window), and the cabinet forms if Yes votes reach a **majority of the legislature's total seats** — not just a majority of the seats that voted, so empty or non-voting seats can't hand a minority party control. Nominees can come from **any** party, which is what makes coalition governments possible.
 
-You can build your proposed cabinet as a **draft** first (this is free and stays private to your party) and only pay the 30 PP when you **open it for voting**. Only **one** formation vote can run at a time per country, so a draft never blocks other parties — but opening yours is held until any vote already underway has resolved.
+You can build your proposed cabinet as a **draft** first (this is free and stays private to your party) and only pay when you **open it for voting**. The price is set at that moment, so a draft made while the cabinet was empty costs the full 30 PP if a government has formed by the time you open it. Only **one** formation vote can run at a time per country, so a draft never blocks other parties — but opening yours is held until any vote already underway has resolved.
 
 ## Coalitions
 

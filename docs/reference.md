@@ -32,7 +32,7 @@ Generation is multiplied by the power you hold (modifiers compound):
 | [Recruit a character](gameplay/characters.md) | 10 PP |
 | [Commission a poll](gameplay/elections.md#polling) | 10 PP |
 | [Expel a character](gameplay/characters.md#expelling-and-free-agents) | 25 PP |
-| [Form a government](gameplay/cabinet.md) | 30 PP |
+| [Form a government](gameplay/cabinet.md) | 30 PP (10 PP when every cabinet post is vacant) |
 | [Call an early election](gameplay/elections.md#early-elections) | 30 PP (10 PP if the chamber voting on the call holds no seats) |
 | [Vote of no confidence in a single-seat office](gameplay/elections.md#single-seat-offices) | 30 PP (10 PP if the office is vacant) |
 | [Change a pillar](gameplay/parties.md#changing-a-pillar) | 75 PP |
