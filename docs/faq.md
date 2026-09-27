@@ -52,7 +52,7 @@ In countries with a hereditary monarchy, active parties may nominate one activis
 
 ### What are party modifiers?
 
-Temporary effects that influence your electoral performance. Currently there are two: **Energised Base** (+20% turnout boost from Supporter Rallies) and **Campaign Finance Scandal** (-10% vote preference from random events). See [Campaign Events](gameplay/campaigning.md).
+Temporary effects that influence your electoral performance — for example **Energised Base** (+20% turnout boost from Supporter Rallies), **Campaign Finance Scandal** (-10% vote preference from random events), and **Defending the Constitution** / **Frivolous Lawsuits** (±3% vote preference for winning or losing a Supreme Court case). See [Campaign Events](gameplay/campaigning.md#party-modifiers) for the full list.
 
 ## Characters & Activists
 

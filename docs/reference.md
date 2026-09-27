@@ -77,6 +77,8 @@ In **bicameral** countries a proposal must clear its threshold in all required c
 | Energised Base (successful Supporter Rally, 10% chance) | +20% supporter turnout | 10 game days |
 | Campaign Finance Scandal (random event) | voters 10% less likely to back you | 3 months |
 | Performance-event outcomes (interview / speech / stunt) | vote-preference boost or penalty | varies (a *Career-Defining* speech is permanent) |
+| Defending the Constitution (won a [Supreme Court](gameplay/supreme-court.md) case) | voters 3% more likely to back you | 2 months |
+| Frivolous Lawsuits (lost a [Supreme Court](gameplay/supreme-court.md) case) | voters 3% less likely to back you | 2 months |
 | No bill front person | −5% persuasiveness on that proposal | that proposal |
 
 ## Party basics

@@ -65,6 +65,13 @@ The appeal is **upheld if strictly more than half of the votes cast** are to uph
 
 If the appeal is upheld, the remedy is applied automatically and immediately.
 
+The ruling also follows the appellant party onto the campaign trail, as a [party modifier](campaigning.md#party-modifiers) lasting **2 months**:
+
+- **Upheld** — **Defending the Constitution**: voters are **3% more likely** to back you.
+- **Denied** — **Frivolous Lawsuits**: voters are **3% less likely** to back you.
+
+Both are deliberately modest. A case that ends without a ruling on the merits — no quorum, withdrawn, or closed because the office changed party — carries neither.
+
 !!! warning "Impeachment"
     An impeachment is brought against the party holding the office, and an upheld ruling falls on
     whoever that party has in the office on the day — not on the person your case text names. If

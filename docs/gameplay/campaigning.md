@@ -44,6 +44,8 @@ Campaigning and random events leave temporary **modifiers** on your party that a
 | **Energised Base** | Successful Supporter Rally (10%) | +20% supporter turnout | 10 days |
 | **Campaign Finance Scandal** | Random event | Voters 10% less likely to back you | 3 months |
 | Performance modifiers | Interview / speech / stunt outcomes | Vote-preference boost or penalty | Varies (a Career-Defining speech is permanent) |
+| **Defending the Constitution** | Winning a [Supreme Court](supreme-court.md) case | Voters 3% more likely to back you | 2 months |
+| **Frivolous Lawsuits** | Losing a [Supreme Court](supreme-court.md) case | Voters 3% less likely to back you | 2 months |
 
 A well-timed Energised Base before an election can offset a lingering scandal, and a career-defining speech is a permanent edge — so keep an eye on what's currently active.
 
