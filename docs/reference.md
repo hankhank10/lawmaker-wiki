@@ -68,6 +68,7 @@ In **bicameral** countries a proposal must clear its threshold in all required c
 | [Constitutional Convention](gameplay/constitution.md#constitutional-conventions) mood | 1 year (365 game days); new countries start with one |
 | Cooldown between constitutional conventions | 10 years after the last one ends |
 | Constitutional Crisis mood | 90 days (resets on a further veto) |
+| [Suffrage Crisis](gameplay/elections.md#suffrage-crisis) mood | 180 days (resets if the franchise is restricted again; stays active while too few electors are eligible) |
 | Economic Miracle / Crash mood | ~2 years |
 | [Global decision](gameplay/global-decisions.md) voting window | 24 game days, same for every country |
 
@@ -83,6 +84,17 @@ In **bicameral** countries a proposal must clear its threshold in all required c
 | Defending the Constitution (won a [Supreme Court](gameplay/supreme-court.md) case) | voters 3% more likely to back you | 2 months |
 | Frivolous Lawsuits (lost a [Supreme Court](gameplay/supreme-court.md) case) | voters 3% less likely to back you | 2 months |
 | No bill front person | −5% persuasiveness on that proposal | that proposal |
+
+## Suffrage
+
+See [Suffrage](gameplay/constitution.md#suffrage) for the full franchise rules and cost table.
+
+| Figure | Value |
+| --- | --- |
+| Minimum eligible electors to hold an election | 25 analysed electors; fewer and the election doesn't run |
+| Opinion swing for losing the vote | −4 (a "yes" vote), +4 (a "no" vote) among those excluded |
+| Opinion swing for gaining the vote back | −2 (a "no" vote), +2 (a "yes" vote) among those restored |
+| Suffrage Crisis trigger | at least 10% of previously-eligible electors lose the vote |
 
 ## Party basics
 

@@ -18,7 +18,7 @@ The Executive Actions page shows the whole catalogue to everyone — seeing what
 
 ## The autocracy score
 
-There is no permission meter to fill or cooldown to wait out. Instead, every autocratic act a party commits is written to a permanent public **ledger**, and the party's **autocracy score** is computed from that ledger. The ledger has two sources: **executive actions** (this page) and **[authoritarian laws](#authoritarian-laws)** — voting for a narrow set of laws that attack the mechanisms of accountability. Each act contributes its points, then **decays linearly to nothing over 2 game years**. A party that never acts autocratically sits at exactly **0** forever; a party that rules by force wears the stain until time launders it.
+There is no permission meter to fill or cooldown to wait out. Instead, every autocratic act a party commits is written to a permanent public **ledger**, and the party's **autocracy score** is computed from that ledger. The ledger has three sources: **executive actions** (this page), **[authoritarian laws](#authoritarian-laws)** — voting for a narrow set of laws that attack the mechanisms of accountability — and **[restricting who can vote](#restricting-the-franchise)**. Each act contributes its points, then **decays linearly to nothing over 2 game years**. A party that never acts autocratically sits at exactly **0** forever; a party that rules by force wears the stain until time launders it.
 
 The score drives two visible things:
 
@@ -160,9 +160,14 @@ Points are only written when a bill **actually passes and changes the law**. A *
 
 Any proposal containing a scored article shows a notice before you cast your vote, naming **your own party's** point delta — full if you're proposing it, half otherwise — and the reputation band it would move you to *if the bill passes*. Nothing is hidden until after the fact: you always know the cost of a "Yes" before you commit to it.
 
+## Restricting the franchise
+
+The third source feeds from the constitution rather than the law book. Amending who's allowed to vote — by gender, age, employment, income, education or housing — is priced the same way an authoritarian law is: fixed points per option, the **proposing party pays in full and every other yes vote pays half**, and points are only written once the change is actually **applied**. Loosening a restriction you've previously imposed pays some credit back, at a fifth of what the restriction cost, and a swap between incomparable options (such as men-only ↔ women-only suffrage) is always charged at the new option's full price rather than credited. There's no cap on the total, so stacking several restrictions into one package is charged for all of them. See [Suffrage](constitution.md#suffrage) for the full points table, the transition rules and worked examples, and [Suffrage Crisis](elections.md#suffrage-crisis) for what happens when enough people lose the vote at once.
+
 ## Next steps
 
 - [Constitution](constitution.md) — how powers are assigned to offices, and how to move (or disarm) them.
+- [Suffrage](constitution.md#suffrage) — restricting who can vote, and its cost.
 - [Hereditary Monarchy](monarchy.md) — the Crown, the veto, and the constitutional-crisis mechanic.
 - [Campaign Events](campaigning.md) — what a public-events ban shuts down.
 - [Legislation & Voting](legislation.md) — how proposals are drafted, debated and passed.

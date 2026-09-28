@@ -26,6 +26,14 @@ Electors retire by **age**, not by chance. Once an elector reaches their country
 
 This has real economic teeth: a country's retired share of the population, shown on the [Economy page](economy.md), moves the labour force and GDP along with it, so pension policy is as much an economic lever as a social one. The one group it doesn't touch economically is the **elite** band, whose wealth keeps earning (and paying tax) in retirement — they still show as retired, they just don't stop contributing.
 
+### Suffrage
+
+Not every elector is guaranteed the vote. A country's constitution can restrict the franchise by gender, age, employment, income, education or housing — see [Suffrage](constitution.md#suffrage) for the full rules. Where it's in force:
+
+- An elector who fails the country's franchise rules is shown as unable to vote, with the reason (for example *"Under the voting age of 25"*), and can be filtered for on the elector list.
+- **Disenfranchised electors are left out of polls and election counts**, but the turnout figure still divides by the *whole* population — so a restricted franchise shows up as **lost turnout**, right alongside election and poll results, rather than as a separate statistic.
+- If a country's franchise rules leave **fewer than 25** of its analysed sample electors eligible, the electorate is too small to safely stand for the whole country: no election is held that round, every seat stays with its current holder, and polls report "too few eligible voters" instead of a projected result.
+
 ### How an elector decides
 
 1. They review how each party **voted** on proposals.
@@ -72,9 +80,17 @@ Some moods are **permanent**, baked into a country's character when it's created
 | **Secular Republic** 🏛️ | Toward secular governance and individual liberty; religious-governance issues weigh more heavily |
 | **Bread and Circuses** 🍞 | No position shift — but wages, welfare, and prices weigh more heavily; culture-war issues fade |
 
-Others are **event-triggered** and attach automatically when something happens in the game: a **Constitutional Crisis** (a monarch vetoes a passed bill — see [Hereditary Monarchy](monarchy.md#constitutional-crisis)), a **Constitutional Convention** (called by the head of government or the monarch, or at a new country's founding; it doesn't move voters, it only relaxes the rules for constitutional change for a year — see [Constitutional conventions](constitution.md#constitutional-conventions)), or an **Economic Miracle / Crash** that bends the country's growth rate (see [Economy](economy.md#national-moods-and-economic-growth)).
+Others are **event-triggered** and attach automatically when something happens in the game: a **Constitutional Crisis** (a monarch vetoes a passed bill — see [Hereditary Monarchy](monarchy.md#constitutional-crisis)), a **Constitutional Convention** (called by the head of government or the monarch, or at a new country's founding; it doesn't move voters, it only relaxes the rules for constitutional change for a year — see [Constitutional conventions](constitution.md#constitutional-conventions)), a **Suffrage Crisis** (below), or an **Economic Miracle / Crash** that bends the country's growth rate (see [Economy](economy.md#national-moods-and-economic-growth)).
 
 When a mood lines up with your platform, it's a tailwind — propose into it. When it's against you, focus elsewhere and wait, since temporary moods pass.
+
+### Suffrage Crisis
+
+🗳️🔥 **Suffrage Crisis** is a temporary mood that attaches automatically when a constitutional [Suffrage](constitution.md#suffrage) change strips the vote from at least 10% of the electors who could vote immediately before it — including a package that hands the vote to some people while taking it from others, such as a gender swap, as long as enough people lose out. Like a Constitutional Convention, it doesn't skew any elector's positions or issue importance; what it changes is the rulebook for constitutional change itself, not how anyone votes.
+
+- **It lasts 180 days**, and restricting the franchise again while it's active resets the clock.
+- **It makes reversing the restriction easier:** while it's active, a package made up only of Suffrage changes that are each unchanged or less restrictive votes at **half** the usual threshold and can be opened even during the normal constitutional-change cooldown.
+- **It won't expire while the country's electorate is too small to hold an election** (see [Suffrage](constitution.md#suffrage) and [Understanding electors](#suffrage) above) — every poll and election run refreshes it instead, so a country locked out of voting by its own rules always has a cheaper way back open to it.
 
 ## Elector satisfaction
 
@@ -134,4 +150,5 @@ An [upheld impeachment](supreme-court.md) schedules the same election directly, 
 - [Legislation & Voting](legislation.md) — the record electors judge you on.
 - [Economy](economy.md#how-budgets-affect-voters) — how budgets feed into voter opinion.
 - [Government & Cabinet](cabinet.md) — forming a government after you win.
+- [Suffrage](constitution.md#suffrage) — restricting who can vote, and what it costs.
 - [Strategy Guide](../strategy-guide.md) — positioning, timing, and winning elections.

@@ -30,6 +30,7 @@ Every part of the constitution is either **Amendable** or **Entrenched**, and th
 | Who appoints the cabinet | Amendable | Major |
 | Seat count of a multi-seat chamber | Amendable | Major |
 | Article II: thresholds, required chambers, cooldown | Amendable | Major |
+| [Suffrage](#suffrage): who may vote | Amendable | Major |
 | The country's common name | Entrenched | |
 | Which legislatures exist (single-seat offices and multi-seat chambers) | Entrenched | |
 | Legislature names | Entrenched | |
@@ -111,6 +112,94 @@ Article II sets how the constitution itself is changed. Every part of it is amen
 - **Cooldown:** **0–5 whole years** between successful packages. It doesn't apply while a [Constitutional Convention](#constitutional-conventions) is sitting.
 
 A package is always voted on under the thresholds and required chambers **in force when it opened**. A package that lowers the threshold still has to clear the old, higher one. A package that changes the cooldown starts the **new** cooldown when it passes.
+
+## Suffrage
+
+Every country's constitution defines a **franchise**: who is allowed to vote. By default every country has **universal adult suffrage** — every analysed elector can vote — and the Suffrage article on the constitution page reads simply "Universal adult suffrage" until someone amends it. Restricting the franchise is a single **major** change (60 PP), one per country, and it can be combined with anything else in a package.
+
+The franchise is set field by field, and each field defaults to the most inclusive option:
+
+| Field | Options (default first) | Excludes |
+| --- | --- | --- |
+| Gender | All · Men only · Women only · Men and married women | The other gender, or unmarried women |
+| Minimum age | 18 · 21 · 25 · 30 | Anyone younger |
+| Maximum age | None · 80 · 70 · 60 · 50 | Anyone older |
+| Employment | All · Employed only | Unemployed people of working age |
+| Income | All · Medium and above · High and above | Anyone below the chosen band |
+| Education | All · Secondary and above · Degree and above | Anyone below the chosen level |
+| Housing | All · Homeowners only | Anyone who doesn't own their home |
+
+- **Restrictions intersect.** An elector needs to pass every field you've restricted, not just one.
+- **Age limits are inclusive at both ends.** A minimum of 21 still lets a 21-year-old vote, and a maximum of 70 still lets a 70-year-old vote.
+- **Income bands:** low, medium, high, elite, the same bands used for tax. Elite earners always count as "high and above", whatever the setting.
+- **Education is a ladder:** none → secondary → college → degree → postgraduate. "Secondary and above" only excludes electors with no education; "degree and above" also excludes secondary and college/technical.
+- **Housing** looks at whether an elector owns their home (outright or with a mortgage); everyone else — renters, and anyone in between — is excluded by "homeowners only".
+
+!!! note "Employment only excludes people of working age"
+    "Employed only" doesn't touch retirees. It excludes an elector only if they're **unemployed and not retired**. A retiree keeps the vote whatever job they used to hold, and whether someone counts as retired follows the country's **Pension Age** law — so raising the pension age can quietly take the vote from older unemployed people who are no longer counted as retired, and lowering it (or abolishing pensions) gives it back. That happens automatically the moment the law changes: it's an ordinary policy change, not a constitutional one, so it costs no extra PP, adds no autocracy points, and starts no grudge (below). See [Retirement](elections.md#retirement).
+
+**Timing.** The new rules take effect the moment the package is **ratified** — there's no transition period. The very next poll or election run in that country uses them. Sitting legislators are never unseated by a franchise change; like every clause but the seat count, it only affects the *next* election.
+
+### How the disenfranchised react
+
+A Suffrage package gets an elector opinion, the same way a law proposal does — the people it targets don't wait for an election to have their say:
+
+- **Losing the vote is punished hard.** Every elector the package would exclude marks down any party that votes **yes** by a steep **−4**, worth more than any single law article. A party that votes **no** earns the opposite, a firm **+4** worth of goodwill, from the very same electors.
+- **It bites before the result is known, and even if the vote fails.** The reaction starts the moment a party casts a yes or no vote on an *open* package, and it's still charged in full against a package that later **fails** — attempting to disenfranchise a group and losing the vote still costs you their trust. **Withdrawing** the package stops the reaction, but only from the day it's withdrawn; it still counted for as long as the package was open.
+- **Restoring the vote earns a smaller reward.** When a package **gives** the vote to people who didn't have it, everyone it enfranchises rewards a **yes** vote with **+2**, and punishes a **no** with **−2** — half the swing of losing it, because getting a right back never feels as intense as losing it did.
+- **Electors who keep the vote either way feel nothing from this.** They aren't part of the target group, so their opinion doesn't move here — they still react through the autocracy penalty below, so nobody is charged twice for the same package.
+- **Grudges don't fade while the vote is lost.** A party's voting record normally fades out of electors' memories after a while, but a disenfranchised group's grudge is **paused**: the countdown only starts on the day the group's vote is **restored**, and it then runs for the usual window before it fades completely — so a group kept off the electoral roll for years carries the grudge, at full strength, the entire time. Restoring the vote and then taking it away again pauses the clock once more, and the next restoration starts it fresh.
+
+### The cost of restricting the vote
+
+Restricting who can vote is an act of autocracy, and it's charged through the same [autocracy score](executive-actions.md#the-autocracy-score) as executive actions and authoritarian laws — but only in a world that scores autocracy at all; in one that doesn't, the charge (and the warning below) simply drops the points and the reputation-band sentence.
+
+Each option on each field carries fixed autocracy points, whatever share of the electorate it happens to affect:
+
+| Field → option | Points |
+| --- | --- |
+| Gender → Men only / Women only | 75 |
+| Gender → Men and married women | 55 |
+| Minimum age → 21 / 25 / 30 | 10 / 20 / 30 |
+| Maximum age → 80 / 70 / 60 / 50 | 10 / 20 / 35 / 50 |
+| Employment → Employed only | 30 |
+| Income → Medium and above / High and above | 40 / 60 |
+| Education → Secondary and above / Degree and above | 15 / 50 |
+| Housing → Homeowners only | 40 |
+
+- **The proposing party pays in full; every other party that votes yes pays half.** The proposer always pays, whichever way it voted. Points are only charged once the package is actually **applied** — a failed or withdrawn package costs no autocracy, though it still costs the opinion above.
+- **Moving a field further along costs the difference, not the whole thing.** Raising the minimum age from 18 to 21 and later to 30 costs **10 points, then 20 more** — 30 points either way, the same as going straight from 18 to 30 in one step.
+- **Loosening a restriction only credits a fifth of what it removes**, and only on a field that's actually been restricted before — there's nothing to credit on a field still at its default. Restricting the vote to men only and then restoring universal suffrage costs **75** to erode and credits only **−15** to restore, netting **+60** for the round trip. Nothing can be laundered by eroding and restoring the same field.
+- **Swapping between incomparable options is charged at the new option's full price, never credited as a restoration** — because each side of the swap takes the vote from people who had it. Moving from men-only to women-only costs the full **75**, not zero, and women-only to men-and-married-women costs the full **55**, even though the points went down, because unmarried women lose the vote in the swap.
+- **There's no cap on a package's total**, so stacking every restriction into one package is charged in full and a round trip through all of them never nets below zero.
+- **Traditional Culture moderates gender restrictions.** In a country carrying the [Traditional Culture](elections.md#national-moods) mood, the gender rows above are charged at **two-thirds** of their normal points (50 and 37) — no other field is affected.
+
+### Suffrage Crisis
+
+Take the vote from enough people at once and the country enters a **Suffrage Crisis** 🗳️🔥 — a temporary [national mood](elections.md#suffrage-crisis) that lasts **180 days**, resetting the clock if the franchise is restricted again while it's active. It's triggered whenever an applied package removes the vote from at least **10% of the electors** who could vote immediately before — including a mixed package, such as a gender swap, that gives the vote to some people while taking it from others; only the share who *lose* the vote is measured.
+
+While a Suffrage Crisis is active, the way back is easier: a package made up of nothing but Suffrage changes that are each unchanged or **less restrictive** than before needs only **half** the usual voting threshold and can open even during the normal constitutional-change cooldown. Judged by who's excluded, not by points, so an incomparable gender swap never qualifies for the fast track even if its point cost happens to fall. Add any change that narrows the franchise, or any other kind of change, and the package loses the discount.
+
+The crisis also **won't expire on its own while the electorate is too small to hold an election** (below) — every poll and election run refreshes it, so a country locked out of voting by its own franchise rules always has an open, cheaper route back.
+
+### Too few eligible voters
+
+If a country's franchise rules leave fewer than **25** of its *analysed* sample electors eligible to vote, the electorate is too small to safely stand for the whole country — with only a handful of voters, a tiny sample would decide every seat.
+
+- **No election is held.** Every seat stays with whoever holds it. The election is still recorded, so the schedule moves on, but no votes are counted and seats are never split up some other way.
+- **Polls show "Too few eligible voters to poll"** instead of a projected result.
+- **The Suffrage Crisis mood stays active** the whole time this is true (above), so there's always a cheaper, faster way to reverse it.
+
+### The warning before you vote
+
+Any package that would take the vote from anyone shows a warning, on the draft and on the open vote, before you commit your party to it:
+
+!!! warning "This amendment restricts who can vote"
+    It would remove the vote from about **38% of voters (4.2 million people)**. If ratified, supporting it adds **+75 autocracy points** to your party, moving it from **Committed to Democracy** to **Terrifyingly Autocratic**. The people who lose the vote will turn sharply against every party that supports it — **even if it fails**. Removing the vote from this many people would trigger a **Suffrage Crisis**.
+
+- **The figures are personal to you:** full points if you're proposing the package, half if you're only voting for it — and the projected reputation band updates to match.
+- If the package would leave the country's electorate too small (above), the warning adds a line: *"Too few people would be able to vote for elections to be held. Every seat would stay with its current holder."*
+- A package that **only restores** voting rights gets a green notice instead, naming the share who'd get the vote back and the autocracy credit it earns. A mixed package, such as a gender swap, still gets the red warning, with an extra line for how many people would gain the vote.
 
 ## Cabinet offices and government
 
@@ -197,3 +286,5 @@ Some countries also recognise a [Supreme Court](supreme-court.md): a bench that 
 - [Government & Cabinet](cabinet.md): cabinet positions that can hold powers.
 - [Hereditary Monarchy](monarchy.md): Crown offices, the constitutional crisis mechanic, and calling a convention as monarch.
 - [Communication](communication.md): building the supermajority you'll need.
+- [Elections & Voters](elections.md#suffrage): how a restricted franchise shows up in turnout, polls and results.
+- [Executive Actions & the Autocracy Score](executive-actions.md#the-autocracy-score): the ledger that prices restricting the vote.

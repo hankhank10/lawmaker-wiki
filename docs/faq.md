@@ -50,6 +50,10 @@ If you hold a hereditary throne, inactivity warnings apply to your reign too. Co
 
 In countries with a hereditary monarchy, active parties may nominate one activist when the throne is vacant. The winning nominee becomes monarch, and the winning party becomes dormant while it reigns. While reigning, the monarch can pre-register a veto on any open proposal — if the legislatures pass a bill the monarch has vetoed, royal assent is refused and the bill does not become law. The monarch may abdicate later, restoring the party with 0 seats and 0 Political Power. See [Hereditary Monarchy](gameplay/monarchy.md).
 
+### Can we restrict who's allowed to vote?
+
+Yes, through a constitutional change. A **Suffrage** clause can restrict the vote by gender, age, employment, income, education or housing; every country starts with universal adult suffrage. It's a major (60 PP) change, and a steep one: the people it excludes turn hard against any party that votes for it, whether or not the package passes, and once applied it charges heavy [autocracy points](gameplay/executive-actions.md#the-autocracy-score) and can trigger a **Suffrage Crisis**. See [Suffrage](gameplay/constitution.md#suffrage).
+
 ### What are party modifiers?
 
 Temporary effects that influence your electoral performance — for example **Energised Base** (+20% turnout boost from Supporter Rallies), **Campaign Finance Scandal** (-10% vote preference from random events), and **Defending the Constitution** / **Frivolous Lawsuits** (±3% vote preference for winning or losing a Supreme Court case). See [Campaign Events](gameplay/campaigning.md#party-modifiers) for the full list.
