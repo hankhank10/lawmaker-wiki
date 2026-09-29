@@ -10,7 +10,7 @@ It also decides *who holds which powers*. It assigns specific powers (declaring 
 - the **monarchy** (in countries with a [Crown](monarchy.md)), or
 - **professional non-partisan bureaucrats** (an independent civil service, outside political control).
 
-There are **18 such powers** in all, spanning the military and intelligence services, foreign policy, the courts, economic regulation, and clemency. Each country starts with a different arrangement. Parties can propose **constitutional changes** to move powers around and to rewrite much of the rest of the constitution, reshaping how the country is governed.
+There are **18 such powers** in all, spanning the military and intelligence services, foreign policy, the courts, economic regulation, and clemency. Each country starts with a different arrangement. (One power, **Ratify Foreign Treaties**, is special: it must always sit with a single office, never a chamber or the bureaucrats. See [International Treaties](treaties.md#who-decides-the-treaty-power).) Parties can propose **constitutional changes** to move powers around and to rewrite much of the rest of the constitution, reshaping how the country is governed.
 
 ## What can be amended
 

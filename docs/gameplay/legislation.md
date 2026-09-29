@@ -28,6 +28,8 @@ Each law governs one policy area (for example, *Minimum Wage Policy*) and has se
 
 There are 110 laws across 19 policy areas. The authoritative, up-to-date catalogue — with each law's current setting and options — lives in the game itself, on your country's **Laws** page and the **International Laws Explorer** (which compares positions across every country). Use them to see the status quo before proposing a change.
 
+A country that belongs to an [international treaty](treaties.md#locked-laws) may have some laws **locked**: the options the treaty forbids appear disabled in the proposal builder, and you can't propose moving the law to them.
+
 ## Proposing a law
 
 A proposal bundles **1–5 articles**, each changing one law. It costs **30 PP** regardless of how many articles it contains or whether it passes.

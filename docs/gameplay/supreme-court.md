@@ -63,7 +63,7 @@ Everything is revealed at once: each seat's vote and full rationale, and the tal
 
 The appeal is **upheld if strictly more than half of the votes cast** are to uphold. Recusals and absences are not counted in that total, and **a tie is a denial** — the court presumes what it is asked to strike down is lawful until a majority says otherwise.
 
-If the appeal is upheld, the remedy is applied automatically and immediately.
+If the appeal is upheld, the remedy is applied automatically and immediately. If it moves a law to an option that an [international treaty](treaties.md#breach) the country belongs to forbids, the country is removed from that treaty on the spot.
 
 The ruling also follows the appellant party onto the campaign trail, as a [party modifier](campaigning.md#party-modifiers) lasting **2 months**:
 

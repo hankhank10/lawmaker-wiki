@@ -1,6 +1,6 @@
 # Countries
 
-Lawmaker has multiple **fictional countries**, each a **self-contained political simulation**: laws, elections, and the economy play out separately in each, so what happens in one country doesn't change another. The simulations stay separate, but players don't have to — parties connect across borders through [international blocs](gameplay/communication.md#international-blocs) and cross-country messaging. Choosing a country is really choosing a community to join.
+Lawmaker has multiple **fictional countries**, each a **self-contained political simulation**: laws, elections, and the economy play out separately in each, so what happens in one country doesn't change another. The simulations stay separate, but players don't have to — parties connect across borders through [international blocs](gameplay/communication.md#international-blocs) and cross-country messaging, and countries themselves can bind their laws together through [international treaties](gameplay/treaties.md). Choosing a country is really choosing a community to join.
 
 ## What countries share, and what makes each unique
 

@@ -44,6 +44,8 @@ Every vote cast on a [proposal](legislation.md) (and on budgets, early election 
 - **Expelling** a member is a leader's power too, for parties that drop the bloc's defining pillar or act against it at home. A written **reason** is required: it's sent to the expelled party and posted in the bloc chat, and the expulsion is reported by the press. The same stability rules apply in reverse — founding members can never be expelled, and a leader must resign their leadership before a fellow leader can expel them. An expelled party loses its place in the bloc chat immediately, but is free to apply again (at the usual 20 PP).
 - A bloc **outlives its founder**: if the founding party or its owner's account is ever deleted, the bloc carries on with its members and its defining pillar intact — only the record of who originally founded it is cleared.
 
+Blocs are made of *parties*. For agreements between *countries* that lock the members' laws, see [International Treaties](treaties.md).
+
 Blocs carry an **International Prestige** score (and are ranked by it) that rises with a bloc's size, its **ideological coherence** (members who share the defining pillar help; opponents hurt), and its **clout** — members holding big legislature shares, heads of government, cabinet offices, and recent legislation.
 
 !!! tip "What blocs are for"
