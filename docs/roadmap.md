@@ -31,7 +31,7 @@
 :white_check_mark: Supporter Rally with Energised Base modifier (+20% turnout boost)
 :map: Implement effects for remaining event types (Private Dinner, Telethon, Media Interview, Set Piece Speech)
 
-**International Blocs**
+**International Party Blocs**
 :white_check_mark: Parties can found cross-country alliances (50 PP)
 :white_check_mark: Application and membership system
 :white_check_mark: Bloc group chats for cross-country coordination

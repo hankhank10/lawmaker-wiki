@@ -36,7 +36,7 @@ Every vote cast on a [proposal](legislation.md) (and on budgets, early election 
 
 ## International blocs
 
-**International blocs** are cross-country alliances of parties with shared political goals — a structured way to cooperate beyond a single country's borders. Find them under **International → International Blocs**; your memberships also show on your dashboard and party page.
+**International blocs** are cross-country alliances of parties with shared political goals — a structured way to cooperate beyond a single country's borders. Find them under **International → International Party Blocs**; your memberships also show on your dashboard and party page.
 
 - **Founding** a bloc costs **50 PP**. You set a unique name, description, SVG logo, **membership criteria**, and a **defining pillar** (one of your party's pillars). The founder becomes Leader, and a bloc group chat is created automatically.
 - **Joining** costs **20 PP** to apply (not refunded if rejected), with a short rationale; a leader approves or denies it.
