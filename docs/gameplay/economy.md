@@ -6,7 +6,7 @@ Most countries in Lawmaker have a **modelled economy** that gives the nation a s
 
 Every country starts as a **developed economy**, with a starting GDP per capita in the tens of thousands of dollars and some random variation between countries. GDP comes from the country's electors — each contributes according to whether they're employed and which income band (low, medium, high, or elite) they sit in. [Retired](elections.md#retirement) electors don't contribute, so the **Pension Age** law is a direct economic lever alongside its social effects: raise it and more people work and pay in; lower it and more retire out of the workforce. Elite earners are the exception: their income is wealth rather than wages, so it keeps flowing — and keeps being taxed — long after they retire. Temporary [national moods](#national-moods-and-economic-growth) can boost or crash growth on top of the ordinary trajectory described below.
 
-Every country's **Economy page** is split into tabs. **Economic Growth** is the live snapshot — GDP per capita, total GDP, unemployment, income inequality, a GDP breakdown by earner band, an international ranking, and growth history. **Debt & Reserves** covers the credit rating, its borrowing (or interest-earning) rate, and reserve/debt history. There's also an **Industries** tab (below) and a **Budget** tab for casting your vote. Browse these in-game; the numbers update on every visit. The separate **International Economy** page is a world-level financial news terminal: a scrolling GDP ticker running through every country's growth, a sector board of the world's best- and worst-performing industries this month, and a live wire of financial news stories — unread stories are marked **New**, and a badge appears on the World menu whenever there's fresh news to read. Further down the same page sits the league table ranking every country in the world; a country under an active [IMF programme](#imf-intervention) shows a **‼️ IMF** badge in its rating column instead of a normal letter grade, so you can spot which economies are under IMF control at a glance.
+Every country's **Economy page** is split into tabs. **Economic Growth** is the live snapshot — GDP per capita, total GDP, unemployment, income inequality, a GDP breakdown by earner band, an international ranking, and growth history. **Debt & Reserves** covers the credit rating, its borrowing (or interest-earning) rate, and reserve/debt history. There's also an **Industries** tab (below), a **Budget** tab for casting your vote, and an **Embargoes** tab that shows what [treaty embargoes](#embargoes) are costing your economy. Browse these in-game; the numbers update on every visit. The separate **International Economy** page is a world-level financial news terminal: a scrolling GDP ticker running through every country's growth, a sector board of the world's best- and worst-performing industries this month, and a live wire of financial news stories — unread stories are marked **New**, and a badge appears on the World menu whenever there's fresh news to read. Further down the same page sits the league table ranking every country in the world; a country under an active [IMF programme](#imf-intervention) shows a **‼️ IMF** badge in its rating column instead of a normal letter grade, so you can spot which economies are under IMF control at a glance.
 
 The **Budget** tab can also carry a **Global decision effects** section — a set of fixed
 income or expenditure rows created when your country votes (or defaults) its way into a
@@ -100,6 +100,68 @@ shows exactly which of your sectors are still standing. A recession is also atta
 the [IMF intervenes](#imf-intervention).
 
 These are external events outside player control; they show up as shifts in the nation's economy.
+
+## Embargoes
+
+A [treaty](treaties.md#embargoes) can carry an **embargo** treaty article that names one country. Every member of that treaty **embargoes** the named country, the **target**. An embargo costs *both* sides: the target loses output because its embargoers stop trading with it, and each embargoer loses output because it has cut off the target. Nothing else about the economy changes, and if no treaty in your world carries an embargo, none of this applies to you.
+
+### Who counts as a counterpart
+
+For any country, its **counterparts** are:
+
+- every country that **embargoes it** (the other members of a treaty that names it as the target), and
+- every country **it embargoes** (the targets of the treaties it belongs to).
+
+The relation works both ways, and each counterpart is counted **once**, however many treaties link the pair. If two of your treaties embargo the same country, or you embargo a country that also embargoes you, that country is still a single counterpart.
+
+### The formula
+
+Each counterpart has a **share of world GDP**: its GDP divided by the total GDP of every country with a modelled economy. A country's embargo loss is:
+
+**loss = 75% × (the combined world share of all its counterparts)**
+
+Your GDP is then reduced by that percentage. The **75%** is the point of the rule: an embargo only ever acts on three quarters of your economy, so a country always keeps **at least 25%** of the GDP it would otherwise have had. In practice it keeps more than that, because your counterparts can never add up to the whole world (you are not one of them).
+
+The shares always come from **last month's pre-embargo GDP**, that is, each country's most recent month-end figure before any embargo loss was taken off. Using the pre-embargo figure means the loss depends only on how big the countries are relative to each other, not on how badly an earlier embargo has already shrunk them.
+
+!!! example "Worked example"
+    World GDP is **$100tn**. Country A is $10tn (10% of the world), B is $30tn (30%) and C is $20tn (20%). B and C found a treaty that embargoes A.
+
+    | Country | Counterparts | Combined share | Loss | GDP before | GDP after | Lost |
+    | --- | --- | --- | --- | --- | --- | --- |
+    | A (the target) | B and C | 50% | 75% × 50% = **37.5%** | $10tn | $6.25tn | $3.75tn |
+    | B | A | 10% | 75% × 10% = **7.5%** | $30tn | $27.75tn | $2.25tn |
+    | C | A | 10% | 75% × 10% = **7.5%** | $20tn | $18.5tn | $1.5tn |
+
+    The target pays most because its counterparts are big. The embargoers pay little because the target is small: **embargoing a large economy is expensive, and embargoing a small one is cheap.** If A also founded a treaty embargoing B, B would become one of A's counterparts twice over, but it would still be counted once, so A's loss would stay at 37.5%.
+
+A new country, or one whose economy has just been switched on, has no month-end figure yet. Until it gets one it has no share, so it costs its counterparts nothing (its own loss is still worked out from theirs). A country without a modelled economy has no share either, so embargoing one has no economic effect.
+
+### What an embargo never changes
+
+An embargo is an **overlay on your economy, not a change to it**. It never touches your baseline GDP per capita, your underlying growth rate, or your industry mix. It is recalculated from current treaty membership every time your GDP is worked out, and nothing carries over from one month to the next. That has two consequences:
+
+- **Nothing compounds.** Being embargoed for a year costs the same each month as being embargoed for a month.
+- **Leaving restores the economy at once.** When your country leaves a treaty, or the treaty is dissolved, the loss that treaty caused ends immediately: your next GDP calculation and month-end figure are back to full strength, with no recovery period. Past months keep the figures they had at the time.
+
+Your Economy page reflects a change as soon as it happens, but what is *banked* (and so what your history, budget and rankings use) is the month-end figure.
+
+### The knock-ons
+
+Embargo losses are taken out of GDP, and everything that is worked out from GDP follows:
+
+- **Tax revenue falls.** The budget taxes each earner band's share of GDP, and an embargo shrinks every band by the same proportion. The [budget](#how-budgets-affect-voters) collects less from the same tax rates, starting from the same month-end tick.
+- **Industries shrink in dollar terms.** Each industry's size is its share of a smaller GDP. Your industry mix and every industry's growth rate stay exactly as they were.
+- **Your credit rating can slip.** [Debt-to-GDP](#credit-rating) is the same debt divided by a smaller GDP, so a heavy embargo can push it into a worse band with a higher borrow rate.
+- **Global decision costs follow GDP.** Amounts that a [global decision](global-decisions.md#budget-effects) sets as a percentage of GDP are worked out on the smaller figure.
+
+### Where to see it
+
+- **Economic Growth tab.** Once your country has any embargo relation, a **Lost to embargoes** figure appears in the current economy card, showing the amount and what percentage of pre-embargo GDP it is. **Total GDP** there is the figure *after* the loss. The growth chart adds a **Lost to embargoes** band on top of the GDP line, so the top edge of the band traces what your GDP would have been, and the growth history table has a matching **Lost to embargoes** column. Countries with no embargo relations see none of this.
+- **Embargoes tab.** The Economy page's fifth tab shows the total impact (GDP before, lost, and after, and your loss as a share of the possible 75%), then two lists: the countries **embargoing you** and the countries **you embargo**. Each row gives the country's share of world GDP, what it costs you, and links to the treaty (or treaties) responsible. A country that appears in both lists carries a **Mutual** badge and is counted once, so the two lists' costs can add up to more than the total: the impact figure at the top is the one that counts.
+
+!!! tip "Size up the target before you sign"
+    The treaty page shows an **Economic impact** estimate before you join, so you can see what the embargo would cost your country. See [Embargoes](treaties.md#embargoes) in the treaties guide.
 
 ## Credit rating
 
@@ -196,3 +258,4 @@ Crucially, the **recession only lasts 1 year**, while the programme runs until t
 - [Elections & Voters](elections.md) — how voter opinion turns into seats.
 - [Legislation & Voting](legislation.md) — the laws that make up your social-policy record.
 - [Global Decisions](global-decisions.md) — the world-wide votes that can add their own income or expenditure rows to your budget.
+- [International Treaties](treaties.md#embargoes) — how a treaty embargo is written, joined and left.

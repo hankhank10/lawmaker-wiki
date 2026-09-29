@@ -1,8 +1,8 @@
 # International Treaties
 
-A **treaty** is an agreement between *countries*, not between parties. A country founds a treaty from a fixed list of **treaty articles**, other countries join it, and for as long as a country is a member its own laws are bound by the treaty: parties there can no longer propose moving a **locked law** to an option the treaty forbids.
+A **treaty** is an agreement between *countries*, not between parties. A country founds a treaty from a fixed list of **treaty articles**, other countries join it, and for as long as a country is a member it is bound by the treaty: parties there can no longer propose moving a **locked law** to an option the treaty forbids, and the country **embargoes** any country the treaty names, which costs it part of its GDP.
 
-Treaties are free to found, join and leave: there is **no Political Power cost and no cooldown**. The price is the promise itself. Once you are in, your country's hands are tied.
+Treaties are free to found, join and leave: there is **no Political Power cost and no cooldown**. The price is the promise itself. Once you are in, your country's hands are tied, and an [embargo](#embargoes) can cost its economy too.
 
 !!! note "Treaties are not blocs"
     [International blocs](communication.md#international-blocs) are alliances of *parties* with shared ideological goals. Treaties are agreements between *countries*, decided by whoever holds the country's treaty power, and they bind the country's laws. The two features are independent.
@@ -64,7 +64,7 @@ The founding country becomes the treaty's first member and its **founder**.
 
 ## Treaty articles and locked laws
 
-A treaty is made of **treaty articles**. (Laws have articles too, so this manual always says *treaty articles* for these.) Right now there is one kind: the **law lock**. Treaty articles are written once, when the treaty is founded, and **can never be changed afterwards**. To change the terms, found a new treaty.
+A treaty is made of **treaty articles**. (Laws have articles too, so this manual always says *treaty articles* for these.) There are two kinds: the **law lock** and the **embargo**. Treaty articles are written once, when the treaty is founded, and **can never be changed afterwards**. To change the terms, found a new treaty.
 
 ### Locked laws
 
@@ -90,9 +90,42 @@ Locks only restrict *bills that change a law*. They don't touch [constitutional 
 !!! note "Retired laws"
     If a locked law is later retired from the game, its treaty article becomes **inert**: it is shown struck through, locks nothing, and nobody is removed from the treaty because of it.
 
+### Embargoes
+
+An **embargo** treaty article names **one country in the world**, the **target**. Every country that is a member of the treaty **embargoes** the target for as long as it stays a member. An embargo restricts no law: it is an economic commitment, and it costs both sides.
+
+- **The target loses GDP.** The bigger the combined economies of the countries embargoing it, the more it loses.
+- **The embargoers lose GDP too.** Each member loses a share tied to how large the target's economy is: embargoing a large economy is expensive, and embargoing a small one is cheap.
+- **The loss is capped.** No country ever loses more than 75% of its GDP to embargoes, and it is usually far less.
+
+The full formula, a worked example, and the knock-ons for tax revenue, industries, credit rating and global decisions are in [Economy: Embargoes](economy.md#embargoes). The short version is that a country's loss is 75% of the combined world GDP share of everyone it is embargoing or being embargoed by, with each country counted once.
+
+A few rules apply when writing one:
+
+- The target must be an existing country in the same world. A treaty **cannot embargo its own founder**.
+- A treaty can embargo **each country only once**, and can mix embargoes and law locks freely, up to the same **20** treaty articles.
+- A country with no modelled economy can be named, but the embargo has no economic effect on it until it has one. The builder warns you when you pick one.
+- If the target country is later removed from the game, the treaty article becomes **inert**: it is shown struck through, costs nobody anything, and nobody is removed from the treaty because of it.
+
+#### The target cannot join
+
+A country **cannot be a member of a treaty that embargoes it**. The treaty page tells it so on its compliance checklist, and it cannot found the treaty, join it, or accept an invitation to it. The founder can still **send** the target an invitation (invitations never require compliance), but the target can only read why it cannot accept.
+
+#### The cost, and the "Economic impact" estimate
+
+Joining an embargo treaty is **never blocked because of its cost**: a country may join a treaty that costs it a lot, since the cost is the point. To help you decide, the treaty builder and the treaty page show an **Economic impact** line for your country: *"Joining would cost your country about N% of its GDP."* Members see what the treaty currently costs them. The estimate uses the same formula as the real thing, including any embargoes your country is already part of, but it is labelled **about** because world GDP shares move every month.
+
+Once a country is a member, the loss shows up on its [Economy page](economy.md#where-to-see-it): a **Lost to embargoes** figure on the Growth tab, and the **Embargoes** tab listing every country involved and the treaty responsible. There is no notification to the target that it has been embargoed, so the Economy page is where it finds out.
+
+!!! tip "Founding an embargo treaty"
+    - **Check the numbers first.** The cost to each member is set by the target's size. A treaty aimed at a big economy will be expensive to belong to, and hard to recruit for. Read the "Economic impact" line in the builder before you found it.
+    - **More members hurt the target more.** Each extra embargoer adds its share of world GDP to the target's loss, while a member's own cost depends only on the size of the countries it embargoes.
+    - **Leaving is free and instant.** A member can leave at any time and its economy recovers immediately, so a treaty only holds together while its members judge the cost worth paying. An open treaty can lose members as quickly as it gains them.
+    - **Don't overlap by accident.** If two of your country's treaties embargo the same country, it is counted once, so the second treaty adds nothing to your bill for that country.
+
 ## Compliance: satisfying every treaty article
 
-A country **complies** with a treaty when its current laws sit inside the allowed options of every treaty article. Compliance is checked whenever a country wants to found, join or accept, and the treaty page shows your country's report as a checklist, one line per treaty article, with what you would have to change.
+A country **complies** with a treaty when its current laws sit inside the allowed options of every law lock, and it is not the target of any embargo the treaty carries. Compliance is checked whenever a country wants to found, join or accept, and the treaty page shows your country's report as a checklist, one line per treaty article, with what you would have to change.
 
 ### Open bills block joining
 
@@ -122,7 +155,7 @@ Pending invitations show on the receiving country's page, in a **Treaties** card
 
 ## Leaving
 
-The treaty power holder can **leave any treaty at any time**, with no cost, no cooldown and no approval. Every law the treaty locked is free again immediately. The leave button lists which laws will unlock.
+The treaty power holder can **leave any treaty at any time**, with no cost, no cooldown and no approval. Every law the treaty locked is free again immediately, and any embargo it carried stops costing your country at once. The leave button lists which laws will unlock.
 
 Leaving is not a way round the rules: to rejoin, your laws have to satisfy the treaty again, and while you're a member you cannot open a bill that breaks it.
 
@@ -138,7 +171,7 @@ Succession doesn't check who currently holds the new founder's treaty power. If 
 
 A treaty ends in one of two ways:
 
-- **The founder dissolves it.** The founder's holder can do this at any time. Every member leaves at once, every lock lifts everywhere, and pending invitations are withdrawn. Every other member's holder is told.
+- **The founder dissolves it.** The founder's holder can do this at any time. Every member leaves at once, every lock lifts everywhere, every embargo it carried ends, and pending invitations are withdrawn. Every other member's holder is told.
 - **The last member leaves.** With nobody left, the treaty dissolves.
 
 A dissolved treaty isn't deleted: it stays on record, hidden from the default treaty list (use **Show dissolved** to see it), with its former members and how each left. Its name becomes free for a new treaty, which gets a fresh page.
