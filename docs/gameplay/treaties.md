@@ -62,6 +62,10 @@ The holder creates the treaty from their own draft. The founding country has to 
 
 The founding country becomes the treaty's first member and its **founder**.
 
+### Treaty logo
+
+A treaty can have an optional **logo**: an SVG, with the same colour and size options as party and bloc logos, chosen in the builder and saved with the draft. It is shown in a square frame on the treaty's pages. Whoever holds the founder country's treaty power can change or remove it later from the treaty's page. Moderators can remove logos that break the rules.
+
 ## Treaty articles and locked laws
 
 A treaty is made of **treaty articles**. (Laws have articles too, so this manual always says *treaty articles* for these.) There are two kinds: the **law lock** and the **embargo**. Treaty articles are written once, when the treaty is founded, and **can never be changed afterwards**. To change the terms, found a new treaty.
