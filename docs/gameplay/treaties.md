@@ -7,7 +7,7 @@ Treaties are free to found, join and leave: there is **no Political Power cost a
 !!! note "Treaties are not blocs"
     [International blocs](communication.md#international-blocs) are alliances of *parties* with shared ideological goals. Treaties are agreements between *countries*, decided by whoever holds the country's treaty power, and they bind the country's laws. The two features are independent.
 
-You'll find treaties under **International → International Treaties** in the world menu, which lists every treaty in the game. Each country also has a **Treaties** page (the *Foreign affairs* page) in its country menu, and a **Treaties** card on its country page.
+You'll find treaties under **International → International Treaties** in the world menu, which lists every treaty in the game. Each country also has its own **International Treaties** page, under **International** in its country menu, and a **Treaties** card on its country page.
 
 ## Who decides: the treaty power
 
