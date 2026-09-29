@@ -136,6 +136,12 @@ A single-seat office — a presidency, say — can't be sent to the country by i
 
 Either way, abstentions are ignored and the election is held 10 game days after the voting period ends.
 
+### Standing for a single-seat office
+
+A party puts forward a candidate for a single-seat office, and only that candidate can win it for the party. A character can be the candidate for **one office at a time**: if your party already has them standing for another office, you can't nominate them again (and you aren't charged).
+
+If an election is held and **no valid candidate is standing**, the seat isn't handed to a party by chance — the office is left **vacant** and the election result says no valid candidate stood. It stays vacant until a party puts a candidate up and an election fills it.
+
 ### Automatic early elections
 
 The game calls an **automatic** early election (no vote, no PP) in two cases, holding it 10 game days later:

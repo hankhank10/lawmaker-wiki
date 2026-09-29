@@ -9,7 +9,7 @@ The catalogue starts small and grows over time. Whatever the action, the design 
 Each action is gated by one constitutional power (for example, the "Ban party from public events" action is gated by the **Power to regulate political parties**). Whoever currently holds that power may exercise the action. The holder is resolved *live* through the constitution:
 
 - **Cabinet position** — the current appointee's party acts, exercised by the party's owner.
-- **Single-seat elected office** (e.g. a presidency) — the office-winning party acts.
+- **Single-seat elected office** (e.g. a presidency) — the office-winning party acts, through its candidate. If the office is **vacant** — nobody won it, or its holder is gone — nobody can use the office's powers until it is filled again.
 - **Monarchy** — the reigning monarch acts (see [the Crown's price](#monarchs-and-the-constitutional-crisis) below).
 - **Multi-seat legislature** — *unavailable*: the power is held collectively by the chamber, and there is no way to exercise it individually.
 - **Non-partisan bureaucrats** — *unavailable*: a power handed to the independent civil service is deliberately **disarmed**. Moving a power to bureaucrats through a [constitutional change](constitution.md) is how a country takes a dangerous action off the table.
