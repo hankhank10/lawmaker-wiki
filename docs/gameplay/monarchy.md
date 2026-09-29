@@ -28,7 +28,7 @@ While reigning you can post to the social feed as the Crown, and you gain a read
 
 In any country with a monarchy, the reigning monarch can pre-register a **veto** on any open proposal. On each proposal the monarch chooses **Allow passage** (the default) or **Veto if it passes**, and can switch between them while voting is open. The choice stays **hidden** — parties vote without knowing it.
 
-At tally time the legislature's vote is counted first. If the bill **fails** on its own, any pending veto is discarded and never revealed. If the bill **passes** and the monarch allowed it, it becomes law. If the bill passes but the monarch vetoed it, it's blocked at royal assent, marked **Vetoed by Monarch**, and a LawBot post announces it. So a veto only ever becomes public when it actually changes the outcome — and monarchs don't vote on legislation, they grant or refuse assent.
+At tally time the legislature's vote is counted first, together with any [elected office veto](legislation.md#elected-office-veto): a bill blocked by an elected office has failed, and the monarch's veto is discarded like any other on a failed bill. If the bill **fails** on its own, any pending veto is discarded and never revealed. If the bill **passes** and the monarch allowed it, it becomes law. If the bill passes but the monarch vetoed it, it's blocked at royal assent, marked **Vetoed by Monarch**, and a LawBot post announces it. So a veto only ever becomes public when it actually changes the outcome — and monarchs don't vote on legislation, they grant or refuse assent.
 
 ### Constitutional crisis
 

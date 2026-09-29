@@ -67,9 +67,12 @@
 :map: Parties can commission polling on individual measures before they are proposed
 :map: Clearer way to show citizen views and why they vote as a group
 
-**Presidential rework**
+**Elected offices**
+:white_check_mark: Elected offices (such as a presidency) are first-class posts: parties put up one candidate each, and the holder is fixed at election
+:white_check_mark: Vacant offices with no successor, and automatic refill elections
+:white_check_mark: Per-office veto over bills, amendable by constitutional change
+:white_check_mark: Impeachment through the Supreme Court removes the holder and bars them from the office
 :map: Parties can propose candidates to be elected to a legislature
-:map: Parties can propose a particular candidate for president
 :map: Define impeachment motions with custom rules for each country
 
 **Party Modifiers**

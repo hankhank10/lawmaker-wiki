@@ -92,7 +92,7 @@ You "hold power" at judgment if **any** of these is true, checked against the st
 | # | Test | You hold power if… |
 | --- | --- | --- |
 | 1 | **Cabinet** | your party holds a current cabinet seat |
-| 2 | **Single-seat office** | you hold any single-seat legislature (e.g. a presidency) in the country |
+| 2 | **Elected office** | your party's character holds any elected office (e.g. a presidency) in the country |
 | 3 | **Top-3 with presence** | in any multi-seat legislature you're **top 3 by seats** *and* hold **at least 10% of the seats** |
 
 The 10% floor matters: a tiny third party clinging to a handful of seats in a big chamber is **not** "in power" and won't be crushed for a budget it could never move. Being top-3 with a *real* presence is the spirit of the rule.

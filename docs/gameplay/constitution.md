@@ -1,10 +1,11 @@
 # Constitution & Constitutional Changes
 
-Every country has a **constitution**: the rules that set out how it is governed. It names the country, its legislatures and how often they are elected, who heads the government, who appoints the cabinet, which cabinet positions exist, and how the constitution itself can be changed.
+Every country has a **constitution**: the rules that set out how it is governed. It names the country, its legislatures and elected offices and how often they are elected, who heads the government, who appoints the cabinet, which cabinet positions exist, and how the constitution itself can be changed.
 
-It also decides *who holds which powers*. It assigns specific powers (declaring war, appointing judges, setting monetary policy, granting pardons, and so on) to one of four kinds of holder:
+It also decides *who holds which powers*. It assigns specific powers (declaring war, appointing judges, setting monetary policy, granting pardons, and so on) to one of five kinds of holder:
 
 - a **legislature** (an elected chamber),
+- an **elected office** (a single post such as a presidency, held by one person),
 - a **cabinet position** (whoever holds that office),
 - the **monarchy** (in countries with a [Crown](monarchy.md)), or
 - **professional non-partisan bureaucrats** (an independent civil service, outside political control).
@@ -18,9 +19,10 @@ Every part of the constitution is either **Amendable** or **Entrenched**, and th
 | Part of the constitution | Status | Cost |
 | --- | --- | --- |
 | Official name (must still end in the common name) | Amendable | Standard |
-| Election frequency of any chamber | Amendable | Standard |
+| Election frequency of any chamber or elected office | Amendable | Standard |
 | Who holds each power | Amendable | Standard, per power moved |
-| No-confidence rule for a single-seat office | Amendable (can't be removed) | Standard |
+| No-confidence rule for an elected office | Amendable (can't be removed) | Standard |
+| Whether an elected office has a veto | Amendable | Major |
 | Renaming a cabinet position | Amendable | Standard |
 | Monarchy name and titles | Amendable | Standard |
 | Adding or repealing an amendment | Amendable | Standard |
@@ -28,11 +30,11 @@ Every part of the constitution is either **Amendable** or **Entrenched**, and th
 | Creating or abolishing a cabinet position | Amendable | Major |
 | Head of government | Amendable | Major |
 | Who appoints the cabinet | Amendable | Major |
-| Seat count of a multi-seat chamber | Amendable | Major |
+| Seat count of a chamber | Amendable | Major |
 | Article II: thresholds, required chambers, cooldown | Amendable | Major |
 | [Suffrage](#suffrage): who may vote | Amendable | Major |
 | The country's common name | Entrenched | |
-| Which legislatures exist (single-seat offices and multi-seat chambers) | Entrenched | |
+| Which chambers and elected offices exist | Entrenched | |
 | Legislature names | Entrenched | |
 | The Supreme Court | Not amendable by players | |
 
@@ -90,15 +92,21 @@ You don't write a title or summary for each change: the game describes each one 
 
 ### Election frequency
 
-You can change **how often a legislature is elected** (2–120 months), including a single-seat office such as a presidency. It's a standard change and applies **prospectively**: the next already-scheduled election still runs under the old frequency.
+You can change **how often a legislature or an elected office is elected** (2–120 months). It's a standard change and applies **prospectively**: the next already-scheduled election still runs under the old frequency.
 
 ### Seat counts
 
-You can change the number of seats in a **multi-seat** chamber, between **10 and 800**. It's a major change and takes effect at that chamber's **next election**, whether scheduled or early. Until then the article reads, for example, *"shall comprise 400 seats (450 from the next election)"*.
+You can change the number of seats in a chamber, between **10 and 800**. It's a major change and takes effect at that chamber's **next election**, whether scheduled or early. Until then the article reads, for example, *"shall comprise 400 seats (450 from the next election)"*.
 
 ### No-confidence votes
 
-Every single-seat office, such as a presidency, always has a **no-confidence rule**: exactly one chamber that can vote to remove it, and a threshold. The chamber must be a different, multi-seat legislature, and the threshold is **51%–100% of those voting**. You can change the chamber or the threshold, but you can't remove the rule.
+Every elected office, such as a presidency, always has a **no-confidence rule**: exactly one chamber that can vote to remove it, and a threshold. The chamber must be an active legislature in the same country, and the threshold is **51%–100% of those voting**. You can change the chamber or the threshold, but you can't remove the rule. See [Elections](elections.md#elected-offices) for how a no-confidence call works.
+
+### Elected office veto
+
+An elected office can hold a **veto over bills**. While it's held and the veto is on, a bill that clears the legislatures still fails if the holder's party votes **No** on it. See [Legislation](legislation.md#elected-office-veto) for the details. A vacant office has no veto, and an office never has a say over budgets or constitutional changes.
+
+The veto is on by default. A **major** change (60 PP) turns it on or off for a single office, and the constitution article for that office says whether it holds a veto. The setting is read when a bill closes, so a bill that is still open is decided under the rule in force **on the day it closes**, not the day it was proposed. Switching it off shows as a consequence on the package: the office will no longer be able to block bills.
 
 !!! note "Two kinds of percentage"
     No-confidence thresholds count **those voting**. Amendment thresholds in Article II count **all seats**, so empty seats and parties that don't vote count against a package. The constitution always says which one it means ("75% of those voting", "67% of all seats").
@@ -108,7 +116,7 @@ Every single-seat office, such as a presidency, always has a **no-confidence rul
 Article II sets how the constitution itself is changed. Every part of it is amendable, and every change to it is **major** (60 PP).
 
 - **Threshold per chamber:** **50%–90% of all seats**, in whole percentages. Some countries have an existing threshold such as 66.6%; it stays valid until someone amends it.
-- **Required chambers:** which chambers must approve a package. Only **multi-seat** chambers can be required, and **at least one** must stay required. Adding a chamber means setting its threshold too.
+- **Required chambers:** which chambers must approve a package. Only chambers can be required (an elected office can't be), and **at least one** must stay required. Adding a chamber means setting its threshold too.
 - **Cooldown:** **0–5 whole years** between successful packages. It doesn't apply while a [Constitutional Convention](#constitutional-conventions) is sitting.
 
 A package is always voted on under the thresholds and required chambers **in force when it opened**. A package that lowers the threshold still has to clear the old, higher one. A package that changes the cooldown starts the **new** cooldown when it passes.
@@ -208,8 +216,8 @@ These changes reshape who governs. All of them are major changes except renaming
 - **Create a cabinet position:** give it a name and a description. Powers can be moved to it in the same package.
 - **Rename a cabinet position:** it keeps its identity, powers and sitting minister. Standard cost.
 - **Abolish a cabinet position:** the sitting minister leaves office. The package must give each of the position's powers a new holder, and name a new head of government if the position held that role. You can't abolish the last cabinet position.
-- **Head of government:** a single-seat office, a cabinet position, or the monarchy.
-- **Who appoints the cabinet:** an active legislature or the monarchy. The sitting cabinet stays in office until the next formation, except that moving the appointing power **to or from the Crown** ends all appointments at once. A cabinet formation in progress when the change applies is cancelled.
+- **Head of government:** an elected office, a cabinet position, or the monarchy.
+- **Who appoints the cabinet:** an active legislature, an elected office, or the monarchy. The sitting cabinet stays in office until the next formation, except that moving the appointing power **to or from the Crown** ends all appointments at once. A cabinet formation in progress when the change applies is cancelled.
 
 ### The monarchy
 
@@ -247,7 +255,7 @@ Normally a constitution changes slowly: one package at a time, with an Article I
 
 A convention can be called from the **Constitutional Convention** panel on the country's constitution page, by:
 
-- the **head of government**: the party whose character holds the head-of-government office, whether that's a single-seat office such as a presidency or a cabinet position such as Prime Minister. Calling it costs that party **75 PP**.
+- the **head of government**: the party whose character holds the head-of-government office, whether that's an elected office such as a presidency or a cabinet position such as Prime Minister. Calling it costs that party **75 PP**.
 - the **reigning monarch**, in a country with a [Crown](monarchy.md). This is **free**, since monarchs don't spend PP, and the monarch can call one whether or not the Crown is the head of government.
 
 A convention can be called even while the constitution is in its normal post-amendment cooldown. It can't be called while one is already sitting, or within **10 years** of the last one ending. The panel shows whether a convention is in session and until when, whether one can be called, or when the cooldown ends. When a convention can be called, the head of government's party and the monarch also see a reminder on their dashboard: *"You can call a constitutional convention"*.

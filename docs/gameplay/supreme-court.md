@@ -16,7 +16,7 @@ There are four things you can claim:
 |---|---|---|
 | A law in force is illegal or unconstitutional | Which law, and which option it should be moved to instead | The law is changed to the option you asked for |
 | A cabinet member is acting illegally | Which minister, and what they did | The minister is removed from office |
-| A president is acting illegally | Which directly elected single-seat office | An impeachment: the office holder is removed at once and barred from that office for good, and an early election is called to fill it |
+| An elected office holder is acting illegally | Which elected office | An impeachment: the office holder is removed at once and barred from that office for good, and an early election is called to fill it |
 | A constitutional amendment is illegal or inconsistent | Which amendment, and why it cannot stand | The amendment is struck from the constitution |
 
 Only **amendments** can be struck down. Power allocations, legislatures, cabinet positions and the monarchy are structural constitution content with their own [constitutional change](constitution.md) machinery, and the court does not touch them.
@@ -78,11 +78,10 @@ Both are deliberately modest. A case that ends without a ruling on the merits �
     the office has passed to a *different* party by then, the case is already closed: see
     [Closed — the office changes party](#closed-the-office-changes-party).
 
-    An upheld impeachment removes the office holder the moment the ruling lands. Their party's
-    nomination stops counting, so the office falls vacant, and that person is **barred from that
-    office permanently** — their party has to field somebody else. They are not barred from
+    An upheld impeachment removes the office holder the moment the ruling lands. The office
+    falls vacant, and that person is **barred from that office permanently** — their party has to field somebody else. They are not barred from
     anything else: they can still lead a party, sit in a chamber, take a cabinet post or stand for
-    a different single-seat office. The office itself then goes to an **early election**, so it is
+    a different elected office. The office itself then goes to an **early election**, so it is
     the country, not the court, that picks the successor.
 
 !!! note "If the world moved on"
@@ -100,10 +99,11 @@ If the appellant's party disbands while its case is still pleading or deliberati
 
 An impeachment names an office, but it is brought against **the party sitting in that office** when the case is filed. That party is the respondent, and it stays the respondent for the life of the case:
 
-- If the party puts **somebody else** in the office — a new leader, a new nominee — the case carries on, and an upheld ruling removes and bars whoever is in the office on the day of the ruling. A party cannot dodge a verdict by changing its nominee the week before the vote.
-- If the office passes to **another party** — an election, a collapse, a reallocation of the seat — the respondent is gone. The case is closed immediately as **closed — the office changed party**, with no ruling on the merits, and the **60 PP filing fee is returned in full**. The new holder never had a case to answer, and the court will not hand their office to a case that was never about them.
+- If the office falls **vacant**, or the same party gets a **new holder** (say, it wins a refill election), the case carries on. A vacancy is not a change of hands. An upheld ruling removes and bars whoever the party has in the office on the day of the ruling, and if the office is still empty then, nobody is removed, though the early election is still called.
+- If the office passes to **another party** — an election, or a refill after a vacancy — the respondent is gone. The case is closed immediately as **closed — the office changed party**, with no ruling on the merits, and the **60 PP filing fee is returned in full**. The new holder never had a case to answer, and the court will not hand their office to a case that was never about them.
+- A case **filed while the office was already vacant** has no respondent party on record, so it is never closed this way. If it is upheld, it removes and bars whoever holds the office on the day of the ruling.
 
-So an impeachment is a race against the calendar: win the argument while your opponent still holds the office, or the electorate settles it first and your case dies with the presidency it was aimed at. If the same party wins the office back later, the old case does not come back with it — file again.
+So an impeachment is a race against the calendar: win the argument while your opponent still holds the office, or the electorate settles it first and your case dies with the office it was aimed at. If the same party wins the office back later, the old case does not come back with it — file again.
 
 ## The justices
 

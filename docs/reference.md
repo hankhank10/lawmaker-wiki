@@ -34,7 +34,8 @@ Generation is multiplied by the power you hold (modifiers compound):
 | [Expel a character](gameplay/characters.md#expelling-and-free-agents) | 25 PP |
 | [Form a government](gameplay/cabinet.md) | 30 PP (10 PP when every cabinet post is vacant) |
 | [Call an early election](gameplay/elections.md#early-elections) | 30 PP (10 PP if the chamber voting on the call holds no seats) |
-| [Vote of no confidence in a single-seat office](gameplay/elections.md#single-seat-offices) | 30 PP (10 PP if the office is vacant) |
+| [Declare a candidate for an elected office](gameplay/elections.md#candidacies) | 20 PP |
+| [Vote of no confidence in an elected office](gameplay/elections.md#no-confidence-and-vacant-office-calls) | 30 PP (10 PP if the office is vacant) |
 | [Change a pillar](gameplay/parties.md#changing-a-pillar) | 75 PP |
 | [Constitutional change](gameplay/constitution.md#what-can-be-amended) | 30 PP per standard change, 60 PP per major change (min 60 PP per package); required follow-on changes are free. Capped at 75 PP per package during a [constitutional convention](gameplay/constitution.md#constitutional-conventions) |
 | [Call a constitutional convention](gameplay/constitution.md#constitutional-conventions) | 75 PP (head of government); free for a reigning monarch |
@@ -52,7 +53,7 @@ Generation is multiplied by the power you hold (modifiers compound):
 | Cabinet formation | 60 game days | Majority support (all proposed parties must vote yes) |
 | Constitutional change / amendment | 60 game days | Supermajority (typically ~66.6%), in **every** required chamber |
 | Early-election call | 60 game days (5 if no party holds seats in the voting chamber) | Passes unless ≥50% oppose |
-| No-confidence vote (single-seat office) | 60 game days | Constitution's threshold (typically 75%) of votes cast — a simple majority while the office is vacant |
+| No-confidence vote (elected office) | 60 game days | Constitution's threshold (typically 75%) of votes cast — a simple majority while the office is vacant |
 
 In **bicameral** countries a proposal must clear its threshold in all required chambers. Abstentions never count toward either side.
 

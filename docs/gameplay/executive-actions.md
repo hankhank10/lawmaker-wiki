@@ -9,7 +9,7 @@ The catalogue starts small and grows over time. Whatever the action, the design 
 Each action is gated by one constitutional power (for example, the "Ban party from public events" action is gated by the **Power to regulate political parties**). Whoever currently holds that power may exercise the action. The holder is resolved *live* through the constitution:
 
 - **Cabinet position** — the current appointee's party acts, exercised by the party's owner.
-- **Single-seat elected office** (e.g. a presidency) — the office-winning party acts, through its candidate. If the office is **vacant** — nobody won it, or its holder is gone — nobody can use the office's powers until it is filled again.
+- **Elected office** (e.g. a presidency) — the party of the current holder acts. While the office is vacant the power is *unavailable*.
 - **Monarchy** — the reigning monarch acts (see [the Crown's price](#monarchs-and-the-constitutional-crisis) below).
 - **Multi-seat legislature** — *unavailable*: the power is held collectively by the chamber, and there is no way to exercise it individually.
 - **Non-partisan bureaucrats** — *unavailable*: a power handed to the independent civil service is deliberately **disarmed**. Moving a power to bureaucrats through a [constitutional change](constitution.md) is how a country takes a dangerous action off the table.
@@ -64,12 +64,12 @@ As with a pardon, the score is floored at 0: freeing parties can offset autocrat
 
 ## Order arrest
 
-The holder of the **Power to be Head of the Police** can have a named politician detained. It costs **30 PP** and adds **25 autocracy points** — the most autocratic act in the catalogue. Any active party politician can be targeted, including colleagues in your own party — with two exceptions: you can't target **yourself**, and a **sitting single-seat office holder** (for example, an elected president) can't be arrested at all — only voted out at the ballot box. A candidate contesting such an office, and anyone holding a cabinet seat, remains fair game.
+The holder of the **Power to be Head of the Police** can have a named politician detained. It costs **30 PP** and adds **25 autocracy points** — the most autocratic act in the catalogue. Any active party politician can be targeted, including colleagues in your own party — with two exceptions: you can't target **yourself**, and a **sitting elected office holder** (for example, the holder of a presidency) can't be arrested at all — only voted out at the ballot box. A candidate contesting an elected office, and anyone holding a cabinet seat, remains fair game.
 
 An arrested politician is detained for **12 months**, during which they:
 
 - **cannot run campaign events** — and any [campaign events](campaigning.md) they were scheduled to lead are **cancelled immediately, with no refund**;
-- are **struck from election candidacy** — removed as their party's nominee for any single-seat office, so their party's votes for that seat go elsewhere;
+- have their **candidacy ignored** — an arrested candidate doesn't count as their party's candidate for any elected office (it stays on file), so their party's votes for that office go elsewhere;
 - **keep any cabinet seat but cannot exercise its executive actions** — the office is held, but frozen, while they are detained;
 - **cannot post to social media.**
 

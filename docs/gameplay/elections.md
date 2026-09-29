@@ -6,6 +6,8 @@ Elections turn your voting record into seats. Understanding how electors think i
 
 Elections run on a **regular schedule** set per legislature (the next date is shown on your country dashboard), and every party participates automatically. On election day the electors vote and the count begins — live. Once the ballots are fully counted, seats are allocated **proportionally** to each party's vote share; the new legislature and [government formation](cabinet.md) then take effect overnight, once the day's count is confirmed.
 
+A country's [elected offices](#elected-offices), such as a presidency, are elected in the same count, on their own schedules, but go to a single candidate instead of being split into seats.
+
 Afterwards you'll see each party's vote totals and percentages, seats won, turnout, and the change since last time.
 
 ### Watching the count live
@@ -123,33 +125,65 @@ Any logged-in user can *view* public polls; only active parties can commission t
 
 ## Early elections
 
-A party can trigger an election before the scheduled date for **30 PP** (just 10 PP if the chamber voting on the call holds no seats). It's put to a vote over a 60-day window and goes ahead unless opposition reaches 50%. Leading parties use this to lock in gains; opposition parties vote it down to deny them the moment.
+A party can trigger an election before the scheduled date for **30 PP** (just 10 PP if the chamber voting on the call holds no seats). It's put to a vote over a 60-day window and goes ahead unless opposition reaches 50%. Leading parties use this to lock in gains; opposition parties vote it down to deny them the moment. [Elected offices](#elected-offices) have their own kind of call.
 
 **The motion concludes early** if the outcome becomes mathematically certain before the 60-day window ends — that is, once yes has secured more than 50% of occupied seats (it will pass), or once yes can no longer reach 50% no matter how remaining votes fall (it will fail). This applies even if votes are still incoming.
-
-### Single-seat offices
-
-A single-seat office — a presidency, say — can't be sent to the country by its own single occupant, so the call is decided by another chamber, the one named in the constitution as its no-confidence legislature. What that call is depends on whether anyone holds the office:
-
-- **The office is held.** It's a **vote of no confidence** in the holder, costing **30 PP** and needing the constitution's no-confidence threshold (typically 75% of votes cast) in the deciding chamber. Win it and the office goes to an early election.
-- **The office is vacant.** There's no holder to withdraw confidence from, so it's simply a call to refill the seat: **10 PP**, and a **simple majority** in the deciding chamber is enough.
-
-Either way, abstentions are ignored and the election is held 10 game days after the voting period ends.
-
-### Standing for a single-seat office
-
-A party puts forward a candidate for a single-seat office, and only that candidate can win it for the party. A character can be the candidate for **one office at a time**: if your party already has them standing for another office, you can't nominate them again (and you aren't charged).
-
-If an election is held and **no valid candidate is standing**, the seat isn't handed to a party by chance — the office is left **vacant** and the election result says no valid candidate stood. It stays vacant until a party puts a candidate up and an election fills it.
 
 ### Automatic early elections
 
 The game calls an **automatic** early election (no vote, no PP) in two cases, holding it 10 game days later:
 
-- **A chamber empties below 50% occupancy** — usually after a governing party is disbanded.
-- **A single-seat office falls vacant** and at least one party has a candidate standing for it. Nobody standing means an election nobody could win, so a vacant office waits for its first nominee — a party that wants the seat filled sooner should put a candidate up for it.
+- **A chamber empties below 50% occupancy**, usually after a governing party is disbanded.
+- **An elected office is vacant**, has held an election before, and at least one party has a valid candidate standing for it. See [Elected offices](#elected-offices) below. An office that has never held an election waits for its first scheduled one.
 
 An [upheld impeachment](supreme-court.md) schedules the same election directly, without waiting for either check.
+
+## Elected offices
+
+An **elected office** is a single post, such as a presidency, held by one person and elected by the voters. Countries name their own offices and decide how often each is elected. Unlike a chamber, an office has no seats and no proportional count: it goes to one **candidate**, and the [constitution](constitution.md) says whether it has a [veto](legislation.md#elected-office-veto), whether it heads the government, and which powers it holds.
+
+### Candidacies
+
+Each party can put up **one candidate per office**, chosen from its own activists. Declaring or changing a candidate costs **20 PP**.
+
+- **One office per character.** A character can stand for only one office at a time, and can't stand for a second office while holding one. A refused candidacy costs nothing.
+- **Who can stand.** The candidate must be an activist of your party who isn't retired or expelled, and who hasn't been [removed from that office by the Supreme Court](supreme-court.md). You can declare an [arrested](executive-actions.md#order-arrest) activist, but their candidacy is ignored at the count for as long as they're under arrest.
+- **Locked during a count.** You can change or withdraw your candidate at any time except while a count that includes the office is running.
+- **It stays on file.** A candidacy carries over after the election, so a sitting holder stands again by default. A candidacy that stops being valid, say because the candidate retires, stays on file but is ignored when the votes are counted.
+
+### Winning the office
+
+Offices are counted in the same election as the country's chambers, using the same electors. Votes for a party with no valid candidate aren't wasted: they go to the candidates in proportion to the votes each candidate's party won. The candidate with the most votes wins, and a tie is settled at random. If there's no valid candidate at all, nobody wins, and the office is left **vacant**. If the country's electorate is [too small](#suffrage) to hold an election, the holder stays and the schedule moves on.
+
+The winner **takes office when the election is processed**, and holds it until the office's next election is processed or it falls vacant. **The holder is fixed at election.** Changing a party's candidate afterwards never changes who holds the office. A cabinet formation that the office was appointing is cancelled after every election held, whoever won.
+
+### Vacancies
+
+An office falls vacant **at once**, with no successor, when:
+
+- the Supreme Court upholds an [impeachment](supreme-court.md) (the holder is also barred from that office for good);
+- the holder is **expelled** from their party;
+- the holder's party is **disbanded**;
+- the holder **retires**; or
+- the holder no longer qualifies for any other reason, which a daily check picks up (for instance, a holder who accedes to the throne).
+
+A journalist post and an activity event announce the vacancy. While the office is vacant:
+
+- its **powers are unavailable**, so nobody can use them;
+- it has **no veto**;
+- it is **nobody's head of government**;
+- if it appoints the cabinet, **no new cabinet can be formed**, though the sitting cabinet stays.
+
+Only an election fills it. An election that finds no candidate leaves the office vacant. Once an office has held an election, the game refills it automatically: if it's vacant and at least one party has a valid candidate standing, an [automatic early election](#automatic-early-elections) is held 10 game days later. Nobody standing means an election nobody could win, so a party that wants the seat filled sooner should put a candidate up for it.
+
+### No-confidence and vacant-office calls
+
+A single occupant can't send their own office to the country, so a call on an office is decided by another chamber, the one named in the constitution as its **no-confidence chamber**. What the call is depends on whether anyone holds the office:
+
+- **The office is held.** It's a **vote of no confidence** in the holder, costing **30 PP** and needing the constitution's no-confidence threshold (typically 75% of votes cast) in the deciding chamber. Win it and the office goes to an early election. The holder serves until that election.
+- **The office is vacant.** There's no holder to withdraw confidence from, so it's simply a call to refill the office: **10 PP**, and a **simple majority** in the deciding chamber is enough.
+
+Either way, abstentions are ignored and the election is held 10 game days after the voting period ends.
 
 ## Next steps
 

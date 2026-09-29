@@ -50,6 +50,10 @@ If you hold a hereditary throne, inactivity warnings apply to your reign too. Co
 
 In countries with a hereditary monarchy, active parties may nominate one activist when the throne is vacant. The winning nominee becomes monarch, and the winning party becomes dormant while it reigns. While reigning, the monarch can pre-register a veto on any open proposal — if the legislatures pass a bill the monarch has vetoed, royal assent is refused and the bill does not become law. The monarch may abdicate later, restoring the party with 0 seats and 0 Political Power. See [Hereditary Monarchy](gameplay/monarchy.md).
 
+### How do elected offices work?
+
+An **elected office**, such as a presidency, is a single post held by one person and elected by the voters. Each party can put up one candidate per office (20 PP), and the office goes to the candidate with the most votes; the holder stays fixed until the next election or until the office falls vacant. Impeachment, expulsion, retirement or the holder's party disbanding leaves the office empty until an election fills it. An office can also hold a **veto**: a bill the legislatures pass still fails if the holder's party votes No. See [Elected offices](gameplay/elections.md#elected-offices) and the [elected office veto](gameplay/legislation.md#elected-office-veto).
+
 ### Can we restrict who's allowed to vote?
 
 Yes, through a constitutional change. A **Suffrage** clause can restrict the vote by gender, age, employment, income, education or housing; every country starts with universal adult suffrage. It's a major (60 PP) change, and a steep one: the people it excludes turn hard against any party that votes for it, whether or not the package passes, and once applied it charges heavy [autocracy points](gameplay/executive-actions.md#the-autocracy-score) and can trigger a **Suffrage Crisis**. See [Suffrage](gameplay/constitution.md#suffrage).
@@ -99,7 +103,8 @@ Hold government positions! Each gives a multiplicative bonus: Head of State (+20
 | Propose law | 30 PP |
 | Recruit character | 10 PP |
 | Commission poll | 10 PP |
-| Call early election | 30 PP (10 PP if the chamber voting on it holds no seats, or the single-seat office is vacant) |
+| Call early election | 30 PP (10 PP if the chamber voting on it holds no seats, or the elected office is vacant) |
+| Declare a candidate for an elected office | 20 PP |
 | Expel character | 25 PP |
 | Form government | 30 PP |
 | Constitutional change | from 60 PP |

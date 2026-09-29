@@ -62,7 +62,24 @@ A few mechanics worth knowing:
 
 - **Withdrawing:** the proposing party can pull a proposal before the window closes, but the 30 PP is **not** refunded.
 - **Bicameral countries:** where there are two chambers, a proposal must reach a majority in **all** required chambers to pass.
+- **Elected office veto:** in countries with an [elected office](elections.md#elected-offices) that has a veto, its holder's party can block a bill that the legislatures passed. See [below](#elected-office-veto).
 - **Royal veto:** in countries with a [monarchy](monarchy.md#royal-assent-and-veto), the monarch can block a bill that the legislature passed. The veto stays hidden during voting and is only revealed if it changes the outcome.
+
+### Elected office veto
+
+An elected office, such as a presidency, sits outside the chambers and doesn't cast votes of its own. It can still block a bill. A bill that clears the legislatures **fails** if all of these hold when it closes:
+
+- the office has a **veto** (it's on by default; a [major constitutional change](constitution.md#elected-office-veto) can turn it on or off);
+- the office is **held**; and
+- the holder's party votes **No** on the bill. A party's vote is normally the same in every chamber; if it differs, it counts as No only when the party voted No everywhere it didn't abstain.
+
+The holder's party doesn't vote separately. Its one vote on the bill counts for the office as well as the chambers.
+
+**Abstaining, not voting, a vacant office and a veto switched off never block a bill.** A party can't vote against its own proposal, so an office never blocks a bill its holder's party proposed. Offices have no say over budgets or constitutional changes.
+
+The veto rule is read when the bill closes, so a bill decided after the veto was switched on or off is decided under the new setting, whatever it was when the bill was proposed. Who holds the office is also read then. The bill page shows each office with a veto, its holder and how the holder's party voted, and a closed bill keeps that record, including whether the office blocked it.
+
+The order matters when a country also has a [monarch's veto](monarchy.md#royal-assent-and-veto). The legislatures and the office are judged first. If the bill fails there, including because an office blocked it, any pending royal veto is discarded and never revealed. Only a bill that clears both goes on to royal assent.
 
 ## Your record is permanent
 
