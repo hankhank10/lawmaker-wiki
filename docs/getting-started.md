@@ -14,7 +14,7 @@ Read and follow the [rules](rules.md).
 
 Each country runs its own **self-contained simulation** — laws, elections, and the economy play out separately in each. Players can still connect across borders (through [international blocs](gameplay/communication.md#international-blocs) and cross-country messaging), but you play **one party per country**, so pick the community you want to join.
 
-Current countries include **Avalon** (a large constitutional monarchy), **Marianne**, **Columbia**, and **Rheinland**. Before committing, look at a country's activity level and which parties already exist — an active country with a gap in the political spectrum is the best place to start. See [Countries](countries.md) for the full picture.
+**Avalon**, a large constitutional monarchy, is the most active and the safest start. Before committing to any country, look at its activity level and which parties already exist: an active country with a gap in the political spectrum is the best place to start. See [Countries](countries.md).
 
 ## 4. Create your party
 
@@ -46,6 +46,14 @@ Once your party is live, your dashboard shows your seats, [**Political Power (PP
 - **Introduce yourself** to other parties — coalition-building is how laws get passed, and messaging costs nothing.
 
 You start with **100 PP** and earn more over time. PP is the currency for major actions like proposing a law (30 PP) or recruiting an activist (10 PP); see the [Quick Reference](reference.md) for the full list of costs. Don't spend it all at once — keep a reserve for opportunities.
+
+## A typical week
+
+- **Vote** on open proposals and budgets, with a public reason. This builds the record electors judge.
+- **Talk to other parties.** Line up votes before you propose anything.
+- **Spend PP with a plan.** Propose when you have the votes, and keep a reserve.
+- **Raise funds** with a fundraising [campaign event](gameplay/campaigning.md), then spend them on rallies and interviews as an election nears, and on a [poll](gameplay/elections.md#polling) to see where you stand.
+- **Watch for** elections, [voter demands](gameplay/demands.md) and [global decisions](gameplay/global-decisions.md), which have deadlines.
 
 ## What's next
 

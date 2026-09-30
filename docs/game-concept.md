@@ -22,7 +22,7 @@ Learn more: [Elections & Voters](gameplay/elections.md).
 - **[Legislation & Voting](gameplay/legislation.md)** — propose laws and vote on others'. Each proposal bundles 1–5 article changes and is open for 60 game days; votes are weighted by seats.
 - **[Characters & Activists](gameplay/characters.md)** — recruit the people who front your bills and fill cabinets. Their traits shape how persuasive you are.
 - **[Government & Cabinet](gameplay/cabinet.md)** — after elections, parties form governments by appointing activists to ministerial posts.
-- **Political Power** — the action currency. You earn it over time and spend it on major moves; it prevents spam and forces real choices. Every cost is listed in the [Quick Reference](reference.md).
+- **Political Power and party funds** — PP is the action currency: you earn it over time and spend it on major moves, which prevents spam and forces real choices. Funds (dollars) come from fundraising events and pay for campaigning and polls. Every cost is listed in the [Quick Reference](reference.md).
 - **[Campaign Events](gameplay/campaigning.md)**, **[Communication](gameplay/communication.md)**, **[Economy](gameplay/economy.md)**, **[Constitution](gameplay/constitution.md)**, and — in some countries — **[Hereditary Monarchy](gameplay/monarchy.md)** add further depth.
 
 ## Winning

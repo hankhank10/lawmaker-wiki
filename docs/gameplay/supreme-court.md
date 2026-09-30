@@ -1,14 +1,10 @@
 # The Supreme Court
 
-Some countries recognise a **Supreme Court**. When it hears a matter for a country it sits, and is styled, as *The Supreme Court of that country* — the Supreme Court of Broadlands, the Supreme Court of Avalon. It is the final arbiter of the law: its rulings take direct effect and cannot be appealed.
-
-Whether a country has a court is a fact of its [constitution](constitution.md). New countries have one by default; the game's administrators can still switch it off for a particular country.
+Some countries recognise a **Supreme Court**, styled *The Supreme Court of that country*. It is the final arbiter of the law: its rulings take direct effect and cannot be appealed. Whether a country has one is a fact of its [constitution](constitution.md). New countries have one by default, though the game's administrators can switch it off for a particular country.
 
 ## What the court will hear
 
-The Supreme Court decides questions of law, not questions of taste. An appeal must be grounded in the constitution or the laws of the country: it should say what rule was broken, by whom or by what, and why.
-
-*"We oppose this law"* is politics — take it to the legislature. *"This law is unconstitutional, for reasons a, b and c"* is a case the court can hear. Appeals that plead no legal grounds should expect to be denied.
+The court decides questions of law, not questions of taste. An appeal must be grounded in the constitution or the country's laws: what rule was broken, by whom or by what, and why. *"We oppose this law"* is politics, so take it to the legislature. *"This law is unconstitutional, for reasons a, b and c"* is a case. Appeals that plead no legal grounds should expect to be denied.
 
 There are four things you can claim:
 
@@ -23,106 +19,42 @@ Only **amendments** can be struck down. Power allocations, legislatures, cabinet
 
 ## Bringing a case
 
-Any live party in a country with a court may file an appeal, for **60 PP**. Only **one case runs at a time** in a country, so if the court is already sitting you have to wait.
-
-Filing is the commitment. There is no draft stage and no voluntary withdrawal — once the case is entered, it runs its course, and the fee is not returned. Three things can still end a case early without a ruling on the merits: a case no justice was able to hear (see [No quorum](#no-quorum) below), a case whose appellant party disbands before a ruling (see [Withdrawn](#withdrawn-appellant-disbands) below), and an impeachment whose office changes party mid-case (see [Closed — the office changes party](#closed-the-office-changes-party) below).
-
-Your written case is the opening submission of the record. Make it argue something.
+Any live party in a country with a court may file an appeal for **60 PP**. Only **one case runs at a time** in a country, so if the court is already sitting you have to wait. Filing is the commitment: there is no draft stage and no voluntary withdrawal, and the fee is not returned once the case runs its course (see [how a case can end without a ruling](#how-a-case-can-end-without-a-ruling) for the exceptions). Your written case is the opening submission of the record, so make it argue something.
 
 ## How a case runs
 
-A case runs in three phases.
+**Pleading (50 days).** Every other party in the country may enter **one submission** saying whether it supports or opposes the appeal, and why. Submissions are one per party, **immutable** (no edits, withdrawals or changes of stance) and **advisory only**: they carry no mechanical weight. The appellant does not plead separately, since their case *is* the opening post. It is still worth pleading, because the justices read the thread before they vote, and it is the only way to put your country's view in front of the bench.
 
-### Pleading — 50 days
+**Deliberation (30 days).** The justices each vote to **uphold** or **deny**, with a written rationale. Votes are **secret until the ruling**, even from the other justices, and cannot be changed once cast. If every eligible justice votes before the 30 days are up, the court rules early.
 
-Every other party in the country may enter **one submission** saying whether it supports or opposes the appeal, and why. Submissions are:
+**Decided.** Every vote and rationale is published at once, along with the tally. The appeal is **upheld if strictly more than half of the votes cast** are to uphold. Recusals and absences don't count in that total, and **a tie is a denial**: the court presumes what it is asked to strike down is lawful until a majority says otherwise. An upheld remedy is applied automatically and immediately. If it moves a law to an option that an [international treaty](treaties.md#breach) the country belongs to forbids, the country is removed from that treaty on the spot.
 
-- **one per party** — you get a single shot;
-- **immutable** — they cannot be edited, withdrawn, or have their stance changed;
-- **advisory only** — they carry no mechanical weight whatsoever.
+Once a case is decided, any player can rate each justice's opinion **Good RP** or **Bad RP**, judging how well it is argued rather than whether you agree with the ruling. Ratings are private.
 
-The appellant does not plead separately: their case *is* the opening post.
+### The bench
 
-So why bother? Because the justices read the thread before they vote. A well-argued submission is the only way to put your country's view in front of the bench.
+The bench is a small pool of hand-picked, high-trust roleplayers appointed by the game's administrators, one bench for the whole world. Justices are known only by seat number ("Justice #3") and the court never reveals who sits on it. They play their own parties as normal, and the conflict of interest is handled by one rule: a justice is **recused** from any case in a country where they own a live party. Their party may still plead, or even be the appellant; only the seat steps back.
 
-### Deliberation — 30 days
+### Party modifiers
 
-The moment a case leaves pleading, every eligible justice is emailed immediately that a case awaits their vote — this doesn't wait for the twice-daily briefing, since it's a deadline the justice needs to act on.
+The ruling follows the appellant party onto the campaign trail for **2 months**: an upheld appeal earns **Defending the Constitution** (voters 3% more likely to back you), a denied one earns **Frivolous Lawsuits** (3% less likely). Both are modest. A case that ends without a ruling carries neither. All party modifiers are listed under [Campaigning](campaigning.md#party-modifiers).
 
-The justices vote to **uphold** or **deny**, each with a written rationale of at least **100 characters** — the court publishes reasoning, not just a verdict.
+### Impeachment
 
-Votes are **secret** until the ruling is published — not just from players, but from the other justices too. Nobody is voting with the tally in front of them. A vote cannot be changed once cast.
+An impeachment is brought against the **party** holding the office, and an upheld ruling falls on whoever that party has in the office on the day, not necessarily the person your case names. The office falls vacant, that person is **barred from that office permanently**, and the office goes to an **early election**, so the country, not the court, picks the successor. They are not barred from anything else: they can still lead a party, sit in a chamber, take a cabinet post or stand for a different elected office.
 
-A justice can save a private, rewritable **draft** of their vote and rationale before they're ready to cast — visible only to them, and available from the moment the case is filed, so it can already hold the reasoning built up while reading the pleading thread. Casting deletes the draft; a cast that's rejected for a rationale that's too short is kept as a draft rather than lost.
+## How a case can end without a ruling
 
-If every justice eligible to sit has voted before the 30 days are up, the court rules early rather than waiting out the clock.
+Three things end a case with no ruling on the merits. Neither modifier is applied.
 
-### Decided
+| Outcome | What happens | Filing fee |
+|---|---|---|
+| **No quorum** | No justice was able to sit (an empty bench, or every justice recused), so the case is dismissed | Refunded in full |
+| **Withdrawn** | The appellant's party disbands while the case is still pleading or deliberating, so the case closes at once and frees the country's one-case slot | Not refunded |
+| **Closed: the office changes party** | An impeachment whose office passes to another party (see below) | Refunded in full |
 
-Everything is revealed at once: each seat's vote and full rationale, and the tally.
-
-The appeal is **upheld if strictly more than half of the votes cast** are to uphold. Recusals and absences are not counted in that total, and **a tie is a denial** — the court presumes what it is asked to strike down is lawful until a majority says otherwise.
-
-If the appeal is upheld, the remedy is applied automatically and immediately. If it moves a law to an option that an [international treaty](treaties.md#breach) the country belongs to forbids, the country is removed from that treaty on the spot.
-
-The ruling also follows the appellant party onto the campaign trail, as a [party modifier](campaigning.md#party-modifiers) lasting **2 months**:
-
-- **Upheld** — **Defending the Constitution**: voters are **3% more likely** to back you.
-- **Denied** — **Frivolous Lawsuits**: voters are **3% less likely** to back you.
-
-Both are deliberately modest. A case that ends without a ruling on the merits — no quorum, withdrawn, or closed because the office changed party — carries neither.
-
-!!! warning "Impeachment"
-    An impeachment is brought against the party holding the office, and an upheld ruling falls on
-    whoever that party has in the office on the day — not on the person your case text names. If
-    the office has passed to a *different* party by then, the case is already closed: see
-    [Closed — the office changes party](#closed-the-office-changes-party).
-
-    An upheld impeachment removes the office holder the moment the ruling lands. The office
-    falls vacant, and that person is **barred from that office permanently** — their party has to field somebody else. They are not barred from
-    anything else: they can still lead a party, sit in a chamber, take a cabinet post or stand for
-    a different elected office. The office itself then goes to an **early election**, so it is
-    the country, not the court, that picks the successor.
-
-!!! note "If the world moved on"
-    A case runs to its end even if its target disappears — the minister resigns, the law changes, the amendment is repealed by other means. The ruling still publishes; the court simply notes that there was nothing left to order. Justices can, and in roleplay should, deny an appeal that has become moot.
-
-### No quorum
-
-If no justice was able to sit — an empty bench, or every justice recused — the case is **dismissed for want of a quorum**. That is not a ruling on the merits, and the **60 PP filing fee is refunded in full**. The appellant was failed by the institution, not defeated by it.
-
-### Withdrawn — appellant disbands
-
-If the appellant's party disbands while its case is still pleading or deliberating, the case is closed immediately as **withdrawn**, with no ruling on the merits. There is nobody left to prosecute it, so it doesn't keep occupying the country's one-case slot until its dates happen to run out on their own. Unlike a no-quorum dismissal, the **60 PP filing fee is not refunded**.
+If the target of an ordinary case disappears (the minister resigns, the law changes, the amendment is repealed), the case still runs to its end. The ruling publishes and the court simply notes there was nothing left to order; justices can, and in roleplay should, deny a case that has become moot.
 
 ### Closed — the office changes party
 
-An impeachment names an office, but it is brought against **the party sitting in that office** when the case is filed. That party is the respondent, and it stays the respondent for the life of the case:
-
-- If the office falls **vacant**, or the same party gets a **new holder** (say, it wins a refill election), the case carries on. A vacancy is not a change of hands. An upheld ruling removes and bars whoever the party has in the office on the day of the ruling, and if the office is still empty then, nobody is removed, though the early election is still called.
-- If the office passes to **another party** — an election, or a refill after a vacancy — the respondent is gone. The case is closed immediately as **closed — the office changed party**, with no ruling on the merits, and the **60 PP filing fee is returned in full**. The new holder never had a case to answer, and the court will not hand their office to a case that was never about them.
-- A case **filed while the office was already vacant** has no respondent party on record, so it is never closed this way. If it is upheld, it removes and bars whoever holds the office on the day of the ruling.
-
-So an impeachment is a race against the calendar: win the argument while your opponent still holds the office, or the electorate settles it first and your case dies with the office it was aimed at. If the same party wins the office back later, the old case does not come back with it — file again.
-
-## The justices
-
-The bench is a small pool of hand-picked, high-trust roleplayers, appointed by the game's administrators. There is one bench for the whole world.
-
-Justices are known **only by their seat number** — "Justice #3". The court never reveals who sits on it, on any page, at any time. Seat numbers are reused: when a justice steps down, the next appointee takes the freed number.
-
-Justices keep playing their own parties completely normally. The conflict of interest is handled by one rule:
-
-> A justice is **recused** from any case in a country where they own a live party.
-
-Their *party* plays on as usual — it may plead, and it may even be the appellant. Only the *seat* steps back, and it shows on the case page as "Recused".
-
-## Reading a case page
-
-The case page is the whole record: the appellant's argument, the pleading thread, and the bench.
-
-While the case is live, the bench panel shows only whether each seat has voted, is awaiting, or is recused. After the ruling it shows every seat's choice and reasoning in full, along with the tally.
-
-Once a case is decided, any player can rate each justice's opinion as **Good RP** or **Bad RP**. This is a judgement on how well-argued the opinion is, not on whether you agree with the ruling — a decision you think is dead wrong can still be excellent roleplay, and one you cheered for can still be lazily argued. Your rating is private: no running totals or scores are shown to players.
-
-If you are a justice, the page opens with a banner making clear that you are acting as a member of the court and not as your party, and the vote form lives inside it.
+An impeachment is brought against the party sitting in the office when the case is filed, and that party stays the respondent for the life of the case. A vacancy, or a new holder from the same party, doesn't change that and the case carries on. If the office passes to **another party**, through an election or a refill after a vacancy, the case is closed immediately with no ruling, and the **60 PP filing fee is returned in full**, because the new holder never had a case to answer. The old case does not revive if the first party wins the office back, so you would have to file again. An impeachment is therefore a race against the calendar: win the argument while your opponent still holds the office.

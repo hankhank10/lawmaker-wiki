@@ -4,52 +4,33 @@ Your party is how you participate in Lawmaker. This guide covers creating one, d
 
 ## Creating a party
 
-Pick a [country](../countries.md), choose "Create Party Here", and fill in your details: name, abbreviation, colour, slogan, and description. Then set your ideology.
+Pick a [country](../countries.md), then give your party a name, abbreviation, colour, slogan and description, and set your ideology.
 
 !!! info "Private countries"
-    Some countries are invite-only and show a padlock instead of a "Create Party" button. To join, you need an **invite code** from the country owner — either a share link they send you or a code you enter manually. See [Private Countries](../countries.md#private-countries).
+    Some countries are invite-only (marked with a padlock). To join, you need an **invite code** from the country owner. See [Private countries](../countries/running-a-country.md#private-countries).
 
 ## Your ideology: the 4 pillars
 
 The most important choice you make is your **4 policy pillars** — four political issues, each set to a position on its spectrum (from -1 to +1). These are the platform voters and other players judge you by.
 
-| Issue | -1 | +1 |
-| --- | --- | --- |
-| **Gender Equality** | Traditional roles | Full equality |
-| **Role of Religion** | Secular governance | Religious influence |
-| **Environment** | Growth first | Environmental protection |
-| **Individual Liberty** | Strong leadership | Maximum freedom |
-| **Military** | Diplomatic solutions | Strong military |
-| **Immigration** | Border security | Open borders |
-| **Economy** | Wealth redistribution | Free market |
-| **Workers' Rights** | Business-friendly | Worker protections |
-
-These are eight of the **16 issues** available — the full list is in [Laws & Policies](../laws-and-policies.md). Choose four that give you a coherent, recognisable identity, and be ready to vote for them consistently.
+For example, **Environment** runs from -1 (growth first) to +1 (environmental protection), and **Economy** from -1 (wealth redistribution) to +1 (free market). The full list of all **16 issues** is in [Laws & Policies](../laws-and-policies.md#political-issues). Choose four that give you a coherent, recognisable identity, and be ready to vote for them consistently.
 
 !!! example "A coherent platform"
     A "Green Progressive Alliance" might anchor on Environment **+1.0**, Workers' Rights **+0.8**, Gender Equality **+0.9**, and Individual Liberty **+0.6** — a clear cluster a voter can read at a glance.
 
 ### Changing a pillar
 
-You can replace **one** of your four pillars at any time for **75 PP**. It's deliberately expensive and public: one of the country's journalists automatically posts a news story about your shift, so everyone notices. Voters who liked the old position may drift away while new ones arrive — so it's usually safest **right after an election**, giving the electorate time to adjust before it next matters.
+You can replace **one** of your four pillars at any time for **75 PP**. It's deliberately expensive and public: a journalist posts a news story about your shift. Voters who liked the old position may drift away while new ones arrive, so it's usually safest **right after an election**, giving the electorate time to adjust.
 
 ## Party branding
 
-Your party can have a custom **SVG logo**, uploaded on the Edit Party page with an optional colour tint and size adjustment. It appears wherever your party shows up in the game.
-
-It's not just decoration: a custom logo gives a **+5% supporter-turnout boost** at elections, while a party with no logo takes a **-5% penalty**. Since uploading one costs no PP, it's one of the cheapest electoral gains available — do it early.
+Your party can have a custom **SVG logo** (with an optional colour tint). It's not just decoration: a custom logo gives a **+5% supporter-turnout boost** at elections, while a party with no logo takes a **-5% penalty**. Since uploading one costs no PP, it's one of the cheapest electoral gains available — do it early.
 
 ### Changing your name, slogan or description
 
-You can rewrite your **name**, **slogan** and **description** on the Edit Party page. It costs no PP, but the change doesn't go live straight away: it joins a queue and only takes effect once a moderator approves it.
+You can rewrite your **name**, **slogan** and **description** for no PP, but the change only goes live once a moderator approves it. Typo fixes and tidying are always fine. Anything more substantive (a new slogan, a rewritten description, a rename) has to be properly roleplayed: it should read like something your party would actually announce, such as a merger, a relaunch or a split, not a joke or a whim. A new name follows the same rules as at creation (at least 5 characters, not already used in your country). Your party's web address never changes, so links keep working.
 
-Approval turns on whether the change is **realistic and in character**. Fixing typos, tidying up wording or correcting a mistake is always fine. Anything more substantive — a new slogan, a rewritten description, a change of political direction — has to be properly roleplayed: it should read like something your party would actually announce, and fit what your party has been doing in the game. Out-of-character or joke rewrites get turned down. The same goes for a **rename**: parties change their name when something has actually happened to them — a merger, a relaunch, a split — not on a whim.
-
-A new name follows the same rules as one picked at creation: at least 5 characters, and not already used by another party in your country. Renaming changes your party's name only — its **web address never changes**, so every link, bookmark and mention pointing at your party keeps working.
-
-A rename is also **public**: once it's approved, one of the country's journalists reports the rebrand, naming both your old and your new name, and it's posted in the country's Discord channel. Nobody has to guess who you used to be.
-
-You can have one change waiting at a time; submitting again replaces it, and you can withdraw it while it's still pending.
+A rename is **public**: once approved, a journalist reports it, naming both your old and new name. You can have one change pending at a time, and can withdraw it before it's approved.
 
 ## One party per country
 
@@ -61,20 +42,11 @@ In countries with a [hereditary monarchy](monarchy.md), your party can nominate 
 
 ## Disbanding and inactivity
 
-You can **voluntarily disband** at any time, releasing your activists, cabinet posts, and seats. Any [Supreme Court](supreme-court.md) case your party filed and is still awaiting a ruling on is closed as withdrawn, with no refund of its filing fee. A disbanded party can be **revived** by its owner, though anything lost on disbanding doesn't automatically come back.
+You can **voluntarily disband** at any time, releasing your activists, cabinet posts and seats. A [Supreme Court](supreme-court.md) case you filed and are still waiting on is withdrawn, with no refund. A disbanded party can be **revived** by its owner, though what was lost doesn't automatically come back.
 
-Disbanding by choice starts a **30 game day cooldown** on founding a *new* party in that same country. This stops "flipping" — walking away from a bad position and immediately re-founding with a clean slate. The cooldown is narrow on purpose:
+Disbanding by choice starts a **30 game day cooldown** on founding a *new* party in the same country, which stops you walking away from a bad position and re-founding with a clean slate. It doesn't apply in other countries, after an auto-disband for inactivity, or to reviving your old party.
 
-- It only applies to the country you disbanded in. You can create a party in a **different country** immediately.
-- It only follows a **voluntary** disbandment. Parties auto-disbanded for inactivity carry no cooldown.
-- It never blocks **reviving** a disbanded party — your old party can come back at any time, cooldown or not.
-
-To keep countries alive, Lawmaker also disbands inactive parties:
-
-- After **3 days** of inactivity, you get a **warning email**.
-- After **5 days**, your party is **auto-disbanded** — but only when the country is **70%+ full**, to free space for active players.
-
-Any action — even a single vote or message — resets your activity timer. Simply logging in or browsing does **not** count: you need to actually do something every few days. (Reigning monarchs have their own inactivity checks; see [Hereditary Monarchy](monarchy.md).)
+To keep countries alive, inactive parties are disbanded: you get a **warning email after 3 days** and are **auto-disbanded after 5 days**, but only when the country is **70%+ full**. Any real action (a vote, a message) resets the timer; logging in or browsing doesn't. Reigning monarchs have their own checks (see [Hereditary Monarchy](monarchy.md)).
 
 ## Next steps
 

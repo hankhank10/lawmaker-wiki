@@ -74,12 +74,12 @@ nav:
       - Laws & Policies: laws-and-policies.md
       - Economy: gameplay/economy.md
       - Countries: countries.md
+      - Founding a Country: countries/running-a-country.md
       - Strategy Guide: strategy-guide.md
       - FAQ: faq.md
   - About:
       - Rules & Policies: rules.md
       - Roadmap: roadmap.md
-      - Contributing: contributing.md
   - Discord: https://discord.gg/gKAvGTFKzB
 
 extra:

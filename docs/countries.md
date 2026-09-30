@@ -1,137 +1,36 @@
 # Countries
 
-Lawmaker has multiple **fictional countries**, each a **self-contained political simulation**: laws, elections, and the economy play out separately in each, so, treaties aside, what happens in one country doesn't change another. The simulations stay separate, but players don't have to — parties connect across borders through [international blocs](gameplay/communication.md#international-blocs) and cross-country messaging, and countries themselves can bind their laws together, or embargo one another, through [international treaties](gameplay/treaties.md). Choosing a country is really choosing a community to join.
+Lawmaker has multiple **fictional countries**, each a **self-contained political simulation**: laws, elections and the economy play out separately in each, so (treaties aside) what happens in one country doesn't change another. Players still connect across borders through [international blocs](gameplay/communication.md#international-blocs) and cross-country messaging, and countries themselves can lock their laws together, or embargo one another, through [international treaties](gameplay/treaties.md). Choosing a country is really choosing a community to join.
 
-## What countries share, and what makes each unique
+## What countries share, and what differs
 
-Every country uses the same [political issues](laws-and-policies.md#political-issues), [laws catalogue](laws-and-policies.md#the-laws-catalogue), [rules](game-concept.md), and proportional [electoral system](gameplay/elections.md). What differs from country to country:
+Every country uses the same [political issues](laws-and-policies.md#political-issues), [laws catalogue](laws-and-policies.md#the-laws-catalogue), [rules](rules.md) and proportional [electoral system](gameplay/elections.md). What differs:
 
-- **Population and legislatures** — the scale and structure of politics.
-- **Cabinet and constitutional offices** — unique government roles, and sometimes special institutions like a [monarchy](gameplay/monarchy.md).
-- **Permanent [national moods](gameplay/elections.md#national-moods)** — a baked-in cultural character that tilts how voters weigh issues.
-- **Community and history** — each country grows its own meta-game, traditions, and legislative record.
+- **Population and legislatures**: the scale and structure of politics (one chamber or two, how many seats).
+- **Cabinet and constitutional offices**: who heads the government, who appoints the cabinet, which powers sit where, and sometimes a [monarchy](gameplay/monarchy.md) or an elected presidency.
+- **Permanent [national moods](gameplay/elections.md#national-moods)**: a baked-in cultural character that tilts how voters weigh issues.
+- **Community and history**: each country grows its own meta-game and traditions.
 
-## Available countries
+## The founding countries
 
-| Country | Character |
-| --- | --- |
-| **[Avalon](countries/avalon.md)** | The flagship: a large Westminster-style constitutional monarchy (65m people, 650 seats), with the most established community. |
-| **[Marianne](countries/marianne.md)** | A French-inspired republic. |
-| **[Columbia](countries/columbia.md)** | An American-inspired presidential system. |
-| **[Rheinland](countries/rheinland.md)** | A German-inspired federal democracy. |
+| Country | Population | Legislature | Government |
+| --- | --- | --- | --- |
+| **[Avalon](countries/avalon.md)** | 65m | Parliament (650 seats) | Westminster-style constitutional monarchy; a Prime Minister heads the government |
+| **Marianne** | 72m | National Assembly (577) and Senate (348) | French-inspired republic; an elected President heads the government and the Assembly appoints the cabinet |
+| **Columbia** | 360m | Senate (100) and House (435) | American-inspired; an elected President heads the government and appoints the cabinet |
+| **Rheinland** | 88m | Bundestag (650) and Bundesrat (69) | German-inspired federal democracy; a Chancellor heads the government |
+
+More countries exist, and new ones are added by players. The country list in the game is always the up-to-date picture.
 
 ## Choosing a country
 
-If you're new, **Avalon** is the safest start — it's the most active and established. Otherwise, look for a country with an engaged community *and* a gap in its political spectrum you could fill. Before committing, check who's already playing, recent elections, and the current laws, then build a party that occupies space no one else does. A unique, well-placed party is far more impactful than a copy of an existing one.
+If you're new, **Avalon** is the safest start: it's the most active and established. Otherwise look for a country with an engaged community *and* a gap in its political spectrum you could fill. Check who's already playing, recent elections and the current laws, then build a party that occupies space no one else does. A unique, well-placed party is far more impactful than a copy of an existing one.
 
-### Finding a country on the countries list
-
-The countries list opens on **All**, which shows every country in a random order that leans towards emptier countries, so newer and quieter ones get a fair chance to be seen. Use the filter cards to narrow it down:
-
-- **Active**: countries where laws and budgets have been proposed most in recent months, busiest first.
-- **New**: the newest countries in the world.
-- **Hidden gems**: countries hand-picked by the game's team as worth a look. A country drops off this filter once it is three-quarters full.
-
-Private countries are left out of these three filters, since you can't join them from the list. Clicking a country's flag takes you to its page.
-
-Each country only has room for so many parties at once (see [Quick Reference](reference.md#party-basics)) — one showing **Country full** won't let you found a new party there until an existing one disbands, so have a second choice in mind.
-
-## Private countries
-
-Some countries are **private, invite-only** games run by [supporters](../support) for a closed community. They're marked with a padlock, and joining one needs an **invite code** (a share link or a code you enter) from the country owner. Creating a private country is a supporter-only feature.
-
-The owner of a private country can **open it to everyone** from the country page ("Make public"). Doing so removes the padlock, deletes the invite code, and lets any player create a party there. **This is one-way** — a country that has been made public cannot be made private again, because parties that join while it is public cannot be removed. Everything else is untouched: the owner stays the owner, and existing parties, laws, elections and historical events carry on as before.
-
-Because nobody can join a private country without a code, one with no parties in it is unreachable rather than merely quiet. So a private country that has **no parties at all for 3 real-life days** sends its owner a warning email, and one that is still empty after **7 real-life days** is **deleted**. Founding a party there — or getting someone else to — resets the clock immediately, and a country whose only player is on the throne does not count as empty. Public countries are never deleted this way — so making an empty private country public is also a way to stop its clock, at the cost of the invite code.
-
-## Proposing a new country
-
-[Supporters](../support) can always **propose a public country**; other players need an account at least **30 days old**, and everyone is limited to **one active proposal at a time** — a rejected proposal doesn't count against the limit, so you're free to try again with a fresh idea once one is resolved.
-
-!!! info "Proposals are temporarily supporters-only"
-    While the team works through a moderation backlog, submitting a new proposal is temporarily limited to supporters, regardless of account age. This is a temporary measure, not a permanent rule, and it doesn't affect anyone's ability to browse and upvote existing proposals in the meantime.
-
-From the countries list you define the country's name, population, system type, legislatures, cabinet positions, constitutional offices, and permanent national moods (and optionally a flag). Before you can submit, you must confirm you've read the acceptance criteria below, write a **rationale for creation** (minimum 100 characters) making the case for why the country is worth adding, and add at least **three [historical events](#historical-events)** — each with a year and a headline — to give the country an opening backstory.
-
-### What makes a good country proposal
-
-Most proposals are **not accepted**. A small number of countries are approved — the ones that offer genuinely interesting and distinctive gameplay — and submissions are held to a high bar:
-
-- **Care and attention.** Spelling, punctuation and grammar are part of the review; a proposal with typos will be sent back or declined.
-- **Fictional countries only.** No real countries or thinly veiled stand-ins — you can reference a continent or broad geography ("a mountainous state on a northern coastline"), but not specific countries or named neighbours.
-- **Keep the description to 1–2 paragraphs.** Set a scene — don't recount the nation's whole history (that emerges later through lore events) or describe the form of government (the game handles that).
-- **English only.** All submissions must be written in English.
-- **Be sparing with cabinet positions.** Large cabinets are hard to fill and stall gameplay; 6–10 positions usually works well.
-- **The game does not simulate race or religion.** Don't build your concept around them.
-- **Tell us why it's interesting.** Your rationale should make the case for a distinctive economic situation, an unusual political fault line, or another fresh gameplay angle.
-
-### Review and the "changes requested" loop
-
-Proposals go through **staff moderation** before reaching community upvoting. Reviewing a proposal, a moderator can:
-
-- **Accept** it, sending it to community upvoting.
-- **Reject** it outright, with a reason.
-- **Request changes** — leaving a comment on a specific problem instead of rejecting outright. Your proposal moves into a **changes requested** state; you edit it to address the comment, then mark it **ready for review** to put it back in the moderation queue. You'll get an email whenever a moderator comments on your draft, and the back-and-forth is visible as a comment thread on the proposal's own page.
-
-Once accepted, a proposal moves to **community upvoting**, with the most popular and well-built proposals prioritised for launch. You can track your own proposals and their status, and browse and upvote others', on the countries list.
-
-When a proposed country goes live, it begins with a year-long **founding [Constitutional Convention](gameplay/constitution.md#constitutional-conventions)**: constitutional packages are capped at 75 PP and there's no cooldown between them, so the first parties can reshape the constitution you proposed before it settles down.
-
-## Country pages
-
-Each country has overview pages bringing together its current laws and legislative history, active parties and seat distribution, the current government, the election schedule, recent activity, any [Crown](gameplay/monarchy.md) status, and active national moods. Two extras give a country depth:
-
-- **Historical events** — major lore moments from the country's past (its founding, a revolution, a war), added by the country owner or proposed by any player for approval. These are for lore not already captured by the game's own records of elections and legislation.
-- **National flag** — every country can have one. When a country has none, any player can start a **48-day flag-suggestion process** where the community uploads and upvotes designs, and the most-upvoted flag wins.
-
-### Historical events
-
-Historical events are **major, one-off moments** in a country's life story that give it depth and character. Good examples include:
-
-- The founding or independence of the country
-- A constitutional revolution or regime change
-- A major war, invasion, or peace treaty
-- A significant natural disaster or national crisis
-- The discovery of a valuable resource
-- A landmark social or cultural turning point
-
-!!! warning "Don't duplicate what's already recorded"
-    Events that are already tracked elsewhere in the game — such as **constitutional changes**, **elections**, and **passed legislation** — should **not** be entered as historical events. Use the historical events section for lore that isn't captured by those systems.
-
-#### Adding a historical event
-
-Each event records a **year** (AD), a short **headline**, and an optional longer **description** that is hidden until a player clicks to expand it.
-
-!!! info "One event per year"
-    Only one historical event can exist per year in a country. If a year is already taken, you will see a warning as you type.
-
-**Who can add events:**
-
-| User type | Action |
-|-----------|--------|
-| Country owner or admin | **Add event** — published immediately |
-| Any other logged-in player | **Propose event** — saved as a draft pending approval |
-
-Proposed events are shown in a dashed style and marked **"Pending approval"**. Only the submitting player, the country owner, and admins can see them until approved.
-
-!!! info "Historical events on proposed countries"
-    A country proposal must be submitted with **at least three historical events** already filled in — the proposal form has a dedicated Historical Events section for this, pre-filled with three blank rows. These publish immediately as part of the proposal; they aren't held for approval the way another player's suggestion would be. While the draft is still a proposal, its proposer (and admins) can keep adding events directly from the proposal page — right up until a moderator accepts it for community voting. If a moderator requests changes, the draft must still have at least three published events before it can be resubmitted, and the proposer can't delete an event that would take it below that minimum while it's awaiting review (admins can). Once the proposal is **up for votes, its history is locked**: no events can be added, changed or removed. The timeline stays visible to voters, and normal historical-event rules resume once the country goes live.
-
-#### Approving and managing proposed events
-
-Country owners and admins see an **Approve** button on each pending event, and a **Reject & delete** button to discard a proposal that doesn't fit the country's lore. They can also **Delete** an already-published event from their country's record.
-
-!!! info "Email notification for country owners"
-    If you proposed the country (you are its owner), you will receive an **email notification** whenever a player submits a lore event proposal that is awaiting your approval — for any of your countries, public or private. The email includes the event year, headline, and description, along with a direct link to your country page where you can review and approve it. You can manage this notification in your email preferences.
-
-## The world map
-
-Some countries are placed on a **continent** and shown together on an interactive world map, hosted outside the game itself. A country that's been placed shows a **Continent** card on its page, with a **view map** link and a list of its neighbours on that continent. You can also jump straight to the map at any time from the main menu, under **World → Map**.
-
-On the map, each country is sized by its population, and clicking one opens a card with its flag, name and population, plus a link straight back into the game to view the country or join it.
+Each country has room for only so many parties (see [Quick Reference](reference.md#party-basics)). One showing **Country full** won't let you found a party until an existing one disbands, so have a second choice in mind. Some countries are **private** and need an invite code; see [Founding & Running a Country](countries/running-a-country.md#private-countries).
 
 ## Next steps
 
 - [Create your party](gameplay/parties.md) once you've chosen a country.
 - [Review the current laws](laws-and-policies.md) to understand the status quo.
 - [Study the electorate](gameplay/elections.md#understanding-electors) you'll be competing for.
+- Want to start a country of your own? See [Founding & Running a Country](countries/running-a-country.md).

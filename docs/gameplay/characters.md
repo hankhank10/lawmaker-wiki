@@ -1,87 +1,53 @@
 # Characters & Activists
 
-**Characters** are the people of Lawmaker. Your party recruits **activists** — the public faces who front your bills and fill cabinet posts. There are also **journalists**: independent, game-controlled characters who comment on politics but can't be recruited or hold office.
+**Characters** are the people of Lawmaker. Your party recruits **activists**: the public faces who front your bills, lead your campaign events and fill cabinet posts. **Journalists** are independent, game-controlled characters who comment on politics; they can't be recruited or hold office.
 
 ## Recruiting activists
 
-Recruiting costs **10 PP** and shows you **3 randomly generated candidates** — each with a name, age, backstory, and a set of traits. Pick one and they join immediately, or decline and try again later (for another 10 PP).
-
-There's no hard limit on roster size, but each recruit costs PP and most successful parties run a focused core of a few strong activists rather than a crowd.
+Recruiting costs **10 PP** and shows you **3 randomly generated candidates**, each with a name, age, backstory and traits. Pick one and they join immediately, or decline and try again (for another 10 PP). There's no cap on roster size, but most successful parties run a small core of strong activists rather than a crowd.
 
 ## Traits
 
-Every character has **3–5 traits**. Some change how effective they are; others are pure flavour.
+Every character has **3-5 traits**. Some are pure flavour (Loyal, Ruthless, Idealist, Ambitious, Firebrand…). The rest change how effective the activist is:
 
-### Traits with gameplay effects
+- **Persuasion** makes their bills and speeches more convincing. **Fantastic Speaker** is strongest, then **Charismatic** and **Media Savvy**; **Awkward** and **Poor Speaker** hurt.
+- **Profile** is how fast they gain followers. It's boosted by the same traits, plus **Celebrity** (very rare); **Reclusive** and **Poor Speaker** slow it.
+- **Authority** is credibility: **Former Banker** (most), **Well Connected**, **Academic** and **Former Military** help; **Outsider** hurts.
 
-These shape an activist's **persuasion** (how convincing their proposals and speeches are), **profile growth** (how fast they gain followers), **authority** (credibility), and starting followers:
-
-| Trait | Effect |
-| --- | --- |
-| **Charismatic** | +Persuasion, +Profile |
-| **Awkward** | −Persuasion, −Profile |
-| **Fantastic Speaker** | ++Persuasion, ++Profile |
-| **Poor Speaker** | −Persuasion, −−Profile |
-| **Media Savvy** | +Persuasion, +Profile, more starting followers |
-| **Reclusive** | −−Profile |
-| **Well Connected** | +Authority, more starting followers |
-| **Academic** / **Former Military** | +Authority |
-| **Former Banker** | ++Authority |
-| **Outsider** | −Authority |
-| **Celebrity** (very rare) | Huge starting followers, ++Profile, +Authority |
-
-Some traits can't coexist (e.g. Charismatic and Awkward, Fantastic Speaker and Poor Speaker). The rest — Loyal, Ruthless, Idealist, Ambitious, Firebrand, and so on — add personality without mechanical effect.
-
-When recruiting, favour **persuasion traits** (Fantastic Speaker, Charismatic, Media Savvy) for activists who'll sponsor bills and front campaign events, and avoid putting **Poor Speaker** activists on high-stakes appearances.
+Some traits can't coexist (Charismatic and Awkward, for example). Recruit **persuasion** traits for activists who'll front bills and campaign events, and keep **Poor Speaker** activists away from high-stakes appearances.
 
 ### State traits: energy
 
-Activists have an **energy** level that drains when they run [campaign events](campaigning.md) and recovers with rest. As it falls they pick up state traits automatically:
+Activists lose **energy** running [campaign events](campaigning.md) and recover with rest. As it falls they pick up a state trait automatically:
 
-- **Tired** (low energy) — reduced effectiveness at campaign events.
-- **Exhausted** (critically low) — significantly reduced effectiveness, more gaffes at interviews and speeches, and higher backfire risk on viral stunts.
+- **Tired**: less effective at events.
+- **Exhausted**: much less effective, more gaffes, and a higher chance a stunt backfires.
 
-If you see Tired or Exhausted in your activist list, ease that person's schedule — or assign upcoming events to a fresher colleague.
+If you see either, give that person a rest and hand the next event to someone fresher.
 
 ## What activists do
 
-- **Front bills.** When [proposing a law](legislation.md), assign an activist as front person; their persuasion makes the bill more convincing.
-- **Hold cabinet posts.** [Cabinet](cabinet.md) positions build a character's authority, followers, and profile over time.
-- **Become monarch.** In countries with a [monarchy](monarchy.md), an activist can be nominated for a vacant throne. If they win, they leave the party, take a regnal name (e.g. *King Arthur I*), and reign as the Crown.
+- **Front bills.** When you [propose a law](legislation.md), your front person's persuasion, authority and followers make it more convincing.
+- **Lead campaign events.** Their traits and energy decide whether an interview or speech lands.
+- **Hold cabinet posts.** [Cabinet](cabinet.md) service builds authority, followers and profile.
+- **Become monarch.** In countries with a [monarchy](monarchy.md), an activist can be nominated for a vacant throne. If they win, they leave your party, take a regnal name and reign as the Crown.
 
-Activists grow with experience — sponsoring successful bills and serving in cabinet builds authority and followers — so your most valuable people are usually the ones you've developed over several cycles.
+Activists grow with experience: sponsoring a bill raises their followers (a lot if it passes, a fair amount even if it fails) and moves their authority up or down by about 5% depending on the result. Your most valuable people are usually the ones you've developed over several cycles.
 
 ## Expelling and free agents
 
-You can **expel** an activist for **25 PP**; they leave immediately, vacating any cabinet post, and become a **free agent**. Free agents keep their traits, followers, and authority, and **any** party can recruit them for the normal 10 PP — including your rivals. It's expensive and irreversible, so expel sparingly — but do keep an eye out for strong free agents other parties have let go.
+**Expelling** an activist costs **25 PP**. They leave immediately (vacating any cabinet post) and become a **free agent**. Free agents keep their traits, followers and authority, and **any** party can recruit them for the normal 10 PP, including your rivals. Expel sparingly, and watch for strong free agents other parties let go.
 
 ## Social media and growth
 
-Activists post automatically in response to events, and their follower counts grow with activity:
+Every country has a public **social media feed** that tells the story of its politics. Your activists post automatically in response to events (those with more followers get more engagement), as do **journalists**, ordinary **voters** reacting to the news, and the game's bots (LawBot, NewsBot, GameMaster and EconBot) announcing laws, elections, governments and economic news. The voter posts are colour only; reading them doesn't change anyone's opinion, but they're a live read on how the public is taking your politics.
 
-| Activity | Follower boost |
-| --- | --- |
-| Sponsoring a bill | +5,000 |
-| A sponsored bill passes | +15,000 |
-| A sponsored bill fails | +8,000 |
+Journalists work for named outlets with distinct voices (a measured broadsheet, a punchy tabloid, a gossip column, an economics "wonk") and are unaffiliated with any party. You can filter the feed by poster type and country.
 
-Profile-boosting traits (Media Savvy, Celebrity, Fantastic Speaker) multiply these gains. A sponsored bill passing also lifts the activist's authority by ~5% (a failure costs ~5%).
-
-### The country social media feed
-
-Every country has a public **social media feed** — a timeline that chronicles its politics. Four kinds of account post to it:
-
-- **Your activists**, automatically, in response to game events; characters with more followers generate more engagement. Reigning [monarchs](monarchy.md) also post here as the Crown.
-- **Journalists** — independent, game-controlled characters who comment on events and add colour. They aren't affiliated with any party and can't be recruited. Each country has a small **press corps** of up to four journalists, each with a distinct outlet and voice: a **broadsheet** correspondent (measured, authoritative), a **tabloid** reporter (punchy and vivid), a **gossip** columnist (chatty, personality-first), and a **wonk** (an economics correspondent who owns the budget/IMF beat with plain-language analysis). Whoever's best suited covers a given story, and on the very biggest news two contrasting voices sometimes both weigh in. Bylines read "Journalist @ *Outlet Name*" — e.g. *"Jane Doe (Journalist @ The Aldland Chronicle)"* — so it's always clear who's writing and for which paper.
-- **Ordinary voters** — a sampled slice of electors post their own reactions to what's been happening, in their own voice, tagged simply as "Voter." Some react to recent national events (a proposal passing, a budget landing, an election result); others post a "change of heart" when a rival party's persuasion campaign actually shifts their view on an issue. These posts are colour only — reading them doesn't change anyone's opinion — but they're a live read on how the public is taking your politics.
-- **Game bots** — **LawBot** (laws and proposals), **NewsBot** (announcements), **GameMaster** (administration), and **EconBot** (economy) — which post automatic updates for major events: new and resolved proposals, constitutional changes, elections, government formations, bloc activity, successful rallies, and monarchy events.
-
-You can filter the feed by poster (**Journalists**, **Politicians**, **Voters**) and by country, from the Filters card above the feed.
-
-The feed is where the story of your country's politics is told, and where your activists build the followings that make them effective bill sponsors.
+Follower growth is driven by activity: sponsoring a bill, having it pass or fail, and serving in cabinet all add followers, and profile-boosting traits multiply the gains. Followers are what make an activist an effective bill sponsor.
 
 ## Next steps
 
-- [Legislation & Voting](legislation.md) — put your best persuader on important bills.
-- [Campaign Events](campaigning.md) — where activist traits and energy come into play.
-- [Government & Cabinet](cabinet.md) — appoint activists to office.
+- [Legislation & Voting](legislation.md): put your best persuader on important bills.
+- [Campaign Events](campaigning.md): where activist traits and energy come into play.
+- [Government & Cabinet](cabinet.md): appoint activists to office.

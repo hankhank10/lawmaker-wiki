@@ -1,55 +1,81 @@
 # Campaign Events
 
-**Campaign events** let you schedule political activities on a calendar to influence elections, raise funds, and build your profile. Each party can run **one event per day**, assigned to one of your [activists](characters.md), scheduled on any future date except election days.
+**Campaign events** are how you spend your party's money and your activists' energy to move votes, raise funds and change minds. Each party can run **one event per day**, led by one of your [activists](characters.md), on any future date except an election day.
+
+## Party funds
+
+Events are paid for from your party's **funds** (dollars), which are separate from [Political Power](../reference.md#political-power-pp). A new party starts with none, so your first job is usually to run a fundraising event. Funds also pay for [polls](elections.md#polling).
+
+Cancelling a future event refunds **80%** of its cost and all of the activist's energy.
 
 ## Objectives and event types
 
-Every event has an **objective** (what you want) and an **event type** (how you'll do it):
+| Objective | Event type | Cost | What it does |
+| --- | --- | --- | --- |
+| **Raise Funds** | Private Dinner | Free | Earns about **$25,000** from business donors |
+| | Telethon | Free | Earns about **$10,000** in small donations |
+| **Get Out The Vote** | Supporter Rally | $20,000 | 10% chance of an Energised Base turnout boost |
+| **Influence a Proposal** | Media Interview | $2,000 | Sways opinion on one open proposal (for or against) |
+| | Set-Piece Speech | $15,000 | As above, bigger stakes |
+| **Raise Profile** | Media Interview | $2,000 | Vote-preference boost or penalty |
+| | Viral Social Media Stunt | $3,000 | Vote-preference boost or penalty |
+| **Shift Views** | Grassroots Canvassing | $12,000 | Reaches about 800 electors |
+| | Issue Ad Campaign | $30,000 | Reaches about 1,500 electors |
+| | Town Hall Tour | $18,000 | Reaches about 300 electors |
 
-| Objective | Event types | Cost |
+Every event also drains the activist's **energy** (a rally more than an interview, a town hall tour the most). Tired activists run worse events, so spread the work around.
+
+### Fundraising
+
+Fundraising pays out the base amount with a little randomness, scaled by the activist and your platform:
+
+- **Both:** Charismatic and Fantastic Speaker activists add 20% each; Poor Speaker takes off 30%.
+- **Private Dinner:** a Well Connected activist adds 50%. A **pro-business platform** (a free-market or business-friendly pillar) **doubles** the take; an anti-business one (redistribution or worker-protection pillar) **halves** it.
+- **Telethon:** Working Class Background adds 20%, Celebrity 50%, Wealthy takes off 20%.
+
+### Supporter Rallies
+
+A rally is your main election tool. Each has a **10% chance** of an **Energised Base**: **+20% supporter turnout for 10 game days**. Because the odds are low and the boost is short, run several rallies in the run-up to polling day.
+
+### Performance events
+
+Interviews, speeches and stunts are **performances**: the outcome depends on the activist's traits and energy. A **Fantastic Speaker** shines far more often; a **Poor Speaker** or an **Exhausted** activist gaffes far more often. A journalist reports the result and it leaves a [modifier](#party-modifiers) on your party.
+
+| Event | Good result | Bad result |
 | --- | --- | --- |
-| **Get Out The Vote** | Supporter Rally | Free |
-| **Influence a Proposal** | Media Interview ($2,000), Set-Piece Speech ($15,000) | see type |
-| **Raise Profile** | Media Interview ($2,000), Viral Social Media Stunt ($3,000) | see type |
-| **Raise Funds** | Private Dinner, Telethon | — |
+| **Media Interview** | Strong performance (+2%, 1 week) or viral interview (+5%, 2 weeks) | Gaffe (−3%, 5 days) |
+| **Set-Piece Speech** | Standout (+5%, 2 weeks) or Career-Defining (+1%, **permanent**) | Disastrous (−7%, 1 week) |
+| **Viral Social Media Stunt** | Hit (+3%, 1 week) | Backfire (−3%, 5 days) |
 
-(Costs are paid from your party's funds, not PP.) For an *Influence a Proposal* event you link it to a specific open proposal and declare whether you're campaigning **for** or **against** it.
+Percentages are changes in how likely voters are to back you. Speeches carry the most risk, so give them to a rested, persuasive activist (see [activist energy](characters.md#state-traits-energy)).
 
-## Supporter Rallies
+### Shift Views
 
-A Supporter Rally is the highest-impact event for elections. Each rally has a **10% chance** of triggering the **Energised Base** modifier: a **+20% supporter-turnout boost lasting 10 game days**, announced with a social media post.
+A persuasion campaign is the only event that **actually changes voters' minds**. You pick an **issue** and a **direction**. When it runs, it reaches a sample of electors who hold a view on that issue (mostly those who care about it), and each has a chance to move a small step your way. Less-confident electors move more easily, and issues an elector cares deeply about are harder to shift.
 
-!!! tip "Stack rallies before an election"
-    Because each rally only has a 10% chance to fire and the boost lasts 10 days, schedule several rallies in the run-up to polling day to improve your odds of going in with an energised base.
+- **It can't backfire.** A failed roll changes nothing, and nobody moves the wrong way.
+- **The change is permanent, but capped.** No elector can be moved more than a limited distance from where they started, so repeat campaigns hit diminishing returns and no party can capture a whole electorate.
+- **You only get totals** ("reached 800, 190 shifted"), never individual electors.
 
-## Performance events
-
-Media Interviews, Set-Piece Speeches, and Viral Social Media Stunts are **performances** — the outcome depends on the activist's traits and current energy. A strong result boosts your vote preference; a poor one hurts it. A **Fantastic Speaker** is far more likely to shine, a **Poor Speaker** or an **Exhausted** activist far more likely to gaffe. Each generates a journalist post and leaves a [party modifier](#party-modifiers) on your profile.
-
-| Event | Best outcome | Worst outcome |
-| --- | --- | --- |
-| **Media Interview** | *Standout* — significant boost | *Gaffe* — penalty |
-| **Set-Piece Speech** | *Career-Defining* — **permanent** boost | *Gaffe* — significant, lasting penalty |
-| **Viral Social Media Stunt** | *Hit* — boost | *Backfire* — penalty |
-
-!!! warning "Match the activist to the stakes"
-    Set-piece speeches cost the most and carry the most risk — reserve them for important moments and a rested, persuasive activist. Never send a Tired or Exhausted activist into a high-stakes appearance; see [activist energy](characters.md#state-traits-energy).
+Tired activists reach fewer electors.
 
 ## Party modifiers
 
-Campaigning and random events leave temporary **modifiers** on your party that affect electoral performance — shown on your party profile:
+Events, random incidents and other systems leave temporary **modifiers** on your party. They're shown on your party profile.
 
 | Modifier | Trigger | Effect | Duration |
 | --- | --- | --- | --- |
-| **Energised Base** | Successful Supporter Rally (10%) | +20% supporter turnout | 10 days |
+| **Energised Base** | Supporter Rally (10% chance) | +20% supporter turnout | 10 days |
+| **Flopped Rally** / **Fundraising Misstep** | Bad event luck | Voters 2% less likely to back you | 3 days |
+| Performance modifiers | Interview / speech / stunt | See the table above | 5 days to permanent |
 | **Campaign Finance Scandal** | Random event | Voters 10% less likely to back you | 3 months |
-| Performance modifiers | Interview / speech / stunt outcomes | Vote-preference boost or penalty | Varies (a Career-Defining speech is permanent) |
-| **Defending the Constitution** | Winning a [Supreme Court](supreme-court.md) case | Voters 3% more likely to back you | 2 months |
-| **Frivolous Lawsuits** | Losing a [Supreme Court](supreme-court.md) case | Voters 3% less likely to back you | 2 months |
+| **Defending the Constitution** | Winning a [Supreme Court](supreme-court.md) case | Voters 3% more likely | 2 months |
+| **Frivolous Lawsuits** | Losing a Supreme Court case | Voters 3% less likely | 2 months |
+| **People's Pledge** / **Broken Promises** | [Voter demands](demands.md) | Voters 5% more / 15% less likely | Until the next election / 2 years |
 
-A well-timed Energised Base before an election can offset a lingering scandal, and a career-defining speech is a permanent edge — so keep an eye on what's currently active.
+A well-timed Energised Base can offset a lingering scandal, and a Career-Defining speech is a permanent edge.
 
 ## Next steps
 
-- [Characters & Activists](characters.md) — traits and energy that decide event outcomes.
-- [Elections & Voters](elections.md) — how turnout boosts feed into results.
+- [Characters & Activists](characters.md): the traits and energy that decide event outcomes.
+- [Elections & Voters](elections.md): how turnout boosts and vote preference feed into results.

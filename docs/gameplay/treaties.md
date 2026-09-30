@@ -1,225 +1,116 @@
 # International Treaties
 
-A **treaty** is an agreement between *countries*, not between parties. A country founds a treaty from a fixed list of **treaty articles**, other countries join it, and for as long as a country is a member it is bound by the treaty: parties there can no longer propose moving a **locked law** to an option the treaty forbids, and the country **embargoes** any country the treaty names, which costs it part of its GDP.
+A **treaty** is an agreement between *countries*, not between parties. A country founds a treaty from a fixed list of **treaty articles**, other countries join, and for as long as a country is a member it is bound: its parties can no longer propose moving a **locked law** to an option the treaty forbids, and the country **embargoes** any country the treaty names, which costs part of its GDP.
 
-Treaties are free to found, join and leave: there is **no Political Power cost and no cooldown**. The price is the promise itself. Once you are in, your country's hands are tied, and an [embargo](#embargoes) can cost its economy too.
+Treaties are free to found, join and leave: there is **no Political Power cost and no cooldown**. The price is the promise itself.
 
 !!! note "Treaties are not blocs"
-    [International blocs](communication.md#international-blocs) are alliances of *parties* with shared ideological goals. Treaties are agreements between *countries*, decided by whoever holds the country's treaty power, and they bind the country's laws. The two features are independent.
-
-You'll find treaties under **International → International Treaties** in the world menu, which lists every treaty in the game. Each country also has its own **International Treaties** page, under **International** in its country menu, and a **Treaties** card on its country page.
+    [International blocs](communication.md#international-blocs) are alliances of *parties* with shared goals. Treaties are agreements between *countries*, decided by whoever holds the country's treaty power, and they bind the country's laws. The two features are independent.
 
 ## Who decides: the treaty power
 
-Founding a treaty, joining one, leaving one, inviting another country and answering an invitation are all acts of whoever holds the constitutional power **Ratify Foreign Treaties**. Like any power in the [constitution](constitution.md), it is assigned to a holder, and it works differently from most:
+Founding, joining, leaving, inviting and answering invitations are all acts of whoever holds the constitutional power **Ratify Foreign Treaties**. Unlike most powers in the [constitution](constitution.md), it is **always held by a single office**: a cabinet position, an elected office such as a presidency, or the monarchy. It can never sit with a legislature or the bureaucrats, and a constitutional change that tries to put it there is refused.
 
-- **It is always held by a single office**: a cabinet position, an elected office such as a presidency, or the monarchy. It can **never** be held by a legislature (a chamber) or by professional bureaucrats. A constitutional change that tries to move it there is refused, and abolishing its current holder automatically moves it to a new single office (the head of government where possible) instead of to the bureaucrats.
-- **Only the holder acts.** The party that holds the office (the party owner, acting as that party) makes every treaty decision for the country. Other players in the same country can see everything, but the buttons stay off for them, with a note saying who decides.
-- **A monarch holding the power acts freely.** Unlike [executive actions](executive-actions.md), treaty acts cause no [constitutional crisis](monarchy.md) and add nothing to anyone's autocracy score.
-- **If the office changes hands, so does the decision.** An invitation waiting for an answer goes to whoever holds the power *now*.
-
-!!! info "If nobody holds the office"
-    An office can be briefly vacant (an elected office between elections, or an empty throne), or its holder can be a character without a party. Then nobody can found, join, leave, invite or answer for that country until the power has a live holder again. The country is still bound by every treaty it belongs to, and it **can still be invited**: the invitation simply waits for the next holder. No message or email is sent while nobody holds the power, so the holder should check the country page after taking office.
-
-Countries that used to give this power to a chamber or to the bureaucrats had it moved to their head of government when treaties were introduced. You can move it to another single office with an ordinary [constitutional change](constitution.md#proposing-a-change).
+Only the party holding that office makes treaty decisions for the country; other players in the country can watch but not act. A monarch holding the power acts freely: treaty acts cause no [constitutional crisis](monarchy.md) and add nothing to autocracy scores. If the office changes hands, so does the decision, including any invitation still waiting. If the office is vacant, nobody can act for the country until it has a holder again, though the country stays bound by its treaties and can still be invited.
 
 ## Open and closed treaties
 
-Every treaty is one of two kinds, chosen when it is founded and **fixed for good**:
+Every treaty is either **open** or **closed**, chosen when it is founded and **fixed for good**. To switch, dissolve the treaty and found a new one.
 
 | Kind | How a country joins |
 | --- | --- |
-| **Open** | Any eligible country whose laws satisfy every treaty article joins on its own, straight away. There is no approval step. |
-| **Closed** | A country joins only by **accepting an invitation** from the treaty's founder. |
+| **Open** | Any eligible country whose laws satisfy every treaty article joins on its own, straight away. |
+| **Closed** | Only by **accepting an invitation** from the treaty's founder. |
 
-A treaty that wants to change from closed to open (or the reverse) has to be dissolved and founded afresh.
-
-A country is **eligible** to found, join or be invited unless it is still a draft country or has been paused by the game's administrators. [Private countries](../countries.md) are eligible on the same terms as public ones.
+Draft countries and countries paused by the game's administrators cannot take part; private countries can.
 
 ## Founding a treaty
 
-A treaty has a **name** (up to 120 characters, unique among the active treaties in the game), an optional **preamble** that states its purpose in the founder's own words (up to 2,000 characters), an open or closed setting, and **1 to 20 treaty articles**. Names and preambles are moderated like other public text.
+A treaty has a name, an optional preamble stating its purpose, an open or closed setting, and **1 to 20 treaty articles**. Only the treaty power holder can found one, but anyone with a party in the country can help write it as a shared public draft, which the holder can take up and edit as their own.
 
-Only the treaty power holder can found a treaty, but anyone with a party in the country, or the crown, can help write one.
+The founding country has to meet **its own terms**: its current laws must satisfy every article and it must have no [open bill](#open-bills-block-joining) that would breach one. It then becomes the first member and the **founder**.
 
-### Drafting
-
-Treaties are written as **drafts** first. A draft is a saved, editable treaty that belongs to *you*, not to your party, so you can keep working on it even if your party disbands. Drafts come in two kinds:
-
-- **Private** drafts are visible only to you.
-- **Public** drafts are visible to everyone with a party in your country, so a treaty can be worked up in the open and offered to whoever holds the power.
-
-The builder shows a live **"Would your country qualify?"** panel as you add treaty articles, so you can see straight away whether your own laws satisfy the terms you are writing.
-
-Nobody can create a treaty from somebody else's draft directly. Instead, the holder **takes up** a public draft: it is copied into their own private drafts, credited to the original drafter ("based on a draft by ..."), and they can edit it freely before creating the treaty from their copy. Anyone in the country can take up a public draft in the same way to build on it. When the treaty is created, the draft it came from is marked as taken up.
-
-### Founding it
-
-The holder creates the treaty from their own draft. The founding country has to meet **its own terms** to begin with:
-
-- its current laws must satisfy every treaty article, **and**
-- it must have no [open bill](#open-bills-block-joining) that would breach one.
-
-The founding country becomes the treaty's first member and its **founder**.
+Articles are written once and **can never be changed**. To change the terms, found a new treaty. (Laws have articles too, so this manual always says *treaty articles* for these.)
 
 ### Treaty logo
 
-A treaty can have an optional **logo**: an SVG, with the same colour and size options as party and bloc logos, chosen in the builder and saved with the draft. It is shown in a square frame on the treaty's pages. Whoever holds the founder country's treaty power can change or remove it later from the treaty's page. Moderators can remove logos that break the rules.
+A treaty can have an optional SVG **logo**, set when it is founded and changeable later by whoever holds the founder country's treaty power. Moderators can remove logos that break the rules.
 
-## Treaty articles and locked laws
+## Treaty articles
 
-A treaty is made of **treaty articles**. (Laws have articles too, so this manual always says *treaty articles* for these.) There are two kinds: the **law lock** and the **embargo**. Treaty articles are written once, when the treaty is founded, and **can never be changed afterwards**. To change the terms, found a new treaty.
+There are two kinds: the law lock and the embargo. A treaty can mix them freely, up to 20 in total.
 
 ### Locked laws
 
-A law lock names one **law** and the **options the treaty allows** for it. For example, a treaty might lock *Minimum Wage Policy* so that it must be either *Basic minimum wage* or *High living wage*, ruling out *No minimum wage*.
+A law lock names one **law** and the **options the treaty allows** for it. For example, a treaty might lock *Minimum Wage Policy* so it must be *Basic minimum wage* or *High living wage*, ruling out *No minimum wage*. A lock must forbid at least one option, and a treaty can lock each law only once.
 
-A few rules keep locks meaningful:
+While your country is a member, **its parties cannot propose moving a locked law to a forbidden option**. Such a bill is refused when you save it or put it to the vote, and a draft written before your country joined cannot be opened for a vote until you edit the locked option out.
 
-- A lock must **forbid at least one option**. An article that allows every option locks nothing, and is refused.
-- A treaty can lock **each law only once**.
-- A treaty holds **at most 20** treaty articles.
-
-While your country is a member, **its parties cannot propose moving a locked law to a forbidden option**:
-
-- In the proposal builder the forbidden options show as **disabled**, suffixed with *(locked by* and the treaty's name*)*, with a note linking to the treaty. A law whose every other option is locked is still listed, so the restriction stays visible.
-- A bill that contains a forbidden option is refused if you try to save it or put it to the vote.
-- A draft written *before* your country joined can still exist, but cannot be opened for a vote until you edit out the locked option.
-- On your country's **Laws** page and in the **International Laws Explorer**, a law under a lock carries a **Treaty-locked** badge listing the treaties responsible.
-
-If a country belongs to **several treaties** that lock the same law, only the options **every one of them allows** stay open.
-
-Locks only restrict *bills that change a law*. They don't touch [constitutional changes](constitution.md) or [executive actions](executive-actions.md), and they only bind the members' own laws, never any other country's.
-
-!!! note "Retired laws"
-    If a locked law is later retired from the game, its treaty article becomes **inert**: it is shown struck through, locks nothing, and nobody is removed from the treaty because of it.
+If a country belongs to **several treaties** locking the same law, only the options **every one of them allows** stay open. Locks restrict only *bills that change a law*: they don't touch [constitutional changes](constitution.md) or [executive actions](executive-actions.md), and they never bind another country's laws.
 
 ### Embargoes
 
-An **embargo** treaty article names **one country in the world**, the **target**. Every country that is a member of the treaty **embargoes** the target for as long as it stays a member. An embargo restricts no law: it is an economic commitment, and it costs both sides.
+An **embargo** article names **one country**, the **target**. Every member of the treaty embargoes the target for as long as it stays a member. An embargo restricts no law: it is an economic commitment that costs **both sides**.
 
-- **The target loses GDP.** The bigger the combined economies of the countries embargoing it, the more it loses.
-- **The embargoers lose GDP too.** Each member loses a share tied to how large the target's economy is: embargoing a large economy is expensive, and embargoing a small one is cheap.
-- **The loss is capped.** No country ever loses more than 75% of its GDP to embargoes, and it is usually far less.
+- **The target loses GDP**, more the bigger the combined economies of the countries embargoing it.
+- **Each embargoer loses GDP too**, more the bigger the target's economy is. Embargoing a large economy is expensive; a small one is cheap.
+- **No country loses more than 75% of its GDP** to embargoes, and it is usually far less.
 
-The full formula, a worked example, and the knock-ons for tax revenue, industries, credit rating and global decisions are in [Economy: Embargoes](economy.md#embargoes). The short version is that a country's loss is 75% of the combined world GDP share of everyone it is embargoing or being embargoed by, with each country counted once.
+The formula, a worked example and the knock-on effects are in [Economy: Embargoes](economy.md#embargoes). A treaty cannot embargo its own founder, and can name each country only once.
 
-A few rules apply when writing one:
+**The target cannot join.** A country cannot found, join or accept an invitation to a treaty that embargoes it. The founder can still send it an invitation, but it can only read why it cannot accept.
 
-- The target must be an existing country in the same world. A treaty **cannot embargo its own founder**.
-- A treaty can embargo **each country only once**, and can mix embargoes and law locks freely, up to the same **20** treaty articles.
-- A country with no modelled economy can be named, but the embargo has no economic effect on it until it has one. The builder warns you when you pick one.
-- If the target country is later removed from the game, the treaty article becomes **inert**: it is shown struck through, costs nobody anything, and nobody is removed from the treaty because of it.
-
-#### The target cannot join
-
-A country **cannot be a member of a treaty that embargoes it**. The treaty page tells it so on its compliance checklist, and it cannot found the treaty, join it, or accept an invitation to it. The founder can still **send** the target an invitation (invitations never require compliance), but the target can only read why it cannot accept.
-
-#### The cost, and the "Economic impact" estimate
-
-Joining an embargo treaty is **never blocked because of its cost**: a country may join a treaty that costs it a lot, since the cost is the point. To help you decide, the treaty builder and the treaty page show an **Economic impact** line for your country: *"Joining would cost your country about N% of its GDP."* Members see what the treaty currently costs them. The estimate uses the same formula as the real thing, including any embargoes your country is already part of, but it is labelled **about** because world GDP shares move every month.
-
-The builder and the treaty page also show **Economic impact to others**: for each country the treaty embargoes, roughly how much extra of its GDP the embargoes would cost it, and its total loss from embargoes. Once a treaty is active, its page has an **Impact on embargoed countries** card that anyone can read, showing what this treaty costs each target and, where other treaties also embargo it, what it loses in total. These are estimates only, because shares of world GDP change every month.
-
-Once a country is a member, the loss shows up on its [Economy page](economy.md#where-to-see-it): a **Lost to embargoes** figure on the Growth tab, and the **Embargoes** tab listing every country involved and the treaty responsible. There is no notification to the target that it has been embargoed, so the Economy page is where it finds out.
+**The cost is never a barrier.** Nothing stops you joining a treaty because it is expensive; the cost is the point. Instead, the treaty builder and treaty page show an **Economic impact** estimate ("Joining would cost your country about N% of its GDP") and the estimated loss for each target. It is labelled *about* because world GDP shares move every month. There is no notification to a target that it has been embargoed, so it finds out on its Economy page.
 
 !!! tip "Founding an embargo treaty"
-    - **Check the numbers first.** The cost to each member is set by the target's size. A treaty aimed at a big economy will be expensive to belong to, and hard to recruit for. Read the "Economic impact" line in the builder before you found it.
-    - **More members hurt the target more.** Each extra embargoer adds its share of world GDP to the target's loss, while a member's own cost depends only on the size of the countries it embargoes.
-    - **Leaving is free and instant.** A member can leave at any time and its economy recovers immediately, so a treaty only holds together while its members judge the cost worth paying. An open treaty can lose members as quickly as it gains them.
-    - **Don't overlap by accident.** If two of your country's treaties embargo the same country, it is counted once, so the second treaty adds nothing to your bill for that country.
+    - **Check the numbers first.** A treaty aimed at a big economy is expensive to belong to and hard to recruit for.
+    - **More members hurt the target more**, while each member's own cost depends only on the size of the countries it embargoes.
+    - **Leaving is free and instant.** A member's economy recovers immediately, so the treaty only holds while its members judge the cost worth paying.
+    - **Overlaps add nothing.** If two of your treaties embargo the same country, it is counted once.
 
-## Compliance: satisfying every treaty article
+## Compliance
 
-A country **complies** with a treaty when its current laws sit inside the allowed options of every law lock, and it is not the target of any embargo the treaty carries. Compliance is checked whenever a country wants to found, join or accept, and the treaty page shows your country's report as a checklist, one line per treaty article, with what you would have to change.
+A country **complies** with a treaty when its laws sit inside the allowed options of every law lock and it is not the target of any of the treaty's embargoes. Compliance is checked whenever a country wants to found, join or accept, and the treaty page shows a checklist of what you would have to change.
 
 ### Open bills block joining
 
-Compliance looks at your laws **and at your country's open bills**. If any bill that is open for voting, or has closed but not yet been counted, would move a locked law to a forbidden option, the country **cannot found, join or accept** until that bill has been decided or withdrawn. The treaty page names the bill.
+Compliance also looks at your country's **open bills**. If any bill that is open for voting, or has closed but not yet been counted, would move a locked law to a forbidden option, your country **cannot found, join or accept** until that bill is decided or withdrawn. The treaty never freezes the bill; it simply waits.
 
-The treaty never withdraws or freezes the bill: it simply waits. Note that this means any party can delay its country's accession by opening a breaching bill, so watch what your rivals are proposing when you are trying to join.
+That means any party can delay its country's accession by opening a breaching bill, so watch what your rivals are proposing when you are trying to join.
 
-## Joining
+## Joining and invitations
 
-**Open treaty.** The holder presses **Join** on the treaty's page. If your country doesn't qualify, the button is disabled and the reasons are listed.
+On an **open** treaty the holder simply joins if the country complies. On a **closed** one, the treaty's founder sends an **invitation** and the holder accepts it. Either way your country is bound the moment it becomes a member.
 
-**Closed treaty.** The treaty's founder sends your country an **invitation**, and the holder accepts it. A closed treaty shows "By invitation only" to countries without one.
-
-A country with a pending invitation to an open treaty doesn't see a **Join** button: it answers the invitation with **Accept** or **Decline** instead.
-
-Whichever way you join, your country is bound the moment it becomes a member, and the treaty's locks start to apply at once.
-
-## Invitations
-
-The **founder** (see [below](#founder-succession)) can invite any eligible country that is not already a member and has no invitation pending. Invitations work on both open and closed treaties. The founder can add an optional **message** (up to 500 characters).
-
-- **Compliance isn't required to be invited.** The invitee can see exactly which laws it would have to change first.
-- An invitation **expires after 90 game days**. The country is told when it does.
-- The founder can **withdraw** a pending invitation at any time.
-- The invited country's holder can **accept** (only while the country complies) or **decline**, optionally saying why. A decline reason is shown to the inviter. Accepting an invitation that the country can't yet satisfy is refused, and the invitation stays pending, so you can fix your laws and come back before it expires.
-- An invitation also disappears if the treaty is dissolved.
-
-Pending invitations show on the receiving country's page, in a **Treaties** card that everyone can read. Accept and Decline are visible to everyone but usable only by the holder of the treaty power, and greyed out with an explanation for everyone else.
+The founder can invite any eligible non-member, on open or closed treaties, and can withdraw the invitation at any time. **Compliance isn't required to be invited**, and the invitee can see which laws it would have to change first. An invitation **expires after 90 game days**, or sooner if the treaty is dissolved. The invited country can accept (only while it complies; a refused accept leaves the invitation pending so you can fix your laws and come back) or decline, optionally with a reason the inviter sees.
 
 ## Leaving
 
-The treaty power holder can **leave any treaty at any time**, with no cost, no cooldown and no approval. Every law the treaty locked is free again immediately, and any embargo it carried stops costing your country at once. The leave button lists which laws will unlock.
+The treaty power holder can **leave any treaty at any time**, with no cost, cooldown or approval. Every locked law is free again immediately and any embargo stops costing you at once. Leaving is no way round the rules: to rejoin, your laws must satisfy the treaty again.
 
-Leaving is not a way round the rules: to rejoin, your laws have to satisfy the treaty again, and while you're a member you cannot open a bill that breaks it.
+## Founder and dissolution
 
-## Founder succession
+The **founder** is the member that sends invitations and alone can dissolve the treaty. If it leaves or is removed, the **longest-standing member** takes over.
 
-The **founder** is the member country that runs the treaty: it sends and withdraws invitations, and it alone can dissolve the treaty. It starts as the country that created the treaty.
-
-If the founder leaves (or is removed for breach, or its country is deleted), the **longest-standing remaining member** becomes the new founder, with every founder right. That country's holder is told. The original founder is kept on the treaty page for history only: if it returns later, it is an ordinary member.
-
-Succession doesn't check who currently holds the new founder's treaty power. If its office is vacant, the founder's acts (inviting, withdrawing, dissolving) wait until the power has a holder again, but the other members can still leave.
-
-## Dissolution
-
-A treaty ends in one of two ways:
-
-- **The founder dissolves it.** The founder's holder can do this at any time. Every member leaves at once, every lock lifts everywhere, every embargo it carried ends, and pending invitations are withdrawn. Every other member's holder is told.
-- **The last member leaves.** With nobody left, the treaty dissolves.
-
-A dissolved treaty isn't deleted: it stays on record, hidden from the default treaty list (use **Show dissolved** to see it), with its former members and how each left. Its name becomes free for a new treaty, which gets a fresh page.
+A treaty ends when **the founder dissolves it** (every member leaves at once, every lock and embargo ends and pending invitations are withdrawn) or when **the last member leaves**. Dissolved treaties stay on record, and the name becomes free for a new one.
 
 ## Breach
 
-Members must **always comply**, and the treaty machinery guarantees it: a locked law can't be moved by an ordinary bill, and a bill that would break a treaty blocks joining in the first place.
-
-The one route around that is a [Supreme Court](supreme-court.md) ruling. If the court orders a law changed to an option that a treaty forbids, the country is **removed from that treaty immediately**. There is no grace period and no "in breach" status. The country's holder and the treaty's founder are both notified, an email goes to the holder, and the press covers it.
-
-A country removed for breach can rejoin as soon as its laws comply again, by the usual route. Removal for breach can pass the founder's role on, or dissolve the treaty, exactly like any other departure.
-
-## Notifications
-
-You'll hear about treaties in the following ways, depending on your role:
-
-- **The treaty power holder** gets a **system message** for the events that concern their country: an invitation received, withdrawn or expired; an invitation they sent being accepted or declined (with the reason); a member leaving; a breach removal; the founder dissolving the treaty; becoming the new founder. An **email** goes out when an invitation arrives and when the country is removed for breach.
-- **The holder also sees a to-do item** on the dashboard for pending invitations, and the International menu is flagged. System messages don't count towards the unread badge, so this item is the one to watch.
-- **Everyone** can see treaty news: the country's press coverage reports treaties being founded, joined, left, dissolved and breached, and each treaty's page lists its members and history.
+Members must always comply, and the machinery guarantees it: an ordinary bill cannot move a locked law. The one route around that is a [Supreme Court](supreme-court.md) ruling. If the court orders a law changed to an option a treaty forbids, the country is **removed from that treaty immediately**, with no grace period. It can rejoin as soon as its laws comply again.
 
 ## Tips
 
 !!! tip "Read the whole checklist before you commit"
-    A treaty binds your country's law-making for as long as you're a member. Before you accept or join, look at every locked law and ask whether your party (and your rivals) will want to move it. Leaving is free, but only whoever holds the treaty power can do it, and that may not be your party.
-
-!!! tip "Watch out for the bill that blocks you"
-    An open bill that breaks a treaty article stops your country founding or joining until it's decided. If you're courting a treaty, tell your coalition partners not to open a conflicting bill.
+    A treaty binds your law-making for as long as you're a member. Look at every locked law and ask whether your party (and your rivals) will want to move it. Leaving is free, but only whoever holds the treaty power can do it, and that may not be your party.
 
 !!! tip "The court can end a membership"
-    A successful [Supreme Court](supreme-court.md) appeal against a locked law removes the country from the treaty the moment it lands, so opponents of a treaty have a way out that no vote can block. If you rely on a membership, remember that the court can undo it.
+    A successful [Supreme Court](supreme-court.md) appeal against a locked law removes the country from the treaty the moment it lands, so opponents of a treaty have a way out that no vote can block.
 
 !!! tip "Own the power, own the treaties"
-    The treaty power is one of the [constitution's](constitution.md) 18 powers. A party that holds it decides the country's foreign commitments, so it is worth bargaining for in [government formation](cabinet.md) and [constitutional changes](constitution.md).
-
-!!! tip "Write your treaty in public"
-    A public draft lets other players in your country improve your terms before the holder commits, and the holder can take it up and edit their own copy without losing the original.
+    A party that holds the treaty power decides the country's foreign commitments, so it is worth bargaining for in [government formation](cabinet.md) and [constitutional changes](constitution.md).
 
 ## Next steps
 
 - [Constitution](constitution.md): the treaty power and how powers are assigned.
 - [Legislation & Voting](legislation.md): the proposals that locked laws restrict.
 - [The Supreme Court](supreme-court.md): court orders, and how they can end a membership.
-- [Communication & Coalitions](communication.md#international-blocs): international blocs, the party-level alliance.

@@ -1,173 +1,136 @@
 # Executive Actions & the Autocracy Score
 
-The [constitution](constitution.md) decides *who holds which powers*. **Executive actions** are what turn those powers into concrete, devastating deeds. The current holder of a gating power can exercise a matching action from a country's **Executive Actions** page — silencing a rival, bending the state to their will — but every autocratic act is a public, permanent record that costs them for years to come.
-
-The catalogue starts small and grows over time. Whatever the action, the design principle is the same: executive power has **no cooldown and no hard cap**. The only check is the governed — through a reputation score and a running vote penalty — and, for a monarch, the security of the throne.
+The [constitution](constitution.md) decides *who holds which powers*. **Executive actions** are what those powers let you do to others: silence a rival party, have a politician arrested. They have **no cooldown and no hard cap**. The only checks are the **autocracy score**, which costs votes at every election, and, for a monarch, the security of the throne.
 
 ## Who can act
 
-Each action is gated by one constitutional power (for example, the "Ban party from public events" action is gated by the **Power to regulate political parties**). Whoever currently holds that power may exercise the action. The holder is resolved *live* through the constitution:
+Each action is gated by one constitutional power, and whoever currently holds that power can use it. Everyone can see the full list of actions, and why one is unavailable to them.
 
-- **Cabinet position** — the current appointee's party acts, exercised by the party's owner.
-- **Elected office** (e.g. a presidency) — the party of the current holder acts. While the office is vacant the power is *unavailable*.
-- **Monarchy** — the reigning monarch acts (see [the Crown's price](#monarchs-and-the-constitutional-crisis) below).
-- **Multi-seat legislature** — *unavailable*: the power is held collectively by the chamber, and there is no way to exercise it individually.
-- **Non-partisan bureaucrats** — *unavailable*: a power handed to the independent civil service is deliberately **disarmed**. Moving a power to bureaucrats through a [constitutional change](constitution.md) is how a country takes a dangerous action off the table.
+| Power held by | Who acts |
+| --- | --- |
+| **Cabinet position** | The party of the current appointee. Unavailable while the post is vacant or the appointee has no party. |
+| **Elected office** (e.g. a presidency) | The party of the current holder. Unavailable while the office is vacant. |
+| **Monarchy** | The reigning monarch (see [below](#monarchs-and-the-constitutional-crisis)). Unavailable while the throne is vacant. |
+| **Multi-seat legislature** | Nobody. The chamber holds the power collectively. |
+| **Non-partisan bureaucrats** | Nobody. The power is deliberately disarmed. |
 
-The Executive Actions page shows the whole catalogue to everyone — seeing what the executive *could* do to you is part of the game — but the action button is only enabled for the office holder. Everyone else sees exactly *why* it's unavailable to them.
+Handing a power to bureaucrats through a [constitutional change](constitution.md) is how a country takes a dangerous action off the table.
 
 ## The autocracy score
 
-There is no permission meter to fill or cooldown to wait out. Instead, every autocratic act a party commits is written to a permanent public **ledger**, and the party's **autocracy score** is computed from that ledger. The ledger has three sources: **executive actions** (this page), **[authoritarian laws](#authoritarian-laws)** — voting for a narrow set of laws that attack the mechanisms of accountability — and **[restricting who can vote](#restricting-the-franchise)**. Each act contributes its points, then **decays linearly to nothing over 2 game years**. A party that never acts autocratically sits at exactly **0** forever; a party that rules by force wears the stain until time launders it.
+Every autocratic act a party commits is written to a permanent public **ledger**, and its **autocracy score** is computed from that ledger. Each entry contributes its points, then **decays linearly to nothing over 2 game years**. A party that never acts autocratically sits at **0** forever. The ledger has three sources: executive actions, [authoritarian laws](#authoritarian-laws), and [restricting the franchise](#restricting-the-franchise).
 
-The score drives two visible things:
+The score drives two things:
 
-- **A reputation badge** on the party, running from **Committed to Democracy** (score 0) through **Autocratic Leanings** and **Worryingly Autocratic** to **Terrifyingly Autocratic**. The badge's tooltip carries the live number, the current vote penalty, and roughly when it will fade.
-- **A continuous election penalty.** At every election, voters are less likely to choose an autocratic party — the penalty scales smoothly with the score (there are no threshold cliffs), up to a ceiling of **half** the party's vote preference at the extreme. Every day of good behaviour buys back a sliver of support.
-
-Because the score is computed from the ledger rather than stored, it is always fully explainable: the ledger *is* the receipt.
+- **A reputation badge** on the party: **Committed to Democracy** (0), then **Autocratic Leanings** (from 10), **Worryingly Autocratic** (from 25) and **Terrifyingly Autocratic** (from 50).
+- **An election penalty.** At every election, voters are less likely to choose an autocratic party. The penalty grows smoothly with the score (0.5% of your vote preference per point) up to a ceiling of **half** your vote preference.
 
 !!! warning "You can't wash the stain by refounding"
-    Disbanding a stained party and founding a fresh one doesn't reset the score — records committed by your **disbanded** parties follow you, their current owner, and keep decaying on the same 2-year clock. (A second, *concurrently live* party of yours is unaffected.) This applies equally to points earned from [authoritarian laws](#authoritarian-laws) — it's the same ledger either way.
+    Records committed by your **disbanded** parties follow you, their current owner, and keep decaying on the same 2-year clock. A second, concurrently live party of yours is unaffected.
 
 ## Monarchs and the constitutional crisis
 
-A monarch has no party to stain and no political power to spend, so the autocracy score can't touch them. Their price is the same one a **royal veto** carries: every royal executive action triggers — or, if one is already running, **resets** — a **90-day [Constitutional Crisis](monarchy.md)** on the country. While the crisis is active, the threshold to pass a pure *abolish-the-monarchy* change is **halved** and such a package skips the usual constitutional-change cooldown.
+A monarch has no party to stain, so the score can't touch them. Their price is the same one a royal veto carries: every royal executive action starts a **90-day [Constitutional Crisis](monarchy.md)**, or resets one already running. While it lasts, the threshold to pass a pure *abolish-the-monarchy* change is halved and such a package skips the usual constitutional-change cooldown. A monarch pays no PP.
 
-So the symmetry is deliberate: a party executive spends its own electoral standing; a monarch gambles the security of the throne. Repeat royal actions simply keep the abolition window open.
+## The actions
 
-Every executive action costs the acting party a flat **30 PP** (a monarch pays no PP — the constitutional crisis is their price). What differs between actions is the autocracy weight and the effect.
+Every action costs a party **30 PP**. Each adds its points to the actor's ledger (negative points reduce the score, which never drops below 0, so freeing people can offset past acts but never earns a vote bonus).
 
-## Ban party from public events
+| Action | Power needed | Autocracy points | Effect |
+| --- | --- | --- | --- |
+| **Ban party from public events** | Regulate political parties | +15 | Target can't organise [campaign events](campaigning.md) for **6 months**. |
+| **Lift public events ban** | Regulate political parties | −10 (0 if you free your own party) | Ends a ban at once. |
+| **Order arrest** | Head of the Police | +25 | Target politician detained for **12 months**. |
+| **Issue pardon** | Grant pardons | −10 | Releases an arrested politician. |
 
-The holder of the **Power to regulate political parties** can silence a rival:
+**Ban party from public events.** The target's scheduled events inside the ban window are cancelled at once with **no refund** of money or activist energy, and they can't create, edit, move or copy events until it lapses. A party can't be banned again while already banned.
 
-- It costs **30 PP** and adds **15 autocracy points** to the acting party.
-- The target party is **banned from organising public events for 6 months**. Any of their scheduled [campaign events](campaigning.md) inside the ban window are **cancelled immediately, with no refund** of money or activist energy.
-- While the ban runs, the target **cannot create, edit, move or copy** campaign events at all — their calendar shows the ban and disables those controls. They can still *delete* events to tidy up.
-- There is no stacking: a target already under a ban can't be re-banned until it lapses. When it does lapse, the party can organise again the next day, and the executive can pay the price to ban them afresh.
-- A ban is not always a sentence served in full — whoever holds the gating power can **[lift it early](#lift-public-events-ban)**, including a government that inherits the office from the executive that imposed it.
+**Lift public events ban.** Only a party currently serving a ban can be freed, and anyone holding the power can do it, including a government that inherits the office from whoever imposed the ban. Cancelled events stay cancelled. You can free your own party, but it scores nothing: the −10 is credit for freeing someone else. Re-banning costs 30 PP and 15 points again, so cycling a rival in and out of a ban deepens your record rather than laundering it.
 
-A single ban pushes the acting party to **Autocratic Leanings**; do it repeatedly and you climb toward **Terrifyingly Autocratic**, bleeding votes at every election until the ledger fades.
+### Order arrest
 
-## Lift public events ban
+Any active party politician can be arrested, including colleagues in your own party, with two exceptions: you can't target **yourself**, and a **sitting elected office holder** can't be arrested at all (only voted out). Candidates for an elected office and cabinet ministers are fair game.
 
-The same **Power to regulate political parties** that silences a party can also free one. It costs **30 PP** and, like a pardon, *reduces* the acting party's autocracy score — by **10 points**.
+An arrested politician, for **12 months** or until pardoned:
 
-- Only a party **currently serving a ban** can be freed; the target picker lists them with the date each ban would otherwise have lapsed, and marks your own party if it is among them.
-- The ban ends **immediately**. The freed party can create, edit, move and copy campaign events again the same day, without waiting out the remaining months.
-- **What's gone stays gone.** Events the ban cancelled were deleted, along with the money and activist energy spent on them. Lifting the ban returns the *right to organise*, not the campaign that was destroyed.
-- Nothing stops the executive banning them again afterwards — at the usual price of 30 PP and 15 autocracy points. Since the lift's −10 is smaller than the ban's +15, cycling a rival in and out of a ban *deepens* an autocratic record rather than laundering it.
-- You **can** free your own party — a party that wins the office while serving a predecessor's ban is not condemned to sit the rest of it out — but doing so scores you **nothing**. The −10 is credit for freeing *someone else*; ending a ban on yourself costs the 30 PP and buys a way out, not a democratic record. (The ledger still records it, at 0 points, and the press still reports whose ban you lifted.)
+- **cannot run campaign events**, and events they were due to lead are cancelled with no refund;
+- has their **candidacy ignored**, so their party's votes for that office go elsewhere;
+- **keeps any cabinet seat but cannot use its executive actions**;
+- **cannot post to social media**.
 
-As with a pardon, the score is floored at 0: freeing parties can offset autocratic acts you have already committed, but it never buys a party a vote *bonus*.
-
-## Order arrest
-
-The holder of the **Power to be Head of the Police** can have a named politician detained. It costs **30 PP** and adds **25 autocracy points** — the most autocratic act in the catalogue. Any active party politician can be targeted, including colleagues in your own party — with two exceptions: you can't target **yourself**, and a **sitting elected office holder** (for example, the holder of a presidency) can't be arrested at all — only voted out at the ballot box. A candidate contesting an elected office, and anyone holding a cabinet seat, remains fair game.
-
-An arrested politician is detained for **12 months**, during which they:
-
-- **cannot run campaign events** — and any [campaign events](campaigning.md) they were scheduled to lead are **cancelled immediately, with no refund**;
-- have their **candidacy ignored** — an arrested candidate doesn't count as their party's candidate for any elected office (it stays on file), so their party's votes for that office go elsewhere;
-- **keep any cabinet seat but cannot exercise its executive actions** — the office is held, but frozen, while they are detained;
-- **cannot post to social media.**
-
-The state is shown by an **Arrested** trait on the character. There is no stacking — a detainee can't be re-arrested until they are released. An arrest lapses automatically after 12 months, restoring everything the next game day.
-
-## Issue pardon
-
-The holder of the **Power to grant pardons** can release an arrested politician early. It costs **30 PP** and, uniquely, *reduces* the acting party's autocracy score — by **10 points**, a smaller swing than an arrest's increase, so a pardon can offset autocratic acts but never buy a party a vote *bonus* (the score never drops below 0). A pardon immediately undoes every arrest effect: the freed politician can run events, stand for election, exercise cabinet powers, and post again at once.
+Nobody can be re-arrested while detained. A **pardon** undoes every effect at once.
 
 ## Authoritarian laws
 
-Executive actions aren't the only way to earn autocracy points. Voting for a small, hand-picked set of laws stains your party too — but only laws that fit one specific test.
+Voting for a small, hand-picked set of laws also stains your party.
 
 ### The boundary: does it stop voters removing the government?
 
-The score has never been about being harsh, illiberal, or tough on crime — it fires when a party **uses state power against the people who could remove it from office**. The same test now applies to legislation. A law scores autocracy points only if it dismantles the mechanisms that let voters and rivals hold the government to account: press control, protest bans, mass surveillance, martial law, no citizenship rights, and similar.
-
-Laws that are merely harsh — the **death penalty**, **zero-tolerance policing**, **drug prohibition**, restrictive **dress codes**, and the like — deliberately score **nothing**, however illiberal they read. A party can win a fair election on those positions and govern legitimately; the game already prices them through issues like Individual Liberty and Law and Order. Only laws that remove the *means of losing power* count here.
+The score isn't about being harsh or illiberal. It fires when a party uses state power against the people who could remove it. A law scores only if it dismantles the means of holding a government to account: press control, protest bans, mass surveillance, martial law, no citizenship rights. Laws that are merely harsh, such as the **death penalty**, **zero-tolerance policing**, **drug prohibition** or restrictive **dress codes**, score **nothing**. A party can win a fair election on those positions, and the game already prices them through issues like Individual Liberty and Law and Order.
 
 ### The three tiers
 
-Only a curated set of options across the law catalogue carry points. Everything else — including every other rung of these same laws — scores **0**.
+Only these options carry points. Every other option of the same laws scores 0.
 
-**Tier 1 — dismantles political competition · +20 points**
+**Tier 1, dismantles political competition: +20**
 
-| Law | Option |
-| --- | --- |
-| Media Censorship | Total information control |
-| Media Censorship | Strict censorship |
-| Public Broadcasting | All channels replaced by state propaganda |
-| Right to Protest | Public protest effectively banned |
-| Internet Freedom | State-controlled intranet only |
-| Surveillance Policy | Total surveillance |
-| Automated Surveillance | Mass AI surveillance and social scoring |
-| Police Powers | Martial law |
-| Citizenship Policy | No citizenship rights |
+- Media Censorship: Total information control; Strict censorship
+- Public Broadcasting: All channels replaced by state propaganda
+- Right to Protest: Public protest effectively banned
+- Internet Freedom: State-controlled intranet only
+- Surveillance Policy: Total surveillance
+- Automated Surveillance: Mass AI surveillance and social scoring
+- Police Powers: Martial law
+- Citizenship Policy: No citizenship rights
 
-**Tier 2 — serious erosion · +10 points**
+**Tier 2, serious erosion: +10**
 
-| Law | Option |
-| --- | --- |
-| Right to Protest | Heavily restricted, easy to ban |
-| Internet Freedom | Heavy internet censorship |
-| Surveillance Policy | Mass surveillance |
-| Automated Surveillance | Broad facial recognition & predictive policing |
-| Data Privacy | Citizens must share all personal data with the state |
-| Curfew Policy | Universal curfew |
-| Official Language Policy | Mandatory state-constructed language |
-| Government Transparency | Government business secret by default; leaking a serious crime |
+- Right to Protest: Heavily restricted, easy to ban
+- Internet Freedom: Heavy internet censorship
+- Surveillance Policy: Mass surveillance
+- Automated Surveillance: Broad facial recognition and predictive policing
+- Data Privacy: Citizens must share all personal data with the state
+- Curfew Policy: Universal curfew
+- Official Language Policy: Mandatory state-constructed language
+- Government Transparency: Government business secret by default
 
-**Tier 3 — weakens accountability · +5 points**
+**Tier 3, weakens accountability: +5**
 
-| Law | Option |
-| --- | --- |
-| Identity Cards | Mandatory biometric ID + central register |
-| Press Regulation | Statutory press regulator with powers |
-| Blasphemy Law | Strict blasphemy laws |
-| Police Body Cameras | No cameras; filming the police is a criminal offence |
-| Anti-Corruption Commission | Commission appointed and directed by ministers |
+- Identity Cards: Mandatory biometric ID and central register
+- Press Regulation: Statutory press regulator with powers
+- Blasphemy Law: Strict blasphemy laws
+- Police Body Cameras: No cameras; filming the police is a criminal offence
+- Anti-Corruption Commission: Commission appointed and directed by ministers
+
+Points are charged for **new** erosion only. Moving from an unscored option to Tier 1 costs the full 20, stepping from Tier 2 up to Tier 1 costs the 10-point difference, and moving sideways or loosening costs nothing. The Anti-Corruption Commission starts on its scored option in most countries, but points are only charged to parties that *vote a change through*, never to the inherited position.
 
 ### Restoration credit
 
-Reversing an erosion pays credit back, the same way a [pardon](#issue-pardon) offsets an arrest:
+Reversing an erosion pays credit back:
 
 | Law | Option | Points |
 | --- | --- | --- |
 | Media Censorship | Free press | −5 |
 | Right to Protest | Unrestricted right to assemble | −5 |
-| Government Transparency | Open by default; contracts, meetings and expenses published | −3 |
+| Government Transparency | Open by default | −3 |
 | Anti-Corruption Commission | Independent commission with its own prosecutors | −3 |
 
-The points above are charged for **new** erosion only. Moving a law from an unscored option to a Tier 1 option costs the full 20; stepping it up from a Tier 2 option to a Tier 1 option costs the 10 points of difference; and swapping between two options of the same tier, or loosening a Tier 1 law to Tier 2, costs nothing (and pays nothing back).
-
-One law **starts** on a scored option: most countries begin with their anti-corruption commission appointed and directed by ministers. Starting there costs nobody anything — points are only charged to the parties that *vote a change through*, never to the country's inherited position. The +5 can only be taken by a party that actively rolls the law back from a more independent arrangement.
-
-Restoration credit is only paid when the law is being moved **away from an option that itself carries points** — and never more than that option carried. Moving a *moderate, unscored* law straight to free press pays nothing, and moving it back doesn't cost anything either. That closes off the obvious farm: you can't toggle a law between an ordinary default and a restoration option to rack up free credit, because no erosion ever happened to restore.
+Credit is only paid when the law leaves an option that itself carried points, and never more than that option carried. You can't farm it by toggling a law between an ordinary default and a restoration option.
 
 ### Who pays, and how much
 
-- The **proposing party** pays the **full** points shown above.
-- Every other party that votes **Yes** pays **half** — because voting yes is endorsing the law too, just with less ownership of it.
-- This includes parties with **zero seats**. Their vote carries no weight and changes no outcome, but it's still a public recorded position, and it's stained the same as anyone else's.
-- An **omnibus bill** (multiple articles in one proposal) is capped at **20 points per proposal**, applied before the halving above — so stacking five Tier 1 articles into one bill still costs the proposer 20 points, not 100.
+- The **proposing party** pays the **full** points.
+- Every other party that votes **Yes** pays **half**, including parties with zero seats.
+- An **omnibus bill** is capped at **20 points** before the halving, so five Tier 1 articles in one bill still cost the proposer 20.
 
-Points are only written when a bill **actually passes and changes the law**. A **vetoed** bill, a **failed** bill, or an article that merely **re-affirms** the law a country already has scores nothing — the ledger records what was *done to the country*, not what was merely proposed or wished for.
-
-### The notice before you vote
-
-Any proposal containing a scored article shows a notice before you cast your vote, naming **your own party's** point delta — full if you're proposing it, half otherwise — and the reputation band it would move you to *if the bill passes*. Nothing is hidden until after the fact: you always know the cost of a "Yes" before you commit to it.
+Points are only written when a bill **actually passes and changes the law**. A vetoed bill, a failed bill, or an article that merely re-affirms the current law scores nothing. Any proposal containing a scored article shows your own point cost and the reputation band it would move you to before you vote.
 
 ## Restricting the franchise
 
-The third source feeds from the constitution rather than the law book. Amending who's allowed to vote — by gender, age, employment, income, education or housing — is priced the same way an authoritarian law is: fixed points per option, the **proposing party pays in full and every other yes vote pays half**, and points are only written once the change is actually **applied**. Loosening a restriction you've previously imposed pays some credit back, at a fifth of what the restriction cost, and a swap between incomparable options (such as men-only ↔ women-only suffrage) is always charged at the new option's full price rather than credited. There's no cap on the total, so stacking several restrictions into one package is charged for all of them. See [Suffrage](constitution.md#suffrage) for the full points table, the transition rules and worked examples, and [Suffrage Crisis](elections.md#suffrage-crisis) for what happens when enough people lose the vote at once.
+Amending who may vote, by gender, age, employment, income, education or housing, is priced like an authoritarian law: fixed points per option, the proposing party pays in full, other yes voters pay half, and points are written only once the change is applied. There is no cap, so stacking restrictions in one package charges for all of them. Loosening a restriction pays some credit back. See [Suffrage](constitution.md#suffrage) for the points table and worked examples, and [Suffrage Crisis](elections.md#suffrage-crisis) for what happens when enough people lose the vote at once.
 
 ## Next steps
 
-- [Constitution](constitution.md) — how powers are assigned to offices, and how to move (or disarm) them.
-- [Suffrage](constitution.md#suffrage) — restricting who can vote, and its cost.
-- [Hereditary Monarchy](monarchy.md) — the Crown, the veto, and the constitutional-crisis mechanic.
-- [Campaign Events](campaigning.md) — what a public-events ban shuts down.
-- [Legislation & Voting](legislation.md) — how proposals are drafted, debated and passed.
+- [Constitution](constitution.md): how powers are assigned to offices, and how to move or disarm them.
+- [Hereditary Monarchy](monarchy.md): the Crown, the veto and the constitutional crisis.
+- [Legislation & Voting](legislation.md): how proposals are drafted, debated and passed.

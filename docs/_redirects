@@ -1,0 +1,11 @@
+# Cloudflare Pages redirects for pages removed in the manual rewrite.
+/contributing https://github.com/hankhank10/lawmaker-wiki 301
+/contributing/ https://github.com/hankhank10/lawmaker-wiki 301
+/countries/marianne /countries/ 301
+/countries/marianne/ /countries/ 301
+/countries/columbia /countries/ 301
+/countries/columbia/ /countries/ 301
+/countries/rheinland /countries/ 301
+/countries/rheinland/ /countries/ 301
+/countries/proposals /countries/running-a-country/#proposing-a-new-country 301
+/countries/proposals/ /countries/running-a-country/#proposing-a-new-country 301

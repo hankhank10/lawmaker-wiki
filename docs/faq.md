@@ -1,118 +1,77 @@
 # Frequently Asked Questions
 
-## Getting Started
+Short answers, with links to the full explanation. All the numbers are in the [Quick Reference](reference.md).
+
+## Getting started
 
 ### How many parties can I have?
 
-Each player can control **one party** at a time.
+One active party per account, and one per country. To play in several countries you need a separate account (and email) for each. See [Party Management](gameplay/parties.md#one-party-per-country).
 
-### How much Political Power do I start with?
+### How much Political Power do I start with, and how do I get more?
 
-New parties start with **100 PP**. You regenerate 1 PP per game day (1 real-world hour), up to a maximum of 120 PP.
+You start with **100 PP**, gain **1 PP per game day** (one real hour) up to a cap of **120 PP**, and gain faster by holding cabinet posts, seats or a majority. Spend before you hit the cap. See [Political Power](reference.md#political-power-pp).
 
-### What's the game pace?
+### How often do I need to play?
 
-**1 real-world hour = 1 game day.** You don't need to be online constantly. Checking in once or twice a day to vote and make decisions is sufficient.
+Check in once or twice a day to vote and make decisions. Do something real (a vote, a message) at least every few days: after 3 days of inactivity you get a warning, and after 5 days your party can be disbanded if the country is 70%+ full. Logging in alone doesn't count. See [Disbanding and inactivity](gameplay/parties.md#disbanding-and-inactivity).
 
-### Do I have to agree to the rules?
-
-Yes. Before you can fully participate, you'll be asked to read and agree to the game rules. These cover basic expectations like staying in character, not using real-world names, and being respectful.
-
-### Can I change the site language or theme?
-
-Yes. Open the **Settings** menu (the appearance/language icon in the top navigation, or the Settings entry in the mobile menu) to switch between **Light** and **Dark** appearance, and between **English**, **Svenska**, and **Français**. Swedish and French are being rolled out page by page, so some areas may still show English while translation continues.
-
-## Gameplay
-
-### How do elections work?
-
-Elections happen on a schedule set per legislature. Each elector (AI-driven voter) reviews your party's voting record and decides who to support. Seats are allocated proportionally to vote share. See [Elections & Voters](gameplay/elections.md).
+## Voting and elections
 
 ### Why can't I vote on a proposal?
 
-You need **seats in the relevant legislature** to vote. Parties with 0 seats have no voting weight. Win seats in elections first.
+Votes are weighted by seats, and a party with 0 seats has no vote. Win seats in an [election](gameplay/elections.md) first.
 
-### What's a front person?
+### I voted consistently with my platform. Why did I lose seats?
 
-The activist from your party who publicly sponsors a bill. Their persuasion, authority, and follower count affect how the proposal is perceived. Bills without a front person get a 5% penalty. See [Legislation & Voting](gameplay/legislation.md).
+Electors judge your whole recent record: laws (about 70%) and budgets (about 30%), with recent votes counting most, plus turnout and what every other party did. Rivals' campaign events, scandals and [national moods](gameplay/elections.md#national-moods) also move the result. Commission a [poll](gameplay/elections.md#polling) before election day to see where you stand.
 
-### How do constitutional changes differ from normal proposals?
+### Can I change my vote, or take back a proposal?
 
-Constitutional changes cost **at least 60 PP** per package (30 PP per standard change, 60 PP per major change, vs 30 PP for a bill), require a **supermajority** (typically 66.6% vs simple majority), may need approval from **multiple legislatures**, and have a **cooldown period** after passing. See [Constitution](gameplay/constitution.md).
+You can change a vote any time before the window closes, and every change is logged with its reason. You can withdraw your own proposal, but the 30 PP isn't refunded and votes cast stay on the record. See [Legislation & Voting](gameplay/legislation.md).
 
-### What happens when I'm inactive?
+### How do I get into government?
 
-After 3 days of inactivity, you'll receive a warning email. After 5 days, your party may be auto-disbanded (only if the country is 70%+ full). To stay active, take an action every few days — a vote, a message, a proposal. Just logging in doesn't count.
+Cabinets are formed by a party proposing ministers and winning a vote, and coalitions are the norm. See [Government & Cabinet](gameplay/cabinet.md) and the [Strategy Guide](strategy-guide.md#coalitions-the-heart-of-the-game).
 
-If you hold a hereditary throne, inactivity warnings apply to your reign too. Continued inactivity can force abdication, retire the monarch character, disband the enthroned party, and reopen the throne for nominations.
+### How is a constitutional change different from a normal law?
 
-### How do monarchies work?
+It costs at least 60 PP, needs a **supermajority** in every required chamber, and has a cooldown afterwards. See [Constitution](gameplay/constitution.md).
 
-In countries with a hereditary monarchy, active parties may nominate one activist when the throne is vacant. The winning nominee becomes monarch, and the winning party becomes dormant while it reigns. While reigning, the monarch can pre-register a veto on any open proposal — if the legislatures pass a bill the monarch has vetoed, royal assent is refused and the bill does not become law. The monarch may abdicate later, restoring the party with 0 seats and 0 Political Power. See [Hereditary Monarchy](gameplay/monarchy.md).
+## Money and campaigning
 
-### How do elected offices work?
+### What's the difference between PP and party funds?
 
-An **elected office**, such as a presidency, is a single post held by one person and elected by the voters. Each party can put up one candidate per office (20 PP), and the office goes to the candidate with the most votes; the holder stays fixed until the next election or until the office falls vacant. Impeachment, expulsion, retirement or the holder's party disbanding leaves the office empty until an election fills it. An office can also hold a **veto**: a bill the legislatures pass still fails if the holder's party votes No. See [Elected offices](gameplay/elections.md#elected-offices) and the [elected office veto](gameplay/legislation.md#elected-office-veto).
-
-### Can we restrict who's allowed to vote?
-
-Yes, through a constitutional change. A **Suffrage** clause can restrict the vote by gender, age, employment, income, education or housing; every country starts with universal adult suffrage. It's a major (60 PP) change, and a steep one: the people it excludes turn hard against any party that votes for it, whether or not the package passes, and once applied it charges heavy [autocracy points](gameplay/executive-actions.md#the-autocracy-score) and can trigger a **Suffrage Crisis**. See [Suffrage](gameplay/constitution.md#suffrage).
+**PP** pays for political actions (proposals, recruiting, early elections). **Funds** (dollars) pay for polls and campaign events. You start with no funds and earn them by running fundraising events. See [Campaign Events](gameplay/campaigning.md).
 
 ### What are party modifiers?
 
-Temporary effects that influence your electoral performance — for example **Energised Base** (+20% turnout boost from Supporter Rallies), **Campaign Finance Scandal** (-10% vote preference from random events), and **Defending the Constitution** / **Frivolous Lawsuits** (±3% vote preference for winning or losing a Supreme Court case). See [Campaign Events](gameplay/campaigning.md#party-modifiers) for the full list.
+Temporary boosts and penalties to how voters treat your party (an Energised Base, a scandal, winning or losing a court case). See [Party modifiers](gameplay/campaigning.md#party-modifiers).
 
-## Characters & Activists
+## Characters
 
-### How does recruitment work?
+### How does recruiting work, and what are free agents?
 
-Pay 10 PP and you'll be shown **3 randomly generated candidates**. Review their traits and pick one — they join your party immediately. See [Characters & Activists](gameplay/characters.md).
+Pay 10 PP, see 3 random candidates and pick one. **Free agents** are expelled activists that any party can recruit for the same price. See [Characters & Activists](gameplay/characters.md).
 
-### How many traits do characters have?
+### What's a front person?
 
-Every character is generated with **3-5 traits** covering personality, skills, and background. Some have gameplay effects (like Charismatic boosting persuasion), while others are purely for flavour.
+The activist who sponsors your bill. Their persuasion, authority and followers make it more convincing, and a bill without one loses 5% persuasiveness. See [The front person](gameplay/legislation.md#the-front-person).
 
-### What are free agents?
+## Elsewhere in the game
 
-Characters who have been expelled from a party. Any party can recruit a free agent for the normal 10 PP cost.
+### How do monarchies and elected offices work?
 
-## Communication
+See [Hereditary Monarchy](gameplay/monarchy.md) and [Elected offices](gameplay/elections.md#elected-offices).
 
-### What group chats are available?
+### Can we restrict who's allowed to vote?
 
-Beyond direct messages, you have access to: **Country chat** (all parties), **Government chat** (ruling parties), **Opposition chat** (non-government parties), **Bloc chats** (international bloc members), and **Custom group chats** (player-created).
+Yes, through a costly constitutional change that carries heavy penalties. See [Suffrage](gameplay/constitution.md#suffrage).
 
-### Can I get email notifications?
+### Can I get email notifications, or change the language?
 
-Yes. Gameplay events (new proposals, elections, proposal outcomes, cabinet appointments, voter demands, and more) are bundled into a **Briefing** email sent at most twice a day, and direct messages get their own separate alert. Visit the **Email Preferences** page to switch either on or off.
+Yes: the Email Preferences page has a twice-daily **Briefing** and separate direct-message alerts, and the Settings menu switches between Light/Dark and English, Svenska and Français.
 
-## Political Power
+## Still have questions?
 
-### What's the PP cap?
-
-**120 PP.** Any generation beyond 120 is wasted, so spend PP before hitting the cap.
-
-### How do I earn PP faster?
-
-Hold government positions! Each gives a multiplicative bonus: Head of State (+20%), each cabinet position (+10%), holding legislature seats (+10%), holding a legislature majority (+10%).
-
-### What are all the PP costs?
-
-| Action | Cost |
-|--------|------|
-| Propose law | 30 PP |
-| Recruit character | 10 PP |
-| Commission poll | 10 PP |
-| Call early election | 30 PP (10 PP if the chamber voting on it holds no seats, or the elected office is vacant) |
-| Declare a candidate for an elected office | 20 PP |
-| Expel character | 25 PP |
-| Form government | 30 PP |
-| Constitutional change | from 60 PP |
-| Found international bloc | 50 PP |
-| Apply to bloc | 20 PP |
-
-Monarchy nominations are free, but winning one has major consequences for your party.
-
-## Still Have Questions?
-
-Join our **[Discord community](https://discord.gg/gKAvGTFKzB)** to ask experienced players and get help!
+Join our **[Discord community](https://discord.gg/gKAvGTFKzB)** to ask experienced players.

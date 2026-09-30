@@ -1,128 +1,53 @@
 # Global Decisions
 
-Every so often the whole world is handed the same dilemma at once — an earthquake in a
-far-off land, a viral craze sweeping every classroom, the kind of thing that makes the
-evening news everywhere simultaneously. This page is about **Global Decisions**: world-wide
-events that every country votes on independently, with real consequences for the countries
-that vote themselves into them.
+Every so often the whole world is handed the same dilemma at once: an earthquake in a far-off land, a viral craze sweeping every classroom. A **Global Decision** is a world-wide event that every country votes on independently, with real consequences for the countries that vote themselves into them.
 
 ## What a decision is
 
-A global decision is triggered centrally — you'll see it appear for your country with no
-warning — and it always has exactly **two choices**. Each choice comes with a short list of
-consequences: some are pure flavour ("we'll be seen as a humanitarian leader"), and some are
-programmatic — a real budget effect that shows up on your country's books, a national
-mood your country gains, or a change to one of your country's industries, once the decision
-resolves. Effect-bearing consequences are marked with a chip (**budget impact**,
-**national mood** or **industry**) so you can see at a glance which choice actually does
-something.
-
-One of the two choices is always marked as the **default** — the one that wins automatically
-if your country can't produce a clear winner (see [Abstention and deadlock](#abstention-and-deadlock)
-below).
+A decision appears for your country without warning and always has exactly **two choices**. Each choice lists its consequences. Some are pure flavour ("we'll be seen as a humanitarian leader"); others have a real effect on your country: a budget cost, a national mood or a change to an industry. One choice is marked as the **default**, which wins if your country can't produce a clear winner (see [Abstention and deadlock](#abstention-and-deadlock)).
 
 ## Who votes
 
-Voting follows the game's usual public-politics rules, with one twist: it's **one party, one
-vote**, full stop.
+It is **one party, one vote**. Every active party in the country gets exactly one vote, **not** weighted by seats, so a tiny party with no seats counts as much as the governing party. Disbanded parties, and parties that have been placed on a throne, can't vote; a party founded after the decision opened still can.
 
-- Every active party in a country that received the decision gets exactly one vote — **not**
-  weighted by seats, legislature presence, or anything else. A tiny party with no seats
-  carries exactly as much weight as the governing party.
-- Casting a vote requires a short **public reason** — a few sentences explaining your party's
-  position. It's moderated like any public text, and just like a demand pledge, it's **locked
-  the moment you submit it**: no second thoughts, no quiet editing. Votes and reasons are
-  visible to everyone in real time, so you'll see how the rest of the country — and the rest
-  of the world — is breaking as the window runs.
-- Party eligibility is checked live: a party that's disbanded or been swept onto a throne
-  can't vote, but a **brand-new party founded after the decision was triggered can still vote**
-  while the window is open. The reverse also applies — a country founded *after* the trigger
-  simply doesn't get a row for that decision at all; it'll be in on the next one.
+Casting a vote requires a **public reason** of a few sentences. It is moderated like any public text and, like a demand pledge, **locked the moment you submit it**. Votes and reasons are public in real time, so you can watch how the country is breaking.
 
 ## The voting window
 
-Once triggered, a decision stays open for a period of time (usually but not always **24 game days**) for every country at once, and every country resolves together on the same date — there's no early resolution the way budget votes have. You'll see a live countdown ("closes in *N* days", counting down to "closes in 1 day" on the last votable day) on both the decisions index and the decision's own page.
+A decision stays open for a set period, usually **24 game days**, and every country resolves on the same date. There is no early resolution the way budget votes have.
+
+## Abstention and deadlock
+
+Your country's outcome is decided by a simple count of parties:
+
+- **More yes than no:** yes wins.
+- **More no than yes:** no wins.
+- **Anything else:** the **default choice** wins.
+
+The "anything else" case covers a tie (one party votes yes and one votes no) and the case where **no party votes at all**. Parties that don't vote are abstaining, and abstentions count for neither side, so if nobody votes the default happens. Note that a single vote is enough to beat the default: if only one party in your country votes, its choice wins. If you don't like the default, vote, and persuade the other parties to do the same.
 
 ## Budget effects
 
-Some choices carry a real financial consequence, fixed the moment your country's decision
-resolves:
-
-- The game takes a **fixed percentage of your country's monthly GDP** (as authored in the
-  decision, e.g. 0.5%) and charges (or credits) it **every month for a fixed number of
-  months** (e.g. 6). The amount is calculated once, from your GDP at the moment of
-  resolution, and then frozen — it does **not** rise or fall with your economy afterwards,
-  even if the decision drags on for months.
-- These effects start from the **first day of the following game month** and show up as their
-  own line items on your **Budget page**, in a dedicated "Global decision effects" section —
-  each row shows the label, direction (income or expenditure), the monthly amount, and how
-  many months are left, with a link back to the decision that caused it. They're folded into
-  the country's live budget totals and Sankey chart alongside ordinary tax and spending, and
-  into the monthly treasury flow just like any other income or expense.
-- A country with its economy disabled receives and votes on decisions exactly like anyone
-  else — the budget effect simply never gets created for it, since there's no budget to
-  attach it to.
-- Effects apply regardless of whether your country is under an [IMF programme](economy.md#imf-intervention)
-  — a decision you voted (or defaulted) into still bites even under emergency austerity.
+Some choices cost (or pay) real money. The game takes a **fixed percentage of your monthly GDP** (for example 0.5%) and charges it every month for a fixed number of months (for example 6), starting on the **first day of the following month**. The amount is worked out once from your GDP when the decision resolves and does not change afterwards. It appears as its own income or expenditure line in your budget. It applies even under an [IMF programme](economy.md#imf-intervention), but never to a country with its economy disabled, since there is no budget to charge.
 
 ## National mood effects
 
-Some choices change how your country *feels* rather than what it pays: the winning choice
-grants a **national mood** for a fixed number of days.
-
-- The consequence bullet spells out exactly what will happen — which mood, how long it lasts,
-  and (if there's one) the delay: "National mood: Six Seven Obsession for 67 days, starting
-  7 days after the decision".
-- The mood arrives **after the authored delay** (or on resolution day if there's none), and
-  from that moment it behaves exactly like any other temporary national mood — same
-  notification when it lands, same influence on your electorate, same automatic expiry once
-  its days run out.
-- Unlike budget effects, mood effects apply to **every country**, including those with their
-  economy disabled — moods act on voters, not budgets.
-- If your country already has that mood active when the effect lands, nothing changes — the
-  existing mood simply carries on with its original expiry.
+Some choices change how your country *feels*: the winning choice grants a **national mood** for a fixed number of days, sometimes after a delay. The consequence text says which mood, for how long and after what delay. Once it lands it behaves like any other temporary national mood. Mood effects apply to every country, including those with their economy disabled, since moods act on voters, not budgets.
 
 ## Industry effects
 
-Some choices reshape your country's economy itself, in one of two ways:
+Some choices reshape your economy in one of two ways:
 
-- **Establishing an industry** — the winning choice plants (or tops up) a named industry at a
-  stated percentage of your country's industrial base, optionally after a delay: "Industry:
-  Space Industry established at 1% of the industrial base, starting 365 days after the
-  decision". The new industry is added **on top of** your existing base — the total grows —
-  and from that day it grows (or shrinks) like any other industry. If your country already
-  has that industry at or above the stated size, nothing changes: the effect never makes an
-  industry smaller.
-- **Changing an industry's growth** — the winning choice adds a flat modifier, in percentage
-  points, to one industry's growth rate for a fixed period: "Industry: Automotive growth +2
-  percentage points for 12 months". The modifier can be negative ("Oil & Gas growth -5
-  percentage points…"), applies exactly as stated with no randomness around it, and expires
-  on its own when the period ends.
+- **Establishing an industry:** the winning choice plants a named industry at a stated share of your industrial base, sometimes after a delay ("Space Industry established at 1% of the industrial base, starting 365 days after the decision"). It adds to your existing base and then grows like any other industry. It never makes an industry you already have smaller.
+- **Changing an industry's growth:** a flat boost or drag, in percentage points, on one industry's growth for a fixed period ("Automotive growth +2 percentage points for 12 months"). It expires by itself.
 
-Like budget effects, industry effects only apply to countries with their economy enabled.
+Industry effects only apply to countries with their economy enabled.
 
-## Hidden consequences and delayed news
+## Hidden consequences
 
-Not every consequence is on the table when you vote. Some effects are **hidden** — their
-delay is real, but the consequence bullet is kept off the choice cards (and out of the
-launch-day news) until the effect actually comes into force. This turns a decision that would
-otherwise be obvious into a genuine gamble: you weigh the scenario and the visible bullets, but
-the full picture only becomes clear once time has passed.
-
-A hidden effect appears on the decision page **the day it lands** — on that date the whole
-world crosses the same reveal line, because every country resolves a decision on the same game
-date.
-
-A delayed effect can also carry its own **breaking-news announcement**. When such an effect
-finally comes into force, a journalist in every country files a post reporting it — for
-example, months after a grid-hardening vote: *"A generational solar storm has hit the world.
-Those who failed to prepare will see a huge impact on their technology sector."* If your country
-chose to prepare, the storm passes quietly; if it didn't, that post is the moment the bill comes
-due.
+Not every consequence is shown when you vote. Some are **hidden** until they take effect, which turns an obvious choice into a gamble: you weigh the scenario and the visible bullets, but the full picture only becomes clear later. A delayed effect can also come with a breaking-news post in every country when it lands, such as a solar storm that hits the technology sector of anyone who failed to prepare.
 
 ## Next steps
 
-- [Economy](economy.md) — how the budget page and Sankey chart work, and how a decision's
-  budget effect fits into that picture.
-- [Voter Demands & Pledges](demands.md) — the game's other public-reason-required commitment,
-  and the closest existing pattern to a decision vote.
+- [Economy](economy.md): how budgets and industries work, and where a decision's effects fit in.
+- [Voter Demands & Pledges](demands.md): the game's other public-reason commitment.

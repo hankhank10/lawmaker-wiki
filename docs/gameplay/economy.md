@@ -1,261 +1,147 @@
 # Economy
 
-Most countries in Lawmaker have a **modelled economy** that gives the nation a size (total GDP), a prosperity level (GDP per capita), and a growth trajectory built from its **industries**. All figures are in US dollars. You don't manage the economy directly — but your party's **budget votes** shape it and, crucially, shape how voters see you.
+Most countries have a **modelled economy**: a size (total GDP), a prosperity level (GDP per capita) and a growth trajectory built from **industries**. Figures are in US dollars. You don't run the economy directly, but your party's **budget votes** shape it and, more importantly, shape how voters see you.
 
 ## The shape of a country's economy
 
-Every country starts as a **developed economy**, with a starting GDP per capita in the tens of thousands of dollars and some random variation between countries. GDP comes from the country's electors — each contributes according to whether they're employed and which income band (low, medium, high, or elite) they sit in. [Retired](elections.md#retirement) electors don't contribute, so the **Pension Age** law is a direct economic lever alongside its social effects: raise it and more people work and pay in; lower it and more retire out of the workforce. Elite earners are the exception: their income is wealth rather than wages, so it keeps flowing — and keeps being taxed — long after they retire. Temporary [national moods](#national-moods-and-economic-growth) can boost or crash growth on top of the ordinary trajectory described below.
+Every country starts as a developed economy, with a GDP per capita in the tens of thousands of dollars plus some random variation. GDP comes from the country's electors: each contributes according to whether they are employed and which income band (low, medium, high or elite) they sit in. [Retired](elections.md#retirement) electors contribute nothing, so the **Pension Age** law is an economic lever as well as a social one: raise it and more people work and pay in. Elite earners are the exception, because their income is wealth rather than wages. It keeps flowing, and keeps being taxed, after they retire.
 
-Every country's **Economy page** is split into tabs. **Economic Growth** is the live snapshot — GDP per capita, total GDP, unemployment, income inequality, a GDP breakdown by earner band, an international ranking, and growth history. **Debt & Reserves** covers the credit rating, its borrowing (or interest-earning) rate, and reserve/debt history. There's also an **Industries** tab (below), a **Budget** tab for casting your vote, and an **Embargoes** tab that shows what [treaty embargoes](#embargoes) are costing your economy. Browse these in-game; the numbers update on every visit. The separate **International Economy** page is a world-level financial news terminal: a scrolling GDP ticker running through every country's growth, a sector board of the world's best- and worst-performing industries this month, and a live wire of financial news stories — unread stories are marked **New**, and a badge appears on the World menu whenever there's fresh news to read. Further down the same page sits the league table ranking every country in the world; a country under an active [IMF programme](#imf-intervention) shows a **‼️ IMF** badge in its rating column instead of a normal letter grade, so you can spot which economies are under IMF control at a glance.
-
-The **Budget** tab can also carry a **Global decision effects** section — a set of fixed
-income or expenditure rows created when your country votes (or defaults) its way into a
-[global decision's](global-decisions.md#budget-effects) programmatic consequence. Each row
-shows its label, direction, monthly amount, and months remaining, and folds straight into the
-budget totals and Sankey chart alongside ordinary tax and spending. It only appears once your
-country actually has an active effect.
+Temporary [national moods](#national-moods-and-economic-growth), [laws](#laws-that-shape-industries) and [global decisions](global-decisions.md#industry-effects) can speed up or slow down growth on top of the ordinary trajectory.
 
 ## Industries: where growth comes from
 
-A country's growth isn't one flat number — it's built up from **industries**. Every economy is a mix of up to twelve industries: Agriculture & Food, Oil & Gas, Mining & Metals, Technology, Financial Services, Pharmaceuticals, Consumer Goods & Retail, Automotive, Aerospace & Defence, Tourism & Hospitality, Media & Entertainment, and Professional Services. Three of these — Agriculture & Food, Consumer Goods & Retail, and Professional Services — are present in every country; the rest are present or absent depending on the country's mix.
+Growth isn't one flat number. It is built from **industries**: Agriculture & Food, Oil & Gas, Mining & Metals, Technology, Financial Services, Pharmaceuticals, Consumer Goods & Retail, Automotive, Aerospace & Defence, Tourism & Hospitality, Media & Entertainment and Professional Services. Agriculture, Consumer Goods and Professional Services exist in every country; the rest depend on the country's mix. Nascent sectors such as AI Development and Space Industry start at zero everywhere and only appear if a law or global decision establishes them.
 
-Each industry has its own growth story that plays out across the whole world at once — a global technology boom lifts every tech-heavy country simultaneously, while an oil slump hits every petrostate at the same time. Your country's growth each month is the blended result of how every one of its industries is doing, weighted by how much of your economy that industry makes up. A country that's heavily invested in a booming industry outgrows an otherwise similar rival that isn't — visible, explainable growth, rather than a single dice roll.
+Each industry has its own growth story that plays out across the whole world at once: a technology boom lifts every tech-heavy country, an oil slump hits every petrostate. Your monthly growth is the blend of how each of your industries is doing, weighted by its share of your economy. A country heavily invested in a booming industry outgrows an otherwise similar rival that isn't.
 
-### Economic focus
-
-When a country is founded (or proposed), its founder can choose an **economic focus** — a preset economic identity such as *Technology Powerhouse*, *Petrostate*, *Financial Hub*, *Mining Economy*, *Industrial Heartland*, *Agricultural Heartland*, *Tourism Paradise*, *Life Sciences Hub*, or *Cultural Powerhouse* — or leave it as a **Balanced Economy** with no dominant sector. A focus guarantees its chosen industry (or industries) is present and sized to actually dominate the economy — together making up 30–40% of it and outranking every other sector — earning a genuine **specialism** badge rather than just being present; the rest of the country's mix is still generated at random. Choosing a focus doesn't change how tax, budgets, or elections work — it only shapes where your country's growth comes from.
-
-### The Industries tab
-
-Every country's Economy page has an **Industries** tab showing the current mix: each industry's share of the economy, a **Specialism** badge on the country's focus industries, and how each industry is growing this month — globally, and (once there's enough history) for your country specifically. The **International Economy** page carries the same idea up a level, with a world-economy-by-industry treemap, a global industry growth chart, and per-industry rankings (click through from any sector on the page) showing which countries have the largest sectors in each field.
-
-A country's industry mix is set at creation and then only changes by growing or shrinking — a fast-growing specialism becomes an even larger share of the economy over time, reinforcing the country's identity the longer it goes unchanged.
+A country's mix is set at creation and then changes only by growing or shrinking, so a fast-growing specialism takes an ever larger share. At founding, a country can choose an **economic focus** (Technology Powerhouse, Petrostate, Financial Hub and so on) that makes one or two industries dominate, at 30-40% of the economy in total, or stay a **Balanced Economy**. A focus changes only where growth comes from, never how tax, budgets or elections work.
 
 ### Laws that shape industries
 
-A handful of laws are policy *for* an industry, and while they stand they speed that sector up or slow it down every month. Ban new fossil fuel extraction and Oil & Gas shrinks; deregulate the banks and Financial Services races ahead (while the sectors starved of capital — agriculture, automotive, mining — give a little back); accelerate AI and Technology grows faster. Both the **Economic Growth** tab and the **Industries** tab show a **Laws shaping growth** card listing every such law your country currently has in force, the option it sits on, and the annual percentage points it adds to or takes off each industry.
+A handful of laws are policy *for* an industry. While one stands on a non-default option, it speeds that sector up or slows it down every month: banning new fossil fuel extraction shrinks Oil & Gas, deregulating the banks lets Financial Services race ahead (starving agriculture, automotive and mining a little), accelerating AI grows Technology faster. Change the law and the effect changes with it at the next monthly tick. A boost needs a sector to act on, so a law aimed at an industry you don't have does nothing until you have it.
 
-Only laws set *away* from their neutral default appear: a country at the default position on everything gets no boost and no drag, and the card doesn't show. Change the law and the effect changes with it at the next monthly tick — nothing lingers. One caveat: a growth buff needs a sector to act on, so an impact aimed at an industry your country doesn't have (a dedicated AI sector, say) is shown greyed out and does nothing until that industry exists.
-
-### Global events that shape industries
-
-[Global decisions](global-decisions.md#industry-effects) can also move an industry's growth rate, temporarily — a solar storm battering Technology worldwide, a subsidy programme boosting Automotive for a year. Whenever one of these effects is currently active for your country, a matching **Global events shaping growth** card appears alongside the laws card on the **Economic Growth** and **Industries** tabs, naming the decision that caused it (linking through to its detail page), the industry it touches, and the annual percentage points it's currently adding or taking off. Hover an entry to see the date the effect ends.
-
-Like the laws card, this one only shows while at least one effect is live — it disappears again once every active effect has expired — and an effect aimed at an industry your country doesn't have is shown greyed out until that sector exists. These effects stack with the global industry rate and with any standing law impacts above.
+[Global decisions](global-decisions.md#industry-effects) can add temporary boosts or drags in the same way. All of these stack with the world growth rate for the industry.
 
 ## How budgets affect voters
 
-This is the part that matters for your strategy. Voters judge you on **how you vote on budgets** (including proposing your own), not just on laws. Each elector's overall view of your party is roughly:
+This is the part that matters for your strategy. Voters judge you on **how you vote on budgets** (including proposing your own), not just on laws. An elector's overall view of your party is roughly:
 
 | Component | Driven by | Weight |
 | --- | --- | --- |
 | Social policy | Your voting record on laws | ~70% |
 | Financial policy | Your voting record on budgets | ~30% |
 
-Laws still matter more, but budgets are the decisive secondary factor — and the effect decays over time, so recent budget votes weigh most. The exact split is a per-country setting.
+Laws matter more, but budgets are the decisive second factor, and recent votes weigh most because older ones fade.
 
 ### Tax is personal
 
-Every elector sits in an income band. When you vote for a budget, they look at what it does to **their own band's** income tax: cut it and they warm to you, raise it and they cool. **Wealthier voters react far more strongly** to their own tax rate, while lower-income voters care more about the services tax funds. So a budget that slashes elite taxes delights a small group of rich voters and barely registers with everyone else.
-
-Each personal income tax band can be set anywhere from **0% up to a hard cap of 90%** on a proposed budget — you can't balance the books by taxing a band at 100%.
+Every elector sits in an income band and reacts to what a budget does to **their own band's** income tax: cut it and they warm to you, raise it and they cool. **Wealthier voters react far more strongly** to their own rate, while lower-income voters care more about the services tax funds. A budget that slashes elite taxes delights a few rich voters and barely registers with everyone else. Each band's rate can be set from 0% to a hard cap of **90%**.
 
 ### Spending maps onto the issues voters care about
 
-Each spending area connects to a political issue voters already hold opinions on:
+Each spending area speaks to issues voters already hold opinions on:
 
-| Spending area | Issue it speaks to |
+| Spending area | Issues it speaks to |
 | --- | --- |
-| Defence | Military strength |
-| Education | Education & young people |
-| Welfare & healthcare | Welfare state; older people |
-| Police & justice | Law and order |
-| Environment | Environmental protection |
-| Foreign aid | Internationalism |
+| Social Welfare | Welfare State; Support for Young People |
+| Retirement | Support for Older People |
+| Healthcare | Support for Older People; Welfare State |
+| Education | Education Investment; Support for Young People |
+| Housing | Support for Young People; Welfare State |
+| Justice, Police & Internal Security | Law and Order |
+| Defence | Military Strength |
+| Environment & Climate | Environmental Protection |
+| Business Support | Free Market (for) and Worker's Rights (against) |
+| Arts, Culture & Media | Multiculturalism |
+| Foreign Aid | Immigration; Multiculturalism |
+| Infrastructure & Transport | Infrastructure Investment |
 
-Boost a category and you gain the voters who prize that issue; cut it and you lose them — in proportion to how much each voter actually cares (their personal salience), and amplified by any national mood that makes the issue hotter.
+Raise a category and you gain the voters who prize those issues; cut it and you lose them, in proportion to how much each voter cares and amplified by any national mood that makes the issue hotter. Business Support is the odd one out: it pleases free-market voters but puts off those who prioritise workers' rights.
 
 ### Outliers are where the votes are
 
-Your country is compared against similar **peer countries**. Spending that's wildly above or below the **median** peer country becomes a **hot-button issue** — changing it moves lots of opinion. Spending close to the peer norm barely registers. Using the median (rather than the average) means a single outlier peer can't skew the comparison. So your biggest electoral opportunities (and risks) are in the categories where your country is already an outlier.
+Your country is compared with similar **peer countries**. Spending far above or below the peer **median** becomes a **hot-button issue**, and changing it moves a lot of opinion (up to about three times as much as usual). Spending close to the peer norm barely registers. Your biggest electoral opportunities, and risks, are in the categories where your country is already an outlier.
 
 !!! tip "Make your laws and budget tell the same story"
-    The budget is a precision tool, not a blunt one. A defence-and-order party that boosts military and police spending is doubling down convincingly. A green party that *cuts* environment spending is contradicting its own platform — and voters notice. Because budgets are only ~30% of the picture, a budget move works best when it reinforces a voting record already pointing the same way.
+    A defence-and-order party that boosts military and police spending is doubling down convincingly. A green party that *cuts* environment spending contradicts its own platform, and voters notice. Because budgets are only about 30% of the picture, a budget move works best when it reinforces a voting record already pointing the same way.
 
 ## National moods and economic growth
 
-Three temporary [national moods](elections.md#national-moods) act directly on the economy. Like laws
-and global events, they work **through** your industries rather than around them — each one bends every
-industry's growth rate, and your mix decides how much that hurts:
+Three temporary [national moods](elections.md#national-moods) act on the economy. They work **through** your industries: each bends every industry's growth rate, and your mix decides how much it hurts.
 
-- **Economic Miracle** — doubles every industry's growth rate for its duration (two years).
-- **Recession** — takes **3 percentage points a year** off every industry (one year). A sector booming
-  at 8% limps along at 5%; the ordinary 2%-a-year sectors tip into decline.
-- **Economic Crash** — takes **6 percentage points a year** off every industry (two years): twice as
-  deep as a recession, and twice as long. Almost nothing keeps growing through one.
+| Mood | Effect on every industry | Lasts |
+| --- | --- | --- |
+| Economic Miracle | Growth rate doubled | 2 years |
+| Recession | 3 percentage points a year off (a sector booming at 8% limps at 5%; ordinary 2% sectors decline) | 1 year |
+| Economic Crash | 6 percentage points a year off; almost nothing keeps growing | 2 years |
 
-Because these are modifiers, not a flat national number, a country riding a genuine boom sector rides
-out a downturn far better than one built on stagnant industries — and the [Industries tab](#the-industries-tab)
-shows exactly which of your sectors are still standing. A recession is also attached automatically when
-the [IMF intervenes](#imf-intervention).
-
-These are external events outside player control; they show up as shifts in the nation's economy.
+A country built on booming sectors rides out a downturn far better than one built on stagnant ones. These moods arrive as events outside player control, except that the [IMF](#imf-intervention) attaches a recession automatically.
 
 ## Embargoes
 
-A [treaty](treaties.md#embargoes) can carry an **embargo** treaty article that names one country. Every member of that treaty **embargoes** the named country, the **target**. An embargo costs *both* sides: the target loses output because its embargoers stop trading with it, and each embargoer loses output because it has cut off the target. Nothing else about the economy changes, and if no treaty in your world carries an embargo, none of this applies to you.
+A [treaty](treaties.md#embargoes) can carry an **embargo** article naming one country, the **target**. Every member of the treaty embargoes the target, and the embargo costs **both sides**: the target loses output because its embargoers stop trading with it, and each embargoer loses output because it has cut the target off.
 
-### Who counts as a counterpart
+How much you lose depends on who you are embargoing or embargoed by. A country's embargo loss is **75% of the combined share of world GDP held by its counterparts**, where a counterpart is any country that embargoes it or that it embargoes, counted once however many treaties link you. So:
 
-For any country, its **counterparts** are:
+- The **target loses most**, because its counterparts are many and large.
+- **Embargoing a big economy is expensive; embargoing a small one is cheap.**
+- The loss is capped: a country always keeps at least 25% of the GDP it would otherwise have had.
+- It is an overlay, not a change to your economy, so **nothing compounds** and **leaving a treaty ends the loss at once**, with no recovery period.
 
-- every country that **embargoes it** (the other members of a treaty that names it as the target), and
-- every country **it embargoes** (the targets of the treaties it belongs to).
+!!! example "Example"
+    Country A is 10% of world GDP; B (30%) and C (20%) found a treaty that embargoes it. A's counterparts hold 50% of the world, so A loses 75% x 50% = **37.5%** of its GDP. B and C each have only A (10%) as a counterpart, so they lose 75% x 10% = **7.5%** each.
 
-The relation works both ways, and each counterpart is counted **once**, however many treaties link the pair. If two of your treaties embargo the same country, or you embargo a country that also embargoes you, that country is still a single counterpart.
-
-### The formula
-
-Each counterpart has a **share of world GDP**: its GDP divided by the total GDP of every country with a modelled economy. A country's embargo loss is:
-
-**loss = 75% × (the combined world share of all its counterparts)**
-
-Your GDP is then reduced by that percentage. The **75%** is the point of the rule: an embargo only ever acts on three quarters of your economy, so a country always keeps **at least 25%** of the GDP it would otherwise have had. In practice it keeps more than that, because your counterparts can never add up to the whole world (you are not one of them).
-
-The shares always come from **last month's pre-embargo GDP**, that is, each country's most recent month-end figure before any embargo loss was taken off. Using the pre-embargo figure means the loss depends only on how big the countries are relative to each other, not on how badly an earlier embargo has already shrunk them.
-
-!!! example "Worked example"
-    World GDP is **$100tn**. Country A is $10tn (10% of the world), B is $30tn (30%) and C is $20tn (20%). B and C found a treaty that embargoes A.
-
-    | Country | Counterparts | Combined share | Loss | GDP before | GDP after | Lost |
-    | --- | --- | --- | --- | --- | --- | --- |
-    | A (the target) | B and C | 50% | 75% × 50% = **37.5%** | $10tn | $6.25tn | $3.75tn |
-    | B | A | 10% | 75% × 10% = **7.5%** | $30tn | $27.75tn | $2.25tn |
-    | C | A | 10% | 75% × 10% = **7.5%** | $20tn | $18.5tn | $1.5tn |
-
-    The target pays most because its counterparts are big. The embargoers pay little because the target is small: **embargoing a large economy is expensive, and embargoing a small one is cheap.** If A also founded a treaty embargoing B, B would become one of A's counterparts twice over, but it would still be counted once, so A's loss would stay at 37.5%.
-
-A new country, or one whose economy has just been switched on, has no month-end figure yet. Until it gets one it has no share, so it costs its counterparts nothing (its own loss is still worked out from theirs). A country without a modelled economy has no share either, so embargoing one has no economic effect.
-
-### What an embargo never changes
-
-An embargo is an **overlay on your economy, not a change to it**. It never touches your baseline GDP per capita, your underlying growth rate, or your industry mix. It is recalculated from current treaty membership every time your GDP is worked out, and nothing carries over from one month to the next. That has two consequences:
-
-- **Nothing compounds.** Being embargoed for a year costs the same each month as being embargoed for a month.
-- **Leaving restores the economy at once.** When your country leaves a treaty, or the treaty is dissolved, the loss that treaty caused ends immediately: your next GDP calculation and month-end figure are back to full strength, with no recovery period. Past months keep the figures they had at the time.
-
-Your Economy page reflects a change as soon as it happens, but what is *banked* (and so what your history, budget and rankings use) is the month-end figure.
-
-### The knock-ons
-
-Embargo losses are taken out of GDP, and everything that is worked out from GDP follows:
-
-- **Tax revenue falls.** The budget taxes each earner band's share of GDP, and an embargo shrinks every band by the same proportion. The [budget](#how-budgets-affect-voters) collects less from the same tax rates, starting from the same month-end tick.
-- **Industries shrink in dollar terms.** Each industry's size is its share of a smaller GDP. Your industry mix and every industry's growth rate stay exactly as they were.
-- **Your credit rating can slip.** [Debt-to-GDP](#credit-rating) is the same debt divided by a smaller GDP, so a heavy embargo can push it into a worse band with a higher borrow rate.
-- **Global decision costs follow GDP.** Amounts that a [global decision](global-decisions.md#budget-effects) sets as a percentage of GDP are worked out on the smaller figure.
+Because the loss comes out of GDP, tax revenue falls, industries shrink in dollar terms, and a heavy embargo can push your debt-to-GDP into a worse [credit rating](#credit-rating) band. Amounts that [global decisions](global-decisions.md#budget-effects) set as a share of GDP shrink with it.
 
 ### Where to see it
 
-- **Economic Growth tab.** Once your country has any embargo relation, a **Lost to embargoes** figure appears in the current economy card, showing the amount and what percentage of pre-embargo GDP it is. **Total GDP** there is the figure *after* the loss. The growth chart adds a **Lost to embargoes** band on top of the GDP line, so the top edge of the band traces what your GDP would have been, and the growth history table has a matching **Lost to embargoes** column. Countries with no embargo relations see none of this.
-- **Embargoes tab.** The Economy page's fifth tab shows the total impact (GDP before, lost, and after, and your loss as a share of the possible 75%), then two lists: the countries **embargoing you** and the countries **you embargo**. The tab's headings name your country, and it shows your country's share of world GDP. Each row gives the country's share of world GDP, what it costs you, and links to the treaty (or treaties) responsible. A country that appears in both lists carries a **Mutual** badge and is counted once, so the two lists' costs can add up to more than the total: the impact figure at the top is the one that counts.
-
-!!! tip "Size up the target before you sign"
-    The treaty page shows an **Economic impact** estimate before you join, so you can see what the embargo would cost your country. See [Embargoes](treaties.md#embargoes) in the treaties guide.
+Your Economy page shows what embargoes are costing you, and the treaty page estimates the cost before you join. How an embargo is written, joined and left is covered in [Treaties](treaties.md#embargoes).
 
 ## Credit rating
 
-Every country carries a **credit rating** — a letter grade, shown on the **Debt & Reserves** tab
-and in the **International Economy** league table, that sets how expensive it is for your
-country to borrow. It is driven entirely by one number: **debt as a percentage of GDP**.
+Every country has a **credit rating** that sets how expensive borrowing is. It is driven by one number: **debt as a percentage of GDP**, recalculated every month.
 
 | Rating | Debt-to-GDP | Annual borrow rate |
 | --- | --- | --- |
 | AAA | Under 30% | 2% |
-| AA | 30%–50% | 3% |
-| A | 50%–70% | 4% |
-| BBB | 70%–90% | 6% |
-| BB | 90%–120% | 8% |
-| B | 120%–150% | 12% |
+| AA | 30%-50% | 3% |
+| A | 50%-70% | 4% |
+| BBB | 70%-90% | 6% |
+| BB | 90%-120% | 8% |
+| B | 120%-150% | 12% |
 | CCC | 150% or more | 18% |
 
-The rating is recalculated automatically every month from your current debt-to-GDP ratio — there's
-nothing to vote on directly. A country running a **reserve** (positive balance) rather than debt
-always sits at the best rating and *earns* interest on that reserve instead of paying it.
-
-The borrow rate matters because it applies to your whole outstanding debt, every month: a country
-that lets its rating slide from AA to BB is paying roughly triple the annual interest on the same
-balance, which drags on the budget and makes it harder to ever run a surplus again — a downward
-spiral if left unchecked. Bottoming out at **CCC** triggers the **Economy on the Brink** warning
-covered below; a country under an active **IMF programme** shows a special **‼️ IMF** badge in place of a letter grade, with its own discounted rate.
+A country running a **reserve** instead of debt always has the best rating and *earns* interest instead of paying it. The rate applies to your whole outstanding debt every month, so sliding from AA to BB roughly triples your interest bill, which makes a surplus ever harder to reach. That is a downward spiral if left unchecked.
 
 ## IMF Intervention
 
-A country that lets its debt spiral out of control eventually loses the freedom to run its own books. The status-quo budget bakes in a structural deficit, and as your credit rating falls your borrowing costs climb (up to **18%** a year at the worst rating). Left unchecked, the interest compounds and the debt runs away. When it becomes catastrophic, the **International Monetary Fund steps in** — a rescue, but one with harsh strings attached.
+A country that lets debt run away eventually loses control of its own books. The starting (status-quo) budget bakes in a structural deficit, so unless budgets are passed that fix it, debt climbs and interest compounds.
 
-### The warning: "Economy on the Brink"
+**The warning.** At **150% debt-to-GDP** your rating bottoms out at CCC and an **Economy on the Brink** badge appears. Borrowing is at its most expensive (18% a year) and you are close to losing control. Pass a surplus budget now and you keep it.
 
-Before the IMF gets involved, you get a clear warning. Once your **debt reaches 150% of GDP** your credit rating bottoms out at **CCC**, the worst rating, and an **Economy on the Brink** badge appears on the country. This is the danger zone: borrowing is at its most expensive, and you are one bad stretch away from losing control of the budget. Treat it as your last chance to balance the books on your own terms.
+**The trigger.** When debt reaches **200% of GDP** at a monthly check, the **International Monetary Fund steps in**, immediately:
 
-### What triggers an intervention
+- **An emergency austerity budget is imposed**, with no vote. Every tax band goes to **50%** and every spending category drops to roughly **25% of the peer median**. It runs a large surplus by design.
+- **A one-year recession** takes 3 percentage points off every industry's growth.
+- **Budget policy is locked** (see below).
+- **The responsible parties are branded** (see below).
 
-If debt keeps climbing past the brink, the IMF takes over when:
+**The one upside: cheap debt.** Under the programme your debt costs a fixed **5%** a year, the lowest rate in the game, instead of up to 18%. Together with the austerity surplus, that is what climbs you out of the hole.
 
-- Your **debt reaches 200% of GDP**, and
-- It **hits 200% of GDP in any single month**.
+**Living under the programme.** You can still propose budgets, but they must run **no deficit** and keep **every tax band at 40% or more**. A proposal that breaks either rule is rejected. You can shift priorities and ease taxes slightly, but not undo the discipline.
 
-At 200% debt-to-GDP a country is effectively insolvent, so the IMF steps in immediately.
-
-### What happens when the IMF takes over
-
-The intervention hits immediately and reshapes the whole country:
-
-- **An emergency austerity budget is imposed** — no vote, no say. Every tax band is set to **50%**, and spending in every category is slashed to roughly **25% of what comparable countries spend**. By design this budget runs a large surplus: it exists to pay down the debt fast.
-- **The economy crashes into a recession** lasting **1 year** — 3 percentage points come off every industry's growth while the austerity bites, which is enough to push most economies into outright contraction.
-- **Budget policy is locked** under IMF conditions for as long as the programme runs (see below).
-- **The responsible parties are branded** with a heavy political penalty (see below).
-
-### The one upside: cheap debt
-
-There is a single carrot. While you are under the programme, your debt becomes **cheap**: a fixed **5%** annual borrow rate, instead of the up-to-18% a 200%-debt country would otherwise pay. Combined with the surplus the austerity budget generates, that cheap interest is the engine that climbs you out of the hole. The programme is brutal, but it is survivable — and the discounted rate is what makes the recovery reachable.
-
-### Living under the programme
-
-You don't lose the budget entirely. You can still propose your own budgets while under the IMF — but they must satisfy two conditions to be valid:
-
-| Condition | Rule |
-| --- | --- |
-| **No deficit** | Spending must not exceed the tax take. You may run a surplus, never a deficit. |
-| **Tax floor** | Every tax band must stay at or above **40%** (just below the 50% emergency level, so you can ease off a little — but not gut revenue). |
-
-A proposal that breaks either rule is rejected. This lets you steer spending priorities and soften the tax burden slightly, but it cannot undo the discipline that gets you out.
-
-### The political cost: "Destroyed Economy"
-
-Someone is blamed for the wreck. When the IMF intervenes, a crushing **Destroyed Economy** brand is applied to:
-
-- **Every party in government** at the time, and
-- **Every party that voted for the budgets** that drove the country into insolvency.
-
-The brand cuts the affected parties' vote share roughly **in half** — far harsher than any other party penalty — and it is *sticky*. It lasts the **entire** time the country is under the programme, **plus 2 years after** you exit. Balancing the books does not wash it off; the reckoning outlives the bailout.
-
-!!! warning "Voting for a deficit budget is a recorded act"
-    The IMF reads the ledger. If you voted *for* the budgets that ran the debt up, you wear the **Destroyed Economy** brand even if you're long out of government by the time the IMF arrives. Parties that opposed those budgets are spared.
+**The political cost: "Destroyed Economy".** Someone is blamed. The brand goes to **every party in government** at the time and **every party that voted yes on the budget in force when the IMF arrived**, even if it has long left government. Parties that voted against are spared. The brand cuts a party's vote share roughly **in half**, far harsher than any other penalty, and it lasts for the **whole programme plus 2 years after exit**. Balancing the books does not wash it off.
 
 ### How the programme ends
 
-The programme ends on recovery, not on a timer. The IMF leaves once your **debt falls back to 100% of GDP or below and stays there for 6 consecutive months**.
-
-Crucially, the **recession only lasts 1 year**, while the programme runs until the debt recovers — which usually takes longer. So once the recession lifts, **growth resumes even while you are still under the IMF**, and a growing GDP helps drag your debt-to-GDP ratio back down alongside the austerity surplus. That combination — surplus, cheap 5% debt, and renewed growth — is how a country claws its way back out.
+It ends on recovery, not on a timer: the IMF leaves once your **debt is at or below 100% of GDP for 6 consecutive months**. The recession lasts only a year but the programme usually runs longer, so growth resumes while you are still under the IMF, and a growing GDP helps pull debt-to-GDP down alongside the surplus. Pledges to end the programme are covered in [Voter Demands & Pledges](demands.md).
 
 !!! tip "Avoiding and escaping a bailout"
-    The cheapest crisis is the one you never have. Watch your credit rating: once it slips toward **CCC (150% debt)**, your borrowing costs are punishing and the **Economy on the Brink** warning is telling you the IMF is next. Pass a surplus budget *before* you hit 200% and you keep control on your own terms.
-
-    If the IMF is already in, don't fight the programme — use it. The 5% debt rate is the lowest borrowing cost in the game, so a disciplined balanced (or surplus) budget pays the debt down fast. Hold the line through the 1-year recession, let growth resume, and push debt-to-GDP back to 100% for six straight months to exit. Just remember the **Destroyed Economy** brand follows the culprits for two years past recovery — so the parties that *caused* the crisis carry the electoral cost long after the books are balanced.
+    The cheapest crisis is the one you never have. Once you see Economy on the Brink, pass a surplus budget before you reach 200%. If the IMF is already in, don't fight it: a disciplined balanced or surplus budget at the 5% rate pays debt down fast, so hold the line through the recession and let growth do the rest. Remember the brand follows the parties that caused the crisis for two years past recovery.
 
 ## Next steps
 
-- [Elections & Voters](elections.md) — how voter opinion turns into seats.
-- [Legislation & Voting](legislation.md) — the laws that make up your social-policy record.
-- [Global Decisions](global-decisions.md) — the world-wide votes that can add their own income or expenditure rows to your budget.
-- [International Treaties](treaties.md#embargoes) — how a treaty embargo is written, joined and left.
+- [Elections & Voters](elections.md): how voter opinion turns into seats.
+- [Legislation & Voting](legislation.md): the laws that make up your social-policy record.
+- [Global Decisions](global-decisions.md): world-wide votes that can add income or expenditure rows to your budget.
+- [International Treaties](treaties.md#embargoes): how a treaty embargo is written, joined and left.

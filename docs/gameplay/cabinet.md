@@ -1,52 +1,48 @@
 # Government & Cabinet
 
-The **cabinet** is a country's executive government — the Prime Minister and ministers. After an election, parties form a government by nominating their [activists](characters.md) to these posts. This guide covers how that works.
-
-## What the cabinet is
-
-A cabinet is a set of positions — Prime Minister (or equivalent) plus ministers for finance, foreign affairs, defence, health, and so on. The exact roles and their number **vary by country**; check your country's cabinet template.
+The **cabinet** is a country's executive government: the Prime Minister (or equivalent) and ministers for finance, defence, health and so on. Parties form a government by nominating [activists](characters.md) to these posts. The exact roles vary by country.
 
 !!! info "Cabinet posts are mostly symbolic"
-    Legislative power in Lawmaker comes from **seats and votes**, not cabinet posts. Holding office gives your party prestige and visibility, and boosts the appointed activist's authority and follower growth — but it doesn't grant direct power over laws. (The exception: a [constitution](constitution.md) can assign specific powers to a named cabinet position.) Treat the cabinet as recognition and long-term character development rather than a lever over legislation.
+    Legislative power comes from **seats and votes**, not cabinet posts. Office gives your party prestige, boosts the appointed activist's authority, followers and profile, and raises your [PP generation](../reference.md#political-power-pp). It doesn't grant direct power over laws, with one exception: a [constitution](constitution.md) can assign specific powers (such as [executive actions](executive-actions.md)) to a named cabinet position. It also counts as "being in power" for [voter demands](demands.md#the-power-test-in-detail).
 
-If a cabinet position is the country's **head of government** (a Prime Minister, for example), the party holding it can also call a [Constitutional Convention](constitution.md#constitutional-conventions) for 75 PP: a year of cheaper constitutional change with no cooldown between packages.
+If a cabinet position is the country's **head of government**, its party can also call a [Constitutional Convention](constitution.md#constitutional-conventions) for 75 PP.
 
 ## Forming a government
 
 ```mermaid
 graph TD
-    A[Election] --> B[A party proposes a cabinet]
-    B --> C[All parties vote, 60 days]
-    C --> D{Majority support?}
-    D -->|Yes| E[Government forms, activists appointed]
-    D -->|No| F[Proposal fails, try again]
+    A[A party proposes a cabinet] --> B[All parties vote, 60 days]
+    B --> C{Enough seats, and every nominee's party says yes?}
+    C -->|Yes| D[New government replaces the old one]
+    C -->|No| E[Proposal fails, try again]
 ```
 
-A party proposes a cabinet for **30 PP** — or **10 PP** when every cabinet post is vacant, since there is no sitting government to replace — nominating an activist for every position. All parties then vote (weighted by seats, over a 60-day window), and the cabinet forms if Yes votes reach a **majority of the legislature's total seats** — not just a majority of the seats that voted, so empty or non-voting seats can't hand a minority party control. Nominees can come from **any** party, which is what makes coalition governments possible.
+Any party can propose a cabinet for **30 PP** (**10 PP** when every post is vacant, since there's no sitting government to replace), nominating an activist for every position. Nominees can come from **any** party, which is what makes coalition governments possible. The proposal then goes to a **60-day** vote, weighted by seats. It passes when both conditions hold:
 
-Where the constitution has an [elected office](elections.md#elected-offices) (such as a presidency) appoint the cabinet, only the party holding that office can propose one, and **no cabinet can be formed while the office is vacant**. A formation vote fails as soon as its proposer no longer holds the office — whether it fell vacant mid-vote or changed hands — and it is withdrawn after any election for that office.
+1. **Enough seats vote Yes.** The Yes votes must reach the legislature's approval threshold as a share of *all* its seats (a plain majority unless the constitution says otherwise). Empty or non-voting seats can't hand a minority party control.
+2. **Every party that nominated a minister votes Yes.** A party can't be given a ministry it hasn't agreed to. If any nominee's party votes **No**, the proposal fails at once.
 
-You can build your proposed cabinet as a **draft** first (this is free and stays private to your party) and only pay when you **open it for voting**. The price is set at that moment, so a draft made while the cabinet was empty costs the full 30 PP if a government has formed by the time you open it. Only **one** formation vote can run at a time per country, so a draft never blocks other parties — but opening yours is held until any vote already underway has resolved.
+A passing cabinet **replaces the whole sitting government** and gives each appointee an authority boost. You can prepare a proposal as a private **draft** first, and only pay when you open it for voting. Only one formation vote runs at a time, and a draft never blocks anyone else.
+
+If the constitution has an [elected office](elections.md#elected-offices) (such as a presidency) appoint the cabinet, only the party holding that office can propose one, and it passes once that party and every nominee's party vote Yes. No cabinet can be formed while the office is vacant, and a pending formation is withdrawn after any election for that office.
+
+A sitting cabinet stays in office until a new formation replaces it or posts fall vacant. An election doesn't dissolve it, but it does cancel any formation vote still pending for the legislature, so a party that wants a new government needs to propose again once the result is in.
 
 ## Coalitions
 
-Because proportional representation rarely hands one party a majority, governments are usually **coalitions**, and cabinet positions are the bargaining chips. To build one, you offer posts to partners in rough proportion to the seats they bring, agree on a shared agenda, and coordinate your votes.
+Because proportional representation rarely hands one party a majority, governments are usually **coalitions**, and cabinet posts are the bargaining chips. Offer posts in rough proportion to the seats each partner brings, agree a shared agenda and coordinate your votes.
 
 !!! warning "Be fair, or it fails"
     A party that grabs most of the cabinet without the seats to justify it will simply be voted down. Distribute positions roughly in line with each partner's contribution.
 
-Two less common shapes are worth knowing: a **minority government** (under 50% of seats, surviving on case-by-case opposition support — workable but unstable) and a **grand coalition** (ideologically opposed parties governing together, usually in a crisis).
-
-The detailed tactics of *who* to partner with, when to lead versus join, and how to keep a coalition together live in the [Strategy Guide](../strategy-guide.md).
+Two less common shapes: a **minority government** (under 50% of seats, surviving on case-by-case opposition support: workable but unstable) and a **grand coalition** (ideologically opposed parties governing together, usually in a crisis). Tactics on who to partner with and how to keep a coalition together are in the [Strategy Guide](../strategy-guide.md).
 
 ## Partial and vacant cabinets
 
-A cabinet doesn't only change through a full formation vote — a single position can fall vacant on its own, for example when the [Supreme Court](supreme-court.md) removes a minister from office, the governing party is banned or disbanded, or the Crown fills cabinet posts one at a time. When that happens, the country page shows an **Incomplete Cabinet** notice instead of treating the government as having collapsed.
-
-The ministers still in post remain genuinely in office: they keep their constitutional powers, can still be targeted by [executive actions](executive-actions.md), and their character page still shows their title. Only the empty positions are marked **Vacant**. A country only shows the "no cabinet formed" empty state once *every* position is unfilled — as long as at least one minister remains, the country page and dashboard cabinet card list who's still serving alongside the vacant chairs, until a new formation vote fills the cabinet again.
+A single position can fall vacant on its own: the [Supreme Court](supreme-court.md) removes a minister, the governing party is banned or disbanded, or the Crown fills posts one at a time. The country then has an **incomplete cabinet** rather than a collapsed government. The remaining ministers stay in office with their constitutional powers (and can still be targeted by executive actions); only the empty positions are vacant, until a new formation vote fills them.
 
 ## Next steps
 
-- [Elections & Voters](elections.md) — win the seats that make a government possible.
-- [Characters & Activists](characters.md) — recruit the activists you'll appoint.
-- [Communication](communication.md) — negotiate the coalition deal.
+- [Elections & Voters](elections.md): win the seats that make a government possible.
+- [Characters & Activists](characters.md): recruit the activists you'll appoint.
+- [Communication](communication.md): negotiate the coalition deal.

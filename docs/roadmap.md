@@ -1,90 +1,12 @@
-# Development Roadmap
+# Roadmap
 
-**Key**
-:white_check_mark: Completed
-:map: In progress / planned
+Lawmaker is still growing. This page lists what's planned, not what already exists (the rest of this manual covers that). Plans change, and the best place to hear about new features first is the [Discord server](https://discord.gg/gKAvGTFKzB).
 
-**Character system**
-:white_check_mark: Basic character system with names, traits and ability to recruit/expel activists
-:white_check_mark: Region-relevant names
-:white_check_mark: Characters are chosen as the "front person" for a bill
-:white_check_mark: Appoint characters to positions in cabinet (interacts with **Form Government** system)
-:white_check_mark: Characters have an impact on elections
-:white_check_mark: Free agent recruitment (expelled characters can be recruited by other parties)
+**Coming up**
 
-**Form Government system**
-:white_check_mark: Each country has positions which are not elected directly but are appointed with the consensus of a directly elected legislature
-:white_check_mark: Parties can propose to "form a government" and propose candidates to fill these positions
-:white_check_mark: Governments can "collapse" through losing a vote of no confidence
-:white_check_mark: Parties display "in government" or "opposition" flags
-
-**Constitution & Constitutional Changes**
-:white_check_mark: 18 constitutional powers assigned to legislatures, cabinet positions, monarchies, or bureaucrats
-:white_check_mark: Parties can propose constitutional changes to redistribute powers (60 PP)
-:white_check_mark: Supermajority voting requirements with per-country configurable thresholds
-:white_check_mark: Cooldown period between successful changes
-:white_check_mark: Multi-legislature approval (bicameral countries)
-
-**Campaign Events**
-:white_check_mark: Campaign calendar with one event per day per party
-:white_check_mark: Four objectives: Raise Funds, Influence Proposal, Raise Profile, Get Out The Vote
-:white_check_mark: Supporter Rally with Energised Base modifier (+20% turnout boost)
-:map: Implement effects for remaining event types (Private Dinner, Telethon, Media Interview, Set Piece Speech)
-
-**International Party Blocs**
-:white_check_mark: Parties can found cross-country alliances (50 PP)
-:white_check_mark: Application and membership system
-:white_check_mark: Bloc group chats for cross-country coordination
-
-**Hereditary Monarchy**
-:white_check_mark: Countries can define a hereditary Crown
-:white_check_mark: Parties can nominate activists during vacancy windows
-:white_check_mark: Accession creates a reign, dynasty, regnal name, and Crown social identity
-:white_check_mark: Abdication, inactivity removal, and reign history
-:white_check_mark: Crown can hold constitutional powers
-
-**Achievements**
-:white_check_mark: 9 achievements tracking player milestones (Party Founder, Legislator, Elected, Throne Accession, etc.)
-
-**Social Media**
-:white_check_mark: Country-wide social media feed with automated posts for major events
-:white_check_mark: Journalists report on events via AI-generated commentary
-:white_check_mark: Character follower and authority growth from game activity
-:map: Parties can post to social media directly
-
-**Communication**
-:white_check_mark: Direct messaging between parties
-:white_check_mark: Country, government, opposition, and custom group chats
-:white_check_mark: Bloc group chats
-:white_check_mark: NPC messaging (LawBot, NewsBot, GameMaster, EconBot)
-:white_check_mark: Notification center
-:white_check_mark: Twice-daily email briefing digest, with direct messages alerted separately
-
-**Polling**
-:white_check_mark: Parties spend PP to commission voting-intention polls
-:white_check_mark: Historical poll chart
-:white_check_mark: Demographics and Issue Analysis pages with voter visualisations
-:map: Parties can commission polling on individual measures before they are proposed
-:map: Clearer way to show citizen views and why they vote as a group
-
-**Elected offices**
-:white_check_mark: Elected offices (such as a presidency) are first-class posts: parties put up one candidate each, and the holder is fixed at election
-:white_check_mark: Vacant offices with no successor, and automatic refill elections
-:white_check_mark: Per-office veto over bills, amendable by constitutional change
-:white_check_mark: Impeachment through the Supreme Court removes the holder and bars them from the office
-:map: Parties can propose candidates to be elected to a legislature
-:map: Define impeachment motions with custom rules for each country
-
-**Party Modifiers**
-:white_check_mark: Energised Base (+20% turnout, from Supporter Rallies)
-:white_check_mark: Campaign Finance Scandal (-10% vote preference, random event)
-
-**Quality of Life**
-:white_check_mark: Party logos with colour tint and branding effect on turnout
-:white_check_mark: AI-assisted content generation for party descriptions and proposals
-:white_check_mark: Onboarding task system with rules agreement
-:white_check_mark: Discord webhook integration for country updates
-:white_check_mark: Party inactivity warnings and auto-disbanding
-:white_check_mark: Light/dark theme switcher
-:map: Swedish language support (rolling out page by page)
-:map: French language support (rolling out page by page)
+- Parties can post to the country's social media feed directly.
+- Parties can commission polling on individual measures before they are proposed.
+- A clearer way to see citizens' views and why they vote as they do.
+- Parties can put candidates up for election to a legislature by name.
+- Country-specific impeachment rules.
+- Swedish and French language support, rolling out page by page.
