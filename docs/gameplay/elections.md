@@ -10,7 +10,7 @@ A country's [elected offices](#elected-offices), such as a presidency, are count
 
 ## The electoral system
 
-Seats are allocated with the **D'Hondt method**, as in Spain, Portugal and Poland. It guarantees that a party with over half the vote gets at least half the seats, so a decisive winner is never locked out by rounding. Some legislatures also set a **minimum threshold** (often around 5%) below which a party wins no seats, so check your country's rules.
+Seats are allocated with the **D'Hondt method**, as in Spain, Portugal and Poland. It guarantees that a party with over half the vote gets at least half the seats, so a decisive winner is never locked out by rounding.
 
 ## Understanding electors
 
