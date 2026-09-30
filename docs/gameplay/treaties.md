@@ -119,6 +119,8 @@ A country **cannot be a member of a treaty that embargoes it**. The treaty page 
 
 Joining an embargo treaty is **never blocked because of its cost**: a country may join a treaty that costs it a lot, since the cost is the point. To help you decide, the treaty builder and the treaty page show an **Economic impact** line for your country: *"Joining would cost your country about N% of its GDP."* Members see what the treaty currently costs them. The estimate uses the same formula as the real thing, including any embargoes your country is already part of, but it is labelled **about** because world GDP shares move every month.
 
+The builder and the treaty page also show **Economic impact to others**: for each country the treaty embargoes, roughly how much extra of its GDP the embargoes would cost it, and its total loss from embargoes. Once a treaty is active, its page has an **Impact on embargoed countries** card that anyone can read, showing what this treaty costs each target and, where other treaties also embargo it, what it loses in total. These are estimates only, because shares of world GDP change every month.
+
 Once a country is a member, the loss shows up on its [Economy page](economy.md#where-to-see-it): a **Lost to embargoes** figure on the Growth tab, and the **Embargoes** tab listing every country involved and the treaty responsible. There is no notification to the target that it has been embargoed, so the Economy page is where it finds out.
 
 !!! tip "Founding an embargo treaty"
@@ -142,6 +144,8 @@ The treaty never withdraws or freezes the bill: it simply waits. Note that this 
 **Open treaty.** The holder presses **Join** on the treaty's page. If your country doesn't qualify, the button is disabled and the reasons are listed.
 
 **Closed treaty.** The treaty's founder sends your country an **invitation**, and the holder accepts it. A closed treaty shows "By invitation only" to countries without one.
+
+A country with a pending invitation to an open treaty doesn't see a **Join** button: it answers the invitation with **Accept** or **Decline** instead.
 
 Whichever way you join, your country is bound the moment it becomes a member, and the treaty's locks start to apply at once.
 

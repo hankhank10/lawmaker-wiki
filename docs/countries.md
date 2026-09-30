@@ -24,6 +24,16 @@ Every country uses the same [political issues](laws-and-policies.md#political-is
 
 If you're new, **Avalon** is the safest start — it's the most active and established. Otherwise, look for a country with an engaged community *and* a gap in its political spectrum you could fill. Before committing, check who's already playing, recent elections, and the current laws, then build a party that occupies space no one else does. A unique, well-placed party is far more impactful than a copy of an existing one.
 
+### Finding a country on the countries list
+
+The countries list opens on **All**, which shows every country in a random order that leans towards emptier countries, so newer and quieter ones get a fair chance to be seen. Use the filter cards to narrow it down:
+
+- **Active**: countries where laws and budgets have been proposed most in recent months, busiest first.
+- **New**: the newest countries in the world.
+- **Hidden gems**: countries hand-picked by the game's team as worth a look. A country drops off this filter once it is three-quarters full.
+
+Private countries are left out of these three filters, since you can't join them from the list. Clicking a country's flag takes you to its page.
+
 Each country only has room for so many parties at once (see [Quick Reference](reference.md#party-basics)) — one showing **Country full** won't let you found a new party there until an existing one disbands, so have a second choice in mind.
 
 ## Private countries
