@@ -25,6 +25,7 @@ Every part of the constitution is either **Amendable** or **Entrenched**. Some r
 | Renaming a cabinet position; monarchy name and titles | Standard |
 | Adding or repealing an amendment | Standard |
 | Whether an elected office has a veto | Major |
+| Election method of an elected office | Major |
 | Establishing or abolishing the monarchy | Major |
 | Creating or abolishing a cabinet position | Major |
 | Head of government; who appoints the cabinet | Major |
@@ -71,6 +72,15 @@ Every elected office has a **no-confidence rule**: one active legislature in the
 ### Elected office veto
 
 An elected office can hold a **veto over bills**: while it's held and the veto is on, a bill that clears the legislatures still fails if the holder's party votes No. It's on by default, and turning it on or off for an office is a **major** change. A bill still open is decided under whichever rule is in force on the day it closes. The full rules are in [Legislation](legislation.md#elected-office-veto).
+
+### Election method
+
+Each elected office is decided by one of three methods: **first past the post** (the default, where the most votes wins), **two rounds with the top 2**, or **two rounds with the top 3**. Under either two-round method a candidate with more than half the vote wins outright, and otherwise the leaders can go to a [run-off](elections.md#run-offs) a game day later. Changing an office's method is a **major** change.
+
+- An election already under way **finishes under the old rule**. The new method applies from the next election.
+- Switching to first past the post leaves parties' run-off fallback endorsements on file but inert. They count again if the office returns to two rounds.
+
+Country designers can also set an office's method when creating a country.
 
 ## Article II: the amendment rule
 

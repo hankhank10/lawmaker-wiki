@@ -16,7 +16,7 @@ Every country uses the same [political issues](laws-and-policies.md#political-is
 | Country | Population | Legislature | Government |
 | --- | --- | --- | --- |
 | **[Avalon](countries/avalon.md)** | 65m | Parliament (650 seats) | Westminster-style constitutional monarchy; a Prime Minister heads the government |
-| **Marianne** | 72m | National Assembly (577) and Senate (348) | French-inspired republic; an elected President heads the government and the Assembly appoints the cabinet |
+| **Marianne** | 72m | National Assembly (577) and Senate (348) | French-inspired republic; an elected President, chosen in a two-round vote, heads the government and the Assembly appoints the cabinet |
 | **Columbia** | 360m | Senate (100) and House (435) | American-inspired; an elected President heads the government and appoints the cabinet |
 | **Rheinland** | 88m | Bundestag (650) and Bundesrat (69) | German-inspired federal democracy; a Chancellor heads the government |
 

@@ -120,11 +120,56 @@ Each party can put up **one candidate per office**, chosen from its own activist
 
 - A character can stand for **one office at a time**, and can't stand for a second office while holding one.
 - The candidate must be a non-retired, non-expelled activist of your party who hasn't been [removed from that office by the Supreme Court](supreme-court.md). An [arrested](executive-actions.md#order-arrest) activist can be declared, but their candidacy is ignored at the count while they are under arrest.
-- You can change or withdraw your candidate at any time **except while a count that includes the office is running**. A candidacy stays on file after the election, so a sitting holder stands again by default.
+- You can change or withdraw your candidate at any time **except while the office's election is under way**: from the moment the first round opens until the final result is confirmed, including the gap before a [run-off](#run-offs). A candidacy stays on file after the election, so a sitting holder stands again by default.
+- The game reminds you when an office election is within about **7 real days** (168 game days) and your party has neither a candidate nor an [endorsement](#endorsements) on file. Sitting out is allowed, but then your supporters have no candidate of yours to vote for.
 
-**How it is won.** The candidate with the most votes wins and a tie is settled at random. Votes for a party with no valid candidate aren't wasted: they flow to the candidates in proportion to their parties' vote shares. If nobody has a valid candidate, the office is left **vacant**. The winner takes office when the election is processed, and changing a party's candidate afterwards never changes who holds it.
+**How it is won.** Every office election is decided on its own ballot, which lists the parties running a candidate plus the parties [endorsing](#endorsements) one of them. Each elector splits their vote across that ballot by their own opinions of those parties, exactly as they do when choosing a legislature. A party with no candidate and no endorsement isn't on the ballot, and its supporters don't lose their vote: they choose among whoever is on it. This applies to **every** office, including those decided by most votes.
+
+- **First past the post** (the default): the candidate with the most votes wins, and a tie is settled at random.
+- **Two rounds:** a first-round majority wins, and otherwise the leaders may go to a [run-off](#run-offs).
+
+If nobody has a valid candidate, the office is left **vacant**. The winner takes office when the election is processed, and changing a party's candidate afterwards never changes who holds it.
 
 **Vacancies.** An office falls vacant at once, with no successor, when the holder is removed by an upheld impeachment (and barred from that office for good), is expelled, retires, or loses their party to disbandment, or otherwise stops qualifying. While it is vacant its powers are unavailable, it has no veto, it is nobody's head of government, and a cabinet it appoints can't be re-formed (the sitting cabinet stays). Only an election fills it, and once the office has held an election the game refills it automatically: with at least one valid candidate standing, an [automatic early election](#automatic-early-elections) follows 10 game days later. If you want the seat filled sooner, put a candidate up.
+
+### Endorsements
+
+A party can **endorse another party** for an office instead of running its own candidate. The endorsing party goes on the ballot, and its supporters' votes go **in full** to the endorsed party's candidate, counted with the endorsed party's turnout. Endorsements come in two kinds:
+
+- **A first-round endorsement**, from a party with no valid candidate of its own. It counts from the first round, and again in the run-off if the endorsed party's candidate reaches it.
+- **A fallback**, from a party that also runs a candidate, on a two-round office only. It does nothing in the first round. It counts only in a run-off your own candidate didn't reach, when the party you named did.
+
+The rules:
+
+- Endorsing is **free**, and it is **public**. The endorsed party is told, and it **can't refuse**.
+- Each party has **one endorsement per office**.
+- You can change or withdraw an endorsement for an office **at most once per game day**, so pick with care. Your first endorsement for an office is always allowed.
+- It follows the **party, not the person**: if the endorsed party changes its candidate, your endorsement carries over.
+- It **lapses** for any round where the endorsed party has no candidate. Your supporters' votes then aren't passed on to anyone: they choose among the remaining parties on the ballot.
+- It **never chains**. Votes go to the endorsed party's own candidate only, never on to whoever that party endorses.
+- On a **first-past-the-post** office you either run a candidate or endorse, never both. Declaring a candidate removes your endorsement, and endorsing **withdraws your candidate with no PP refund**.
+
+Endorse when you can't win and would rather choose the winner than leave your supporters to scatter. Check the endorsed party's candidate first, because an endorsement is wasted if they have none.
+
+### Run-offs
+
+An office set to [two rounds](constitution.md#election-method) can go to a **run-off**.
+
+- **Over 50% wins outright.** A first-round candidate with more than half the vote is elected, with no run-off.
+- **A run-off only happens when there are more valid candidates than run-off places.** The constitution sets the places at **2 or 3**. With no more candidates than places, the first round is decided by most votes, because a run-off would repeat an identical ballot.
+- **Otherwise the top 2 or 3 face off 1 game day later** (about an hour of real time). Ties at the cut-off are settled at random.
+- **The run-off is a genuine new vote.** Electors split their vote among the finalists afresh, by their own opinions, and first-round votes aren't carried over. Endorsements and fallbacks that name a finalist count. The most votes wins.
+- **The holder stays until the contest is decided.** A vacant office stays vacant until then. A first round that sends the office to a run-off changes nobody.
+- **A finalist who drops out is not replaced.** If their own party expels them, they retire, or it disbands, the last finalist standing is elected unopposed. If every finalist drops out, there is no winner.
+- **A run-off with no winner vacates the office**, and the sitting holder goes, as in any election nobody wins. That also happens if the run-off can't be held (it is retried a few times) or the office has been deactivated.
+- **If the run-off electorate is too small to vote**, the first-round leader among the finalists still in the race wins.
+
+**Everything is locked** from the moment the first round opens until the final result: candidacies, endorsements and fallbacks. **Candidates can't be [arrested](executive-actions.md#order-arrest)** while it counts on their ballot. During the first round every candidate is protected. Once a run-off is set, only the **finalists** are, until the result is in, and candidates knocked out in the first round can be arrested again. There is no window between the rounds to react, so settle your candidate, endorsement and fallback before the first round.
+
+While an office's election is under way, no [no-confidence or refill call](#no-confidence-and-vacant-office-calls) can be made on it. A call already open that passes, or an upheld impeachment, doesn't add a second election, because the one under way already fills the seat. The impeachment still removes the holder and bars them.
+
+!!! tip "When to name a fallback"
+    Name one if your candidate is a long shot for the run-off. If they miss it, your supporters' votes go to the finalist you'd rather see win, instead of splitting by their own opinions. Skip it if you're happy for your supporters to choose for themselves, and remember it does nothing if the party you name has no candidate.
 
 ### No-confidence and vacant-office calls
 

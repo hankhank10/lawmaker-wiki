@@ -49,7 +49,7 @@ Every action costs a party **30 PP**. Each adds its points to the actor's ledger
 
 ### Order arrest
 
-Any active party politician can be arrested, including colleagues in your own party, with two exceptions: you can't target **yourself**, and a **sitting elected office holder** can't be arrested at all (only voted out). Candidates for an elected office and cabinet ministers are fair game.
+Any active party politician can be arrested, including colleagues in your own party, with two exceptions: you can't target **yourself**, and a **sitting elected office holder** can't be arrested at all (only voted out). Cabinet ministers are fair game, and so are candidates for an elected office, with one exception: while that office's election is under way, its candidates can't be arrested. During the first round that covers every candidate on the ballot. Once a run-off is set it covers only the **finalists**, until the result is in. See [Run-offs](elections.md#run-offs). An arrest made before the election opens still knocks the candidate out.
 
 An arrested politician, for **12 months** or until pardoned:
 

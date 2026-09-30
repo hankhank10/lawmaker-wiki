@@ -35,6 +35,7 @@ Generation is multiplied by the power you hold (modifiers compound):
 | [Form a government](gameplay/cabinet.md) | 30 PP (10 PP when every cabinet post is vacant) |
 | [Call an early election](gameplay/elections.md#early-elections) | 30 PP (10 PP if the chamber voting on the call holds no seats) |
 | [Declare a candidate for an elected office](gameplay/elections.md#candidacies) | 20 PP |
+| [Endorse another party for an elected office](gameplay/elections.md#endorsements) | Free (0 PP) |
 | [Vote of no confidence in an elected office](gameplay/elections.md#no-confidence-and-vacant-office-calls) | 30 PP (10 PP if the office is vacant) |
 | [Change a pillar](gameplay/parties.md#changing-a-pillar) | 75 PP |
 | [Constitutional change](gameplay/constitution.md#what-can-be-amended) | 30 PP per standard change, 60 PP per major change (min 60 PP per package); required follow-on changes are free. Capped at 75 PP per package during a [constitutional convention](gameplay/constitution.md#constitutional-conventions) |
@@ -78,6 +79,8 @@ In **bicameral** countries a proposal must clear its threshold in all required c
 | Inactivity warning email | after 3 days |
 | Auto-disband for inactivity | after 5 days (only if the country is ≥70% full) |
 | Early election held after a successful call | 10 game days later |
+| [Run-off](gameplay/elections.md#run-offs) after an elected-office first round | 1 game day later (about an hour of real time) |
+| Changing or withdrawing an [endorsement](gameplay/elections.md#endorsements) for the same office | at most once per game day (about an hour of real time) |
 | Auto early election (legislature drops below 50% occupancy) | held 10 game days later, no PP cost, no vote |
 | Constitutional-change cooldown | set by Article II of each constitution (0–5 years, 1 by default); suspended during a constitutional convention |
 | [Constitutional Convention](gameplay/constitution.md#constitutional-conventions) mood | 1 year (365 game days); new countries start with one |
