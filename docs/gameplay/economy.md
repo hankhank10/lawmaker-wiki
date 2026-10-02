@@ -54,7 +54,10 @@ Each spending area speaks to issues voters already hold opinions on:
 | Business Support | Free Market (for) and Worker's Rights (against) |
 | Arts, Culture & Media | Multiculturalism |
 | Foreign Aid | Immigration; Multiculturalism |
-| Infrastructure & Transport | Infrastructure Investment |
+| Roads & Highways | Infrastructure Investment |
+| Public Transport & Rail | Infrastructure Investment |
+| Energy Infrastructure | Infrastructure Investment |
+| Ports & Airports | Infrastructure Investment |
 
 Raise a category and you gain the voters who prize those issues; cut it and you lose them, in proportion to how much each voter cares and amplified by any national mood that makes the issue hotter. Business Support is the odd one out: it pleases free-market voters but puts off those who prioritise workers' rights.
 
