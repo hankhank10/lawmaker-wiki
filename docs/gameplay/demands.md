@@ -40,6 +40,16 @@ At the judgment election, each pledger is checked on two questions: do you hold 
 
 The brand is applied **before the judgment election simulates**, so it hurts you in the very election where you are judged and again at the next one. The boost is small and short. The brand is much bigger, lasts far longer, and lands on an election.
 
+### The government answers too
+
+Not pledging is not an escape if you are in the cabinet. When a demand is judged unmet, **every cabinet party that did not pledge** gets **Ignored the Voters**: a **×0.93** multiplier for **12 months**. It is smaller than Broken Promises, so pledging is still the bigger bet, but a government can no longer stay clean by staying silent. Opposition parties are untouched. A party that pledged and is in the cabinet gets Broken Promises instead, never both for the same demand.
+
+Pressure also builds before the election. While any in-delivery demand is still undelivered, every cabinet party carries **Restless Voters**, a mild **×0.98** that lapses shortly after the demand is delivered or judged. It does not stack.
+
+### Penalties compound
+
+Both penalties stack per demand. Each additional demand a party is branded for multiplies its penalty again, down to a floor of **×0.50**. Two broken promises cost ×0.85² (about ×0.72), and three ignored demands ×0.93³ (about ×0.80). Ignoring several demands is far worse than ignoring one. The stack ends when the brand expires, and every new breach pushes that expiry out.
+
 ### The power test, in detail
 
 You hold power at judgment if **any** of these is true at that moment:
@@ -59,10 +69,10 @@ A tax cut or spending rise is delivered by a **passed budget** that reaches the 
 Delivery belongs to the country, not to whoever proposed the budget. If a passing budget hits the target, the demand is delivered for everyone who pledged. Delivery is also sticky: once delivered, always delivered, even if a later budget reverses the change. But budgets need a majority, so you can promise alone yet only deliver together.
 
 !!! warning "The winner's trap"
-    The party most likely to win is the party most tempted to pledge, and the one most exposed. Win power without the votes to pass the budget, and your popularity boost turns into a Broken Promises brand at the worst moment. Only pledge what your likely coalition can actually pass.
+    The party most likely to win is the party most tempted to pledge, and the one most exposed. Win power without the votes to pass the budget, and your popularity boost turns into a Broken Promises brand at the worst moment. Only pledge what your likely coalition can actually pass. If you are in the cabinet you are exposed either way, so the real question is whether to take the boost on the way in.
 
 !!! tip "The opposition's free lunch"
-    If you expect to be in opposition on judgment day, pledging is close to free: you take the boost and you are off the hook. The exception is **end IMF control**, which you keep by being disciplined rather than generous.
+    If you expect to be in opposition on judgment day, pledging is close to free: you take the boost and you are off the hook. The exception is **end IMF control**, which you keep by being disciplined rather than generous. A cabinet party has no such lunch: delivering the demand, or paying for it, is the only way out.
 
 ## Next steps
 

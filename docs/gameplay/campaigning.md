@@ -72,6 +72,8 @@ Events, random incidents and other systems leave temporary **modifiers** on your
 | **Defending the Constitution** | Winning a [Supreme Court](supreme-court.md) case | Voters 3% more likely | 2 months |
 | **Frivolous Lawsuits** | Losing a Supreme Court case | Voters 3% less likely | 2 months |
 | **People's Pledge** / **Broken Promises** | [Voter demands](demands.md) | Voters 5% more / 15% less likely | Until the next election / 2 years |
+| **Ignored the Voters** | [Voter demands](demands.md#the-government-answers-too) | Voters 7% less likely (compounds per demand) | 1 year |
+| **Restless Voters** | [Voter demands](demands.md#the-government-answers-too) | Voters 2% less likely | While a demand is undelivered |
 
 A well-timed Energised Base can offset a lingering scandal, and a Career-Defining speech is a permanent edge.
 
