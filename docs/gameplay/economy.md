@@ -70,7 +70,7 @@ Your country is compared with similar **peer countries**. Spending far above or 
 
 ## Infrastructure
 
-Budgets don't only buy this year's services. Part of what you spend on certain lines is **capital investment**, which builds up a lasting stock of **infrastructure**: the roads, hospitals, schools, barracks and power grid your country actually has. Each asset **wears out** at a set rate, so it needs steady funding just to stay as it is.
+Budgets don't only buy this year's services. Part of what you spend on certain lines is **capital investment**, which builds up a lasting stock of **infrastructure**: the roads, hospitals, schools, barracks and power grid your country actually has. Each asset **depreciates** at a set rate, so it needs steady funding just to stay as it is.
 
 - **Funding that matches the wear holds an asset steady.** Each budget line below sets aside a fixed share as investment (you can't change the share, only the line itself), and each asset loses a fixed fraction of its current level every year.
 - **Cutting a line saves money now and erodes the asset slowly.** The damage builds over years rather than showing up the day the budget passes.
@@ -89,7 +89,7 @@ Budgets don't only buy this year's services. Part of what you spend on certain l
 | Rail network | Public Transport & Rail | 25% | 30 years |
 | Flood defences | Environment & Climate | 10% | 30 years |
 
-The **lifespan** sets how fast an asset wears. As a rule of thumb, with no funding at all a 6-year asset loses about 15% of its level in a year and a 30-year asset about 3%, so military readiness fades quickly while rail and flood defences barely move within a single term. Social Welfare, Retirement, Business Support, Arts, Culture & Media and Foreign Aid build no infrastructure.
+The **lifespan** sets how fast an asset depreciates. As a rule of thumb, with no funding at all a 6-year asset loses about 15% of its level in a year and a 30-year asset about 3%, so military readiness fades quickly while rail and flood defences barely move within a single term. Social Welfare, Retirement, Business Support, Arts, Culture & Media and Foreign Aid build no infrastructure.
 
 **Countries start where their budget put them.** Starting levels reflect the budget a country was running when infrastructure began, so a country that had been starving a line starts with that asset run down, and one that had been funding it generously starts well stocked.
 
