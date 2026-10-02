@@ -68,6 +68,36 @@ Your country is compared with similar **peer countries**. Spending far above or 
 !!! tip "Make your laws and budget tell the same story"
     A defence-and-order party that boosts military and police spending is doubling down convincingly. A green party that *cuts* environment spending contradicts its own platform, and voters notice. Because budgets are only about 30% of the picture, a budget move works best when it reinforces a voting record already pointing the same way.
 
+## Infrastructure
+
+Budgets don't only buy this year's services. Part of what you spend on certain lines is **capital investment**, which builds up a lasting stock of **infrastructure**: the roads, hospitals, schools, barracks and power grid your country actually has. Each asset **wears out** at a set rate, so it needs steady funding just to stay as it is.
+
+- **Funding that matches the wear holds an asset steady.** Each budget line below sets aside a fixed share as investment (you can't change the share, only the line itself), and each asset loses a fixed fraction of its current level every year.
+- **Cutting a line saves money now and erodes the asset slowly.** The damage builds over years rather than showing up the day the budget passes.
+- **Rebuilding is gradual too.** A neglected asset recovers at the same lifespan-driven pace it decays, and a boost builds up the same way.
+
+| Asset | Funded by budget line | Capital share | Lifespan |
+| --- | --- | --- | --- |
+| Military readiness | Defence | 50% | 6 years |
+| Roads | Roads & Highways | 75% | 12 years |
+| Prisons | Justice, Police & Internal Security | 25% | 15 years |
+| Housing stock | Housing | 50% | 15 years |
+| Health estate | Healthcare | 10% | 20 years |
+| Ports & airports | Ports & Airports | 25% | 20 years |
+| Education estate | Education | 25% | 25 years |
+| Energy network | Energy Infrastructure | 50% | 25 years |
+| Rail network | Public Transport & Rail | 25% | 30 years |
+| Flood defences | Environment & Climate | 10% | 30 years |
+
+The **lifespan** sets how fast an asset wears. As a rule of thumb, with no funding at all a 6-year asset loses about 15% of its level in a year and a 30-year asset about 3%, so military readiness fades quickly while rail and flood defences barely move within a single term. Social Welfare, Retirement, Business Support, Arts, Culture & Media and Foreign Aid build no infrastructure.
+
+**Countries start where their budget put them.** Starting levels reflect the budget a country was running when infrastructure began, so a country that had been starving a line starts with that asset run down, and one that had been funding it generously starts well stocked.
+
+**Debt crises run assets down.** An [IMF](#imf-intervention) emergency budget resets every line to a small share of the peer median, so any line you were funding above that is cut hard and the matching asset decays for as long as the programme lasts.
+
+!!! note "Not yet a voting issue"
+    For now, infrastructure does not directly affect voters or economic growth. Voters still react to the budget lines themselves, as described above.
+
 ## National moods and economic growth
 
 Three temporary [national moods](elections.md#national-moods) act on the economy. They work **through** your industries: each bends every industry's growth rate, and your mix decides how much it hurts.
