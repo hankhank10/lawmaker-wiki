@@ -8,6 +8,10 @@ Recruiting shows you **3 randomly generated candidates**, each with a name, age,
 
 The price **climbs with your roster**. While you have fewer than 10 activists, each recruit costs **10 PP**. From 10 activists on, the next recruit costs **one more PP than your roster size**: 11 PP for the 11th activist, 21 PP for the 21st, 31 PP for the 31st. There's no hard cap, but a big roster quickly costs more than a bill, so most successful parties run a small core of strong activists rather than a crowd. Expelling activists lowers the price of the next recruit, but expelling costs PP too.
 
+## Portraits
+
+Every newly recruited activist comes with a portrait that matches their gender. You can re-roll a candidate's portrait as often as you like before you choose them, but **once chosen it is permanent**. Activists who joined before portraits existed can have one picked for them, once and for free, by the party owner.
+
 ## Traits
 
 Every character has **3-5 traits**. Some are pure flavour (Loyal, Ruthless, Idealist, Ambitious, Firebrand…). The rest change how effective the activist is:
