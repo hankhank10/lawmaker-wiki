@@ -20,7 +20,7 @@ For example, **Environment** runs from -1 (growth first) to +1 (environmental pr
 
 ### Changing a pillar
 
-You can replace **one** of your four pillars at any time for **75 PP**. It's deliberately expensive and public: a journalist posts a news story about your shift. Voters who liked the old position may drift away while new ones arrive, so it's usually safest **right after an election**, giving the electorate time to adjust.
+You can replace **one** of your four pillars at any time for **50 PP**. It's deliberately expensive and public: a journalist posts a news story about your shift. Voters who liked the old position may drift away while new ones arrive, so it's usually safest **right after an election**, giving the electorate time to adjust.
 
 ## Party branding
 

@@ -34,7 +34,7 @@ A monarch has no party to stain, so the score can't touch them. Their price is t
 
 ## The actions
 
-Every action costs a party **30 PP**. Each adds its points to the actor's ledger (negative points reduce the score, which never drops below 0, so freeing people can offset past acts but never earns a vote bonus).
+Harmful actions (**ban**, **arrest**) cost a party **40 PP**; their remedies (**lift ban**, **pardon**) cost only **15 PP**, so putting right an abuse is always cheaper than committing it. Each action adds its points to the actor's ledger (negative points reduce the score, which never drops below 0, so freeing people can offset past acts but never earns a vote bonus).
 
 | Action | Power needed | Autocracy points | Effect |
 | --- | --- | --- | --- |
@@ -45,7 +45,7 @@ Every action costs a party **30 PP**. Each adds its points to the actor's ledger
 
 **Ban party from public events.** The target's scheduled events inside the ban window are cancelled at once with **no refund** of money or activist energy, and they can't create, edit, move or copy events until it lapses. A party can't be banned again while already banned.
 
-**Lift public events ban.** Only a party currently serving a ban can be freed, and anyone holding the power can do it, including a government that inherits the office from whoever imposed the ban. Cancelled events stay cancelled. You can free your own party, but it scores nothing: the −10 is credit for freeing someone else. Re-banning costs 30 PP and 15 points again, so cycling a rival in and out of a ban deepens your record rather than laundering it.
+**Lift public events ban.** Only a party currently serving a ban can be freed, and anyone holding the power can do it, including a government that inherits the office from whoever imposed the ban. Cancelled events stay cancelled. You can free your own party, but it scores nothing: the −10 is credit for freeing someone else. Re-banning costs 40 PP and 15 points again, so cycling a rival in and out of a ban deepens your record rather than laundering it.
 
 ### Order arrest
 

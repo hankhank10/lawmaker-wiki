@@ -30,20 +30,21 @@ Generation is multiplied by the power you hold (modifiers compound):
 | --- | --- |
 | [Propose a law](gameplay/legislation.md) | 30 PP |
 | [Propose a budget](gameplay/economy.md#how-budgets-affect-voters) | 30 PP |
-| [Recruit a character](gameplay/characters.md) | 10 PP |
+| [Recruit a character](gameplay/characters.md#recruiting-activists) | 10 PP while you have fewer than 10 activists; from then on, your roster size + 1 (the 11th costs 11 PP, the 21st 21 PP) |
 | [Expel a character](gameplay/characters.md#expelling-and-free-agents) | 25 PP |
-| [Form a government](gameplay/cabinet.md) | 30 PP (10 PP when every cabinet post is vacant) |
+| [Form a government](gameplay/cabinet.md) | 20 PP (10 PP when every cabinet post is vacant) |
 | [Call an early election](gameplay/elections.md#early-elections) | 30 PP (10 PP if the chamber voting on the call holds no seats) |
-| [Declare a candidate for an elected office](gameplay/elections.md#candidacies) | 20 PP |
+| [Declare a candidate for an elected office](gameplay/elections.md#candidacies) | 20 PP to declare or change; free to replace a candidate who can no longer stand |
 | [Endorse another party for an elected office](gameplay/elections.md#endorsements) | Free (0 PP) |
 | [Vote of no confidence in an elected office](gameplay/elections.md#no-confidence-and-vacant-office-calls) | 30 PP (10 PP if the office is vacant) |
-| [Change a pillar](gameplay/parties.md#changing-a-pillar) | 75 PP |
+| [Change a pillar](gameplay/parties.md#changing-a-pillar) | 50 PP |
 | [Constitutional change](gameplay/constitution.md#what-can-be-amended) | 30 PP per standard change, 60 PP per major change (min 60 PP per package); required follow-on changes are free. Capped at 75 PP per package during a [constitutional convention](gameplay/constitution.md#constitutional-conventions) |
 | [Call a constitutional convention](gameplay/constitution.md#constitutional-conventions) | 75 PP (head of government); free for a reigning monarch |
 | [File a Supreme Court appeal](gameplay/supreme-court.md#bringing-a-case) | 60 PP (refunded if no justice can sit, or an impeached office changes party) |
-| [Executive action](gameplay/executive-actions.md) (ban, lift ban, arrest, pardon) | 30 PP each; free for a monarch |
+| [Executive action](gameplay/executive-actions.md): ban a party, order an arrest | 40 PP each; free for a monarch |
+| [Executive action](gameplay/executive-actions.md): lift a ban, issue a pardon | 15 PP each; free for a monarch |
 | [Found an international bloc](gameplay/communication.md#international-blocs) | 50 PP |
-| [Apply to a bloc](gameplay/communication.md#international-blocs) | 20 PP |
+| [Apply to a bloc](gameplay/communication.md#international-blocs) | 20 PP (refunded if the bloc's leaders deny it) |
 
 **Free actions:** voting on proposals (each vote states a public reason), sending messages, browsing, and treaty actions all cost 0 PP. Nominating an activist for a vacant throne is also free (but winning has heavy consequences).
 

@@ -45,7 +45,7 @@ Once your party is live, your dashboard shows your seats, [**Political Power (PP
 - **Check your country's current laws** to understand the status quo before you try to change it.
 - **Introduce yourself** to other parties — coalition-building is how laws get passed, and messaging costs nothing.
 
-You start with **100 PP** and earn more over time. PP is the currency for major actions like proposing a law (30 PP) or recruiting an activist (10 PP); see the [Quick Reference](reference.md) for the full list of costs. Don't spend it all at once — keep a reserve for opportunities.
+You start with **100 PP** and earn more over time. PP is the currency for major actions like proposing a law (30 PP) or recruiting an activist (from 10 PP); see the [Quick Reference](reference.md) for the full list of costs. Don't spend it all at once — keep a reserve for opportunities.
 
 ## A typical week
 

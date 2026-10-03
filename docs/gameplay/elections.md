@@ -116,7 +116,7 @@ An **elected office** is a single post, such as a presidency, held by one person
 
 ### Candidacies
 
-Each party can put up **one candidate per office**, chosen from its own activists, and declaring or changing a candidate costs **20 PP**.
+Each party can put up **one candidate per office**, chosen from its own activists, and declaring or changing a candidate costs **20 PP**. Replacing a candidate who can no longer stand (arrested, expelled, retired or barred by the Supreme Court) is **free**, so a rival can't bleed your PP by removing your candidate.
 
 - A character can stand for **one office at a time**, and can't stand for a second office while holding one.
 - The candidate must be a non-retired, non-expelled activist of your party who hasn't been [removed from that office by the Supreme Court](supreme-court.md). An [arrested](executive-actions.md#order-arrest) activist can be declared, but their candidacy is ignored at the count while they are under arrest.

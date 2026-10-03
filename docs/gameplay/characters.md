@@ -4,7 +4,9 @@
 
 ## Recruiting activists
 
-Recruiting costs **10 PP** and shows you **3 randomly generated candidates**, each with a name, age, backstory and traits. Pick one and they join immediately, or decline and try again (for another 10 PP). There's no cap on roster size, but most successful parties run a small core of strong activists rather than a crowd.
+Recruiting shows you **3 randomly generated candidates**, each with a name, age, backstory and traits. Pick one and they join immediately, or decline and try again (at the current price again).
+
+The price **climbs with your roster**. While you have fewer than 10 activists, each recruit costs **10 PP**. From 10 activists on, the next recruit costs **one more PP than your roster size**: 11 PP for the 11th activist, 21 PP for the 21st, 31 PP for the 31st. There's no hard cap, but a big roster quickly costs more than a bill, so most successful parties run a small core of strong activists rather than a crowd. Expelling activists lowers the price of the next recruit, but expelling costs PP too.
 
 ## Traits
 
@@ -36,7 +38,7 @@ Activists grow with experience: sponsoring a bill raises their followers (a lot 
 
 ## Expelling and free agents
 
-**Expelling** an activist costs **25 PP**. They leave immediately (vacating any cabinet post) and become a **free agent**. Free agents keep their traits, followers and authority, and **any** party can recruit them for the normal 10 PP, including your rivals. Expel sparingly, and watch for strong free agents other parties let go.
+**Expelling** an activist costs **25 PP**. They leave immediately (vacating any cabinet post) and become a **free agent**. Free agents keep their traits, followers and authority, and **any** party can recruit them at the normal [recruiting price](#recruiting-activists), including your rivals. Expel sparingly, and watch for strong free agents other parties let go.
 
 ## Social media and growth
 

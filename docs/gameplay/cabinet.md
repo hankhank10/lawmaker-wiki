@@ -17,7 +17,7 @@ graph TD
     C -->|No| E[Proposal fails, try again]
 ```
 
-Any party can propose a cabinet for **30 PP** (**10 PP** when every post is vacant, since there's no sitting government to replace), nominating an activist for every position. Nominees can come from **any** party, which is what makes coalition governments possible. The proposal then goes to a **60-day** vote, weighted by seats. It passes when both conditions hold:
+Any party can propose a cabinet for **20 PP** (**10 PP** when every post is vacant, since there's no sitting government to replace), nominating an activist for every position. Nominees can come from **any** party, which is what makes coalition governments possible. The proposal then goes to a **60-day** vote, weighted by seats. It passes when both conditions hold:
 
 1. **Enough seats vote Yes.** The Yes votes must reach the legislature's approval threshold as a share of *all* its seats (a plain majority unless the constitution says otherwise). Empty or non-voting seats can't hand a minority party control.
 2. **Every party that nominated a minister votes Yes.** A party can't be given a ministry it hasn't agreed to. If any nominee's party votes **No**, the proposal fails at once.

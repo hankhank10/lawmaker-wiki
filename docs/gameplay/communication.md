@@ -29,7 +29,7 @@ Every vote on a [proposal](legislation.md), budget, early-election call or const
 **International blocs** are cross-country alliances of *parties* with shared political goals. (For agreements between *countries* that lock their laws, see [International Treaties](treaties.md).)
 
 - **Founding** a bloc costs **50 PP**. You set a name, description, logo, **membership criteria** and a **defining pillar** (one of your party's pillars). You become Leader.
-- **Joining** costs **20 PP** to apply (not refunded if rejected), with a short rationale. A leader approves or denies it.
+- **Joining** costs **20 PP** to apply, with a short rationale. A leader approves or denies it, and the 20 PP is **refunded if you're denied**.
 - **Leaders** approve applications, promote other members to leader and manage the logo. Founders can't leave their own bloc and the last leader can't resign.
 - **Expelling** a member is a leader's power, for parties that drop the bloc's defining pillar or act against it at home. You must give a written reason, which the expelled party sees and the press reports. Founding members can't be expelled. An expelled party can apply again at the usual 20 PP.
 

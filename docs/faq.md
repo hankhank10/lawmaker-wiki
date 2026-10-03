@@ -52,7 +52,7 @@ Temporary boosts and penalties to how voters treat your party (an Energised Base
 
 ### How does recruiting work, and what are free agents?
 
-Pay 10 PP, see 3 random candidates and pick one. **Free agents** are expelled activists that any party can recruit for the same price. See [Characters & Activists](gameplay/characters.md).
+Pay PP (10 for a small roster, rising by roster size once you have 10 or more activists), see 3 random candidates and pick one. **Free agents** are expelled activists that any party can recruit for the same price. See [Characters & Activists](gameplay/characters.md).
 
 ### What's a front person?
 
