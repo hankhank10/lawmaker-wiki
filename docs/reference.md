@@ -45,6 +45,7 @@ Generation is multiplied by the power you hold (modifiers compound):
 | [Executive action](gameplay/executive-actions.md): lift a ban, issue a pardon | 15 PP each; free for a monarch |
 | [Found an international bloc](gameplay/communication.md#international-blocs) | 50 PP |
 | [Apply to a bloc](gameplay/communication.md#international-blocs) | 20 PP (refunded if the bloc's leaders deny it) |
+| [Commit to a Major Project](gameplay/major-projects.md) | 50 PP (never refunded) |
 
 **Free actions:** voting on proposals (each vote states a public reason), sending messages, browsing, and treaty actions all cost 0 PP. Nominating an activist for a vacant throne is also free (but winning has heavy consequences).
 
@@ -82,6 +83,9 @@ In **bicameral** countries a proposal must clear its threshold in all required c
 | Early election held after a successful call | 10 game days later |
 | [Run-off](gameplay/elections.md#run-offs) after an elected-office first round | 1 game day later (about an hour of real time) |
 | Changing or withdrawing an [endorsement](gameplay/elections.md#endorsements) for the same office | at most once per game day (about an hour of real time) |
+| [Major Project](gameplay/major-projects.md#who-can-commit) cooldown | 12 game months from the party's last commitment |
+| [Major Project](gameplay/major-projects.md#who-can-commit) minimum party age | 12 game months (or hold power) |
+| [Major Project](gameplay/major-projects.md#which-election) commit window | opens 12 game months before the next election, closes 10 game days before it |
 | Auto early election (legislature drops below 50% occupancy) | held 10 game days later, no PP cost, no vote |
 | Constitutional-change cooldown | set by Article II of each constitution (0–5 years, 1 by default); suspended during a constitutional convention |
 | [Constitutional Convention](gameplay/constitution.md#constitutional-conventions) mood | 1 year (365 game days); new countries start with one |

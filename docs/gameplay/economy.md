@@ -95,6 +95,8 @@ The **lifespan** sets how fast an asset depreciates. As a rule of thumb, with no
 
 **Debt crises run assets down.** An [IMF](#imf-intervention) emergency budget resets every line to a small share of the peer median, so any line you were funding above that is cut hard and the matching asset decays for as long as the programme lasts.
 
+A party can also promise a [Major Project](major-projects.md) before an election. If it wins that election, the country is committed to a multi-year budget line that adds capital investment to the matching asset.
+
 !!! note "Not yet a voting issue"
     For now, infrastructure does not directly affect voters or economic growth. Voters still react to the budget lines themselves, as described above.
 
@@ -165,6 +167,8 @@ A country that lets debt run away eventually loses control of its own books. The
 
 **The political cost: "Destroyed Economy".** Someone is blamed. The brand goes to **every party in government** at the time and **every party that voted yes on the budget in force when the IMF arrived**, even if it has long left government. Parties that voted against are spared. The brand cuts a party's vote share roughly **in half**, far harsher than any other penalty, and it lasts for the **whole programme plus 2 years after exit**. Balancing the books does not wash it off.
 
+Entering a programme also cancels every [Major Project](major-projects.md) in the country, pending or being built.
+
 ### How the programme ends
 
 It ends on recovery, not on a timer: the IMF leaves once your **debt is at or below 100% of GDP for 6 consecutive months**. The recession lasts only a year but the programme usually runs longer, so growth resumes while you are still under the IMF, and a growing GDP helps pull debt-to-GDP down alongside the surplus. Pledges to end the programme are covered in [Voter Demands & Pledges](demands.md).
@@ -176,5 +180,6 @@ It ends on recovery, not on a timer: the IMF leaves once your **debt is at or be
 
 - [Elections & Voters](elections.md): how voter opinion turns into seats.
 - [Legislation & Voting](legislation.md): the laws that make up your social-policy record.
+- [Major Projects](major-projects.md): promises that add their own monthly budget line.
 - [Global Decisions](global-decisions.md): world-wide votes that can add income or expenditure rows to your budget.
 - [International Treaties](treaties.md#embargoes): how a treaty embargo is written, joined and left.

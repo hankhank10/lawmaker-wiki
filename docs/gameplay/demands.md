@@ -76,6 +76,7 @@ Delivery belongs to the country, not to whoever proposed the budget. If a passin
 
 ## Next steps
 
+- [Major Projects](major-projects.md): the other pre-election promise, which costs PP instead of risking a brand and builds itself if you win.
 - [Elections & Voters](elections.md): the elections that open, close and judge every demand.
 - [Economy](economy.md#how-budgets-affect-voters): how budgets deliver demands.
 - [Strategy Guide](../strategy-guide.md): when a promise is worth the risk.
