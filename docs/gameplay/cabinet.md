@@ -5,6 +5,8 @@ The **cabinet** is a country's executive government: the Prime Minister (or equi
 !!! info "Cabinet posts are mostly symbolic"
     Legislative power comes from **seats and votes**, not cabinet posts. Office gives your party prestige, boosts the appointed activist's authority, followers and profile, and raises your [PP generation](../reference.md#political-power-pp). It doesn't grant direct power over laws, with one exception: a [constitution](constitution.md) can assign specific powers (such as [executive actions](executive-actions.md)) to a named cabinet position. It also counts as "being in power" for [voter demands](demands.md#the-power-test-in-detail).
 
+A party is **in government** if it has a minister in the cabinet **or** holds an [elected office](elections.md#elected-offices) such as a presidency. Every other party is in opposition, which decides its badge, its place on the country page and which chat it joins.
+
 If a cabinet position is the country's **head of government**, its party can also call a [Constitutional Convention](constitution.md#constitutional-conventions) for 75 PP.
 
 ## Forming a government
