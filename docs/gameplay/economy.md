@@ -22,6 +22,18 @@ A handful of laws are policy *for* an industry. While one stands on a non-defaul
 
 [Global decisions](global-decisions.md#industry-effects) can add temporary boosts or drags in the same way. All of these stack with the world growth rate for the industry.
 
+## Unemployment
+
+Unemployment is a country-level figure, and it is **stable**: it depends on the country's natural rate and its laws, not on population changes. Every country has a **natural rate** set by its economy. Typical levels are about 4% for a highly advanced economy, 6% for a developed one, 16% for a developing one and 35% for a failed state. Each country sits within roughly 10% (relative) of its tier's level, so a developed country lands between about 5.4% and 6.6%.
+
+Your **laws** push the rate up or down from there. Pro-employer or work-incentive settings lower it (no minimum wage, mandatory work-for-benefits, a dual apprenticeship system); worker-protective or labour-cost-raising ones raise it (a high living wage, unconditional benefits, actively incentivising automation). The summed effect is capped at 2 points below to 6 points above the natural rate, and unemployment never falls below 1%.
+
+Changing the pension age does not change the rate: the same share of working-age people are unemployed, and the number of unemployed people adjusts to the new working-age population.
+
+The rate moves toward its target by at most **half a point a month**, so a law change takes months to show its full effect.
+
+It matters because unemployed people produce no GDP and pay no tax, and under an "employed only" franchise they lose the vote (see [Suffrage](constitution.md#suffrage)). Lower unemployment grows the economy and the tax base; higher unemployment shrinks both.
+
 ## How budgets affect voters
 
 This is the part that matters for your strategy. Voters judge you on **how you vote on budgets** (including proposing your own), not just on laws. An elector's overall view of your party is roughly:

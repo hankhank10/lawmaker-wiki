@@ -106,7 +106,7 @@ Every constitution defines who may vote. By default it's **universal adult suffr
 | Education | All · Secondary and above · Degree and above | 15 · 50 |
 | Housing | All · Homeowners only | 40 |
 
-Age limits are inclusive. "Employed only" never removes the vote from retirees, and who counts as retired follows the country's **Pension Age** law, so raising the pension age can quietly take the vote from older unemployed people. That is an ordinary law change: it costs no extra PP and adds no autocracy points. See [Retirement](elections.md#retirement).
+Age limits are inclusive. "Employed only" never removes the vote from retirees, and who counts as retired follows the country's **Pension Age** law, so a pension-age change moves people across the line between retired and working-age. The unemployment rate itself does not change, but individuals near the margin can gain or lose the vote under an "employed only" franchise: raising the pension age can put some older people back into the pool of the unemployed, while lowering it retires some of the unemployed and restores their vote. That is an ordinary law change: it costs no extra PP and adds no autocracy points. See [Retirement](elections.md#retirement).
 
 The new rules apply from the moment the package is ratified, and the next poll or election uses them. Sitting legislators are never unseated by a franchise change.
 
