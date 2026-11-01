@@ -16,9 +16,10 @@ Beyond DMs there are group chats:
 | **Government Chat** | Parties currently in government |
 | **Opposition Chat** | Parties not in government |
 | **Bloc Chat** | Members of an [international bloc](#international-blocs) |
+| **Treaty Chat** | All parties in every country that belongs to an [international treaty](treaties.md#treaty-chat) |
 | **Custom Group Chats** | Any group of players you create |
 
-Government, opposition and bloc chats update automatically as governments form and fall and as blocs change. You'll also get messages from the game's bots (**LawBot**, **NewsBot**, **GameMaster**, **EconBot**) announcing laws, news, administration and economic updates.
+Government, opposition, bloc and treaty chats update automatically as governments form and fall, as blocs change and as countries join or leave treaties. You'll also get messages from the game's bots (**LawBot**, **NewsBot**, **GameMaster**, **EconBot**) announcing laws, news, administration and economic updates.
 
 ## Vote reasons
 

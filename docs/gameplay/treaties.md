@@ -94,9 +94,9 @@ The **founder** is the member that sends invitations and alone can dissolve the 
 
 A treaty ends when **the founder dissolves it** (every member leaves at once, every lock and embargo ends and pending invitations are withdrawn) or when **the last member leaves**. Dissolved treaties stay on record, and the name becomes free for a new one.
 
-## Discord channel
+## Treaty chat
 
-Every treaty gets its own channel on the official Lawmaker Discord server, created shortly after the treaty is founded. It is **open**: anyone in the server, players or not, can read and post in it, and the server rules apply. Nothing links a channel to your account or country, so don't treat it as a private members' room. **Dissolving a treaty permanently deletes its channel and every message in it**, so copy anything you want to keep first.
+Every treaty has its own [group chat](communication.md#group-chats) for **every party in every member country**, so members can negotiate amendments, invitations and breaches without leaving the game. When a country joins it gains access (but not earlier messages); when it leaves, or the treaty is dissolved, it loses access. Messages sent in a dissolved treaty's chat can no longer be opened.
 
 ## Breach
 
