@@ -101,6 +101,8 @@ A party can call an election before the scheduled date for **30 PP**, or **10 PP
 
 The vote **concludes early** once the outcome is certain: when yes has secured more than 50% of occupied seats, or when yes can no longer reach 50% however the remaining votes fall.
 
+If the scheduled election is held while a call is still being voted on, the call is **withdrawn**: the voters have just spoken, so it can't force a second election on the new seats. The PP spent on it is not refunded.
+
 ### Automatic early elections
 
 The game calls an early election with no vote and no PP cost, held 10 game days later, in two cases:
@@ -180,7 +182,7 @@ A single occupant can't send their own office to the country, so a call on an of
 | Held | Vote of no confidence in the holder | 30 PP | The constitution's threshold, typically 75% of votes cast |
 | Vacant | Call to refill the office | 10 PP | Simple majority |
 
-Abstentions are ignored. If the call passes, the election is held 10 game days after voting ends, and a holder serves until then.
+Abstentions are ignored. If the call passes, the election is held 10 game days after voting ends, and a holder serves until then. As with a [chamber call](#early-elections), a call still being voted on is withdrawn if the office's scheduled election is held first.
 
 ## Next steps
 
