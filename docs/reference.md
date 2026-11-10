@@ -94,6 +94,7 @@ In **bicameral** countries a proposal must clear its threshold in all required c
 | [Suffrage Crisis](gameplay/elections.md#suffrage-crisis) mood | 180 days (resets if the franchise is restricted again; stays active while too few electors are eligible) |
 | Economic Miracle / Crash mood | ~2 years |
 | Hosting World Cup mood | 6 months (180 game days) |
+| Won the World Cup mood | 3 months (90 game days) |
 | [Global decision](gameplay/global-decisions.md) voting window | 24 game days, same for every country |
 
 ## Modifiers and suffrage

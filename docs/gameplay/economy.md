@@ -122,7 +122,14 @@ Three temporary [national moods](elections.md#national-moods) act on the economy
 | Recession | 3 percentage points a year off (a sector booming at 8% limps at 5%; ordinary 2% sectors decline) | 1 year |
 | Economic Crash | 6 percentage points a year off; almost nothing keeps growing | 2 years |
 
-**Hosting World Cup** is good news rather than bad. It lasts 6 months, adds 5 percentage points a year to the Tourism & Hospitality sector only (a 2% sector grows at 7%), and lifts every elector's [satisfaction](elections.md#elector-satisfaction) score. Satisfaction only refreshes at a poll or election, so the cheer helps incumbents only if one falls inside the window. Staff attach it; it can't be chosen when proposing a country.
+Two sporting moods are good news rather than bad. Both lift every elector's [satisfaction](elections.md#elector-satisfaction) score and speed up the Tourism & Hospitality sector only, not the rest of the economy:
+
+| Mood | Tourism & Hospitality growth | Lasts |
+| --- | --- | --- |
+| Hosting World Cup | 5 percentage points a year faster (a 2% sector grows at 7%) | 6 months |
+| Won the World Cup | 3 percentage points a year faster | 3 months |
+
+Winning cheers people up more than hosting does, but the glow fades sooner. Satisfaction only refreshes at a poll or election, so either mood helps incumbents only if one falls inside the window. Staff attach them; neither can be chosen when proposing a country.
 
 A country built on booming sectors rides out a downturn far better than one built on stagnant ones. The downturn moods arrive as events outside player control, except that the [IMF](#imf-intervention) attaches a recession automatically.
 

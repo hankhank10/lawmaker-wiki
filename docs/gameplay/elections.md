@@ -67,7 +67,7 @@ Some moods are **permanent**, set when a country is created:
 | Secular Republic | Secular governance and liberty |
 | Bread and Circuses | Wages, welfare and prices weigh more; culture wars fade |
 
-Others are **event-triggered**: a **Constitutional Crisis** (a monarch vetoes a passed bill; see [Hereditary Monarchy](monarchy.md#constitutional-crisis)), a **Constitutional Convention** (relaxes the rules for constitutional change for a year; see [Constitutional conventions](constitution.md#constitutional-conventions)), a **Suffrage Crisis** (below), an **Economic Miracle / Crash** that bends the growth rate, or **Hosting World Cup**, which cheers up every elector and speeds up tourism (both under [Economy](economy.md#national-moods-and-economic-growth)).
+Others are **event-triggered**: a **Constitutional Crisis** (a monarch vetoes a passed bill; see [Hereditary Monarchy](monarchy.md#constitutional-crisis)), a **Constitutional Convention** (relaxes the rules for constitutional change for a year; see [Constitutional conventions](constitution.md#constitutional-conventions)), a **Suffrage Crisis** (below), an **Economic Miracle / Crash** that bends the growth rate, or **Hosting World Cup / Won the World Cup**, which cheer up every elector and speed up tourism (all under [Economy](economy.md#national-moods-and-economic-growth)).
 
 ### Suffrage Crisis
 
