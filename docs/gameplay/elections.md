@@ -110,7 +110,7 @@ The game calls an early election with no vote and no PP cost, held 10 game days 
 - **A chamber empties below 50% occupancy**, usually after a governing party is disbanded.
 - **An elected office is vacant**, has held an election before, and at least one party has a valid candidate standing for it. An office that has never held an election waits for its first scheduled one.
 
-An [upheld impeachment](supreme-court.md) schedules an election directly.
+An [upheld impeachment](supreme-court.md) schedules an election directly, and so does an upheld Supreme Court appeal asking for [early elections in named legislatures](supreme-court.md#early-elections), which bypasses the chamber's vote on a call.
 
 ## Elected offices
 

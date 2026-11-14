@@ -6,7 +6,7 @@ Some countries recognise a **Supreme Court**, styled *The Supreme Court of that 
 
 The court decides questions of law, not questions of taste. An appeal must be grounded in the constitution or the country's laws: what rule was broken, by whom or by what, and why. *"We oppose this law"* is politics, so take it to the legislature. *"This law is unconstitutional, for reasons a, b and c"* is a case. Appeals that plead no legal grounds should expect to be denied.
 
-There are four things you can claim:
+There are five things you can claim:
 
 | The claim | What you must argue | What happens if the court agrees |
 |---|---|---|
@@ -14,6 +14,7 @@ There are four things you can claim:
 | A cabinet member is acting illegally | Which minister, and what they did | The minister is removed from office |
 | An elected office holder is acting illegally | Which elected office | An impeachment: the office holder is removed at once and barred from that office for good, and an early election is called to fill it |
 | A constitutional amendment is illegal or inconsistent | Which amendment, and why it cannot stand | The amendment is struck from the constitution |
+| Early elections should be called in one or more legislatures | Which legislatures, and what makes their present mandate unlawful or illegitimate | Each legislature you named is called to an election 10 days after the ruling |
 
 Only **amendments** can be struck down. Power allocations, legislatures, cabinet positions and the monarchy are structural constitution content with their own [constitutional change](constitution.md) machinery, and the court does not touch them.
 
@@ -42,6 +43,12 @@ The ruling follows the appellant party onto the campaign trail for **2 months**:
 ### Impeachment
 
 An impeachment is brought against the **party** holding the office, and an upheld ruling falls on whoever that party has in the office on the day, not necessarily the person your case names. The office falls vacant, that person is **barred from that office permanently**, and the office goes to an **early election**, so the country, not the court, picks the successor. They are not barred from anything else: they can still lead a party, sit in a chamber, take a cabinet post or stand for a different elected office.
+
+### Early elections
+
+An ordinary [early-election call](elections.md#early-elections) is put to the chamber's seated parties, and it fails if 50% or more of them oppose it. The court route needs no such vote: if a majority of the justices agree, every legislature you named goes to the polls **10 days after the ruling**, whatever its seated parties think. The price is a **60 PP** filing fee (an ordinary call is 30 PP) and a case that runs 80 days, so it is a tool for a chamber that will not dissolve itself, not a faster way to get an election. Nobody is removed from office, and you can name as many legislatures as you like in one case.
+
+The order only ever brings an election **forward**. A legislature whose election is already due on or before the ordered date keeps its own date, and one whose election is already being counted is left alone, since that count is the election. A legislature that **has held an election since you filed** is also left alone: the case was argued against a mandate the voters have since replaced, and the court will not stack a second election on the first. If none of the legislatures you named needed calling by the time of the ruling, the case is still upheld but nothing changes. Because a case runs for 80 days, check that the election you want to hurry along is not already due, or about to be held anyway, before then.
 
 ## How a case can end without a ruling
 
