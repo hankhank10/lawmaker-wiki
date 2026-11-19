@@ -20,7 +20,7 @@ Generation is multiplied by the power you hold (modifiers compound):
 | Condition | Bonus |
 | --- | --- |
 | Head of State | +20% |
-| Each cabinet position held | +10% |
+| Each cabinet position held (up to 4) | +10% |
 | Holding any multi-seat legislature seats | +10% |
 | Holding a legislature majority | +10% |
 
