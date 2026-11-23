@@ -96,7 +96,9 @@ A treaty ends when **the founder dissolves it** (every member leaves at once, ev
 
 ## Treaty chat
 
-Every treaty has its own [group chat](communication.md#group-chats) for **every party in every member country**, so members can negotiate amendments, invitations and breaches without leaving the game. When a country joins it gains access (but not earlier messages); when it leaves, or the treaty is dissolved, it loses access. Messages sent in a dissolved treaty's chat can no longer be opened.
+Every treaty has its own [group chat](communication.md#group-chats) for **the treaty power holder of each member country**, the party that decides that country's treaty business, so members can negotiate amendments, invitations and breaches without leaving the game. Other parties in a member country are not in it and are never notified by it. If you want a say in what your country does in a treaty, talk to your holder or bargain for the power itself. A monarch who holds the power reads the chat as the Crown.
+
+The seat follows the office. When the power changes hands, the new holder gets the chat and the old one loses it, and a country whose treaty office is vacant has nobody in the chat until it is filled. A new holder, like a newly joined country, can't read earlier messages. When a country leaves, or the treaty is dissolved, it loses access, and messages sent in a dissolved treaty's chat can no longer be opened.
 
 ## Breach
 
