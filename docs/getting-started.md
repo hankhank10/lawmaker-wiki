@@ -43,6 +43,7 @@ Once your party is live, your dashboard shows your seats, [**Political Power (PP
 
 - **Read the open proposals** other parties have put forward, and cast your votes (Yes / No / Abstain). Voting is free and every vote joins your permanent record.
 - **Check your country's current laws** to understand the status quo before you try to change it.
+- **Propose legislation, even with no seats.** You don't need a single seat to put a law forward. A proposal costs 30 PP, and with no seats it won't pass on your own votes, but that isn't the point. Electors judge parties on their [record](gameplay/elections.md#how-an-elector-decides), and a party with no record is unknown to them and wins none of the undecided vote. A proposal puts your position on record from day one, and it is the clearest way to show voters what you stand for before you have any power. Pick the laws that match your four pillars. See [Legislation & Voting](gameplay/legislation.md#proposing-a-law).
 - **Introduce yourself** to other parties — coalition-building is how laws get passed, and messaging costs nothing.
 
 You start with **100 PP** and earn more over time. PP is the currency for major actions like proposing a law (30 PP) or recruiting an activist (from 10 PP); see the [Quick Reference](reference.md) for the full list of costs. Don't spend it all at once — keep a reserve for opportunities.
@@ -50,15 +51,15 @@ You start with **100 PP** and earn more over time. PP is the currency for major 
 ## A typical week
 
 - **Vote** on open proposals and budgets, with a public reason. This builds the record electors judge.
-- **Talk to other parties.** Line up votes before you propose anything.
-- **Spend PP with a plan.** Propose when you have the votes, and keep a reserve.
+- **Talk to other parties.** Line up votes before you propose a law you want to pass.
+- **Spend PP with a plan.** Propose to pass a law when you have the votes, or to stake out a position when you don't, and keep a reserve.
 - **Raise funds** with a fundraising [campaign event](gameplay/campaigning.md), then spend them on rallies and interviews as an election nears, and on a [poll](gameplay/elections.md#polling) to see where you stand.
 - **Watch for** elections, [voter demands](gameplay/demands.md) and [global decisions](gameplay/global-decisions.md), which have deadlines.
 
 ## What's next
 
 - **[Game Concept](game-concept.md)** — understand how the whole game fits together.
-- **[Legislation & Voting](gameplay/legislation.md)** — propose your first law.
+- **[Legislation & Voting](gameplay/legislation.md)** — propose your first law, with or without seats.
 - **[Elections & Voters](gameplay/elections.md)** — learn how electors decide.
 - **[Strategy Guide](strategy-guide.md)** — tips for building a winning party.
 
